@@ -139,12 +139,20 @@ class BlogWebController extends Controller
         // Blogs under the selected category
         // $blogs = Blog::whereJsonContains('categories', (string) $category->id)->orderBy('created_at', 'desc')->paginate(4);
 
+        // $blogs = DB::table('posts')
+        //     ->leftJoin('media', 'posts.title', '=', 'media.title')
+        //     ->select('posts.*', 'media.imagefile1')
+        //     ->whereRaw("JSON_CONTAINS(posts.categories, '\"$category->id\"')")
+        //     ->orderBy('posts.created_at', 'desc')
+        //     ->paginate(4);
+
         $blogs = DB::table('posts')
-            ->leftJoin('media', 'posts.title', '=', 'media.title')
-            ->select('posts.*', 'media.imagefile1')
-            ->whereRaw("JSON_CONTAINS(posts.categories, '\"$category->id\"')")
-            ->orderBy('posts.created_at', 'desc')
-            ->paginate(4);
+            ->leftJoin('media', 'posts.title', '=', 'media.title') // Join media by title
+            ->select('posts.*', 'media.imagefile1')               // Select all post fields + media image
+            ->whereRaw('JSON_CONTAINS(posts.categories, ?)', ['"' . $category->id . '"']) // JSON category filter
+            ->orderBy('posts.created_at', 'desc') // Order by latest
+            ->paginate(4);                        // Paginate with 4 per page
+
 
         // Pass everything to the view
         return view('Frontend.Blog.CategoryBlog', compact(
