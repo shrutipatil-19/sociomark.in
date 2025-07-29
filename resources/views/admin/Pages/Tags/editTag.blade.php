@@ -1,0 +1,97 @@
+@extends('admin.layout.app')
+
+@section('page-content')
+<div class="page-content">
+    <div class="row">
+        <div class="col-md-12 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <h6 class="card-title">Add Tag</h6>
+
+                    {{-- Success Message --}}
+                    @if (session('success'))
+                    <div class="alert alert-success">{{ session('success') }}</div>
+                    @endif
+
+                    {{-- Validation Errors --}}
+                    @if ($errors->any())
+                    <div class="alert alert-danger">
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                    @endif
+
+                    <!-- Tag Form -->
+                    <form action="{{ route('tags.update', $tag->id) }}" method="POST">
+                        @csrf
+                        @method('PUT')
+                        <div class="mb-3">
+                            <label>Tag Name</label>
+                            <input type="text" name="name" id="name" class="form-control" required onkeyup="updateSlug()" value="{{ old('name', $tag->name) }}">
+                        </div>
+                        <div class="mb-3">
+                            <label>Slug</label>
+                            <input type="text" name="slug" id="slug" class="form-control" value="{{ old('slug', $tag->slug) }}">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">SEO Meta Title</label>
+                            <input type="text" class="form-control" name="meta_title" id="title" onkeyup="updateSlug()" value="{{ old('meta_title', $tag->meta_title) }}">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">SEO Meta Description</label>
+                            <input type="text" class="form-control" name="meta_description" value="{{ old('meta_description', $tag->meta_description) }}">
+                        </div>
+                        <div class="mb-3">
+                            <label>canonical</label>
+                            <input type="url" name="canonicals" id="canonicals" class="form-control" value="{{ old('url', $tag->url) }}">
+                        </div>
+                        <div class="mb-3">
+                            <label>Schema</label>
+                            <input type="text" name="blog_schema" id="blog_schema" class="form-control" value="{{ old('blog_schema', $tag->blog_schema) }}">
+                        </div>
+
+                        <button type="submit" class="btn btn-success">Save</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function slugify(text) {
+        return text
+            .toString()
+            .trim()
+            .replace(/^['"]+|['"]+$/g, "") // Trim quotes
+            .replace(/,/g, '-') // Replace commas with hyphens
+            .toLowerCase()
+            .replace(/&/g, "and")
+            .replace(/\s+/g, "-") // Replace spaces with hyphens
+            .replace(/--+/g, "-") // Remove multiple hyphens
+            .replace(/^-+/, "") // Remove leading hyphens
+            .replace(/-+$/, ""); // Remove trailing hyphens
+    }
+
+    function updateSlug() {
+        let tagName = document.getElementById("name").value;
+        let slugField = document.getElementById("slug");
+
+        // If user hasn't manually changed the slug, auto-update it
+        if (!slugField.dataset.edited) {
+            slugField.value = slugify(tagName);
+        }
+    }
+
+    document.getElementById("slug").addEventListener("input", function() {
+        // Mark slug field as manually edited when the user types in it
+        this.dataset.edited = true;
+    });
+</script>
+
+@endsection
