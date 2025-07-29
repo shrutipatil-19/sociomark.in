@@ -37,20 +37,6 @@ class BlogWebController extends Controller
     {
         // $categories = Category::all();
         // $tags = Tag::all();
-        // $blogs = Blog::all();
-        // $firstBlog = Blog::latest()->first();
-
-        // Set the current page manually
-        // Paginator::currentPageResolver(function () use ($page) {
-        //     return $page;
-        // });
-
-        // $otherBlogs = Blog::where('status', 'active')
-        //     ->orderBy('created_at', 'desc')
-        //     ->paginate(4);
-
-        // Tell Laravel to generate pretty pagination URLs like /blog/page2
-        // $otherBlogs->withPath(url('/blog/page'));
 
         // $meta = [
         //     'title' => 'Sociomark Blog | Digital Marketing Insights in UAE',
@@ -72,29 +58,20 @@ class BlogWebController extends Controller
         //     $meta['description'] .= ' - Page ' . $page;
         // }
         // $currentUrl = url("/blog" . ($page > 1 ? "/page/$page" : ""));
-        // $otherBlogs = Blog::where('status', 'active')
-        //     ->orderBy('created_at', 'desc')
-        //     ->paginate(4);
 
-        //     $blogs = DB::select("
-        //     SELECT posts.*, media.imagefile1
-        //     FROM posts
-        //     INNER JOIN media ON posts.title = media.title
-        // ");
+        // Set the current page manually
+        Paginator::currentPageResolver(function () use ($page) {
+            return $page;
+        });
 
-        // $blogs = DB::table('posts')
-        //     ->join('media', 'posts.title', '=', 'media.title')
-        //     ->select('posts.*', 'media.imagefile1')
-        //     ->orderBy('posts.created_at', 'desc')
-        //     ->paginate(4);
         $blogs = DB::table('posts')
-            ->leftJoin('media', 'posts.title', '=', 'media.title') // match old data by title
-            ->select(
-                'posts.*',
-                DB::raw('COALESCE(posts.images, media.imagefile1) as display_image')
-            )
+            ->leftJoin('media', 'posts.title', '=', 'media.title')
+            ->select('posts.*', 'media.imagefile1')
             ->orderBy('posts.created_at', 'desc')
             ->paginate(4);
+        // Tell Laravel to generate pretty pagination URLs like /blog/page2
+        $blogs->withPath(url('/blog/page'));
+
         // dd($blogs);
         return view('Frontend/Blog/Blog', compact('blogs'));
     }

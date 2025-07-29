@@ -97,8 +97,22 @@
                             <div class="box-blog th-blog blog-single has-post-thumbnail">
                                 <div class="blog-img box-blog">
                                     <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
-                                        <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="{{ $blog->title }}" class="w-100 h-100 object-fit-cover">
+
+                                        @php
+                                        $images = json_decode($blog->images, true);
+                                        $firstImage = $images[0] ?? null;
+                                        @endphp
+
+                                        @if (!empty($blog->imagefile1))
+                                        <img src="{{ url('storage/app/public/' . $blog->imagefile1) }}" alt="{{ $blog->title }}">
+                                        @elseif (!empty($firstImage))
+                                        <img src="{{ url('storage/app/public/' . $firstImage) }}" alt="{{ $blog->title }}">
+                                        @else
+                                        <img src="{{ url('storage/app/public/default.jpg') }}" alt="{{ $blog->title }}">
+                                        @endif
+
                                     </a>
+
                                 </div>
                                 <div class="blog-content content-padding">
                                     <div class="blog-meta">
@@ -166,7 +180,7 @@
                     </div>
 
                 </div>
-               
+
             </div>
         </div>
     </section>

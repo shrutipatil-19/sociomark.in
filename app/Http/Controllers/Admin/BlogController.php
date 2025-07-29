@@ -29,17 +29,22 @@ class BlogController extends Controller
         //     ->select('posts.*', 'media.imagefile1')
         //     ->latest()
         //     ->get();
+
+        // $blogs = DB::table('posts')
+        //     ->leftJoin('media', 'posts.title', '=', 'media.title') // match old data by title
+        //     ->select(
+        //         'posts.*',
+        //         DB::raw('COALESCE(posts.images, media.imagefile1) as display_image')
+        //     )
+        //     ->latest()
+        //     ->get();
         $blogs = DB::table('posts')
-            ->leftJoin('media', 'posts.title', '=', 'media.title') // match old data by title
-            ->select(
-                'posts.*',
-                DB::raw('COALESCE(posts.images, media.imagefile1) as display_image')
-            )
-            ->latest('posts.created_at')
+            ->leftJoin('media', 'posts.title', '=', 'media.title')
+            ->select('posts.*', 'media.imagefile1')
+            ->latest()
             ->get();
 
-
-        // dd($blogs);
+        dd($blogs);
         return view('admin/Pages/Blog/Blogs', compact('blogs'));
     }
 
