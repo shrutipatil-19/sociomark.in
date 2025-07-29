@@ -44,7 +44,7 @@ class BlogController extends Controller
             ->latest()
             ->get();
 
-        dd($blogs);
+        // dd($blogs);
         return view('admin/Pages/Blog/Blogs', compact('blogs'));
     }
 

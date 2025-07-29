@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Website;
 use App\Http\Controllers\Controller;
 use App\Models\Category;
 use App\Models\Tag;
-use App\Models\Blog;
+use App\Models\Posts;
 use Illuminate\Http\Request;
 use Illuminate\Pagination\Paginator;
 use Illuminate\Support\Facades\DB;
@@ -35,7 +35,7 @@ class BlogWebController extends Controller
     // }
     public function index(Request $request, $page = 1)
     {
-        // $categories = Category::all();
+        $categories = Category::all();
         // $tags = Tag::all();
 
         // $meta = [
@@ -73,14 +73,14 @@ class BlogWebController extends Controller
         $blogs->withPath(url('/blog/page'));
 
         // dd($blogs);
-        return view('Frontend/Blog/Blog', compact('blogs'));
+        return view('Frontend/Blog/Blog', compact('blogs', 'categories'));
     }
     public function innerBlog($slug)
     {
-        // $categories = Category::all();
+        $categories = Category::all();
 
         // $blog = Blog::where('slug', $slug)->firstOrFail();
-        // $blogs = Blog::where('status', 'active')
+        // $blogs = Posts::where('status', ['s_act', 'active']);
         //     ->orderBy('created_at', 'desc')->get();
         // $tags = Tag::all();
         // Extract meta data from the blog
@@ -90,14 +90,23 @@ class BlogWebController extends Controller
         // ];
         // $canonical = $blog->canonicals ?: url()->current();
         // $blog_schema = $blog->blog_schema;
+        $blogs = DB::table('posts')
+            ->leftJoin('media', 'posts.title', '=', 'media.title')
+            ->select('posts.*', 'media.imagefile1')
+            ->get();
+
         $blog = DB::table('posts')
-            ->join('media', 'posts.title', '=', 'media.title') // assuming media has post_id
+            ->leftJoin('media', 'posts.title', '=', 'media.title')
             ->select('posts.*', 'media.imagefile1')
             ->where('posts.slug', $slug)
-            ->where('posts.status', 's_act')
-            ->first(); // fetch single row
+            ->where('posts.status', ['active', 's_act'])
+            ->first();
 
-        return view('Frontend/Blog/InnerBlog', compact('blog'));
+        if (!$blog) {
+            abort(404);
+        }
+        // dd($blog);
+        return view('Frontend/Blog/InnerBlog', compact('blog', 'categories', 'blogs'));
     }
     public function categoryBlog($slug)
     {
@@ -106,35 +115,43 @@ class BlogWebController extends Controller
 
         // Get all categories and tags
         $categories = Category::all();
-        $tags = Tag::all();
-        $otherBlogs = Blog::where('status', 'active')
-            ->orderBy('created_at', 'desc')
+        // $tags = Tag::all();
+
+        $all_blogs = DB::table('posts')
+            ->join('media', 'posts.title', '=', 'media.title')
+            ->select('posts.*', 'media.imagefile1')
             ->paginate(4);
+        // $otherBlogs = Blog::where('status', 'active')
+        //     ->orderBy('created_at', 'desc')
+        //     ->paginate(4);
 
         // Tell Laravel to generate pretty pagination URLs like /blog/page2
-        $otherBlogs->withPath(url('/blog/page'));
+        $all_blogs->withPath(url('/blog/page'));
         // Canonical and schema (from DB columns)
-        $canonical = $category->canonicals ?: url()->current(); // use fallback
-        $blog_schema = $category->blog_schema;
+        // $canonical = $category->canonicals ?: url()->current(); // use fallback
+        // $blog_schema = $category->blog_schema;
 
-        $meta = [
-            'meta_title' => $category->meta_title ?? 'Sociomark',
-            'meta_desciption' => $category->meta_description ?? 'Read the latest blog on Sociomark',
-        ];
+        // $meta = [
+        //     'meta_title' => $category->meta_title ?? 'Sociomark',
+        //     'meta_desciption' => $category->meta_description ?? 'Read the latest blog on Sociomark',
+        // ];
 
         // Blogs under the selected category
-        $blogs = Blog::whereJsonContains('categories', (string) $category->id)->orderBy('created_at', 'desc')->paginate(4);
+        // $blogs = Blog::whereJsonContains('categories', (string) $category->id)->orderBy('created_at', 'desc')->paginate(4);
+
+        $blogs = DB::table('posts')
+            ->leftJoin('media', 'posts.title', '=', 'media.title')
+            ->select('posts.*', 'media.imagefile1')
+            ->whereRaw("JSON_CONTAINS(posts.categories, '\"$category->id\"')")
+            ->orderBy('posts.created_at', 'desc')
+            ->paginate(4);
 
         // Pass everything to the view
         return view('Frontend.Blog.CategoryBlog', compact(
             'categories',
+            'all_blogs',
             'blogs',
-            'otherBlogs',
-            'category',
-            'tags',
-            'canonical',
-            'blog_schema',
-            'meta'
+            'category'
         ));
     }
     public function tagBlog($slug)

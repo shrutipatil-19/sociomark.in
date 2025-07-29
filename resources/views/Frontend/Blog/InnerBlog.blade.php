@@ -122,7 +122,7 @@
                         <div class="blog-content mb-3">
                             <div class="blog-meta">
                                 <a href="#"><i class="fa-light fa-calendar"></i> {{ $blog->created_at  }}</a>
-                               
+
                             </div>
                             <h1 class=" blog-title blog-title-text"><a href="" class="sec-title">{{ $blog->title }}</a></h1>
 
@@ -130,7 +130,18 @@
                         <div class="box-blog th-blog blog-single has-post-thumbnail">
                             <div class="blog-img box-blog">
                                 <a href="">
-                                    <img src="{{ url('storage/app/public/' . ($blog->imagefile1[0] ?? 'default.jpg')) }}" alt="{{ $blog->title }}" class="w-100 h-100 object-fit-cover">
+                                    @php
+                                    $images = json_decode($blog->images, true);
+                                    $firstImage = $images[0] ?? null;
+                                    @endphp
+
+                                    @if (!empty($blog->imagefile1))
+                                    <img src="{{ url('storage/app/public/' . $blog->imagefile1) }}" alt="{{ $blog->title }}">
+                                    @elseif (!empty($firstImage))
+                                    <img src="{{ url('storage/app/public/' . $firstImage) }}" alt="{{ $blog->title }}">
+                                    @else
+                                    <img src="{{ url('storage/app/public/default.jpg') }}" alt="{{ $blog->title }}">
+                                    @endif
                                 </a>
                             </div>
                             <div class="blog-content content-padding">
@@ -143,7 +154,65 @@
                         </div>
                     </div>
                 </div>
-               
+                <div class="col-xxl-4 col-lg-4">
+                    <aside class="sidebar-area">
+
+
+
+
+                        <div class="box widget widget_categories">
+                            <h3 class="widget_title">Categories</h3>
+                            <ul>
+                                <li><a href="{{ route('blog') }}" class="category-filter" data-category="all">All Categories</a></li>
+                                @foreach ($categories as $category)
+
+                                <li><a href="{{ route('categoryBlog', ['slug' => $category->slug]) }}" class="category-filter">{{ $category->category_name }}</a></li>
+                                @endforeach
+
+
+                            </ul>
+                        </div>
+                        <div class="widget box">
+                            <h3 class="widget_title">Recent Posts</h3>
+                            <div class="recent-post-wrap">
+                                @foreach ($blogs->take(3) as $blog)
+                                <div class="recent-post">
+                                    <div class="media-img recent_blog_img">
+                                        <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
+                                            @php
+                                            $images = json_decode($blog->images, true);
+                                            $firstImage = $images[0] ?? null;
+                                            @endphp
+
+                                            @if (!empty($blog->imagefile1))
+                                            <img src="{{ url('storage/app/public/' . $blog->imagefile1) }}" alt="{{ $blog->title }}">
+                                            @elseif (!empty($firstImage))
+                                            <img src="{{ url('storage/app/public/' . $firstImage) }}" alt="{{ $blog->title }}">
+                                            @else
+                                            <img src="{{ url('storage/app/public/default.jpg') }}" alt="{{ $blog->title }}">
+                                            @endif
+                                        </a>
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="recent-post-meta">
+                                            <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
+                                                <i class="fa-sharp fa-solid fa-calendar-days"></i>
+                                                {{ $blog->created_at  }}
+                                            </a>
+                                        </div>
+                                        <h4 class="post-title recent_post_title">
+                                            <a class="text-inherit" href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
+                                                {{ $blog->title }}
+                                            </a>
+                                        </h4>
+                                    </div>
+                                </div>
+                                @endforeach
+                            </div>
+                        </div>
+
+                    </aside>
+                </div>
             </div>
         </div>
     </section><!--============================== -->
