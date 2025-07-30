@@ -6,9 +6,10 @@ use App\Http\Controllers\Controller; // Make sure you extend the base Controller
 use App\Models\Tag;
 use App\Models\PR;
 use App\Models\Category;
-use App\Models\Blog;
+use App\Models\Posts;
 // use App\Models\Jobpost;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class HomeController extends Controller
 {
@@ -26,22 +27,45 @@ class HomeController extends Controller
         $categories = Category::all();
         $tags = Tag::all();
         $prs = PR::latest()->get();
-        $blogs = Blog::all(); // Paginate all blogs
-        $firstBlog = Blog::latest()->first(); // Get latest blog
 
-        // ✅ Paginate other blogs instead of using `take()`
-        $otherBlogs = Blog::paginate(4);
-        return view("Frontend/Home2", compact('firstBlog', 'otherBlogs', 'categories', 'blogs', 'tags', 'meta', 'prs'));
+        $firstBlog = Posts::latest()->first(); // Get latest blog
+
+        // Paginate other blogs instead of using `take()`
+        $otherBlogs = Posts::paginate(4);
+        $blogs = DB::table('posts')
+            ->leftJoin('media', 'posts.title', '=', 'media.title')
+            ->select('posts.*', 'media.imagefile1')
+            ->where('status', 'active')
+            ->where('display_on_home', 1)
+            ->latest()
+            ->take(6)
+            ->get();
+
+        foreach ($blogs as $blog) {
+            $categoryIds = json_decode($blog->categories); // adjust if comma-separated
+
+            if (is_array($categoryIds) && count($categoryIds)) {
+                $categoryNames = DB::table('categories')
+                    ->whereIn('id', $categoryIds)
+                    ->pluck('category_name'); // returns a simple array
+
+                $blog->category_names = $categoryNames;
+            } else {
+                $blog->category_names = collect(); // empty collection to avoid errors
+            }
+        }
+
+        return view("Frontend/Home2", compact('firstBlog', 'categories', 'blogs', 'tags', 'meta', 'prs'));
     }
     public function HomeNew()
     {
         $categories = Category::all();
         $tags = Tag::all();
-        $blogs = Blog::latest()->paginate(4); // Paginate all blogs
-        $firstBlog = Blog::latest()->first(); // Get latest blog
+        $blogs = Posts::latest()->paginate(4); // Paginate all blogs
+        $firstBlog = Posts::latest()->first(); // Get latest blog
 
         // ✅ Paginate other blogs instead of using `take()`
-        $otherBlogs = Blog::paginate(4);
+        $otherBlogs = Posts::paginate(4);
         return view("Frontend/HomeNew", compact('firstBlog', 'otherBlogs', 'categories', 'blogs', 'tags'));
     }
 
@@ -49,11 +73,11 @@ class HomeController extends Controller
     {
         $categories = Category::all();
         $tags = Tag::all();
-        $blogs = Blog::latest()->paginate(4); // Paginate all blogs
-        $firstBlog = Blog::latest()->first(); // Get latest blog
+        $blogs = Posts::latest()->paginate(4); // Paginate all blogs
+        $firstBlog = Posts::latest()->first(); // Get latest blog
 
         // ✅ Paginate other blogs instead of using `take()`
-        $otherBlogs = Blog::paginate(4);
+        $otherBlogs = Posts::paginate(4);
         return view("Frontend/myHome", compact('firstBlog', 'otherBlogs', 'categories', 'blogs', 'tags'));
     }
     public function About()

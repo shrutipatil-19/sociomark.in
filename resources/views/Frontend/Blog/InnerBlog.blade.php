@@ -127,8 +127,9 @@
                     <div class="col-md-12">
                         <div class="blog-content mb-3">
                             <div class="blog-meta">
-                                <a href="#"><i class="fa-light fa-calendar"></i> {{ $blog->created_at  }}</a>
-
+                                 <a href="#"><i class="fa-light fa-calendar"></i>
+                                        {{ \Carbon\Carbon::parse($blog->created_at)->format('F d, Y') }}
+                                    </a>
                             </div>
                             <h1 class=" blog-title blog-title-text"><a href="" class="sec-title">{{ $blog->title }}</a></h1>
 

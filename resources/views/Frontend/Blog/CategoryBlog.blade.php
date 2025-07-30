@@ -127,8 +127,9 @@
                                 </div>
                                 <div class="blog-content content-padding">
                                     <div class="blog-meta">
-                                        <a href=""><i class="fa-light fa-calendar"></i> {{ $blog->created_at}}</a>
-
+                                         <a href="#"><i class="fa-light fa-calendar"></i>
+                                        {{ \Carbon\Carbon::parse($blog->created_at)->format('F d, Y') }}
+                                    </a>
                                     </div>
                                     <h3 class="blog-title blog-title-text"><a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">{{ $blog->title }}</a></h3>
                                     <p class="blog-text">{{ Str::limit(strip_tags($blog->content), 100) }}</p>

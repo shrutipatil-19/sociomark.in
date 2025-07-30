@@ -117,8 +117,9 @@
                                 </div>
                                 <div class="blog-content content-padding">
                                     <div class="blog-meta">
-                                        <a href="#"><i class="fa-light fa-calendar"></i> {{ $blog->created_at}}</a>
-
+                                       <a href="#"><i class="fa-light fa-calendar"></i>
+                                        {{ \Carbon\Carbon::parse($blog->created_at)->format('F d, Y') }}
+                                    </a>
 
                                         <a href="#"><i class="fa-light fa-tags"></i> {{ implode(', ', $blog->category_names->toArray()) }}</a>
 

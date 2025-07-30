@@ -31,6 +31,8 @@ class Posts extends Model
         'categories' => 'array',
         'images' => 'array',
         'display_on_home' => 'boolean',
+        'created_at' => 'datetime',
+        'updated_at' => 'datetime',
     ];
 
     // Optional: get full category objects
@@ -54,5 +56,9 @@ class Posts extends Model
     public function getTagNamesAttribute()
     {
         return Tag::whereIn('id', $this->tags ?? [])->pluck('name')->toArray();
+    }
+    public function getImagesAttribute($value)
+    {
+        return is_string($value) ? json_decode($value, true) : $value;
     }
 }

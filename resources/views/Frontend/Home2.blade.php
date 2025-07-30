@@ -341,7 +341,7 @@
                                     class="">Bigger</span></span>
                         </h1> -->
                         <!-- <h1>{{ __('home.welcome') }}</h1> -->
-                          <h1 class="sec-title hero-title" data-aos="fade-right" data-aos-delay="300">{{ __('messages.welcome') }}</h1>
+                        <h1 class="sec-title hero-title" data-aos="fade-right" data-aos-delay="300">{{ __('messages.welcome') }}</h1>
 
                     </div>
                     <!-- <p class="sec-para text-white-50" data-aos="fade-right" data-aos-delay="300">We're more than just a
@@ -1846,22 +1846,31 @@
                 <div class="swiper-wrapper">
 
                     @foreach ($blogs as $blog)
-                    @if (($blog->display_on_home == 1) && $blog->status == 'active')
+
                     <div class="swiper-slide">
                         <div class="box-blog th-blog blog-single has-post-thumbnail">
                             <div class="blog-img box-blog w-100">
                                 <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
-                                    <img loading="lazy"
-                                        src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}"
-                                        alt="Blog Image" class="w-100 h-100 object-fit-cover">
+                                    @php
+                                    $images = is_string($blog->images) ? json_decode($blog->images, true) : $blog->images;
+                                    $firstImage = $images[0] ?? null;
+                                    @endphp
+
+                                    @if (!empty($blog->imagefile1))
+                                    <img src="{{ url('storage/app/public/' . $blog->imagefile1) }}" alt="{{ $blog->title }}">
+                                    @elseif (!empty($firstImage))
+                                    <img src="{{ url('storage/app/public/' . $firstImage) }}" alt="{{ $blog->title }}">
+                                    @else
+                                    <img src="{{ url('storage/app/public/default.jpg') }}" alt="{{ $blog->title }}">
+                                    @endif
                                 </a>
                             </div>
                             <div class="blog-content content-padding">
                                 <div class="blog-meta">
                                     <a href="#"><i class="fa-light fa-calendar"></i>
-                                        {{ $blog->created_at ? $blog->created_at->format('F d, Y') : 'Unpublished' }}</a>
-                                    <a href="#"><i class="fa-light fa-tags"></i>
-                                        {{ implode(', ', $blog->category_names) ?: 'No Category' }}</a>
+                                        {{ \Carbon\Carbon::parse($blog->created_at)->format('F d, Y') }}
+                                    </a>
+                                    <a href="#"><i class="fa-light fa-tags"></i> {{ implode(', ', $blog->category_names->toArray()) }}</a>
                                 </div>
                                 <h3 class="blog-title blog-title-text">
                                     <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
@@ -1877,7 +1886,7 @@
                             </div>
                         </div>
                     </div>
-                    @endif
+
                     @endforeach
 
 
