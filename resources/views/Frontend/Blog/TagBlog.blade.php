@@ -120,7 +120,7 @@
                                         @endphp
 
                                         @if (!empty($blog->imagefile1))
-                                        <img src="{{ url('storage/app/public/' . $blog->imagefile1) }}" alt="{{ $blog->title }}">
+                                        <img src="{{ asset('frontend-assets/img/media/' . $blog->imagefile1) }}" alt="{{ $blog->title }}">
                                         @elseif (!empty($firstImage))
                                         <img src="{{ url('storage/app/public/' . $firstImage) }}" alt="{{ $blog->title }}">
                                         @else
@@ -213,7 +213,7 @@
                                             @endphp
 
                                             @if (!empty($blog->imagefile1))
-                                            <img src="{{ url('storage/app/public/' . $blog->imagefile1) }}" alt="{{ $blog->title }}">
+                                            <img src="{{ asset('frontend-assets/img/media/' . $blog->imagefile1) }}" alt="{{ $blog->title }}">
                                             @elseif (!empty($firstImage))
                                             <img src="{{ url('storage/app/public/' . $firstImage) }}" alt="{{ $blog->title }}">
                                             @else

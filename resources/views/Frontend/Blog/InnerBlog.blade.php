@@ -16,7 +16,8 @@
         box-shadow: 0px -2px 12px -1px rgba(0, 0, 0, 0.17);
         -webkit-box-shadow: 0px -2px 12px -1px rgba(0, 0, 0, 0.17);
         -moz-box-shadow: 0px -2px 12px -1px rgba(0, 0, 0, 0.17);
-        border: none
+        border: none;
+        height:100%;
     }
 
     #Blog_Section .content-padding {
@@ -110,7 +111,7 @@
     @endphp
 
     @if (!empty($blog->imagefile1))
-    <div class="breadcumb-wrapper " data-bg-src="{{ url('storage/app/public/' . $blog->imagefile1) }}" alt="{{ $blog->title }}" style="margin-top: 66px;">
+    <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/media/' . $blog->imagefile1) }}" alt="{{ $blog->title }}" style="margin-top: 66px;">
     </div>
     @elseif (!empty($firstImage))
     <div class="breadcumb-wrapper " data-bg-src="{{ url('storage/app/public/' . $firstImage) }}" alt="{{ $blog->title }}" style="margin-top: 66px;">
@@ -135,22 +136,7 @@
 
                         </div>
                         <div class="box-blog th-blog blog-single has-post-thumbnail">
-                            <div class="blog-img box-blog">
-                                <a href="">
-                                    @php
-                                    $images = json_decode($blog->images, true);
-                                    $firstImage = $images[0] ?? null;
-                                    @endphp
-
-                                    @if (!empty($blog->imagefile1))
-                                    <img src="{{ url('storage/app/public/' . $blog->imagefile1) }}" alt="{{ $blog->title }}">
-                                    @elseif (!empty($firstImage))
-                                    <img src="{{ url('storage/app/public/' . $firstImage) }}" alt="{{ $blog->title }}">
-                                    @else
-                                    <img src="{{ url('storage/app/public/default.jpg') }}" alt="{{ $blog->title }}">
-                                    @endif
-                                </a>
-                            </div>
+                           
                             <div class="blog-content content-padding">
 
                                 <div class="mt-md-5 mt-3">{!! $blog->content !!}</div>
