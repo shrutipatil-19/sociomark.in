@@ -1,9 +1,11 @@
 @extends('Frontend.layout.blogapp')
+@section('canonical')
+<link rel="canonical" href="{{ $canonical }}" />
+@endsection
+
 @section('schema')
 <script type="application/ld+json">
-    {
-        !!$tag - > blog_schema!!
-    }
+    {!!$blog_schema!!}
 </script>
 @endsection
 @section('custome-style')

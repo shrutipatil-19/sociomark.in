@@ -4,6 +4,7 @@
 <head>
     <title>{{ $meta['meta_title'] ?? 'Sociomark' }}</title>
     <meta name="description" content="{{ $meta['meta_desciption'] ?? 'Sociomark blog page' }}">
+    <meta name="keywords" content="{{ $meta['meta_keywords'] ?? '' }}">
     <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
     @hasSection('canonical')
     @yield('canonical')

@@ -1,5 +1,7 @@
 @extends('Frontend.layout.blogapp')
-
+@section('title', $blog->meta_title ?? 'Default Title')
+<!-- @section('author', 'Your Company Name') -->
+@section('description', $blog->meta_description)
 
 @section('custome-style')
 <style>
@@ -102,18 +104,22 @@
 
 
 <main>
+    @php
+    $images = json_decode($blog->images, true);
+    $firstImage = $images[0] ?? null;
+    @endphp
 
-    <div class="breadcumb-wrapper " data-bg-src="{{ url('storage/app/public/' . ($blog->imagefile1[0] ?? 'default.jpg')) }}" style="margin-top: 66px;">
-        <div class="container">
-            <!-- <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Blog</h1>
-                <ul class="breadcumb-menu">
-                    <li><a href="home-seo-agency.html">Home</a></li>
-                    <li>Blog</li>
-                </ul>
-            </div> -->
-        </div>
+    @if (!empty($blog->imagefile1))
+    <div class="breadcumb-wrapper " data-bg-src="{{ url('storage/app/public/' . $blog->imagefile1) }}" alt="{{ $blog->title }}" style="margin-top: 66px;">
     </div>
+    @elseif (!empty($firstImage))
+    <div class="breadcumb-wrapper " data-bg-src="{{ url('storage/app/public/' . $firstImage) }}" alt="{{ $blog->title }}" style="margin-top: 66px;">
+    </div>
+    @else
+    <div class="breadcumb-wrapper " data-bg-src="{{ url('storage/app/public/default.jpg') }}" alt="{{ $blog->title }}" style="margin-top: 66px;">
+    </div>
+    @endif
+
     <section class="th-blog-wrapper space-top space-extra-bottom" id="Blog_Section">
         <div class="container">
             <div class="row">
