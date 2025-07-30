@@ -69,7 +69,7 @@
 
     .blog-img {
         width: 400px;
-        height: 230px;
+        height: 218px;
     }
 
     .blog-single {
@@ -77,7 +77,7 @@
     }
 
     #Blog_Section .box-blog img {
-        object-fit: contain !important;
+        object-fit: cover !important;
     }
 </style>
 @endsection

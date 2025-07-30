@@ -63,7 +63,7 @@
 
     .blog-img {
         width: 400px;
-        height: 230px;
+        height: 218px;
     }
 
     .blog-single {
@@ -71,7 +71,7 @@
     }
 
     #Blog_Section .box-blog img {
-        object-fit: contain !important;
+        object-fit: cover !important;
     }
 </style>
 @endsection
@@ -104,11 +104,11 @@
                                         @endphp
 
                                         @if (!empty($blog->imagefile1))
-                                        <img src="{{ url('storage/app/public/' . $blog->imagefile1) }}" alt="{{ $blog->title }}">
+                                        <img src="{{ url('storage/app/public/' . $blog->imagefile1) }}" alt="{{ $blog->title }}" class="w-100 h-100 object-fit-cover">
                                         @elseif (!empty($firstImage))
-                                        <img src="{{ url('storage/app/public/' . $firstImage) }}" alt="{{ $blog->title }}">
+                                        <img src="{{ url('storage/app/public/' . $firstImage) }}" alt="{{ $blog->title }}" class="w-100 h-100 object-fit-cover">
                                         @else
-                                        <img src="{{ url('storage/app/public/default.jpg') }}" alt="{{ $blog->title }}">
+                                        <img src="{{ url('storage/app/public/default.jpg') }}" alt="{{ $blog->title }}" class="w-100 h-100 object-fit-cover">
                                         @endif
 
                                     </a>

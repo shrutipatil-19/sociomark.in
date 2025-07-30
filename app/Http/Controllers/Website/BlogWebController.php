@@ -96,7 +96,7 @@ class BlogWebController extends Controller
 
         // Get all categories and tags
         $categories = Category::all();
-        // $tags = Tag::all();
+        $tags = Tag::all();
 
         $all_blogs = DB::table('posts')
             ->join('media', 'posts.title', '=', 'media.title')
@@ -140,7 +140,8 @@ class BlogWebController extends Controller
             'categories',
             'all_blogs',
             'blogs',
-            'category'
+            'category',
+            'tags'
         ));
     }
     public function tagBlog($slug)
