@@ -92,7 +92,7 @@
                 <div class="col-xxl-8 col-lg-8">
                     <div class="row">
                         @foreach($blogs as $blog)
-                        <div class="col-md-6 blog-item">
+                        <div class="col-md-6 blog-item" data-category="{{ implode(', ', $blog->category_names->toArray()) }}">
 
                             <div class="box-blog th-blog blog-single has-post-thumbnail">
                                 <div class="blog-img box-blog">
@@ -117,6 +117,11 @@
                                 <div class="blog-content content-padding">
                                     <div class="blog-meta">
                                         <a href="#"><i class="fa-light fa-calendar"></i> {{ $blog->created_at}}</a>
+
+
+                                        <a href="#"><i class="fa-light fa-tags"></i> {{ implode(', ', $blog->category_names->toArray()) }}</a>
+
+
 
                                     </div>
                                     <h3 class="blog-title blog-title-text"><a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">{{ $blog->title }}</a></h3>
@@ -226,6 +231,7 @@
                                                 <i class="fa-sharp fa-solid fa-calendar-days"></i>
                                                 {{ $blog->created_at }}
                                             </a>
+
                                         </div>
                                         <h4 class="post-title recent_post_title">
                                             <a class="text-inherit" href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">

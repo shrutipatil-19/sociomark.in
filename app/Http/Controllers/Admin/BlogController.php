@@ -119,12 +119,13 @@ class BlogController extends Controller
     public function edit($id)
     {
         $blog = Posts::findOrFail($id);
-
+        $categories = Category::all();
+        $tags = Tag::all();
         return view('admin/Pages/Blog/EditBlog', compact('blog', 'categories', 'tags'));
     }
 
 
-    public function update(Request $request, $id)
+public function update(Request $request, $id)
     {
         $blog = Posts::findOrFail($id);
 
@@ -139,7 +140,7 @@ class BlogController extends Controller
             'tags' => 'nullable|array',
             'categories' => 'nullable|array',
             'meta_keywords'   => 'nullable|string|max:500',
-            'slug'            => 'nullable|string|max:255|unique:blogs,slug,' . $id,
+            'slug'            => 'nullable|string|max:255|unique:posts,slug,' . $id,
             'images.*'        => 'image|mimes:jpeg,png,jpg,gif|max:2048',
             'canonicals'      => 'url|nullable',
             'blog_schema'          => 'string|nullable',
@@ -148,7 +149,7 @@ class BlogController extends Controller
         // Start building the $data array with all the "always-present" fields:
         $data = [
             'card_title'       => $request->input('card_title'),
-            'title'        => $request->input('title'),
+            'title'            => $request->input('title'),
             'content'          => $request->input('content'),
             'meta_title'       => $request->input('meta_title'),
             'meta_description' => $request->input('meta_description'),
@@ -183,13 +184,13 @@ class BlogController extends Controller
         $blog->update($data);
 
         return redirect()->route('blogs.index')->with('success', 'Blog updated successfully.');
-    }
+    }    
 
 
 
 
     // Delete blog
-    public function destroy(Blog $blog)
+    public function destroy(Posts $blog)
     {
         $blog->delete();
         return redirect()->route('blogs.index')->with('success', 'Blog deleted successfully!');

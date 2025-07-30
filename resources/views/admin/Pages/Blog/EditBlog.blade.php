@@ -32,7 +32,7 @@
 
                         <div class="mb-3">
                             <label>Blog Name</label>
-                            <input type="text" name="blog_name" class="form-control" required value="{{ old('blog_name', $blog->blog_name) }}">
+                            <input type="text" name="title" class="form-control" required value="{{ old('title', $blog->title) }}">
                         </div>
 
                         <div class="mb-3">
