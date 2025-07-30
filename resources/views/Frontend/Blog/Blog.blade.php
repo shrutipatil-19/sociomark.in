@@ -97,6 +97,7 @@
 
                             <div class="box-blog th-blog blog-single has-post-thumbnail">
                                 <div class="blog-img box-blog">
+                                    
                                     <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
 
                                         @php
@@ -105,7 +106,7 @@
                                         @endphp
 
                                         @if (!empty($blog->imagefile1))
-                                        <img src="{{ url('storage/app/public/' . $blog->imagefile1) }}" alt="{{ $blog->title }}" class="w-100 h-100 object-fit-cover">
+                                        <img src="{{ asset('frontend-assets/img/media/' . $blog->imagefile1) }}" alt="{{ $blog->title }}" class="w-100 h-100 object-fit-cover">
                                         @elseif (!empty($firstImage))
                                         <img src="{{ url('storage/app/public/' . $firstImage) }}" alt="{{ $blog->title }}" class="w-100 h-100 object-fit-cover">
                                         @else
