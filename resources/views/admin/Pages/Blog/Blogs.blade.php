@@ -25,7 +25,7 @@
                                     <th>Blog Title</th>
                                     <th>Display On Home</th>
                                     <th>Status</th>
-                                   
+
                                     <th>image</th>
                                     <th>Date</th>
                                     <th>Action</th>
@@ -53,15 +53,16 @@
                                     </td>
                                     <td>
                                         @php
-                                        $imagefile1 = is_array($blog->imagefile1) ? $blog->imagefile1 : json_decode($blog->imagefile1, true);
+                                        $images = json_decode($blog->images, true);
+                                        $firstImage = $images[0] ?? null;
                                         @endphp
 
-                                        @if (!empty($imagefile1))
-                                        @foreach ($imagefile1 as $image)
-                                        <img src="{{ url('storage/app/public/' . $image) }}" width="50" height="50" style="object-fit: cover; margin-right: 5px;" alt="Blog Image">
-                                        @endforeach
+                                        @if (!empty($blog->imagefile1))
+                                        <img src="{{ url('storage/app/public/' . $blog->imagefile1) }}" alt="{{ $blog->title }}" width="50" height="50" style="object-fit: cover; margin-right: 5px;">
+                                        @elseif (!empty($firstImage))
+                                        <img src="{{ url('storage/app/public/' . $firstImage) }}" alt="{{ $blog->title }}" width="50" height="50" style="object-fit: cover; margin-right: 5px;">
                                         @else
-                                        No Image
+                                        <img src="{{ url('storage/app/public/default.jpg') }}" alt="{{ $blog->title }}" width="50" height="50" style="object-fit: cover; margin-right: 5px;">
                                         @endif
 
                                     </td>
