@@ -89,6 +89,23 @@
                                 </label>
                             </div>
                         </div>
+                        <div class="mb-3">
+                            <label>Tags</label>
+                            <select name="tags[]" class="form-control select2" multiple>
+                                @foreach ($tags as $tag)
+                                <option value="{{ $tag->id }}">{{ $tag->name }}</option>
+                                @endforeach
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label>Categories</label>
+                            <select name="categories[]" class="form-control select2" multiple>
+                                @foreach ($categories as $category)
+                                <option value="{{ $category->id }}">{{ $category->category_name }}</option>
+                                @endforeach
+                            </select>
+                        </div>
                     </div>
                 </div>
 

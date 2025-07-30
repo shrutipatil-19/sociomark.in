@@ -68,7 +68,8 @@ class BlogController extends Controller
             'meta_title' => 'nullable|string|max:255',
             'meta_description' => 'nullable|string',
             'meta_keywords' => 'nullable|string',
-
+            'tags' => 'nullable|array',
+            'categories' => 'nullable|array',
             'images.*' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048', // Validate each image
             'status' => 'required|in:active,draft,inactive',
             'display_on_home' => 'boolean',
@@ -94,7 +95,8 @@ class BlogController extends Controller
             'meta_description' => $request->meta_description,
             'meta_keywords' => $request->meta_keywords,
             'slug' => Str::slug($request->title),
-
+            'tags' => $request->tags,
+            'categories' => $request->categories,
             'images' => $imagePaths,
             'status' => $request->status,
             'display_on_home' => $request->display_on_home ?? false,
@@ -134,6 +136,8 @@ class BlogController extends Controller
 
             'meta_title'      => 'nullable|string|max:255',
             'meta_description' => 'nullable|string|max:500',
+            'tags' => 'nullable|array',
+            'categories' => 'nullable|array',
             'meta_keywords'   => 'nullable|string|max:500',
             'slug'            => 'nullable|string|max:255|unique:blogs,slug,' . $id,
             'images.*'        => 'image|mimes:jpeg,png,jpg,gif|max:2048',
@@ -150,7 +154,8 @@ class BlogController extends Controller
             'meta_description' => $request->input('meta_description'),
             'meta_keywords'    => $request->input('meta_keywords'),
             'slug'             => Str::slug($request->input('title')),
-
+            'tags'             => $request->input('tags', []),
+            'categories'       => $request->input('categories', []),
             'status'           => $request->input('status'),
             'display_on_home'  => (bool) $request->input('display_on_home', false),
             'canonicals'       => $request->input('canonicals'),

@@ -58,6 +58,7 @@ class BlogWebController extends Controller
     public function innerBlog($slug)
     {
         $categories = Category::all();
+        $tags = Tag::get();
 
         // $blog = Blog::where('slug', $slug)->firstOrFail();
         // $blogs = Posts::where('status', ['s_act', 'active']);
@@ -86,7 +87,7 @@ class BlogWebController extends Controller
             abort(404);
         }
         // dd($blog);
-        return view('Frontend/Blog/InnerBlog', compact('blog', 'categories', 'blogs'));
+        return view('Frontend/Blog/InnerBlog', compact('blog', 'categories', 'blogs', 'tags'));
     }
     public function categoryBlog($slug)
     {
@@ -173,6 +174,6 @@ class BlogWebController extends Controller
         // ];
         // $canonical = $tag->canonicals ?: url()->current();
         // $blog_schema = $tag->blog_schema;
-        return view('Frontend/Blog/TagBlog', compact('categories', 'blogs', 'tag', 'tags', 'all_Blog'));
+        return view('Frontend/Blog/TagBlog', compact('categories', 'blogs', 'all_Blog', 'tags', 'tag'));
     }
 }
