@@ -92,6 +92,7 @@
                 <div class="col-xxl-8 col-lg-8">
                     <div class="row">
                         @foreach($blogs as $blog)
+                        @if (in_array($blog->status, ['active', 's_act']))
                         <div class="col-md-6 blog-item" data-category="{{ implode(', ', $blog->category_names->toArray()) }}">
 
                             <div class="box-blog th-blog blog-single has-post-thumbnail">
@@ -130,6 +131,7 @@
                                 </div>
                             </div>
                         </div>
+                        @endif
                         @endforeach
                     </div>
 

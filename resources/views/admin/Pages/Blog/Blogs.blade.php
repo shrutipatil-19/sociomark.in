@@ -38,14 +38,14 @@
                                     <td>{{ $blog->card_title }}</td>
                                     <td>{{ $blog->title }}</td>
                                     <td>
-                                        @if ($blog->display_on_home === 'yes' )
+                                        @if ($blog->display_on_home == 1 )
                                         <i data-feather="check" style="color: green;"></i>
                                         @else
                                         <i data-feather="x" style="color: red;"></i>
                                         @endif
                                     </td>
                                     <td>
-                                        @if ($blog->status === 's_act')
+                                        @if ($blog->status == 'active')
                                         <i data-feather="zap" style="color: grey;"></i>
                                         @else
                                         <i data-feather="zap-off" style="color: grey;"></i>
