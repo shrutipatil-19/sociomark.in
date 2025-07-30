@@ -92,7 +92,7 @@
                 <div class="col-xxl-8 col-lg-8">
                     <div class="row">
                         @foreach($blogs as $blog)
-                        <div class="col-md-6 blog-item" >
+                        <div class="col-md-6 blog-item">
 
                             <div class="box-blog th-blog blog-single has-post-thumbnail">
                                 <div class="blog-img box-blog">
@@ -238,7 +238,15 @@
                                 @endforeach
                             </div>
                         </div>
+                        <div class="box widget widget_tag_cloud   ">
+                            <h3 class="widget_title">Popular Tags</h3>
+                            <div class="tagcloud">
+                                @foreach ($tags->take(6) as $tag)
+                                <a href="{{ route('tagBlog', ['slug' => $tag->slug]) }}">{{ $tag->name }}</a>
+                                @endforeach
 
+                            </div>
+                        </div>
 
                     </aside>
                 </div>

@@ -13,30 +13,10 @@ use Illuminate\Support\Facades\DB;
 
 class BlogWebController extends Controller
 {
-    // public function index(Request $request)
-    // {
-    //     $categories = Category::all();
-    //     $tags = Tag::all();
-    //     $blogs = Blog::all(); // Paginate all blogs
-    //     $firstBlog = Blog::latest()->first(); // Get latest blog
-
-    //     // ✅ Paginate other blogs instead of using `take()`
-    //     $otherBlogs = Blog::paginate(4);
-    //     $meta = [
-    //         'title' => 'Sociomark Blog | Digital Marketing Insights in UAE',
-    //         'description' => 'Read expert tips, trends, and ideas from Sociomark, a digital marketing agency in UAE, to grow your brand online using SEO, social media, and more.'
-    //     ];
-    //     if (isset($request->input('page'))) {
-    //         $page = $request->input('page');
-    //         $meta['title'] = 'Sociomark Blog | Digital Marketing Insights in UAE - Page ' . $page;
-    //     }
-
-    //     return view('Frontend/Blog/Blog', compact('firstBlog', 'otherBlogs', 'categories', 'blogs', 'tags', 'meta'));
-    // }
     public function index(Request $request, $page = 1)
     {
         $categories = Category::all();
-        // $tags = Tag::all();
+        $tags = Tag::all();
 
         // $meta = [
         //     'title' => 'Sociomark Blog | Digital Marketing Insights in UAE',
@@ -73,7 +53,7 @@ class BlogWebController extends Controller
         $blogs->withPath(url('/blog/page'));
 
         // dd($blogs);
-        return view('Frontend/Blog/Blog', compact('blogs', 'categories'));
+        return view('Frontend/Blog/Blog', compact('blogs', 'categories', 'tags'));
     }
     public function innerBlog($slug)
     {
@@ -168,20 +148,31 @@ class BlogWebController extends Controller
         $tag = Tag::where('slug', $slug)->firstOrFail();
         $categories = Category::all();
         $tags = Tag::all();
-        $otherBlogs = Blog::where('status', 'active')
-            ->orderBy('created_at', 'desc')
-            ->paginate(4);
+        // $otherBlogs = Blog::where('status', 'active')
+        //     ->orderBy('created_at', 'desc')
+        //     ->paginate(4);
+
+        $all_Blog = DB::table('posts')
+        ->leftJoin('media', 'posts.title', '=' , 'media.title')
+        ->select('posts.*', 'media.imagefile1')
+        ->paginate(4);
 
         //  Tell Laravel to generate pretty pagination URLs like /blog/page2
-        $otherBlogs->withPath(url('/blog/page'));
+        $all_Blog->withPath(url('/blog/page'));
         // Fetch blogs that contain the category name in the JSON field
-        $blogs = Blog::whereJsonContains('tags', (string) $tag->id)->orderBy('created_at', 'desc')->paginate(4);
-        $meta = [
-            'meta_title' => $tag->meta_title ?? 'Sociomark',
-            'meta_desciption' => $tag->meta_description ?? 'Read the latest blog on Sociomark',
-        ];
-        $canonical = $tag->canonicals ?: url()->current();
-        $blog_schema = $tag->blog_schema;
-        return view('Frontend/Blog/TagBlog', compact('categories', 'blogs', 'tag', 'tags', 'meta', 'otherBlogs'));
+        // $blogs = Blog::whereJsonContains('tags', (string) $tag->id)->orderBy('created_at', 'desc')->paginate(4);
+        $blogs = DB::table('posts')
+        ->leftjoin('media', 'posts.title', '=', 'media.imagefile1')
+        ->select('posts.*', 'media.imagefile1')
+        ->whereRaw('JSON_CONTAINS(posts.tags, ?)', ['"' . $tag->id . '"'])
+        ->orderBy('created_at', 'desc')
+        ->paginate(4);
+        // $meta = [
+        //     'meta_title' => $tag->meta_title ?? 'Sociomark',
+        //     'meta_desciption' => $tag->meta_description ?? 'Read the latest blog on Sociomark',
+        // ];
+        // $canonical = $tag->canonicals ?: url()->current();
+        // $blog_schema = $tag->blog_schema;
+        return view('Frontend/Blog/TagBlog', compact('categories', 'blogs', 'tag', 'tags', 'all_Blog'));
     }
 }

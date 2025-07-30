@@ -1,7 +1,9 @@
 @extends('Frontend.layout.blogapp')
 @section('schema')
 <script type="application/ld+json">
-    {!!$tag -> blog_schema!!}
+    {
+        !!$tag - > blog_schema!!
+    }
 </script>
 @endsection
 @section('custome-style')
@@ -105,21 +107,32 @@
 
                         @foreach($blogs as $blog)
                         @if ($blog->status == 'active')
-                        <div class="col-md-6" data-category="{{ implode(', ', $blog->category_names) ?: 'No Category' }}">
+                        <div class="col-md-6">
 
                             <div class="box-blog th-blog blog-single has-post-thumbnail">
                                 <div class="blog-img box-blog">
                                     <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
-                                        <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="{{ $blog->blog_name }}" class="w-100 h-100 object-fit-cover">
+                                        @php
+                                        $images = json_decode($blog->images, true);
+                                        $firstImage = $images[0] ?? null;
+                                        @endphp
+
+                                        @if (!empty($blog->imagefile1))
+                                        <img src="{{ url('storage/app/public/' . $blog->imagefile1) }}" alt="{{ $blog->title }}">
+                                        @elseif (!empty($firstImage))
+                                        <img src="{{ url('storage/app/public/' . $firstImage) }}" alt="{{ $blog->title }}">
+                                        @else
+                                        <img src="{{ url('storage/app/public/default.jpg') }}" alt="{{ $blog->title }}">
+                                        @endif
                                     </a>
                                 </div>
                                 <div class="blog-content content-padding">
                                     <div class="blog-meta">
-                                        <a href=""><i class="fa-light fa-calendar"></i> {{ $blog->created_at ? $blog->created_at->format('F d, Y') : 'Unpublished' }}</a>
+                                        <a href=""><i class="fa-light fa-calendar"></i> {{ $blog->created_at }}</a>
                                         <!-- <a href="#"><i class="fa-regular fa-clock"></i> 08 min read</a> -->
-                                        <a href=""><i class="fa-light fa-tags"></i> {{ implode(', ', $blog->category_names) ?: 'No Category' }}</a>
+
                                     </div>
-                                    <h3 class="blog-title blog-title-text"><a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">{{ $blog->blog_name }}</a></h3>
+                                    <h3 class="blog-title blog-title-text"><a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">{{ $blog->title }}</a></h3>
                                     <p class="blog-text">{{ Str::limit(strip_tags($blog->content), 100) }}</p>
                                     <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}" class="th-btn black-border th-icon th-radius">Read More<i class="fa-solid fa-arrow-right ms-2"></i></a>
                                 </div>
@@ -133,19 +146,19 @@
                     <div class="th-pagination ">
                         <ul>
                             {{-- Previous Page Link --}}
-                            @if ($otherBlogs->onFirstPage())
+                            @if ($blogs->onFirstPage())
                             <li class="disabled"><span>«</span></li>
                             @else
                             @php
-                            $prevPage = $otherBlogs->currentPage() - 1;
+                            $prevPage = $blogs->currentPage() - 1;
                             $prevUrl = $prevPage == 1 ? route('blog') : route('blog.page', ['page' => $prevPage]);
                             @endphp
                             <li><a href="{{ $prevUrl }}" rel="prev">«</a></li>
                             @endif
 
                             {{-- Pagination Elements --}}
-                            @for ($page = 1; $page <= $otherBlogs->lastPage(); $page++)
-                                @if ($page == $otherBlogs->currentPage())
+                            @for ($page = 1; $page <= $blogs->lastPage(); $page++)
+                                @if ($page == $blogs->currentPage())
                                 <li class="active"><span>{{ $page }}</span></li>
                                 @else
                                 <li>
@@ -157,9 +170,9 @@
                                 @endfor
 
                                 {{-- Next Page Link --}}
-                                @if ($otherBlogs->hasMorePages())
+                                @if ($blogs->hasMorePages())
                                 @php
-                                $nextPage = $otherBlogs->currentPage() + 1;
+                                $nextPage = $blogs->currentPage() + 1;
                                 $nextUrl = route('blog.page', ['page' => $nextPage]);
                                 @endphp
                                 <li><a href="{{ $nextUrl }}" rel="next">»</a></li>
@@ -185,24 +198,35 @@
                         <div class="widget box">
                             <h3 class="widget_title">Recent Posts</h3>
                             <div class="recent-post-wrap">
-                                @foreach ($otherBlogs->take(3) as $blog)
+                                @foreach ($blogs->take(3) as $blog)
                                 @if ($blog->status == 'active')
                                 <div class="recent-post">
                                     <div class="media-img recent_blog_img">
                                         <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
-                                            <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="{{ $blog->blog_name }}" class="w-100 h-100 object-fit-cover">
+                                            @php
+                                            $images = json_decode($blog->images, true);
+                                            $firstImage = $images[0] ?? null;
+                                            @endphp
+
+                                            @if (!empty($blog->imagefile1))
+                                            <img src="{{ url('storage/app/public/' . $blog->imagefile1) }}" alt="{{ $blog->title }}">
+                                            @elseif (!empty($firstImage))
+                                            <img src="{{ url('storage/app/public/' . $firstImage) }}" alt="{{ $blog->title }}">
+                                            @else
+                                            <img src="{{ url('storage/app/public/default.jpg') }}" alt="{{ $blog->title }}">
+                                            @endif
                                         </a>
                                     </div>
                                     <div class="media-body">
                                         <div class="recent-post-meta">
                                             <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
                                                 <i class="fa-sharp fa-solid fa-calendar-days"></i>
-                                                {{ $blog->created_at ? $blog->created_at->format('F d, Y') : 'Unpublished' }}
+                                                {{ $blog->created_at }}
                                             </a>
                                         </div>
                                         <h4 class="post-title recent_post_title">
                                             <a class="text-inherit" href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
-                                                {{ $blog->blog_name }}
+                                                {{ $blog->title }}
                                             </a>
                                         </h4>
                                     </div>
