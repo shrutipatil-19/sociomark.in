@@ -18,6 +18,7 @@
         -moz-box-shadow: 0px -2px 12px -1px rgba(0, 0, 0, 0.17);
         border: none;
         height: 100%;
+        width: 100% !important;
     }
 
     #Blog_Section .content-padding {
@@ -98,6 +99,32 @@
         color: #121212 !important;
         font-weight: 600 !important;
     }
+
+    .Blog_Section {
+        padding: 0px;
+    }
+
+    .blog-content {
+        padding: 0px !important;
+    }
+
+    .blog-content .mt-3,
+    .blog-content .mt-md-5 {
+        margin-top: 0px !important;
+    }
+
+    @media (min-width: 768px) {
+        .content .mt-md-5 {
+            margin-top: 0px !important;
+        }
+    }
+
+    .blog-content p:not(:first-of-type),
+    .blog-content h3,
+    .blog-content ul,
+    .blog-content li {
+        padding: 0px 20px 20px 20px;
+    }
 </style>
 @endsection
 @section('content')
@@ -135,6 +162,7 @@
                                 <a href="#"><i class="fa-light fa-calendar"></i>
                                     {{ \Carbon\Carbon::parse($blog->created_at)->format('F d, Y') }}
                                 </a>
+                                <a href="#"><i class="fa-light fa-tags"></i> {{ implode(', ', $blog->category_names->toArray()) }}</a>
                             </div>
                             <h1 class=" blog-title blog-title-text"><a href="" class="sec-title">{{ $blog->title }}</a></h1>
 

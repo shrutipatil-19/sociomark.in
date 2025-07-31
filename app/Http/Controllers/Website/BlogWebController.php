@@ -98,6 +98,20 @@ class BlogWebController extends Controller
             'meta_desciption' => $blog->meta_description ?? 'Read the latest blog on Sociomark',
             'meta_keywords' => $blog->meta_keywords ?? '',
         ];
+        // Attach category names to each blog
+        foreach ($blogs as $blog) {
+            $categoryIds = json_decode($blog->categories); // adjust if comma-separated
+
+            if (is_array($categoryIds) && count($categoryIds)) {
+                $categoryNames = DB::table('categories')
+                    ->whereIn('id', $categoryIds)
+                    ->pluck('category_name'); // returns a simple array
+
+                $blog->category_names = $categoryNames;
+            } else {
+                $blog->category_names = collect(); // empty collection to avoid errors
+            }
+        }
         // dd($meta);
         // dd($blog);
         return view('Frontend/Blog/InnerBlog', compact('blog', 'categories', 'blogs', 'tags', 'meta'));
