@@ -6,7 +6,8 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Tag;
 use App\Models\Category;
-use App\Models\Blog;
+use App\Models\Posts;
+use Illuminate\Support\Facades\DB;
 
 class ServiceController extends Controller
 {
@@ -83,11 +84,32 @@ class ServiceController extends Controller
         ];
         $categories = Category::all();
         $tags = Tag::all();
-        $blogs = Blog::latest()->paginate(4); // Paginate all blogs
-        $firstBlog = Blog::latest()->first(); // Get latest blog
+        $blogs = DB::table('posts')
+            ->leftJoin('media', 'posts.title', '=', 'media.title')
+            ->select('posts.*', 'media.imagefile1')
+            ->where('status', 'active')
+            ->where('display_on_home', 1)
+            ->latest()
+            ->take(6)
+            ->get();
+
+        $firstBlog = Posts::latest()->first(); // Get latest Posts
 
         // ✅ Paginate other blogs instead of using `take()`
-        $otherBlogs = Blog::paginate(4);
+        $otherBlogs = Posts::paginate(4);
+        foreach ($blogs as $blog) {
+            $categoryIds = json_decode($blog->categories); // adjust if comma-separated
+
+            if (is_array($categoryIds) && count($categoryIds)) {
+                $categoryNames = DB::table('categories')
+                    ->whereIn('id', $categoryIds)
+                    ->pluck('category_name'); // returns a simple array
+
+                $blog->category_names = $categoryNames;
+            } else {
+                $blog->category_names = collect(); // empty collection to avoid errors
+            }
+        }
         return view("Frontend/Services/Seo", compact('blogs', 'meta'));
     }
     public function website()
@@ -97,7 +119,15 @@ class ServiceController extends Controller
             'description' => 'Looking for a top website development agency in Dubai? Our experts build responsive, user-friendly websites that drive conversions and boost online presence.',
             'keywords' => 'website development UAE, web design Dubai, custom web solutions Dubai,  Digital marketing agency in Ajman, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ];
-        $blogs = Blog::latest()->paginate(4); // Paginate all blogs
+        $blogs = DB::table('posts')
+            ->leftJoin('media', 'posts.title', '=', 'media.title')
+            ->select('posts.*', 'media.imagefile1')
+            ->where('status', 'active')
+            ->where('display_on_home', 1)
+            ->latest()
+            ->take(6)
+            ->get();
+
         $this->data['clients'] = [
             'news-and-media' => [
                 [
@@ -109,6 +139,19 @@ class ServiceController extends Controller
                 ]
             ]
         ];
+        foreach ($blogs as $blog) {
+            $categoryIds = json_decode($blog->categories); // adjust if comma-separated
+
+            if (is_array($categoryIds) && count($categoryIds)) {
+                $categoryNames = DB::table('categories')
+                    ->whereIn('id', $categoryIds)
+                    ->pluck('category_name'); // returns a simple array
+
+                $blog->category_names = $categoryNames;
+            } else {
+                $blog->category_names = collect(); // empty collection to avoid errors
+            }
+        }
         return view("Frontend/Services/Website", compact('blogs', 'meta'));
     }
     public function socialMedia()
@@ -120,11 +163,32 @@ class ServiceController extends Controller
         ];
         $categories = Category::all();
         $tags = Tag::all();
-        $blogs = Blog::latest()->paginate(4); // Paginate all blogs
-        $firstBlog = Blog::latest()->first(); // Get latest blog
+        $blogs = DB::table('posts')
+            ->leftJoin('media', 'posts.title', '=', 'media.title')
+            ->select('posts.*', 'media.imagefile1')
+            ->where('status', 'active')
+            ->where('display_on_home', 1)
+            ->latest()
+            ->take(6)
+            ->get();
 
-        // ✅ Paginate other blogs instead of using `take()`
-        $otherBlogs = Blog::paginate(4);
+        $firstBlog = Posts::latest()->first(); // Get latest Posts
+
+        //Paginate other blogs instead of using `take()`
+        $otherBlogs = Posts::paginate(4);
+        foreach ($blogs as $blog) {
+            $categoryIds = json_decode($blog->categories); // adjust if comma-separated
+
+            if (is_array($categoryIds) && count($categoryIds)) {
+                $categoryNames = DB::table('categories')
+                    ->whereIn('id', $categoryIds)
+                    ->pluck('category_name'); // returns a simple array
+
+                $blog->category_names = $categoryNames;
+            } else {
+                $blog->category_names = collect(); // empty collection to avoid errors
+            }
+        }
         return view("Frontend/Services/SocialMedia", compact('blogs', 'meta'));
     }
     public function digitalMarketing()
@@ -136,11 +200,32 @@ class ServiceController extends Controller
         ];
         $categories = Category::all();
         $tags = Tag::all();
-        $blogs = Blog::latest()->paginate(4); // Paginate all blogs
-        $firstBlog = Blog::latest()->first(); // Get latest blog
+        $blogs = DB::table('posts')
+            ->leftJoin('media', 'posts.title', '=', 'media.title')
+            ->select('posts.*', 'media.imagefile1')
+            ->where('status', 'active')
+            ->where('display_on_home', 1)
+            ->latest()
+            ->take(6)
+            ->get();
 
-        // ✅ Paginate other blogs instead of using `take()`
-        $otherBlogs = Blog::paginate(4);
+        $firstBlog = Posts::latest()->first(); // Get latest Posts
+
+        //Paginate other blogs instead of using `take()`
+        $otherBlogs = Posts::paginate(4);
+        foreach ($blogs as $blog) {
+            $categoryIds = json_decode($blog->categories); // adjust if comma-separated
+
+            if (is_array($categoryIds) && count($categoryIds)) {
+                $categoryNames = DB::table('categories')
+                    ->whereIn('id', $categoryIds)
+                    ->pluck('category_name'); // returns a simple array
+
+                $blog->category_names = $categoryNames;
+            } else {
+                $blog->category_names = collect(); // empty collection to avoid errors
+            }
+        }
         return view("Frontend/Services/digitalMarketing", compact('blogs', 'meta'));
     }
     public function contentMarketing()
@@ -148,16 +233,37 @@ class ServiceController extends Controller
         $meta = [
             'title' => 'Top Content Marketing Agency in UAE | Sociomark',
             'description' => 'Get more engagement and grow your business with professional Content Marketing Services from Sociomark, a trusted agency in Dubai delivering impactful results.',
-            'keywords' => 'content marketing Dubai, blog marketing UAE, content strategy UAE,  Digital marketing agency in Ajman, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
+            'keywords' => 'content marketing Dubai, Posts marketing UAE, content strategy UAE,  Digital marketing agency in Ajman, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ];
 
         $categories = Category::all();
         $tags = Tag::all();
-        $blogs = Blog::latest()->paginate(4); // Paginate all blogs
-        $firstBlog = Blog::latest()->first(); // Get latest blog
+        $blogs = DB::table('posts')
+            ->leftJoin('media', 'posts.title', '=', 'media.title')
+            ->select('posts.*', 'media.imagefile1')
+            ->where('status', 'active')
+            ->where('display_on_home', 1)
+            ->latest()
+            ->take(6)
+            ->get();
 
-        // ✅ Paginate other blogs instead of using `take()`
-        $otherBlogs = Blog::paginate(4);
+        $firstBlog = Posts::latest()->first(); // Get latest Posts
+
+        // Paginate other blogs instead of using `take()`
+        $otherBlogs = Posts::paginate(4);
+        foreach ($blogs as $blog) {
+            $categoryIds = json_decode($blog->categories); // adjust if comma-separated
+
+            if (is_array($categoryIds) && count($categoryIds)) {
+                $categoryNames = DB::table('categories')
+                    ->whereIn('id', $categoryIds)
+                    ->pluck('category_name'); // returns a simple array
+
+                $blog->category_names = $categoryNames;
+            } else {
+                $blog->category_names = collect(); // empty collection to avoid errors
+            }
+        }
         return view("Frontend/Services/contentMarketing", compact('blogs', 'meta'));
     }
     public function sem()
@@ -169,11 +275,32 @@ class ServiceController extends Controller
         ];
         $categories = Category::all();
         $tags = Tag::all();
-        $blogs = Blog::latest()->paginate(4); // Paginate all blogs
-        $firstBlog = Blog::latest()->first(); // Get latest blog
+        $blogs = DB::table('posts')
+            ->leftJoin('media', 'posts.title', '=', 'media.title')
+            ->select('posts.*', 'media.imagefile1')
+            ->where('status', 'active')
+            ->where('display_on_home', 1)
+            ->latest()
+            ->take(6)
+            ->get();
 
-        // ✅ Paginate other blogs instead of using `take()`
-        $otherBlogs = Blog::paginate(4);
+        $firstBlog = Posts::latest()->first(); // Get latest Posts
+
+        // Paginate other blogs instead of using `take()`
+        $otherBlogs = Posts::paginate(4);
+        foreach ($blogs as $blog) {
+            $categoryIds = json_decode($blog->categories); // adjust if comma-separated
+
+            if (is_array($categoryIds) && count($categoryIds)) {
+                $categoryNames = DB::table('categories')
+                    ->whereIn('id', $categoryIds)
+                    ->pluck('category_name'); // returns a simple array
+
+                $blog->category_names = $categoryNames;
+            } else {
+                $blog->category_names = collect(); // empty collection to avoid errors
+            }
+        }
         return view("Frontend/Services/sem", compact('blogs', 'meta'));
     }
     public function photoVideography()
@@ -185,11 +312,33 @@ class ServiceController extends Controller
         ];
         $categories = Category::all();
         $tags = Tag::all();
-        $blogs = Blog::latest()->paginate(4); // Paginate all blogs
-        $firstBlog = Blog::latest()->first(); // Get latest blog
+        $blogs = DB::table('posts')
+            ->leftJoin('media', 'posts.title', '=', 'media.title')
+            ->select('posts.*', 'media.imagefile1')
+            ->where('status', 'active')
+            ->where('display_on_home', 1)
+            ->latest()
+            ->take(6)
+            ->get();
 
-        // ✅ Paginate other blogs instead of using `take()`
-        $otherBlogs = Blog::paginate(4);
+        $firstBlog = Posts::latest()->first(); // Get latest Posts
+
+        // Paginate other blogs instead of using `take()`
+        $otherBlogs = Posts::paginate(4);
+
+        foreach ($blogs as $blog) {
+            $categoryIds = json_decode($blog->categories); // adjust if comma-separated
+
+            if (is_array($categoryIds) && count($categoryIds)) {
+                $categoryNames = DB::table('categories')
+                    ->whereIn('id', $categoryIds)
+                    ->pluck('category_name'); // returns a simple array
+
+                $blog->category_names = $categoryNames;
+            } else {
+                $blog->category_names = collect(); // empty collection to avoid errors
+            }
+        }
         return view("Frontend/Services/photoVideography", compact('blogs', 'meta'));
     }
 }

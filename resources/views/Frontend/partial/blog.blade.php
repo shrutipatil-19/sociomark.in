@@ -14,20 +14,30 @@
                     <div class="box-blog th-blog blog-single has-post-thumbnail">
                         <div class="blog-img box-blog">
                             <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
-                                <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}"
-                                    alt="Blog Image" class="w-100 h-100 object-fit-cover">
+
+                                @php
+                                $images = is_string($blog->images) ? json_decode($blog->images, true) : $blog->images;
+                                $firstImage = $images[0] ?? null;
+                                @endphp
+
+                                @if (!empty($blog->imagefile1))
+                                <img src="{{ asset('frontend-assets/img/media/' . $blog->imagefile1) }}" alt="{{ $blog->title }}" class="w-100 h-100 object-fit-cover">
+                                @elseif (!empty($firstImage))
+                                <img src="{{ url('storage/app/public/' . $firstImage) }}" alt="{{ $blog->title }}" class="w-100 h-100 object-fit-cover">
+                                @else
+                                <img src="{{ url('storage/app/public/default.jpg') }}" alt="{{ $blog->title }}" class="w-100 h-100 object-fit-cover">
+                                @endif
                             </a>
                         </div>
                         <div class="blog-content content-padding">
                             <div class="blog-meta">
                                 <a href="#"><i class="fa-light fa-calendar"></i>
-                                    {{ $blog->created_at ? $blog->created_at->format('F d, Y') : 'Unpublished' }}</a>
-                                <a href="#"><i class="fa-light fa-tags"></i>
-                                    {{ implode(', ', $blog->category_names) ?: 'No Category' }}</a>
+                                    {{ \Carbon\Carbon::parse($blog->created_at)->format('F d, Y') }}</a>
+                                <a href="#"><i class="fa-light fa-tags"></i> {{ implode(', ', $blog->category_names->toArray()) }}</a>
                             </div>
                             <h3 class="blog-title blog-title-text">
                                 <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
-                                    {{ Str::limit($blog->blog_name, 50) }}
+                                    {{ Str::limit($blog->title, 50) }}
                                 </a>
                             </h3>
 
