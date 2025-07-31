@@ -221,11 +221,11 @@
                                             @endphp
 
                                             @if (!empty($blog->imagefile1))
-                                            <img src="{{ asset('frontend-assets/img/media/' . $blog->imagefile1) }}" alt="{{ $blog->title }}">
+                                            <img src="{{ asset('frontend-assets/img/media/' . $blog->imagefile1) }}" alt="{{ $blog->title }}" class="w-100 h-100">
                                             @elseif (!empty($firstImage))
-                                            <img src="{{ url('storage/app/public/' . $firstImage) }}" alt="{{ $blog->title }}">
+                                            <img src="{{ url('storage/app/public/' . $firstImage) }}" alt="{{ $blog->title }}" class="w-100 h-100">
                                             @else
-                                            <img src="{{ url('storage/app/public/default.jpg') }}" alt="{{ $blog->title }}">
+                                            <img src="{{ url('storage/app/public/default.jpg') }}" alt="{{ $blog->title }}" class="w-100 h-100">
                                             @endif
                                         </a>
                                     </div>

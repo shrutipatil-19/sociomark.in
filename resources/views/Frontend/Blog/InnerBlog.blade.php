@@ -17,7 +17,7 @@
         -webkit-box-shadow: 0px -2px 12px -1px rgba(0, 0, 0, 0.17);
         -moz-box-shadow: 0px -2px 12px -1px rgba(0, 0, 0, 0.17);
         border: none;
-        height:100%;
+        height: 100%;
     }
 
     #Blog_Section .content-padding {
@@ -105,21 +105,25 @@
 
 
 <main>
-    @php
-    $images = json_decode($blog->images, true);
-    $firstImage = $images[0] ?? null;
-    @endphp
-
-    @if (!empty($blog->imagefile1))
-    <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/media/' . $blog->imagefile1) }}" alt="{{ $blog->title }}" style="margin-top: 66px;">
+    <div class="breadcumb-wrapper p-0" style="margin-top: 66px;">
+        <div class="container-fluid p-0">
+            <div class="row">
+                <div class="col-12">
+                    @php
+                    $images = json_decode($blog->images, true);
+                    $firstImage = $images[0] ?? null;
+                    @endphp
+                    @if (!empty($blog->imagefile1))
+                    <img src="{{ asset('frontend-assets/img/media/' . $blog->imagefile1) }}" alt="{{ $blog->title }}" width="100%">
+                    @elseif (!empty($firstImage))
+                    <img src="{{ url('storage/app/public/' . $firstImage) }}" alt="{{ $blog->title }}" width="100%">
+                    @else
+                    <img src="{{ url('storage/app/public/default.jpg') }}" alt="{{ $blog->title }}" width="100%">
+                    @endif
+                </div>
+            </div>
+        </div>
     </div>
-    @elseif (!empty($firstImage))
-    <div class="breadcumb-wrapper " data-bg-src="{{ url('storage/app/public/' . $firstImage) }}" alt="{{ $blog->title }}" style="margin-top: 66px;">
-    </div>
-    @else
-    <div class="breadcumb-wrapper " data-bg-src="{{ url('storage/app/public/default.jpg') }}" alt="{{ $blog->title }}" style="margin-top: 66px;">
-    </div>
-    @endif
 
     <section class="th-blog-wrapper space-top space-extra-bottom" id="Blog_Section">
         <div class="container">
@@ -128,15 +132,15 @@
                     <div class="col-md-12">
                         <div class="blog-content mb-3">
                             <div class="blog-meta">
-                                 <a href="#"><i class="fa-light fa-calendar"></i>
-                                        {{ \Carbon\Carbon::parse($blog->created_at)->format('F d, Y') }}
-                                    </a>
+                                <a href="#"><i class="fa-light fa-calendar"></i>
+                                    {{ \Carbon\Carbon::parse($blog->created_at)->format('F d, Y') }}
+                                </a>
                             </div>
                             <h1 class=" blog-title blog-title-text"><a href="" class="sec-title">{{ $blog->title }}</a></h1>
 
                         </div>
                         <div class="box-blog th-blog blog-single has-post-thumbnail">
-                           
+
                             <div class="blog-content content-padding">
 
                                 <div class="mt-md-5 mt-3">{!! $blog->content !!}</div>
