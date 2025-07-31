@@ -46,7 +46,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-6 col-md-12 col-xl-5">
-                                    <h3 class="mb-2">234</h3>
+                                    <h3 class="mb-2">{{ $contact_leads->COUNT() }}</h3>
                                     <div class="d-flex align-items-baseline">
                                        
                                     </div>
@@ -65,7 +65,7 @@
                             <div class="row">
 
                                 <div class="col-6 col-md-12 col-xl-5">
-                                    <h3 class="mb-2">54</h3>
+                                    <h3 class="mb-2">{{ $currentMonthLeadCount }}</h3>
                                     @php
                                     $isUp = $change >= 0;
                                     $icon = $isUp ? 'arrow-up' : 'arrow-down';
@@ -94,9 +94,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-6 col-md-12 col-xl-5">
-                                    <h3 class="mb-2">54
-                                        5
-                                    </h3>
+                                    <h3 class="mb-2">{{ $convertedInBound }}</h3>
                                     <div class="d-flex align-items-baseline">
                                        
                                     </div>
@@ -122,7 +120,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-6 col-md-12 col-xl-5">
-                                    <h3 class="mb-2">12</h3>
+                                    <h3 class="mb-2">{{ $out_bound_lead->COUNT() }}</h3>
                                     <div class="d-flex align-items-baseline">
                                        
                                     </div>
@@ -142,7 +140,7 @@
                             <div class="row">
 
                                 <div class="col-6 col-md-12 col-xl-5">
-                                    <h3 class="mb-2">54</h3>
+                                    <h3 class="mb-2">{{ $currentMonthInLeadCount }}</h3>
                                     @php
                                     $isUp = $inchange >= 0;
                                     $icon = $isUp ? 'arrow-up' : 'arrow-down';
@@ -171,7 +169,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-6 col-md-12 col-xl-5">
-                                    <h3 class="mb-2">454/h3>
+                                    <h3 class="mb-2">{{$convertedOutBound}}</h3>
                                    
                                 </div>
                                
@@ -364,7 +362,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-6 col-md-12 col-xl-5">
-                                    <h3 class="mb-2">323</h3>
+                                    <h3 class="mb-2">{{ $blogs}}</h3>
                                     <div class="d-flex align-items-baseline">
                                     </div>
                                 </div>
@@ -380,7 +378,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-6 col-md-12 col-xl-5">
-                                    <h3 class="mb-2">4</h3>
+                                    <h3 class="mb-2">{{ $active }}</h3>
                                 </div>
                             </div>
                         </div>
@@ -394,7 +392,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-6 col-md-12 col-xl-5">
-                                    <h3 class="mb-2">5</h3>
+                                    <h3 class="mb-2">{{ $display_on_home }}</h3>
                                     <div class="d-flex align-items-baseline">
                                     </div>
                                 </div>
@@ -413,7 +411,9 @@
 
 @section('custom-js')
 <!-- monthy lead Start -->
-<!--  -->
+<script>
+    const leadsData = @json($leads);
+</script>
 
 <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 <script>
