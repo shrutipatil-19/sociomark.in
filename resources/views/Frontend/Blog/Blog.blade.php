@@ -233,7 +233,7 @@
                                         <div class="recent-post-meta">
                                             <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
                                                 <i class="fa-sharp fa-solid fa-calendar-days"></i>
-                                                {{ $blog->created_at }}
+                                                  {{ \Carbon\Carbon::parse($blog->created_at)->format('F d, Y') }}
                                             </a>
 
                                         </div>
