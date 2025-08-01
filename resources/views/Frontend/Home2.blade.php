@@ -1940,6 +1940,7 @@
                 <div class="modal-body contact-form style2">
                     <form action="{{ route('contact.store') }}" method="POST" class="">
                         @csrf
+                       
                         <div class="row g-2">
                             <div class="form-group col-md-6">
                                 <label for="name">Your Name</label>
