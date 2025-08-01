@@ -44,7 +44,7 @@ class careerController extends Controller
             'page_url' => $request->page_url,
         ]);
         // Send email to HR about job
-        Mail::to('shruti.sociomark@gmail.com')->send(new NewJobLead($lead));
+        Mail::to('hr@sociomark.in')->send(new NewJobLead($lead));
         return back()->with('success', 'Application submitted successfully!');
     }
 }
