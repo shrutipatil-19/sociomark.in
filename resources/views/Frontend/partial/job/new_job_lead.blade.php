@@ -5,16 +5,16 @@
 <p><strong>Phone:</strong> {{ $lead->phone }}</p>
 
 {{-- CV Link --}}
-@if(!empty($job->cv))
-<p><strong>CV:</strong> 
-    <a href="{{ url('storage/app/public/' . $job->cv) }}" target="_blank" class="btn btn-sm btn-primary">
+@if(!empty($lead->cv))
+<p><strong>CV:</strong>
+    <a href="{{ url('storage/app/public/' . $lead->cv) }}" target="_blank" class="btn btn-sm btn-primary">
         View CV
     </a>
 </p>
 @endif
 
 {{-- Personal Links --}}
-@if(!empty($job->plinks))
-<p><strong>Links:</strong> {{ $job->plinks }}</p>
- <td><strong>Profile: </strong>{{ $job->page_url }}</td>
+@if(!empty($lead->plinks))
+<p><strong>Links:</strong> {{ $lead->plinks }}</p>
 @endif
+<td><strong>Profile: </strong>{{ $lead->page_url }}</td>
