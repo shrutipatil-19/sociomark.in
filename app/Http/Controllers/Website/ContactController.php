@@ -55,10 +55,10 @@ class ContactController extends Controller
         // Send email to business analyst
         // Mail::to('shruti.sociomark@gmail.com')->send(new NewLeadNotification($lead));
         $recipients = [
-            'shruti.sociomark@gmail.com'
-            // 'kartik@sociomark.in',
-            // 'business@sociomark.in',
-            // 'heta@sociomark.in'
+            'shruti.sociomark@gmail.com',
+            'kartik@sociomark.in',
+            'business@sociomark.in',
+            'heta@sociomark.in'
         ];
 
         Mail::to($recipients)->send(new NewLeadNotification($lead));
