@@ -334,26 +334,20 @@
             <div class="row g-4 g-md-5 align-items-center">
                 <div class="col-xl-6 pe-5">
                     <div class="title-area mb-20">
-                        <!-- <h1 class="sec-title hero-title" data-aos="fade-right" data-aos-delay="300">Remarkable
-                            <br>Digital Marketing
-                            <br>Company
-                            <span class="text-orange"> for Brands that Think <span
-                                    class="">Bigger</span></span>
-                        </h1> -->
+                        <h1 class="sec-title hero-title" data-aos="fade-right" data-aos-delay="300">Hello, we are<br>Sociomark -
+                            <span class="text-orange"> A Digital Marketing Company in <span
+                                    class="">India</span></span>
+                        </h1>
                         <!-- <h1>{{ __('home.welcome') }}</h1> -->
-                        <h1 class="sec-title hero-title" data-aos="fade-right" data-aos-delay="300">{{ __('messages.welcome') }}</h1>
+                        <!-- <h1 class="sec-title hero-title" data-aos="fade-right" data-aos-delay="300">{{ __('messages.welcome') }}</h1> -->
 
                     </div>
-                    <!-- <p class="sec-para text-white-50" data-aos="fade-right" data-aos-delay="300">We're more than just a
-                        <strong> <a href="{{ route('digitalMarketing') }}">digital marketing agency</a></strong>—we're your creative and strategic partners in the
-                        digital realm.
-                        From crafting high-performing websites to executing smart SEO strategies, running impactful ad
-                        campaigns and managing your brand's social presence, we do it all with purpose.
-                        Our mission is to help your business grow, connect and stand
-                        out in a crowded digital world.
+                    <p class="sec-para text-white-50" data-aos="fade-right" data-aos-delay="300">In today's digital age, a strong online presence is no longer a luxury but a necessity. Sociomark is your trusted partner in navigating the tough digital landscape. As a leading digital marketing agency based in Navi Mumbai, we are committed to driving tangible results for your business.</p>
+                    <p class="sec-para text-white-50" data-aos="fade-right" data-aos-delay="300">
+                        Our expertise spans a wide range of services, including social media marketing, SEO, graphic design, website development, performance marketing, etc. We understand that every business is unique, and therefore, we tailor our strategies to meet your specific goals and objectives.
 
-                    </p> -->
-                    <p class="sec-para text-white-50" data-aos="fade-right" data-aos-delay="300">{{ __('messages.about') }}</p>
+                    </p>
+                    <!-- <p class="sec-para text-white-50" data-aos="fade-right" data-aos-delay="300">{{ __('messages.about') }}</p> -->
                     <a href="{{ route('about') }}" class="th-btn white-border th-icon th-radius">
                         Read More <i class="fa-solid fa-arrow-right ms-2"></i>
                     </a>
@@ -1940,7 +1934,7 @@
                 <div class="modal-body contact-form style2">
                     <form action="{{ route('contact.store') }}" method="POST" class="">
                         @csrf
-                       
+
                         <div class="row g-2">
                             <div class="form-group col-md-6">
                                 <label for="name">Your Name</label>
