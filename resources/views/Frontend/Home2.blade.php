@@ -818,9 +818,7 @@
                                         </div>
                                     </div>
                                     <div class="col-12">
-                                        <p class="sec-para mt-3">Want to go viral and drive sales? Discover the
-                                            strategies
-                                            that turn browsers into buyers and brands into buzzwords.
+                                        <p class="sec-para mt-3">Helping businesses get noticed online through smart ideas, engaging content, and the right digital tools.
                                         </p>
                                         <a href="{{ route('digitalMarketing') }}"
                                             class="th-btn white-border th-icon th-radius">
@@ -839,8 +837,7 @@
                                         </div>
                                     </div>
                                     <div class="col-12">
-                                        <p class="sec-para mt-3">Don’t just show up—stand out. We turn your social feed
-                                            into your strongest marketing weapon.
+                                        <p class="sec-para mt-3">Creating content that attracts visibility, brand loyalty and organic results.
                                         </p>
                                         <a href="{{ route('socialMedia') }}"
                                             class="th-btn white-border th-icon th-radius">
@@ -859,9 +856,7 @@
                                         </div>
                                     </div>
                                     <div class="col-12">
-                                        <p class="sec-para mt-3">Struggling to show up on Google? We’ve cracked the
-                                            code to
-                                            page one rankings—and your competitors aren’t ready for it.
+                                        <p class="sec-para mt-3">Higher rankings and more traffic. Boost your visibility with smart search engine optimization strategies.
                                         </p>
                                         <a href="{{ route('seo') }}" class="th-btn white-border th-icon th-radius">
                                             Read More
@@ -879,9 +874,7 @@
                                         </div>
                                     </div>
                                     <div class="col-12">
-                                        <p class="sec-para mt-3"> Is your website your best salesperson? If not, you’re
-                                            losing money. We build websites that work 24/7 to grow your business.
-
+                                        <p class="sec-para mt-3"> Every business needs a strong online home. Our websites are thoughtfully designed to support your goals.
                                         </p>
                                         <a href="{{ route('website') }}"
                                             class="th-btn white-border th-icon th-radius">
@@ -900,10 +893,7 @@
                                         </div>
                                     </div>
                                     <div class="col-">
-                                        <p class="sec-para mt-3">Tired of burning the budget with zero ROI? Get
-                                            campaigns
-                                            that don’t just perform—they outperform. See how we make every click count.
-
+                                        <p class="sec-para mt-3">Targeted ad campaigns that reach the right audience, maximize ROI, and turn clicks into conversions.
                                         </p>
                                         <a href="{{ route('sem') }}" class="th-btn white-border th-icon th-radius">
                                             Read More
@@ -921,10 +911,7 @@
                                         </div>
                                     </div>
                                     <div class="col-12">
-                                        <p class="sec-para mt-3">Content that pulls, persuades and performs. From blogs
-                                            to
-                                            banners—we make every word work for you.
-
+                                        <p class="sec-para mt-3">Stories that captivate, connect, and convert, turning content into a powerful growth tool.
                                         </p>
                                         <a href="{{ route('contentMarketing') }}"
                                             class="th-btn white-border th-icon th-radius">
@@ -943,9 +930,7 @@
                                         </div>
                                     </div>
                                     <div class="col-12">
-                                        <p class="sec-para mt-3">If it doesn't stop the scroll, it's not us. Let's turn
-                                            your brand into a visual story that people will remember.
-
+                                        <p class="sec-para mt-3">Great visuals tell better stories. We capture photos and videos that bring your brand to life.
                                         </p>
                                         <a href="{{ route('photoVideography') }}"
                                             class="th-btn white-border th-icon th-radius">
