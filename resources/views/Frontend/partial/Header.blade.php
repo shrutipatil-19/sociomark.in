@@ -5,6 +5,20 @@ Mobile Menu
 <div class="th-menu-wrapper">
     <div class="th-menu-area text-center">
         <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
+        <!-- Wrap Ganpati + Confetti -->
+        <div class="confetti-wrapper d-inline-block d-lg-none">
+            <!-- Confetti pieces -->
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+
+            <!-- Ganpati Image -->
+            <img src="{{ asset('frontend-assets/img/nav-element/gnpti-bappa1.png') }}" alt="ladu plate" height="50" style="width: 100px; height: 100px;" class="bappa-animate d-inline-block d-lg-none">
+        </div>
+
         <div class="mobile-logo">
             <a href="{{ route('home') }}">
                 <img src="{{ asset('frontend-assets/img/logo/sociomark-new-logo.png') }}" alt="Image Not Found"
@@ -67,10 +81,26 @@ Header Area
             <div class="">
                 <div class="row py-1 align-items-center justify-content-between">
                     <div class="col-auto d-flex justify-content-center align-items-center">
-                        <img src="{{ asset('frontend-assets/img/nav-element/gnpti-bappa1.png') }}" alt="ladu plate" height="50" style="width: 100px; height: 100px;" class="bappa-animate">
+                        <!-- Wrap Ganpati + Confetti -->
+                        <div class="confetti-wrapper d-none d-lg-inline-block">
+                            <!-- Confetti pieces -->
+                            <div class="confetti"></div>
+                            <div class="confetti"></div>
+                            <div class="confetti"></div>
+                            <div class="confetti"></div>
+                            <div class="confetti"></div>
+                            <div class="confetti"></div>
+
+                            <!-- Ganpati Image -->
+                            <img src="{{ asset('frontend-assets/img/nav-element/gnpti-bappa1.png') }}" alt="ladu plate" height="50" style="width: 100px; height: 100px;" class="bappa-animate d-none d-lg-inline-block">
+                        </div>
+
 
                         <div class="d-flex flex-column align-items-start">
+
+
                             <img src="{{ asset('frontend-assets/img/nav-element/modak2.png') }}" alt="ladu plate" height="35" class="modak">
+
                             <div class="header-logo pt-0">
                                 <a href="{{ route('home') }}">
                                     <picture>
@@ -313,6 +343,90 @@ Header Area
         right: -28px;
         position: relative;
         top: 9px;
+    }
+
+    @keyframes bappaFloat {
+        0% {
+            transform: translateY(0);
+        }
+
+        50% {
+            transform: translateY(-8px);
+        }
+
+        100% {
+            transform: translateY(0);
+        }
+    }
+
+    .bappa-animate {
+        animation: bappaFloat 3s ease-in-out infinite;
+        display: inline-block;
+        position: relative;
+        z-index: 2;
+    }
+
+    /* Confetti container */
+    .confetti-wrapper {
+        position: relative;
+        display: inline-block;
+    }
+
+    /* Confetti pieces */
+    .confetti {
+        position: absolute;
+        width: 6px;
+        height: 6px;
+        background-color: red;
+        opacity: 0.8;
+        animation: fall linear infinite;
+    }
+
+    .confetti:nth-child(2) {
+        left: 20%;
+        background-color: yellow;
+        animation-duration: 3s;
+        animation-delay: 0.2s;
+    }
+
+    .confetti:nth-child(3) {
+        left: 40%;
+        background-color: green;
+        animation-duration: 4s;
+        animation-delay: 0.4s;
+    }
+
+    .confetti:nth-child(4) {
+        left: 60%;
+        background-color: blue;
+        animation-duration: 3.5s;
+        animation-delay: 0.6s;
+    }
+
+    .confetti:nth-child(5) {
+        left: 80%;
+        background-color: pink;
+        animation-duration: 4.2s;
+        animation-delay: 0.8s;
+    }
+
+    .confetti:nth-child(6) {
+        left: 50%;
+        background-color: orange;
+        animation-duration: 3.8s;
+        animation-delay: 1s;
+    }
+
+    @keyframes fall {
+        0% {
+            transform: translateY(-10px) rotate(0deg);
+            opacity: 1;
+        }
+
+        100% {
+            transform: translateY(120px) rotate(360deg);
+            opacity: 0;
+        }
     }
 </style>
 <!-- form 2 start Plugin: JQuery Validator  -->
