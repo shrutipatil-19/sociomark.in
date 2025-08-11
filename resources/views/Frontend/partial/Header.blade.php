@@ -10,6 +10,7 @@ Mobile Menu
                 <img src="{{ asset('frontend-assets/img/logo/sociomark-new-logo.png') }}" alt="Image Not Found"
                     height="50">
             </a>
+
         </div>
 
         <div class="th-mobile-menu">
@@ -65,17 +66,21 @@ Header Area
             <!-- <div class="menu-area"> -->
             <div class="">
                 <div class="row py-1 align-items-center justify-content-between">
-                    <div class="col-auto">
+                    <div class="col-auto d-flex justify-content-center align-items-center">
+                        <img src="{{ asset('frontend-assets/img/nav-element/gnpti-bappa1.png') }}" alt="ladu plate" height="50" style="width: 100px; height: 100px;" class="bappa-animate">
                         <div class="header-logo">
                             <a href="{{ route('home') }}">
                                 <picture>
+
                                     <source media="(min-width: 1024px)"
                                         srcset="{{ asset('frontend-assets/img/logo/sc-colored-horizontal.png') }}">
                                     <img src="{{ asset('frontend-assets/img/logo/sc-colored-horizontal.png') }}"
                                         alt="Image Not Found" height="30">
                                 </picture>
                             </a>
+
                         </div>
+                        <img src="{{ asset('frontend-assets/img/nav-element/ladu.png') }}" alt="ladu plate" height="50" class="d-none">
                     </div>
                     <div class="col-auto">
                         <nav class="main-menu style2 d-none d-lg-inline-block">
@@ -273,11 +278,30 @@ Header Area
 </div> -->
 <!-- popup modal  end-->
 
-@section('custome-style')
 <style>
     .modal {
         position: fixed;
         z-index: 99;
+    }
+
+    @keyframes bappaFloat {
+        0% {
+            transform: translateY(0);
+        }
+
+        50% {
+            transform: translateY(-8px);
+        }
+
+        100% {
+            transform: translateY(0);
+        }
+    }
+
+    .bappa-animate {
+        animation: bappaFloat 3s ease-in-out infinite;
+        display: inline-block;
+        /* needed so transform works on img */
     }
 </style>
 <!-- form 2 start Plugin: JQuery Validator  -->
@@ -288,4 +312,3 @@ Header Area
     integrity="sha512-TiQST7x/0aMjgVTcep29gi+q5Lk5gVTUPE9XgN0g96rwtjEjLpod4mlBRKWHeBcvGBAEvJBmfDqh2hfMMmg+5A=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <!-- Plugin: JQuery Validator  -->
-@endsection
