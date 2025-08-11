@@ -68,19 +68,24 @@ Header Area
                 <div class="row py-1 align-items-center justify-content-between">
                     <div class="col-auto d-flex justify-content-center align-items-center">
                         <img src="{{ asset('frontend-assets/img/nav-element/gnpti-bappa1.png') }}" alt="ladu plate" height="50" style="width: 100px; height: 100px;" class="bappa-animate">
-                        <div class="header-logo">
-                            <a href="{{ route('home') }}">
-                                <picture>
 
-                                    <source media="(min-width: 1024px)"
-                                        srcset="{{ asset('frontend-assets/img/logo/sc-colored-horizontal.png') }}">
-                                    <img src="{{ asset('frontend-assets/img/logo/sc-colored-horizontal.png') }}"
-                                        alt="Image Not Found" height="30">
-                                </picture>
-                            </a>
+                        <div class="d-flex flex-column align-items-start">
+                            <img src="{{ asset('frontend-assets/img/nav-element/modak2.png') }}" alt="ladu plate" height="35" class="modak">
+                            <div class="header-logo pt-0">
+                                <a href="{{ route('home') }}">
+                                    <picture>
 
+                                        <source media="(min-width: 1024px)"
+                                            srcset="{{ asset('frontend-assets/img/logo/sc-colored-horizontal.png') }}">
+                                        <img src="{{ asset('frontend-assets/img/logo/sc-colored-horizontal.png') }}"
+                                            alt="Image Not Found" height="30">
+                                    </picture>
+                                </a>
+
+                            </div>
                         </div>
-                        <img src="{{ asset('frontend-assets/img/nav-element/ladu.png') }}" alt="ladu plate" height="50" class="d-none">
+
+
                     </div>
                     <div class="col-auto">
                         <nav class="main-menu style2 d-none d-lg-inline-block">
@@ -302,6 +307,12 @@ Header Area
         animation: bappaFloat 3s ease-in-out infinite;
         display: inline-block;
         /* needed so transform works on img */
+    }
+
+    .modak {
+        right: -28px;
+        position: relative;
+        top: 9px;
     }
 </style>
 <!-- form 2 start Plugin: JQuery Validator  -->
