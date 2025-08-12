@@ -2010,5 +2010,15 @@ main#home {
     height: 80px !important;
 }
 
+.fa-brands:before,
+.fa-regular:before,
+.fa-solid:before,
+.fa:before,
+.fab:before,
+.far:before,
+.fas:before {
+    color: white;
+}
+
 /* services tab end */
 /* delete if want */

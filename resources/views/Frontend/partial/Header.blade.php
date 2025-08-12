@@ -97,9 +97,20 @@ Header Area
 
 
                         <div class="d-flex flex-column align-items-start">
+                            <div>
+                                <div class="confetti-wrapper d-inline-block d-lg-none">
+                                    <!-- Confetti pieces -->
+                                    <div class="confetti"></div>
+                                    <div class="confetti"></div>
+                                    <div class="confetti"></div>
+                                    <div class="confetti"></div>
+                                    <div class="confetti"></div>
+                                    <div class="confetti"></div>
+                                    <img src="{{ asset('frontend-assets/img/nav-element/gnpti-bappa2.png') }}" alt="ladu plate" height="50" style="width: 50px; height: 50px;" class="bappa-animate d-inline-block d-lg-none">
+                                </div>
+                                <img src="{{ asset('frontend-assets/img/nav-element/modak2.png') }}" alt="ladu plate" class="modak ">
+                            </div>
 
-
-                            <img src="{{ asset('frontend-assets/img/nav-element/modak2.png') }}" alt="ladu plate" height="35" class="modak">
 
                             <div class="header-logo pt-0">
                                 <a href="{{ route('home') }}">
@@ -343,6 +354,14 @@ Header Area
         right: -28px;
         position: relative;
         top: 9px;
+        height: 35px;
+    }
+
+    @media only screen and (max-width: 576px) {
+        .modak {
+            right: -5px;
+            height: 20px;
+        }
     }
 
     @keyframes bappaFloat {
