@@ -362,6 +362,12 @@ Header Area
             right: -5px;
             height: 20px;
         }
+
+        .confetti {
+            position: absolute;
+            width: 10px !important;
+            height: 10px Im !important;
+        }
     }
 
     @keyframes bappaFloat {
@@ -390,6 +396,7 @@ Header Area
         position: relative;
         display: inline-block;
     }
+
     /* .confetti {
         position: absolute;
         width: 6px;

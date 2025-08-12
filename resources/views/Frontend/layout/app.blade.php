@@ -24,9 +24,9 @@
     <link href="{{ asset('css/main.css') }}" rel="stylesheet">
     @endif -->
 
-     @if (app()->getLocale() === 'ar')
-        <!-- Arabic-specific styles -->
-        <link rel="stylesheet" href="{{ asset('frontend-assets/css/arabic.css') }}">
+    @if (app()->getLocale() === 'ar')
+    <!-- Arabic-specific styles -->
+    <link rel="stylesheet" href="{{ asset('frontend-assets/css/arabic.css') }}">
     @endif
 
     @include('Frontend/partial/styleLinks')
@@ -186,7 +186,10 @@
             });
         };
     </script>
+    <!-- <script src="https://run.confettipage.com/here.js" data-confetticode="U2FsdGVkX1+2zXN19p8GqkbiHmWMt4OPWdq/ishFv8pFcRn5TsnqQsogAfoR8JzH1csgezOZQ45AZea+8Lfl2XgwUg9AXSHAX/3FnI75NjYjcYHFjIF3Jz/CDTLLQ3xqNdT9Fmbq8eVxoHAR4zt10ExvLo65j9kd89yvtL1fPFcQ9x7nporv94MApDbccIWJhv3z3Zbwwj0q36bX/8RG6YC5DuXB0wfm8nzWk9cfE0v2noiSdoeVWJfHmni2+RPOdCSG6dsZZH2Xj9GKyKKc0iuhF+1siTPRz9m/sZ6C25wZrbIxlnatUOOk3fDouGdfcplJjxHt4rro+6Nu71mdTfrI4IkeWRa4yqvEc+spKA7UGMPFEIbb+o338yq/eSJesLZDGsQY1JS1PyqGtPv+YN+HD0a4G4Nk7NRyRFz6Hzu8fTmGcUbMcxOXPyvj6p1sW6Iz3LWzDJRt6B5RqB1bIDGBKN0jZJTv0GVCX4OIkJcc37NHsBIv+og552nuEq3+St09r2d+Z3AUULMp++HL1nu+2JMozdkymGpkNTKedYNAOnYTcoyINLfROjGtICGpepwtDwc7MgIsePTCNJWinSimaBRO8AfyLd1No2kwUzRvTNa1GLfb/OxihRqiW+aoqsEiJPdSRQEIU3NR7xM3TrhbThz2MyEtPLV6YL1Hz+HClYSssICsPGWHwvq7YXXD3d+x0nWJxnYtEMe+tm6UYj7SbV0NcFjkR3jjMD3AtK4="></script> -->
 
+    <!-- <script src="https://run.confettipage.com/here.js" data-confetticode="U2FsdGVkX19yuAq+fpDkAHpxq+NuQafrSaZFnh/j9k18H68ia51Z1/HvouwulKjiYBL4hAEJtcX1ghWg6fPkC+joqrlWhp/XfwkCE6lONEn7OZbeZkRxk2wHuebSoaXh+KSA72gWA6CL0HK5GjNJ3MQjDjdOGOrZJUQEO9h8ADGMtnKFbKylCJq7CfW4Vk4tfSovcc7+TJG9teIxGomHZ2j3VCLmSMNhvdRa1779GYbVUpMMmzGoGw/baylktdLJfxDBaZxdU6h/aMLhXqgxqLtMG8hDw9/1K5xtZsv0NEsdfB7gbbmaK0ZXR7Zp2ScfwAa1QR4LlOPu6xnbrlUFOfiT7wTwo+bKhUX3TtR3Buvb/TSrQWRqVGeQ22K8iB8dwz8z4cAGJSnz7WmfY4bFSKXJ6kvs8r2JwXjfIj8O6ztz9piiSg8Z6veWkfRefwj+GqRRA6fk0dsfxvEw4q3qVyJ/4evbAcfKXoUzKuLmFmMxBVAWjzTfFpcUqY/DZbP2n7YGCGr5Qw1un1+JX8XJo/+psgOCtK/AS7JUC5Ctkp5cmKOQWwXSU1dz5hIiuQqA0Nuaepkepsa4kzsjGdyMOoggpkp/0LhARP1JNNvWZ5iwppfW/00QUF6TCVTTnGD6dySg/tE/EbXrb0kYIv3dJKcJl7nFpY0DmtK780VxQh78rALC31MzoR7riUcOw2bPavJ2Z2xd5SjaD2QH1W+Dk7/WqYUGzf1YYmtPZD+QfuY="></script> -->
+    <!-- <script src="https://run.confettipage.com/here.js" data-confetticode="U2FsdGVkX19c5a6/FN4luRqNwRGlZhrgf68NUuYrZhswTFdRiXIGu/Cd1aOA2NdTBiYKK7cFDK3PrnObm+0Sf1mNyzgDFMkdY2/hrTaC0FHBW2REg/ydBfOScVRoeZPCSubnvrx+Chm6XMg+AjzPBC/TIPQ4facVtua1Vzy4r2Rf3bInswkN1zAzNWt5Nde7MazgVhunKXRp8BPKiGJxe0H0laXh6/vpJaX/TbLclRbVZP+cp3E1jMePnoXHcemz69P869koCO9W9qxwP+h7A4x/pFi+64/4VT4P8IPuxtLqf0QwBREJVEBY9Kiw9btYdlsWxZX6XcUHUf9CwBsrJbLz19T/qIfAkR7HYKv1fhK9cGruCCb0oOJpST6FeHULyLlADa9qw4MRm4wv30YuXPssycuvk0KrzocOYvybqOkpsMX/Kr4EmzAj7FFyjoc1iBAUtmyncX07ctWrk9FYz7WZaQk6dhdNWMwQNy1ZNduH8aKm2fC+OT2DwCBJMpmkDoqejK7Jl9xJJ8PWe93HRtAPExDtM8Vr8Qd0s1vqKCBT4nC4hNMioNbLke02oFj1o+5XraZduzd/+WpPfTxdUwOVS4pFtgAlbm/ofBKXDwiploU12UnCedUeNLpUzd6cr9ZNzvgxHYhxiTHNujvXk361wqmFkbUWLrrZy6/5i4Oc+g2lDHrRASNEvXknImNEUuhigm+wrOZZA+htTReQrpk/+2p5erf3XTv9R7bxonQ="></script> -->
     @stack('script')
 </body>
 
