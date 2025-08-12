@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller; // Make sure you extend the base Controller
 use App\Models\Tag;
 use App\Models\PR;
 use App\Models\Category;
+use App\Models\LaunchMessage;
 use App\Models\Posts;
 // use App\Models\Jobpost;
 use Illuminate\Http\Request;
@@ -54,8 +55,8 @@ class HomeController extends Controller
                 $blog->category_names = collect(); // empty collection to avoid errors
             }
         }
-
-        return view("Frontend/Home2", compact('firstBlog', 'categories', 'blogs', 'tags', 'meta', 'prs'));
+        $messages = LaunchMessage::latest()->get();
+        return view("Frontend/Home2", compact('firstBlog', 'categories', 'blogs', 'tags', 'meta', 'prs', 'messages'));
     }
     public function HomeNew()
     {

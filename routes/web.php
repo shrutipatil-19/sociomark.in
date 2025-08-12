@@ -25,6 +25,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactListController;
 use App\Http\Controllers\Website\careerController;
 use App\Http\Controllers\Website\LanguageController;
+use App\Http\Controllers\Website\LaunchMessageController;
 use App\Http\Controllers\Website\PRWebController;
 use Illuminate\Support\Facades\Session;
 // use App\Http\Middleware\SetLocale;
@@ -50,11 +51,16 @@ Route::fallback(function () {
 // Localized routes group
 // Route::middleware([SetLocale::class])->prefix('{locale}')->group(function () {
 // Route::middleware([SetLocale::class])->group(function () {
+
+
+Route::get('/chat/message', [LaunchMessageController::class, 'index'])->name('launch.wall');
+Route::post('/chat', [LaunchMessageController::class, 'store'])->name('launch.wall.store');
+
 Route::get('/', [HomeController::class, 'Home'])->name('home');
 Route::get('/about', [HomeController::class, 'About'])->name('about');
 Route::get('/our-team', [HomeController::class, 'About'])->name('team');
 
-Route::get('/services', [HomeController::class, 'Services'])->name('services');
+Route::get('/services',  [HomeController::class, 'Services'])->name('services');
 Route::get('/service/seo-agency-dubai', [ServiceController::class, 'seo'])->name('seo');
 Route::get('/service/website-development-agency', [ServiceController::class, 'website'])->name('website');
 Route::get('/service/social-media-agency-dubai', [ServiceController::class, 'socialMedia'])->name('socialMedia');

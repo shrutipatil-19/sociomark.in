@@ -62,6 +62,19 @@
 @endsection
 @push('styles')
 <style>
+        .chat-toggle {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: #ff5722;
+        color: white;
+        border: none;
+        padding: 15px;
+        border-radius: 50%;
+        cursor: pointer;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+        z-index: 9999;
+    }
     #home .about-area2 .sec-title {
         width: 67rem;
     }
@@ -2108,6 +2121,8 @@
         </div>
     </div>
     </div>
+    <!-- Chat Toggle Button -->
+    <a href="{{ route('launch.wall') }}"><button class="chat-toggle" id="chatToggle">💬</button></a>
 </main>
 @endsection
 
