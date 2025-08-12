@@ -385,14 +385,12 @@ Header Area
         z-index: 2;
     }
 
-    /* Confetti container */
+
     .confetti-wrapper {
         position: relative;
         display: inline-block;
     }
-
-    /* Confetti pieces */
-    .confetti {
+    /* .confetti {
         position: absolute;
         width: 6px;
         height: 6px;
@@ -400,7 +398,6 @@ Header Area
         opacity: 0.8;
         animation: fall linear infinite;
     }
-
     .confetti:nth-child(2) {
         left: 20%;
         background-color: yellow;
@@ -444,6 +441,64 @@ Header Area
 
         100% {
             transform: translateY(120px) rotate(360deg);
+            opacity: 0;
+        }
+    } */
+    /* Petal pieces */
+    .confetti {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        background-image: url('{{ asset("frontend-assets/img/nav-element/flower3.png") }}');
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0.9;
+        animation: fallPetal linear infinite;
+    }
+
+    .confetti:nth-child(2) {
+        left: 20%;
+        animation-duration: 4s;
+        animation-delay: 0.3s;
+    }
+
+    .confetti:nth-child(3) {
+        left: 40%;
+        animation-duration: 5s;
+        animation-delay: 0.6s;
+    }
+
+    .confetti:nth-child(4) {
+        left: 60%;
+        animation-duration: 3.5s;
+        animation-delay: 0.9s;
+    }
+
+    .confetti:nth-child(5) {
+        left: 80%;
+        animation-duration: 4.2s;
+        animation-delay: 1.2s;
+    }
+
+    .confetti:nth-child(6) {
+        left: 50%;
+        animation-duration: 3.8s;
+        animation-delay: 1.5s;
+    }
+
+    @keyframes fallPetal {
+        0% {
+            transform: translateY(-10px) rotate(0deg) scale(1);
+            opacity: 1;
+        }
+
+        50% {
+            transform: translateY(60px) rotate(180deg) scale(1.1);
+            opacity: 0.8;
+        }
+
+        100% {
+            transform: translateY(120px) rotate(360deg) scale(0.9);
             opacity: 0;
         }
     }
