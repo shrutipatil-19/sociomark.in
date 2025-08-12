@@ -5,7 +5,6 @@
     body {
         margin: 0;
         background: linear-gradient(135deg, #fff7f0, #ffe7d1);
-        font-family: 'Poppins', sans-serif;
         overflow-x: hidden;
         position: relative;
     }
