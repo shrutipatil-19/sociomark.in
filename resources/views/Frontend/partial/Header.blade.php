@@ -82,8 +82,8 @@ Header Area
                 <div class="row py-1 align-items-center justify-content-between">
                     <div class="col-auto d-flex justify-content-center align-items-center">
                         <!-- Wrap Ganpati + Confetti -->
-                        <div class="confetti-wrapper d-none d-lg-inline-block">
-                            <!-- Confetti pieces -->
+                        <!-- <div class="confetti-wrapper d-none d-lg-inline-block">
+                         
                             <div class="confetti"></div>
                             <div class="confetti"></div>
                             <div class="confetti"></div>
@@ -91,15 +91,15 @@ Header Area
                             <div class="confetti"></div>
                             <div class="confetti"></div>
 
-                            <!-- Ganpati Image -->
+                        
                             <img src="{{ asset('frontend-assets/img/nav-element/gnpti-bappa1.png') }}" alt="ladu plate" height="50" style="width: 100px; height: 100px;" class="bappa-animate d-none d-lg-inline-block">
-                        </div>
+                        </div> -->
 
 
                         <div class="d-flex flex-column align-items-start">
-                            <div>
+                            <!-- <div>
                                 <div class="confetti-wrapper d-inline-block d-lg-none">
-                                    <!-- Confetti pieces -->
+                                  
                                     <div class="confetti"></div>
                                     <div class="confetti"></div>
                                     <div class="confetti"></div>
@@ -109,10 +109,10 @@ Header Area
                                     <img src="{{ asset('frontend-assets/img/nav-element/gnpti-bappa2.png') }}" alt="ladu plate" height="50" style="width: 50px; height: 50px;" class="bappa-animate d-inline-block d-lg-none">
                                 </div>
                                 <img src="{{ asset('frontend-assets/img/nav-element/modak2.png') }}" alt="ladu plate" class="modak d-none">
-                            </div>
+                            </div> -->
 
 
-                            <div class="header-logo pt-0">
+                            <div class="header-logo ">
                                 <a href="{{ route('home') }}">
                                     <picture>
 

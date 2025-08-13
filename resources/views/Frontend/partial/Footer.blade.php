@@ -68,7 +68,7 @@
 
 
                                 <li><a href="{{ route('blog') }}">Blogs</a></li>
-                                <li><a href="{{ route('careers') }}">Careers</a></li>
+                                <!-- <li><a href="{{ route('careers') }}">Careers</a></li> -->
                             </ul>
                         </div>
                     </div>

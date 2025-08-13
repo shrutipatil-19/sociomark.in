@@ -76,7 +76,7 @@
                         <h1 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100"
                             data-aos-duration="1000" data-aos-easing="ease-in-out">
                             Accelerate your digital growth with a reliable <span class="text-blue"> SEO Agency in
-                                UAE</span>
+                                Mumabi</span>
                         </h1>
                     </div>
                 </div>
@@ -152,7 +152,7 @@
                             <h4 class="sub-sec-title">Competitor Analysis</h4>
                             <p class="sec-para">We deep-dive into what your competitors are doing—what’s working, what’s
                                 not. These insights help shape a smarter strategy tailored to your goals, especially in
-                                the space of search engine optimisation in Dubai and UAE. </p>
+                                the space of search engine optimisation in Dubai and Mumabi. </p>
                         </div>
                         <div class="benefit-block border-start border-4">
                             <h4 class="sub-sec-title">Technical SEO Audit</h4>
@@ -191,7 +191,7 @@
                             <h4 class="sub-sec-title">Traffic Analysis</h4>
                             <p class="sec-para">Tracking how users reach your website and what they do once they land.
                                 These insights help fine-tune performance and conversions over time for businesses
-                                seeking a trusted SEO company in Abu Dhabi and UAE.</p>
+                                seeking a trusted SEO company in Navi Mumabi and Mumabi.</p>
                         </div>
                     </div>
                 </div>
@@ -349,10 +349,10 @@
                             class="flip-box-front second-feature-card h-100 d-flex align-items-center justify-content-start flex-column">
 
                             <h4 class="sub-sec-title text-blue"><b>Strategy Development</b></h4>
-                            <p class="sec-para">Based on the audit, an SEO strategy is developed that aligns with your business goals and target audiences. Our SEO services in Abu Dhabi and UAE are crafted to meet the specific needs of your industry.</p>
+                            <p class="sec-para">Based on the audit, an SEO strategy is developed that aligns with your business goals and target audiences. Our SEO services in Navi Mumabi and Mumabi are crafted to meet the specific needs of your industry.</p>
                         </div>
                         <!-- <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
-                            <p class="sec-para">Based on the audit, an SEO strategy is developed that aligns with your business goals and target audiences. Our <b>SEO services in Abu Dhabi</b> and UAE are crafted to meet the specific needs of your industry.</p>
+                            <p class="sec-para">Based on the audit, an SEO strategy is developed that aligns with your business goals and target audiences. Our <b>SEO services in Navi Mumabi</b> and Mumabi are crafted to meet the specific needs of your industry.</p>
                         </div> -->
                     </div>
                 </div>

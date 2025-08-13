@@ -270,7 +270,7 @@
                                 <h4 class="sub-sec-title">Reliable Team</h4>
                                 <p class="sec-para"> We’re responsive, creative, and genuinely excited to work with
                                     you. Be it Ecommerce websites, portfolio websites or the need is for
-                                    website builders for small business or a multinational firm, as a web design company in the UAE we cater to all and deliver exceptional results every time.
+                                    website builders for small business or a multinational firm, as a web design company in the Mumabi we cater to all and deliver exceptional results every time.
                                 </p>
                             </div>
                         </div>

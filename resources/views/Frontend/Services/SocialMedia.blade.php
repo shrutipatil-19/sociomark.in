@@ -90,7 +90,7 @@
                         data-aos-duration="1200" data-aos-easing="ease-in-out"> In the current world, your audience is
                         scrolling, and your brand should be part of that conversation. We help businesses stand out with
                         creative, effective social media marketing agency in Ajman strategies tailored for a global audience,
-                        including markets like the UAE.
+                        including markets like the Mumabi.
                     </p>
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
                         data-aos-duration="1200" data-aos-easing="ease-in-out">No two brands are the same, and that’s
