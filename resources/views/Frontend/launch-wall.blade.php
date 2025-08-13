@@ -5,7 +5,7 @@
     body {
         margin: 0;
         background: linear-gradient(135deg, #fff7f0, #ffe7d1);
-        overflow-x: hidden;
+
         position: relative;
     }
 
@@ -13,15 +13,34 @@
     .wall {
         position: relative;
         z-index: 1;
-        max-width: 100%;
-        margin: auto;
+        max-width: 1200px;
+        /* Optional: Sets a max width for better readability */
+        margin: 50px auto;
+        /* Optional: Centers it and adds vertical space */
         padding: 25px;
         background: rgba(255, 255, 255, 0.15);
         border-radius: 15px;
         backdrop-filter: blur(12px);
         box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
         animation: fadeIn 0.6s ease-in-out;
+        /* The line below has been removed: overflow: visible !important; */
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
     }
+
+
+    .messages-container {
+        flex: 1;
+        max-height: 80vh;
+        /* Set a maximum height to enable scrolling */
+        overflow-y: auto;
+        /* Adds a scrollbar when content exceeds max-height */
+        padding-right: 10px;
+        /* Optional: Adds some space for the scrollbar */
+
+    }
+
 
     @keyframes fadeIn {
         from {
@@ -41,19 +60,21 @@
         font-weight: 700;
         color: #ff6600;
         margin-bottom: 5px;
+        width: 100%;
     }
 
     .sec-para {
         font-size: 1rem;
         color: #444;
         margin-bottom: 25px;
+        text-align: center;
+        width: 100%;
     }
 
     /* 💌 Message Card Glass Style */
     .message {
-        background: rgba(255, 255, 255, 0.25);
-        padding: 15px;
         background: white;
+        padding: 15px;
         border-radius: 12px;
         backdrop-filter: blur(8px);
         margin-bottom: 15px;
@@ -75,13 +96,16 @@
         font-size: 0.85rem;
     }
 
-    /* ✍️ Form */
-    form {
-        background: rgba(255, 255, 255, 0.2);
+    /* Sticky Form */
+    .form {
+        flex: 0 0 40%;
+        position: sticky;
+        top: 20px;
+        background: white;
         padding: 15px;
         border-radius: 12px;
-        backdrop-filter: blur(10px);
-        margin-top: 25px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        z-index: 10;
     }
 
     input,
@@ -94,6 +118,7 @@
         background: rgba(255, 255, 255, 0.25);
         color: #333;
         font-size: 1rem;
+        border-color: var(--theme-color);
     }
 
     button {
@@ -131,7 +156,6 @@
         opacity: 0.8;
     }
 
-    /* Balloon */
     .balloon {
         background: radial-gradient(circle, #ff6f61 0%, #ff4d4d 100%);
         border-radius: 50%;
@@ -139,7 +163,6 @@
         height: 50px;
     }
 
-    /* Sparkle */
     .sparkle {
         background: white;
         border-radius: 50%;
@@ -148,7 +171,6 @@
         box-shadow: 0 0 8px white;
     }
 
-    /* Petal */
     .petal {
         width: 20px;
         height: 20px;
@@ -157,7 +179,6 @@
         transform: rotate(45deg);
     }
 
-    /* Animation */
     @keyframes floatAnimation {
         0% {
             transform: translateY(-10vh) rotate(0deg);
@@ -170,101 +191,10 @@
         }
     }
 </style>
-<style>
-    /* Trigger Button */
-    .popup-trigger {
-        padding: 10px 18px;
-        font-size: 16px;
-        background: #ff9800;
-        color: white;
-        border: none;
-        border-radius: 6px;
-        cursor: pointer;
-    }
-
-    .popup-trigger:hover {
-        background: #e68900;
-    }
-
-    /* Popup Overlay */
-    .popup-overlay {
-        display: none;
-        position: fixed;
-        z-index: 999;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.5);
-        justify-content: center;
-        align-items: center;
-    }
-
-    /* Popup Content */
-    .popup-content {
-        background: rgba(255, 255, 255, 0.8);
-        backdrop-filter: blur(15px);
-        padding: 20px;
-        border-radius: 12px;
-        width: 350px;
-        text-align: center;
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
-    }
-
-    /* Close Button */
-    .popup-close {
-        position: absolute;
-        top: 10px;
-        right: 15px;
-        font-size: 28px;
-        cursor: pointer;
-        color: #333;
-    }
-
-    /* Inputs */
-    form input,
-    form textarea {
-        width: 100%;
-        padding: 10px;
-        margin: 8px 0;
-        border-radius: 6px;
-        border: 1px solid #ccc;
-    }
-
-    form button {
-        padding: 10px 16px;
-        background: #28a745;
-        color: white;
-        border: none;
-        border-radius: 6px;
-        cursor: pointer;
-    }
-
-    form button:hover {
-        background: #218838;
-    }
-</style>
 @endpush
 
-
 @section('content')
-<!-- Trigger Button -->
-<button id="openPopupBtn" class="popup-trigger">Send a Wish 🎉</button>
-
-<!-- Popup Background -->
-<div id="wishPopup" class="popup-overlay">
-    <div class="popup-content">
-        <span class="popup-close" id="closePopupBtn">&times;</span>
-        <h2>🎁 Share Your Launch Day Wish</h2>
-        
-        <form action="{{ route('launch.wall.store') }}" method="POST">
-            @csrf
-            <input type="text" name="name" placeholder="Your name" required>
-            <textarea name="message" placeholder="Your message" rows="4" required></textarea>
-            <button type="submit">Send Wish 🎁</button>
-        </form>
-    </div>
-</div>
+<!-- Floating Background -->
 <div class="floating-bg">
     <span class="balloon" style="left:5%; animation-duration: 10s;"></span>
     <span class="balloon" style="left:25%; animation-duration: 12s;"></span>
@@ -277,29 +207,36 @@
     <span class="petal" style="left:80%; animation-duration: 16s;"></span>
 </div>
 
-<div class="wall" style="margin-top: 150px; position: relative; overflow: hidden;">
-    <h2>🎉 First Day <span class="text-blue">Wall</span></h2>
-    <p class="sec-para text-center">Leave your wishes for our launch and be part of our story!</p>
+<!-- Main Wall -->
+<h2 style="margin-top: 150px;">🎉 First Day <span class="text-blue">Wall</span></h2>
+<p class="sec-para">Leave your wishes for our lfaunch and be part of our story!</p>
+<div class="wall">
+    <!-- Messages -->
+    <div class="messages-container">
+        @if(session('success'))
+        <p style="color: green; text-align:center;">{{ session('success') }}</p>
+        @endif
 
-    @if(session('success'))
-    <p style="color: green; text-align:center;">{{ session('success') }}</p>
-    @endif
-
-    @foreach($messages as $msg)
-    <div class="message">
-        <strong>{{ $msg->name }}</strong>
-        <small>• {{ $msg->created_at->diffForHumans() }}</small>
-        <p style="margin-top:8px;">{{ $msg->message }}</p>
+        @foreach($messages as $msg)
+        <div class="message">
+            <strong>{{ $msg->name }}</strong>
+            <small>• {{ $msg->created_at->diffForHumans() }}</small>
+            <p style="margin-top:8px;">{{ $msg->message }}</p>
+        </div>
+        @endforeach
     </div>
-    @endforeach
 
-    <form action="{{ route('launch.wall.store') }}" method="POST">
-        @csrf
-        <input type="text" name="name" placeholder="Your name" required>
-        <textarea name="message" placeholder="Your message" rows="4" required></textarea>
-        <button type="submit">Send Wish 🎁</button>
-    </form>
+    <!-- Sticky Form -->
+    <div class="form">
+        <form action="{{ route('launch.wall.store') }}" method="POST">
+            @csrf
+            <input type="text" name="name" placeholder="Your name" required>
+            <textarea name="message" placeholder="Your message" rows="4" required></textarea>
+            <button type="submit">Send Wish 🎁</button>
+        </form>
+    </div>
 </div>
+
 
 <script>
     // Confetti Generator
@@ -314,25 +251,6 @@
             setTimeout(() => confetti.remove(), 5000);
         }
     }
-
     setInterval(createConfetti, 1500);
-</script>
-<script>
-    // Open Popup
-    document.getElementById('openPopupBtn').addEventListener('click', function() {
-        document.getElementById('wishPopup').style.display = 'flex';
-    });
-
-    // Close Popup
-    document.getElementById('closePopupBtn').addEventListener('click', function() {
-        document.getElementById('wishPopup').style.display = 'none';
-    });
-
-    // Close on outside click
-    window.addEventListener('click', function(e) {
-        if (e.target.id === 'wishPopup') {
-            document.getElementById('wishPopup').style.display = 'none';
-        }
-    });
 </script>
 @endsection
