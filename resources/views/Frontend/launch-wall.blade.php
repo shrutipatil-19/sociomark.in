@@ -121,7 +121,7 @@
         border-color: var(--theme-color);
     }
 
-    button {
+    .sendbutton {
         background: #ff6600;
         color: white;
         border: none;
@@ -232,7 +232,7 @@
             @csrf
             <input type="text" name="name" placeholder="Your name" required>
             <textarea name="message" placeholder="Your message" rows="4" required></textarea>
-            <button type="submit">Send Wish 🎁</button>
+            <button type="submit" class="sendbutton">Send Wish 🎁</button>
         </form>
     </div>
 </div>
