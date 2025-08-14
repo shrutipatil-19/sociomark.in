@@ -201,6 +201,7 @@
                             <h3 class="widget_title">Recent Posts</h3>
                             <div class="recent-post-wrap">
                                 @foreach ($blogs->take(3) as $blog)
+                                @if ($blog->status == 'active')
                                 <div class="recent-post">
                                     <div class="media-img recent_blog_img">
                                         <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
@@ -210,11 +211,11 @@
                                             @endphp
 
                                             @if (!empty($blog->imagefile1))
-                                            <img src="{{ url('storage/app/public/' . $blog->imagefile1) }}" alt="{{ $blog->title }}">
+                                            <img src="{{ asset('frontend-assets/img/media/' . $blog->imagefile1) }}" alt="{{ $blog->title }}" class="w-100 h-100">
                                             @elseif (!empty($firstImage))
-                                            <img src="{{ url('storage/app/public/' . $firstImage) }}" alt="{{ $blog->title }}">
+                                            <img src="{{ url('storage/app/public/' . $firstImage) }}" alt="{{ $blog->title }}" class="w-100 h-100">
                                             @else
-                                            <img src="{{ url('storage/app/public/default.jpg') }}" alt="{{ $blog->title }}">
+                                            <img src="{{ url('storage/app/public/default.jpg') }}" alt="{{ $blog->title }}" class="w-100 h-100">
                                             @endif
                                         </a>
                                     </div>
@@ -224,6 +225,7 @@
                                                 <i class="fa-sharp fa-solid fa-calendar-days"></i>
                                                 {{ \Carbon\Carbon::parse($blog->created_at)->format('F d, Y') }}
                                             </a>
+
                                         </div>
                                         <h4 class="post-title recent_post_title">
                                             <a class="text-inherit" href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
@@ -232,6 +234,7 @@
                                         </h4>
                                     </div>
                                 </div>
+                                @endif
                                 @endforeach
                             </div>
                         </div>

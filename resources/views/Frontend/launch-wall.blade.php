@@ -97,7 +97,7 @@
 
     /* Sticky Form */
     .form {
-        
+
         position: sticky;
         top: 20px;
         background: white;
@@ -189,14 +189,12 @@
             opacity: 0;
         }
     }
-
-   
 </style>
 @endpush
 
 @section('content')
 <!-- Floating Background -->
-<!-- <div class="floating-bg">
+<div class="floating-bg">
     <span class="balloon" style="left:5%; animation-duration: 10s;"></span>
     <span class="balloon" style="left:25%; animation-duration: 12s;"></span>
     <span class="balloon" style="left:70%; animation-duration: 14s;"></span>
@@ -206,7 +204,7 @@
     <span class="petal" style="left:35%; animation-duration: 15s;"></span>
     <span class="petal" style="left:60%; animation-duration: 13s;"></span>
     <span class="petal" style="left:80%; animation-duration: 16s;"></span>
-</div> -->
+</div>
 
 <!-- Main Wall -->
 <h2 style="margin-top: 150px;">🎉 First Day <span class="text-blue">Wall</span></h2>
@@ -242,13 +240,17 @@
 <script>
     // Confetti Generator
     function createConfetti() {
+        const footer = document.getElementById("footer-section");
+        footer.style.position = "relative";
+        footer.style.overflow = "hidden";
+
         for (let i = 0; i < 20; i++) {
             let confetti = document.createElement("div");
             confetti.classList.add("confetti");
-            confetti.style.left = Math.random() * 100 + "vw";
+            confetti.style.left = Math.random() * 100 + "%";
             confetti.style.backgroundColor = ["#ff6600", "#ffc107", "#28a745", "#17a2b8"][Math.floor(Math.random() * 4)];
             confetti.style.animationDuration = (Math.random() * 3 + 2) + "s";
-            document.body.appendChild(confetti);
+            footer.appendChild(confetti);
             setTimeout(() => confetti.remove(), 5000);
         }
     }

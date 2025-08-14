@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\admincareerController;
+use App\Http\Controllers\Admin\adminLaunchMessageController;
 use App\Http\Controllers\Admin\AuthController;
 use App\Http\Controllers\Admin\BlogController;
 use App\Http\Controllers\Admin\ContatListController;
@@ -160,6 +161,13 @@ Route::middleware('edit-profile')->group(function () {
 // All role have access of this url || view can adjust by @can directory
 Route::middleware(['canGate:all-access'])->group(function () {
     Route::get('/admin/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+});
+
+// All role have access of this url || view can adjust by @can directory
+Route::middleware(['canGate:admin-access'])->group(function () {
+    Route::get('/admin/message', [adminLaunchMessageController::class, 'index'])->name('message');
+    Route::delete('/wishes/{id}', [adminLaunchMessageController::class, 'destroy'])->name('wishes.destroy');
+
 });
 
 // Only Seo user have access of this url

@@ -79,7 +79,7 @@ Header Area
         <div class="container-fluid th-container">
             <!-- <div class="menu-area"> -->
             <div class="">
-                <div class="row py-1 align-items-end justify-content-between">
+                <div class="row py-1 align-items-end align-items-lg-center justify-content-between">
                     <div class="col-auto d-flex justify-content-center align-items-center">
                         <!-- Wrap Ganpati + Confetti -->
                         <div class="confetti-wrapper d-none d-lg-inline-block">

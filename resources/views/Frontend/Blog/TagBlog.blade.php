@@ -199,7 +199,7 @@
                             </ul>
                         </div>
 
-                        <div class="widget box">
+                       <div class="widget box">
                             <h3 class="widget_title">Recent Posts</h3>
                             <div class="recent-post-wrap">
                                 @foreach ($blogs->take(3) as $blog)
@@ -213,11 +213,11 @@
                                             @endphp
 
                                             @if (!empty($blog->imagefile1))
-                                            <img src="{{ asset('frontend-assets/img/media/' . $blog->imagefile1) }}" alt="{{ $blog->title }}">
+                                            <img src="{{ asset('frontend-assets/img/media/' . $blog->imagefile1) }}" alt="{{ $blog->title }}" class="w-100 h-100">
                                             @elseif (!empty($firstImage))
-                                            <img src="{{ url('storage/app/public/' . $firstImage) }}" alt="{{ $blog->title }}">
+                                            <img src="{{ url('storage/app/public/' . $firstImage) }}" alt="{{ $blog->title }}" class="w-100 h-100">
                                             @else
-                                            <img src="{{ url('storage/app/public/default.jpg') }}" alt="{{ $blog->title }}">
+                                            <img src="{{ url('storage/app/public/default.jpg') }}" alt="{{ $blog->title }}" class="w-100 h-100">
                                             @endif
                                         </a>
                                     </div>
@@ -225,8 +225,9 @@
                                         <div class="recent-post-meta">
                                             <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
                                                 <i class="fa-sharp fa-solid fa-calendar-days"></i>
-                                                  {{ \Carbon\Carbon::parse($blog->created_at)->format('F d, Y') }}
+                                                {{ \Carbon\Carbon::parse($blog->created_at)->format('F d, Y') }}
                                             </a>
+
                                         </div>
                                         <h4 class="post-title recent_post_title">
                                             <a class="text-inherit" href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">

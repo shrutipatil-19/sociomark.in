@@ -25,6 +25,16 @@
                 </a>
             </li>
             @endcan
+
+             @can('admin-access')
+            <!-- <p>Admin Access is working!</p> -->
+            <li class="nav-item">
+                <a href="{{ url('/admin/message') }}" class="nav-link">
+                    <i class="link-icon" data-feather="box"></i>
+                    <span class="link-title">Wishes</span>
+                </a>
+            </li>
+            @endcan
             <!-- User Section (Show Only Services, Blog, etc.) -->
             @can('user-access')
             <!-- <p>User Access is working!</p> -->
