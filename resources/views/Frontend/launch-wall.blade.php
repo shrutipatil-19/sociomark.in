@@ -24,7 +24,6 @@
         box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
         animation: fadeIn 0.6s ease-in-out;
         /* The line below has been removed: overflow: visible !important; */
-        display: flex;
         gap: 20px;
         align-items: flex-start;
     }
@@ -98,7 +97,7 @@
 
     /* Sticky Form */
     .form {
-        flex: 0 0 40%;
+        
         position: sticky;
         top: 20px;
         background: white;
@@ -197,7 +196,7 @@
 
 @section('content')
 <!-- Floating Background -->
-<div class="floating-bg">
+<!-- <div class="floating-bg">
     <span class="balloon" style="left:5%; animation-duration: 10s;"></span>
     <span class="balloon" style="left:25%; animation-duration: 12s;"></span>
     <span class="balloon" style="left:70%; animation-duration: 14s;"></span>
@@ -207,14 +206,14 @@
     <span class="petal" style="left:35%; animation-duration: 15s;"></span>
     <span class="petal" style="left:60%; animation-duration: 13s;"></span>
     <span class="petal" style="left:80%; animation-duration: 16s;"></span>
-</div>
+</div> -->
 
 <!-- Main Wall -->
 <h2 style="margin-top: 150px;">🎉 First Day <span class="text-blue">Wall</span></h2>
 <p class="sec-para">Leave your wishes for our lfaunch and be part of our story!</p>
-<div class="wall">
+<div class="wall row ">
     <!-- Messages -->
-    <div class="messages-container">
+    <div class="messages-container col-12 col-lg-6">
         @if(session('success'))
         <p style="color: green; text-align:center;">{{ session('success') }}</p>
         @endif
@@ -229,7 +228,7 @@
     </div>
 
     <!-- Sticky Form -->
-    <div class="form">
+    <div class="form col-12 col-lg-6">
         <form action="{{ route('launch.wall.store') }}" method="POST">
             @csrf
             <input type="text" name="name" placeholder="Your name" required>

@@ -79,7 +79,7 @@ Header Area
         <div class="container-fluid th-container">
             <!-- <div class="menu-area"> -->
             <div class="">
-                <div class="row py-1 align-items-center justify-content-between">
+                <div class="row py-1 align-items-end justify-content-between">
                     <div class="col-auto d-flex justify-content-center align-items-center">
                         <!-- Wrap Ganpati + Confetti -->
                         <div class="confetti-wrapper d-none d-lg-inline-block">
@@ -106,7 +106,7 @@ Header Area
                                     <div class="confetti"></div>
                                     <div class="confetti"></div>
                                     <div class="confetti"></div>
-                                    <img src="{{ asset('frontend-assets/img/nav-element/gnpti-bappa2.png') }}" alt="ladu plate" height="50" style="width: 60px; height: 60px;" class="bappa-animate d-inline-block d-lg-none">
+                                    <img src="{{ asset('frontend-assets/img/nav-element/gnpti-bappa2.png') }}" alt="ladu plate" height="50" style="width: 60px; height: 60px;" class="d-inline-block d-lg-none">
                                 </div>
                                 <img src="{{ asset('frontend-assets/img/nav-element/modak2.png') }}" alt="ladu plate" class="modak d-none">
                             </div>
