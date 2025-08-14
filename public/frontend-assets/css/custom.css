@@ -231,6 +231,7 @@ select {
 @media (max-width: 575px) {
     .header-logo {
         max-width: unset;
+        padding-top: 0px;
     }
 }
 
