@@ -131,6 +131,7 @@
                                     <p class="blog-text">{{ Str::limit(strip_tags($blog->content), 100) }}</p>
                                     <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}" class="th-btn black-border th-icon th-radius">Read More<i class="fa-solid fa-arrow-right ms-2"></i></a>
                                 </div>
+                                
                             </div>
                         </div>
                         @endif

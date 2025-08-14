@@ -76,46 +76,65 @@ class BlogWebController extends Controller
 
     public function innerBlog($slug)
     {
+        // Get all categories and tags
         $categories = Category::all();
-        $tags = Tag::get();
+        $tags = Tag::all();
+
+        // Get all blogs with their category names
         $blogs = DB::table('posts')
             ->leftJoin('media', 'posts.title', '=', 'media.title')
             ->select('posts.*', 'media.imagefile1')
             ->get();
-        // $canonical = $blogs->canonicals ?: url()->current();
+
+        foreach ($blogs as $blogItem) {
+            $categoryIds = json_decode($blogItem->categories);
+
+            if (is_array($categoryIds) && count($categoryIds)) {
+                $categoryNames = DB::table('categories')
+                    ->whereIn('id', $categoryIds)
+                    ->pluck('category_name');
+
+                $blogItem->category_names = $categoryNames;
+            } else {
+                $blogItem->category_names = collect();
+            }
+        }
+
+        // Get the single blog post by slug
         $blog = DB::table('posts')
             ->leftJoin('media', 'posts.title', '=', 'media.title')
             ->select('posts.*', 'media.imagefile1')
             ->where('posts.slug', $slug)
-            ->where('posts.status', ['active', 's_act'])
+            ->whereIn('posts.status', ['active', 's_act'])
             ->first();
 
         if (!$blog) {
             abort(404);
         }
+
+        // Add category names for the single blog
+        $categoryIds = json_decode($blog->categories);
+
+        if (is_array($categoryIds) && count($categoryIds)) {
+            $categoryNames = DB::table('categories')
+                ->whereIn('id', $categoryIds)
+                ->pluck('category_name');
+
+            $blog->category_names = $categoryNames;
+        } else {
+            $blog->category_names = collect();
+        }
+
+        // Prepare meta data
         $meta = [
             'meta_title' => $blog->meta_title ?? $blog->title ?? 'Sociomark',
             'meta_desciption' => $blog->meta_description ?? 'Read the latest blog on Sociomark',
             'meta_keywords' => $blog->meta_keywords ?? '',
         ];
-        // Attach category names to each blog
-        foreach ($blogs as $blog) {
-            $categoryIds = json_decode($blog->categories); // adjust if comma-separated
 
-            if (is_array($categoryIds) && count($categoryIds)) {
-                $categoryNames = DB::table('categories')
-                    ->whereIn('id', $categoryIds)
-                    ->pluck('category_name'); // returns a simple array
-
-                $blog->category_names = $categoryNames;
-            } else {
-                $blog->category_names = collect(); // empty collection to avoid errors
-            }
-        }
-        // dd($meta);
-        // dd($blog);
         return view('Frontend/Blog/InnerBlog', compact('blog', 'categories', 'blogs', 'tags', 'meta'));
     }
+
     public function categoryBlog($slug)
     {
         // Find the category by slug

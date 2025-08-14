@@ -171,8 +171,8 @@
 
                             <div class="blog-content content-padding">
 
-                                <div class="mt-md-5 mt-3">{!! $blog->content !!}</div>
-
+                                <!-- <div class="mt-md-5 mt-3">{!! $blog->content !!}</div> -->
+                                <p class="blog-text">{!! $blog->content !!}</p>
                                 <!-- <p class="blog-text">{!! nl2br(e($blog->content)) !!}</p> -->
 
                             </div>
