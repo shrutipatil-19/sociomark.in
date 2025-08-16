@@ -211,7 +211,7 @@
                     x: 0
                 },
                 colors: colors,
-                scalar: 1.3 // Bigger confetti size
+                scalar: 1.3 
             });
 
             confetti({
@@ -222,7 +222,7 @@
                     x: 1
                 },
                 colors: colors,
-                scalar: 1.3 // Bigger confetti size
+                scalar: 1.3 
             });
 
             if (Date.now() < end) {
