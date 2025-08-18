@@ -12,7 +12,7 @@
                 <div class="col-12">
                     <div class="breadcumb-content breadcrumb-light">
                         <h1 class="breadcumb-title text-center text-md-start">Home Interior Industry</h1>
-                       
+
                     </div>
                 </div>
             </div>
@@ -32,16 +32,22 @@
                 </div>
                 <div class="col-lg-8">
                     <div class="title-area mb-25 mt-n1">
-                        <h2 class="fw-bold sec-title" data-aos="zoom-in" data-aos-delay="100">
-                            <span class="text-blue">Aesthetic Meets Strategy</span> Digital Marketing for Home & Décor
-                            Brands
+                        <h2 class="fw-bold sec-title" data-aos="zoom-in" data-aos-delay="100">Making
+                            <span class="text-blue"> home décor
+                            </span> brands look irresistible and easy to choose
                         </h2>
                     </div>
                     <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
-                        We make décor desirable. From mood boards to market-ready campaigns, we curate digital
-                        experiences that reflect the beauty of your brand. Let’s turn interiors into inspiration and
-                        browsers into buyers.
-
+                        Home décor’s main objective is to help people imagine how their spaces can be enhanced in look and feel. This makes having a strong digital presence an important aspect. The reason being, it becomes clear and easy for the customer to discover and find your brand.
+                    </p>
+                    <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
+                        Clear and relatable communication paired with consistency is the key to achieving measurable results in this space. Businesses can harness the power of digital marketing tools to be seen and have a voice. Be it through mood boards, creative reels, videography of the site or social media campaigns, a tailored strategy can help build brand loyalty and inspire a buyer’s decision.
+                    </p>
+                    <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
+                        Content plays a very crucial role in keeping the audience engaged. Adding to that, influencer collaborations can help expand the reach. The goal is to stay on the customer’s radar for buying and establish the brand as a reliable one.
+                    </p>
+                    <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
+                        When done right, digital marketing turns casual viewers into a loyal customer base. Over time the brand becomes a trusted source for home styling ideas and inspirations. Our portfolio of clients includes many from this particular domain. We have helped them design strategies and create powerful content that inspires their target audience and drives more revenue.
                     </p>
                     <a href="#" class="th-btn th-icon" data-bs-toggle="modal" data-bs-target="#getAQuoteModal">Get
                         A Quote <i class="fa-solid fa-arrow-right ms-2"></i></a>
@@ -330,7 +336,7 @@
                     Clients We've <span class="text-blue"> Worked With</span>
                 </h2>
             </div>
-             @include('Frontend.partial.industry.commonIndustry')
+            @include('Frontend.partial.industry.commonIndustry')
             <div class="filter-menu d-none filter-menu-active mt-md-5 mb-md-4">
                 <button data-filter="*" class="tab-btn active" type="button">All</button>
                 <button data-filter=".cat1" class="tab-btn" type="button">Digital Marketing</button>
