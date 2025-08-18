@@ -40,11 +40,20 @@
                 <div class="col-lg-8">
                     <div class="title-area mb-25 mt-n1">
                         <h2 class="fw-bold sec-title" data-aos="zoom-in" data-aos-delay="100">
-                            Making FMCG Brands Stick in<span class="text-blue"> Carts & Minds</span>
+                            Shaping Brands that People Invite into <span class="text-blue"> Their Lives</span>
                         </h2>
                     </div>
                     <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
-                        We turn impulse into loyalty. Whether it’s snackable content, moment marketing, or influencer collabs, our full-suite solutions ensure your brand flies off digital shelves and stays top-of-mind, always.
+                        A purchase is more than just a simple transaction. It can be the start of customer loyalty, earned by being reliable and delivering quality goods. Also, clear messaging helps people to better understand how a product can complement their daily routines in a positive way.
+                    </p>
+                    <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
+                        This is where storytelling holds an important role. Simple and honest communication increases trust among the people and makes a brand memorable. The best examples: Fevicol and Parle-G. Unlike the current belief of many, that following trends is the way to go. We have a different take on it. We believe customer loyalty is earned over a period of time with consistent performance and not overnight trends. Trends are like the waning and waxing periods of the moon. It may be a good idea to participate in a trend but solely relying on them is a recipe for failure.
+                    </p>
+                    <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
+                        Coming to content and campaigns, they help brands reach people and convey the message clearly. The main thing is to be consistent and natural.
+                    </p>
+                    <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
+                        Over the years we have helped our clients from the FMCG niche to be a part of their customers' kitchens by consistent and proper messaging, helping them to be visible and sell better.
                     </p>
                     <a href="#" class="th-btn th-icon" data-bs-toggle="modal" data-bs-target="#getAQuoteModal">Get
                         A Quote <i class="fa-solid fa-arrow-right ms-2"></i></a>
@@ -374,7 +383,7 @@
                     Clients We've <span class="text-blue"> Worked With</span>
                 </h2>
             </div>
-             @include('Frontend.partial.industry.commonIndustry')
+            @include('Frontend.partial.industry.commonIndustry')
             <div class="filter-menu d-none filter-menu-active mt-md-5 mb-md-4">
                 <button data-filter="*" class="tab-btn active" type="button">All</button>
                 <button data-filter=".cat1" class="tab-btn" type="button">Digital Marketing</button>
