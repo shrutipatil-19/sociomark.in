@@ -12,7 +12,7 @@
                 <div class="col-12">
                     <div class="breadcumb-content breadcrumb-light">
                         <h1 class="breadcumb-title text-center text-md-start">Real Estate Industry</h1>
-                       
+
                     </div>
                 </div>
             </div>
@@ -33,15 +33,23 @@
                 <div class="col-lg-8">
                     <div class="title-area mb-25 mt-n1">
                         <h2 class="fw-bold sec-title" data-aos="zoom-in" data-aos-delay="100">
-                            Real Estate Digital Marketing that <span class="text-blue">Sells Dreams</span>, Not Just
-                            Homes
+                            Real estate marketing that builds a permanent home in
+                            <span class="text-blue">people’s minds</span>
+
                         </h2>
                     </div>
                     <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
 
-                        From property launches to lead generation, we help real estate brands build their digital
-                        footprint. With sleek visuals, hyper-targeted ads, and storytelling that resonates, we bring
-                        your square footage to life online.
+                        Leads are the seeds of a real estate business. A strong online presence can do wonders in attracting them. Unlike olden times, people no longer visit a property physically; they search online. Hence, being visible on a digital platform is not just important but mandatory for survival.
+                    </p>
+                    <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
+                        Housing is a very important part of people’s lives, and they won’t take the first step if they don’t understand you clearly. That is why the content needs to be clear, engaging and informative rather than cluttered and confusing. Campaigns that broadcast the right message, stories that make properties relatable, and content that highlights the benefits instead of features—all these help buyers imagine living there.
+                    </p>
+                    <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
+                        Adding to that, consistency across the channels helps build recognition and trust over a period of time. High-quality videography and photography can be a catalyst to gaining people’s trust. It can help to see the place in the best way. Additionally, email campaigns help maintain contact with the interested leads. Each piece of content that we put out there helps to build a brand’s credibility and awareness.
+                    </p>
+                    <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
+                        Finally, when all these digital marketing tools are executed in a proper way, they turn casual browsers into interested ones. Using tailored strategies, over the years we have assisted our clients in the real estate space to be seen and sell better.
 
                     </p>
                     <a href="#" class="th-btn th-icon" data-bs-toggle="modal" data-bs-target="#getAQuoteModal">Get
@@ -322,7 +330,7 @@
                     Clients We've <span class="text-blue"> Worked With</span>
                 </h2>
             </div>
-             @include('Frontend.partial.industry.commonIndustry')
+            @include('Frontend.partial.industry.commonIndustry')
             <div class="filter-menu d-none filter-menu-active mt-md-5 mb-md-4">
                 <button data-filter="*" class="tab-btn active" type="button">All</button>
                 <button data-filter=".cat1" class="tab-btn" type="button">Digital Marketing</button>
