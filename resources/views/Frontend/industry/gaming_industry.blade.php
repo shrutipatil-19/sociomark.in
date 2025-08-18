@@ -31,14 +31,21 @@
                 </div>
                 <div class="col-lg-8">
                     <div class="title-area mb-25 mt-n1">
-                        <h2 class="fw-bold sec-title" data-aos="zoom-in" data-aos-delay="100">Up your Digital Game with
-                            Marketing That Hits Like a <span class="text-blue">Headshot</span>
+                        <h2 class="fw-bold sec-title" data-aos="zoom-in" data-aos-delay="100">Level up your brand’s
+                            <span class="text-blue">digital play</span>
                         </h2>
                     </div>
                     <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
-                        From pre-launch hype to tournament buzz, we know how to level up engagement. With quirky
-                        content, reel-ready ideas, and creator collabs, we speak the gamer lingo fluently—and make your
-                        brand impossible to scroll past.
+                        There has been a recent addition to the sports industry. It is called esports. This has given rise to a whole new niche of brands. These can be the ones who make gaming hardware, event organizers, media channels, etc. The gaming world thrives on excitement; therefore, audiences are always looking for what the new update, release or any event happening is.
+                    </p>
+                    <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
+                        Short-form videos can help gain audience attention. Creative and interactive content keeps the viewers engaged and sharing. Campaigns can be built around launches, tournament or even to engage participation in an event. This helps turn the viewers into loyal fans.
+                    </p>
+                    <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
+                        Social media platforms offer spaces to gaming communities, where they can gather, chat, share their opinions, their progress or even help out fellow players. Sharing BTS moments or tournament highlights can gain loyalty for a brand so that the followers come back for more.
+                    </p>
+                    <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
+                        Our team includes those who love gaming, which makes the whole process fun and authentic. They understand the gaming lingo and the trends and what connects with the audience. Over the years we have helped various gaming brands be at the top of their digital marketing game.
                     </p>
                     <a href="#" class="th-btn th-icon" data-bs-toggle="modal" data-bs-target="#getAQuoteModal">Get
                         A Quote <i class="fa-solid fa-arrow-right ms-2"></i></a>
