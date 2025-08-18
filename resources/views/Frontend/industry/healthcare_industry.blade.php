@@ -12,7 +12,7 @@
                 <div class="col-12">
                     <div class="breadcumb-content breadcrumb-light ">
                         <h1 class="breadcumb-title text-center text-md-start">Healthcare Industry</h1>
-                       
+
                     </div>
                 </div>
             </div>
@@ -33,14 +33,19 @@
                 <div class="col-lg-8">
                     <div class="title-area mb-25 mt-n1">
                         <h2 class="fw-bold sec-title" data-aos="zoom-in" data-aos-delay="100">
-                            Digital Healthcare Marketing that <span class="text-blue">Builds Trust & Drives
-                                Growth</span>
+                            Helping Healthcare Providers Reach and <span class="text-blue">Serve More Patients</span>
                         </h2>
+
                     </div>
                     <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
-                        In a sector where empathy meets expertise, we bring both. From appointment-based campaigns to
-                        reputation management and treatment-driven content, our strategies build credibility and connect
-                        you with the right audience, every time.
+                        Behind every appointment there is someone who needs reassurance and hope that all will be well. We work with brands from the healthcare industry to fulfill this need. With thoughtful content, we guide the patients towards the care that they need.
+                    </p>
+                    <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
+                        Our work spans educational stories that simplify complex topics into digestible bits, service highlights, and more. We know that healthcare decisions can be stressful. Through empathy and clear communication, we ease those concerns.
+                    </p>
+                    <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
+                        Sharing real stories, testimonials, and insights, we make your brand more relatable and trustworthy. Our strategies combine the use of various platforms and tools, based on where the audiences are. The content is tailored so that it reflects the values and strength of your brand.
+                        Ultimately, our goal is to help healthcare providers be able to help and serve more and more people.
                     </p>
                     <a href="#" class="th-btn th-icon" data-bs-toggle="modal" data-bs-target="#getAQuoteModal">
                         Get A Quote <i class="fa-solid fa-arrow-right ms-2"></i></a>
@@ -377,7 +382,7 @@
                     Clients We've <span class="text-blue"> Worked With</span>
                 </h2>
             </div>
-              @include('Frontend.partial.industry.commonIndustry')
+            @include('Frontend.partial.industry.commonIndustry')
             <div class="filter-menu d-none filter-menu-active mt-md-5 mb-md-4">
                 <button data-filter="*" class="tab-btn active" type="button">All</button>
                 <button data-filter=".cat1" class="tab-btn" type="button">Digital Marketing</button>
