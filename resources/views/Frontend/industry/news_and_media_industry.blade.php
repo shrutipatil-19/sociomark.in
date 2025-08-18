@@ -13,7 +13,7 @@
                 <div class="col-12">
                     <div class="breadcumb-content breadcrumb-light">
                         <h1 class="breadcumb-title  text-center text-md-start">News & Media Industry</h1>
-                        
+
                     </div>
                 </div>
             </div>
@@ -35,14 +35,21 @@
                 <div class="col-lg-8">
                     <div class="title-area mb-25 mt-n1">
                         <h2 class="fw-bold sec-title" data-aos="zoom-in" data-aos-delay="100">
-                            Fueling <span class="text-blue">Digital Narratives</span> for News & Media Brands
+                            Helping
+                            <span class="text-blue">news and media</span> brands find their voice and stand out from the noise
                         </h2>
                     </div>
                     <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
-                        In an age of constant content, we help your stories lead the scroll. From performance campaigns
-                        to social storytelling, we craft strategies that spark conversations, build trust, and keep your
-                        audience coming back for more.
-
+                        In the age of reels and shorts, every other video is about any news or happenings. For a brand from the News & Media sector, it is quite easy to get lost in this clutter. Every other brand is trying to catch people’s attention and be remembered. To stand out, a unique approach is needed. It can be done with the help of the right digital strategies that enable a brand to communicate with their target audience effectively.
+                    </p>
+                    <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
+                        Clear and consistent messaging can be a place to start with. In a crowded space that speaks in one harsh tone, having a distinctive pitch can captivate the audience. How do we do that? Through engaging content that makes people have conversations around. Because trust is not built on random stories bombarded onto their feed; it is built when they find value in what you say.
+                    </p>
+                    <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
+                        Thoughtful campaigns, articles, etc., can help a brand to do so. Moreover, being present across platforms increases the reach. To understand the audience is the key to framing a relevant and valuable message without being boring or repetitive.
+                    </p>
+                    <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
+                        Over the years we have helped our clients from this domain be seen and heard through consistent and valuable content, thus guiding them to be a trusted voice in this space.
                     </p>
                     <a href="#" class="th-btn th-icon" data-bs-toggle="modal" data-bs-target="#getAQuoteModal">Get
                         A Quote <i class="fa-solid fa-arrow-right ms-2"></i></a>
@@ -393,7 +400,7 @@
                     Clients We've <span class="text-blue"> Worked With</span>
                 </h2>
             </div>
-              @include('Frontend.partial.industry.commonIndustry')
+            @include('Frontend.partial.industry.commonIndustry')
             <div class="filter-menu d-none filter-menu-active mt-md-5 mb-md-4">
                 <button data-filter="*" class="tab-btn active" type="button">All</button>
                 <button data-filter=".cat1" class="tab-btn" type="button">Digital Marketing</button>
