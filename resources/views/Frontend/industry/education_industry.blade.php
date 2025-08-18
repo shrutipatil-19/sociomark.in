@@ -32,14 +32,20 @@
                 <div class="col-lg-8">
                     <div class="title-area mb-25 mt-n1">
                         <h2 class="fw-bold sec-title" data-aos="zoom-in" data-aos-delay="100">
-                            Empowering Education Brands with <span class="text-blue">Digital Excellence</span>
+                            Making Your Educational Institution Visible, <span class="text-blue">Valuable and Preferred</span>
                         </h2>
                     </div>
                     <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
-                        From admissions to alumni engagement, we craft campaigns that educate, engage, and enroll.
-                        Whether it’s performance marketing or content strategy, we ensure your institution or
-                        educational campaign stands out in a crowded digital landscape. Let's fuel the future of
-                        learning, digitally.
+                        In today’s digital times, having an online presence is important for schools and colleges. We help these institutions by making campaigns that help them increase engagement and attract more admissions. The approach that we use is customized and is a mix of various digital marketing tools. Be it interactive content or targeted ads. This ensures that we send the right message to the right audience.
+                    </p>
+                    <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
+                        We understand the challenges that educational bodies face, so we craft messages that parents and students can relate to. Standing out in a sea of sameness needs a blend of creative prowess and strategy, and that is where our expertise comes in.
+                    </p>
+                    <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
+                        From social media marketing to search engine optimization, we use every tool so that it highlights what makes your institution special. Our goal is to do work that inspires action and get more applicants. We think and believe that a lasting message benefits an institution long after the campaign has ended. Therefore, by working closely with your team, we ensure that the messaging remains authentic and true to your values.
+                    </p>
+                    <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
+                        Let us make a meaningful difference in the education sector and help your institution shine and thrive.
                     </p>
                     <a href="#" class="th-btn th-icon" data-bs-toggle="modal" data-bs-target="#getAQuoteModal">Get
                         A Quote <i class="fa-solid fa-arrow-right ms-2"></i></a>
