@@ -12,7 +12,7 @@
                 <div class="col-12">
                     <div class="breadcumb-content breadcrumb-light">
                         <h1 class="breadcumb-title text-center text-md-start">Public Sector & Government</h1>
-                       
+
                     </div>
                 </div>
             </div>
@@ -33,11 +33,21 @@
                 <div class="col-lg-8">
                     <div class="title-area mb-25 mt-n1">
                         <h2 class="fw-bold sec-title" data-aos="zoom-in" data-aos-delay="100">
-                            Empowering <span class="text-blue">Governance</span> Through Digital Media
+                            Bridging
+                            <span class="text-blue">government bodies</span> and citizens with meaning and clear communication
                         </h2>
                     </div>
                     <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
-                        We collaborate with government bodies to enhance public communication and engagement through strategic digital solutions. From managing official social media handles to covering key events, we ensure timely and impactful messaging across platforms. Our team offers complete content creation support, including videography, photography, and graphic design—to document initiatives, showcase achievements, and build public trust. Whether it’s a campaign launch or a grassroots event, we help make every effort visible, clear, and citizen-focused.
+                        As the world changes and technology advances, government bodies need to evolve too. Gone are the days when updates were only posted on noticeboards in government offices. Today, citizens expect to find information where they already spend their time, on digital platforms.
+                    </p>
+                    <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
+                        Having a strong online presence helps create clear and direct communication between the government and the public. It allows important messages, updates, and notices to reach people quickly and effectively. Whether it’s through videos of community events or updates about public drives, digital channels keep citizens informed and engaged.
+                    </p>
+                    <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
+                        Social media also offers transparency. By sharing progress on projects, showcasing initiatives, and highlighting events, people can see how their tax money is being used for the city’s development. This builds trust and fosters a stronger relationship between the government and the community.
+                    </p>
+                    <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
+                        Over the years, we have worked with government bodies and municipalities to make these conversations more open and accessible. We help cover events, share updates, and create content that reflects their hard work and dedication. Our goal is to help government organizations stay connected with citizens, build trust, and communicate with clarity.
                     </p>
                     <a href="#" class="th-btn th-icon" data-bs-toggle="modal" data-bs-target="#getAQuoteModal">Get
                         A Quote <i class="fa-solid fa-arrow-right ms-2"></i></a>
@@ -299,7 +309,7 @@
                     Clients We've <span class="text-blue"> Worked With</span>
                 </h2>
             </div>
-              @include('Frontend.partial.industry.commonIndustry')
+            @include('Frontend.partial.industry.commonIndustry')
             <div class="filter-menu d-none filter-menu-active mt-md-5 mb-md-4">
                 <button data-filter="*" class="tab-btn active" type="button">All</button>
                 <button data-filter=".cat1" class="tab-btn" type="button">Digital Marketing</button>
