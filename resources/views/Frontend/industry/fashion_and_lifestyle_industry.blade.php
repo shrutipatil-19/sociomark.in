@@ -31,11 +31,20 @@
                 </div>
                 <div class="col-lg-8">
                     <div class="title-area mb-25 mt-n1">
-                        <h2 class="fw-bold sec-title" data-aos="zoom-in" data-aos-delay="100">Where Trends Meet Tech - <span class="text-blue">Digital Marketing</span> for Fashion & Lifestyle Brands</h2>
+                        <h2 class="fw-bold sec-title" data-aos="zoom-in" data-aos-delay="100"><span class="text-blue">Fashion & Lifestyle</span> marketing that keeps your brand in style
+                        </h2>
                     </div>
                     <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
-                        We don’t follow trends, we start them. From stunning grids to influencer-led campaigns, we help lifestyle brands break the clutter and build communities. It’s not just about looking good—it’s about being unforgettable.
-
+                        Today most people start their fashion journey from online stores rather than real ones. Due to which a strong digital presence has become essential for brands to stay alive. Being just visible no more grants much benefit. There has to be communication with the audience that they can relate to.
+                    </p>
+                    <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
+                        The way to do so is by inculcating the power of storytelling in your digital strategies. Be it content, visuals, videos, etc. This positions a brand as someone who knows what they stand for and is clear about their vision. The fashion and lifestyle niche can greatly benefit from methods like influencer collaboration and targeted ads.
+                    </p>
+                    <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
+                        Adding to that, consistency is the key, no matter what domain it is. Engaging content and interactions with the audience help build a community around the brand, which over time blossoms into customer loyalty.
+                    </p>
+                    <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
+                        The result of this approach is high engagement and wider reach. At Sociomark, we help our clients in the fashion space speak with elegance and convert their followers into customers by using digital strategies tailored as per their goals.
                     </p>
                     <a href="#" class="th-btn th-icon" data-bs-toggle="modal" data-bs-target="#getAQuoteModal">Get
                         A Quote <i class="fa-solid fa-arrow-right ms-2"></i></a>
@@ -314,7 +323,7 @@
                     Clients We've <span class="text-blue"> Worked With</span>
                 </h2>
             </div>
-             @include('Frontend.partial.industry.commonIndustry')
+            @include('Frontend.partial.industry.commonIndustry')
             <div class="filter-menu d-none filter-menu-active mt-md-5 mb-md-4">
                 <button data-filter="*" class="tab-btn active" type="button">All</button>
                 <button data-filter=".cat1" class="tab-btn" type="button">Digital Marketing</button>
