@@ -6,7 +6,7 @@
 
 @section('content')
 <main id="seo-service">
-    <div class="breadcumb-wrapper p-0" style="margin-top: 66px;">
+    <div class="breadcumb-wrapper p-0" style="margin-top: 105px;">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 p-0">
@@ -59,22 +59,110 @@
             </div>
         </div>
     </section>
+    <section class="bg-grey space services px-5">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-4">
+                    <h2 class="sec-title mb-20" data-aos="fade-right" data-aos-duration="1000">Create More
+                        <span class="text-blue">Awareness</span>
+                    </h2>
+                    <p class="sec-para mb-35" data-aos="fade-right" data-aos-duration="2000">Overall, A 360 degree approach, facilitating a
+                        complete coverage
+                        of all possible digital mediums. You know we can mark all possibilities!</p>
+                </div>
+                <div class="col-lg-8">
+                    <div class="service-process-wrap">
+                        <div class="service-process" data-aos="fade-left" data-aos-duration="1000">
+                            <div class="align-content-center service-process_img"><img
+                                    src="{{ asset('frontend-assets/img/servicePages/Website Developement/tech/tech_work_1.png') }}" height="50"
+                                    alt="HTML">
+                            </div>
+                            <a href="#">
+                                <div class="service-process_centent">
+                                    <h5 class="sub-sec-title">HTML</h5>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div class="service-process" data-aos="fade-left" data-aos-duration="2000">
+                            <div class="align-content-center service-process_img"><img
+                                    src="{{ asset('frontend-assets/img/servicePages/Website Developement/tech/tech_work_2.png') }}" height="50"
+                                    alt="SEO">
+                            </div>
+                            <a href="#">
+                                <div class="service-process_centent">
+                                    <h5 class="sub-sec-title">CSS </h5>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div class="service-process" data-aos="fade-left" data-aos-duration="3000">
+                            <div class="align-content-center service-process_img"><img
+                                    src="{{ asset('frontend-assets/img/servicePages/Website Developement/tech/tech_work_3.png') }}" height="50"
+                                    alt="Website Development">
+                            </div>
+                            <a href="#">
+                                <div class="service-process_centent">
+                                    <h5 class="sub-sec-title">Javascript</h5>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div class="service-process" data-aos="fade-left" data-aos-duration="4000">
+                            <div class="align-content-center service-process_img"><img
+                                    src="{{ asset('frontend-assets/img/servicePages/Website Developement/tech/tech_work_4.png') }}" height="50"
+                                    alt="Digital Marketing">
+                            </div>
+                            <a href="#">
+                                <div class="service-process_centent">
+                                    <h5 class="sub-sec-title">PHP</h5>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div class="service-process" data-aos="fade-left" data-aos-duration="5000">
+                            <div class="align-content-center service-process_img"><img
+                                    src="{{ asset('frontend-assets/img/servicePages/Website Developement/tech/tech_work_10.png') }}" height="50"
+                                    alt="Performance Marketing">
+                            </div>
+                            <a href="#">
+                                <div class="service-process_centent">
+                                    <h5 class="sub-sec-title">React</h5>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div class="service-process" data-aos="fade-left" data-aos-duration="6000">
+                            <div class="align-content-center service-process_img"><img
+                                    src="{{ asset('frontend-assets/img/servicePages/Website Developement/tech/tech_work_12.png') }}" height="50"
+                                    alt="Content Marketing">
+                            </div>
+                            <a href="#">
+                                <div class="service-process_centent">
+                                    <h5 class="sub-sec-title">WordPress</h5>
+
+                                </div>
+                            </a>
+                        </div>
+                        {{-- <div class="service-process">
+                                    <div class="align-content-center service-process_img"><img
+                                            src="{ asset('frontend-assets/img/icon/service/Social.png') }}"
+                        height="50" alt="">
+                    </div>
+                    <div class="service-process_centent">
+                        <h5 class="service-process_title">Photography & Video Production</h5>
+                        <p class="service-process_text">Creating a face for the brand with seamless
+                            integration, that helps build a connect with your audience.</p>
+                    </div>
+                </div> --}}
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
 
 
-    <style>
-        .benefit-block:hover {
-            border-left: 5px solid #106c97 !important;
-        }
-
-        .benefit-block:hover .sub-sec-title {
-            color: #106c97 !important;
-        }
-
-        #benefits {
-            max-height: 60vh;
-        }
-    </style>
-    <section class="overflow-hidden space bg-grey" id="work-flow">
+    <section class="overflow-hidden space " id="work-flow">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
@@ -127,7 +215,7 @@
                         <div class="benefit-block border-start border-4">
                             <h4 class="sub-sec-title">Develop with Care </h4>
                             <p class="sec-para"> Clean code, fast loads, and safe structure—that’s how our web
-                                    development company works.</p>
+                                development company works.</p>
                         </div>
                         <div class="benefit-block border-start border-4">
                             <h4 class="sub-sec-title">Test and Refine</h4>
@@ -140,7 +228,7 @@
         </div>
     </section>
 
-    <section class="overflow-hidden space" id="about-sec3">
+    <section class="overflow-hidden space bg-grey" id="about-sec3">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-10">
@@ -490,15 +578,15 @@
                         class="fas fa-arrow-right"></i></button>
             </div>
             @push('scripts')
-                <script>
-                    new Swiper('.testi-box-area .testimonialSlider', {
-                        loop: true,
-                        navigation: {
-                            nextEl: ".testi-box-area .slider-next",
-                            prevEl: ".testi-box-area .slider-prev",
-                        },
-                    })
-                </script>
+            <script>
+                new Swiper('.testi-box-area .testimonialSlider', {
+                    loop: true,
+                    navigation: {
+                        nextEl: ".testi-box-area .slider-next",
+                        prevEl: ".testi-box-area .slider-prev",
+                    },
+                })
+            </script>
             @endpush
         </div>
     </section>
@@ -639,6 +727,35 @@
     @include('Frontend/partial/contactUs')
 </main>
 @endsection
+
+@push('styles')
+<style>
+    .benefit-block:hover {
+        border-left: 5px solid #106c97 !important;
+    }
+
+    .benefit-block:hover .sub-sec-title {
+        color: #106c97 !important;
+    }
+
+    #benefits {
+        max-height: 60vh;
+    }
+
+    .service-process:hover {
+        background-color: antiquewhite;
+    }
+
+    .service-process-wrap {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .service-process_img {
+        margin-left: 53%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+    }
+</style>
+@endpush
 
 @push('scripts')
 <script>
