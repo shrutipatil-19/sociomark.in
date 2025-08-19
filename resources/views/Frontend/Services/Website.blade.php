@@ -161,8 +161,112 @@
         </div>
     </section>
 
+       <section class="about-area2 overflow-hidden space garally" id="portfolio-sec">
+        <div class="container ">
+            <div class="row justify-content-center">
+                <div class="col-xl-8">
+                    <div class="title-area text-center">
+                        <h2 class="fw-bold mb-5 sec-title" data-aos="fade-up" data-aos-delay="100"
+                            data-aos-duration="1000" data-aos-easing="ease-in-out">
+                            How Our Website Process <span class="text-blue"> Delivers Results</span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
 
-    <section class="overflow-hidden space " id="work-flow">
+            <!-- Tab Content -->
+            <div class="portfolio-container">
+                <div class="filter-active row h-auto g-4">
+                    <article class="card__article filter-item cat1 cat3 col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="w-100">
+                            <a href="{{ route('stemrxbio') }}">
+                                <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/project/1.png') }}" alt="image"
+                                    class="card__img img-fluid w-100" loading="lazy">
+                            </a>
+                        </div>
+                       
+                    </article>
+                    <article class="card__article filter-item cat1 cat3 col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="w-100">
+                            <a href="{{ route('buildTrack') }}">
+                                <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/project/1.png') }}" alt="image"
+                                    class="card__img img-fluid w-100" loading="lazy">
+                            </a>
+                        </div>
+                        
+                    </article>
+                    <article class="card__article filter-item cat1 cat3 col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="w-100">
+                            <a href="{{ route('cyberPower') }}">
+                                <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/project/1.png') }}" alt="image"
+                                    class="card__img img-fluid w-100" loading="lazy">
+                            </a>
+                        </div>
+                        
+                    </article>
+                    <article class="card__article filter-item cat1 cat3 col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="w-100">
+                            <a href="{{ route('nhs') }}">
+                                <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/project/1.png') }}" alt="image"
+                                    class="card__img img-fluid w-100" loading="lazy">
+                            </a>
+                        </div>
+                        
+                    </article>
+                    {{-- <article class="card__article filter-item cat1 cat3 col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="w-100">
+                            <img src="{{ asset('frontend-assets/img/case-study/thumbs/m4u.png') }}" alt="image"
+                    class="card__img img-fluid w-100" loading="lazy">
+                </div>
+                <div class="card__data">
+                    <h4 class="sub-sec-title">Markets4you</h4>
+                    <a href="{{ route('nhs') }}" class="card__button text-blue">Read More</a>
+                </div>
+                </article> --}}
+                <article class="card__article filter-item cat1 cat3 col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="w-100">
+                        <a href="{{ route('getTheHook') }}">
+                            <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/project/1.png') }}" alt="image"
+                                class="card__img img-fluid w-100" loading="lazy">
+                        </a>
+                    </div>
+                   
+                </article>
+                <article class="card__article filter-item cat2 cat1 col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="w-100">
+                        <a href="{{ route('expert4travel') }}">
+                            <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/project/1.png') }}"
+                                alt="image" class="card__img img-fluid w-100" loading="lazy">
+                        </a>
+                    </div>
+                   
+                </article>
+
+                <article class="card__article filter-item cat3 col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="w-100">
+                        <a href="{{ route('eduauraa') }}">
+                            <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/project/1.png') }}" alt="image"
+                                class="card__img img-fluid w-100" loading="lazy">
+                        </a>
+                    </div>
+                   
+                </article>
+
+                <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="w-100">
+                        <a href="{{ route('shahenaz') }}">
+                            <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/project/1.png') }}" alt="image"
+                                class="card__img img-fluid w-100" loading="lazy">
+                        </a>
+                    </div>
+                   
+                </article>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="overflow-hidden space bg-grey" id="work-flow">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
@@ -228,7 +332,7 @@
         </div>
     </section>
 
-    <section class="overflow-hidden space bg-grey" id="about-sec3">
+    <section class="overflow-hidden space " id="about-sec3">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-10">
