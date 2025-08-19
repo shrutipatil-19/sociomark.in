@@ -74,7 +74,7 @@
                     <div class="service-process-wrap">
                         <div class="service-process" data-aos="fade-left" data-aos-duration="1000">
                             <div class="align-content-center service-process_img"><img
-                                    src="{{ asset('frontend-assets/img/servicePages/Website Developement/tech/tech_work_1.png') }}" height="50"
+                                    src="{{ asset('frontend-assets/img/servicePages/Website Developement/tech/tech_work_1.png') }}" class="w-100 h-100"
                                     alt="HTML">
                             </div>
                             <a href="#">
@@ -86,7 +86,7 @@
                         </div>
                         <div class="service-process" data-aos="fade-left" data-aos-duration="2000">
                             <div class="align-content-center service-process_img"><img
-                                    src="{{ asset('frontend-assets/img/servicePages/Website Developement/tech/tech_work_2.png') }}" height="50"
+                                    src="{{ asset('frontend-assets/img/servicePages/Website Developement/tech/tech_work_2.png') }}" class="w-100 h-100"
                                     alt="SEO">
                             </div>
                             <a href="#">
@@ -96,9 +96,9 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="service-process" data-aos="fade-left" data-aos-duration="3000">
+                        <div class="service-process" data-aos="fade-left" data-aos-duration="1000">
                             <div class="align-content-center service-process_img"><img
-                                    src="{{ asset('frontend-assets/img/servicePages/Website Developement/tech/tech_work_3.png') }}" height="50"
+                                    src="{{ asset('frontend-assets/img/servicePages/Website Developement/tech/tech_work_3.png') }}" class="w-100 h-100"
                                     alt="Website Development">
                             </div>
                             <a href="#">
@@ -108,9 +108,9 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="service-process" data-aos="fade-left" data-aos-duration="4000">
+                        <div class="service-process" data-aos="fade-left" data-aos-duration="1000">
                             <div class="align-content-center service-process_img"><img
-                                    src="{{ asset('frontend-assets/img/servicePages/Website Developement/tech/tech_work_4.png') }}" height="50"
+                                    src="{{ asset('frontend-assets/img/servicePages/Website Developement/tech/tech_work_4.png') }}" class="w-100 h-100"
                                     alt="Digital Marketing">
                             </div>
                             <a href="#">
@@ -120,9 +120,9 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="service-process" data-aos="fade-left" data-aos-duration="5000">
+                        <div class="service-process" data-aos="fade-left" data-aos-duration="2000">
                             <div class="align-content-center service-process_img"><img
-                                    src="{{ asset('frontend-assets/img/servicePages/Website Developement/tech/tech_work_10.png') }}" height="50"
+                                    src="{{ asset('frontend-assets/img/servicePages/Website Developement/tech/tech_work_10.png') }}" class="w-100 h-100"
                                     alt="Performance Marketing">
                             </div>
                             <a href="#">
@@ -132,9 +132,9 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="service-process" data-aos="fade-left" data-aos-duration="6000">
+                        <div class="service-process" data-aos="fade-left" data-aos-duration="3000">
                             <div class="align-content-center service-process_img"><img
-                                    src="{{ asset('frontend-assets/img/servicePages/Website Developement/tech/tech_work_12.png') }}" height="50"
+                                    src="{{ asset('frontend-assets/img/servicePages/Website Developement/tech/tech_work_12.png') }}" class="w-100 h-100"
                                     alt="Content Marketing">
                             </div>
                             <a href="#">
@@ -751,9 +751,15 @@
     }
 
     .service-process_img {
-        margin-left: 53%;
+        margin-left: 45%;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+        border-width: 1px;
+        border: 1px solid transparent !important;
+        margin-top: -43px;
+        width: 80px;
+        height: 80px;
     }
+
 </style>
 @endpush
 
