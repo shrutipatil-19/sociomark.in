@@ -10,9 +10,9 @@ class CaseStudyController extends Controller
     public function index()
     {
         $meta = [
-            'title' => 'Case Studies | Sociomark Digital Marketing in UAE​​',
-            'description' => "See how Sociomark, a digital marketing agency in UAE, helped brands grow with smart online strategies like SEO, ads, and social media marketing.",
-            'keywords' => 'Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
+            'title' => 'Read our Succesful case studies | Grow Your Business with Sociomark​​',
+            'description' => "know how we develop a businesses's, online presence, brand, website traffic, generate leads, tailor solutions in thses case studies.",
+            'keywords' => 'Sociomark, Sociomark Digital Marketing, Digital Marketing Agency In Navi Mumbai, Digital Marketing Company In Navi Mumbai, Internet Marketing Agency In Navi Mumbai, Internet Marketing Company In Navi Mumbai, Digital Advertising Company In Navi Mumbai, Internet Advertising Company In Navi Mumbai, Digital Advertising Agency In Navi Mumbai, Internet Advertising Agency In Navi Mumbai, Real Estate Digital Marketing Agency In Navi Mumbai, SEO Agency In Navi Mumbai, Website Design Agency In Navi Mumbai, Website Development Agency In Navi Mumbai, E-Commerce Website Development Agency In Navi Mumbai'
         ];
         return view('Frontend/caseStudy/case-study', compact('meta'));
     }
