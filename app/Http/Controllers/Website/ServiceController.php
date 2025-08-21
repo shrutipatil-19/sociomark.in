@@ -78,9 +78,9 @@ class ServiceController extends Controller
     public function seo()
     {
         $meta = [
-            'title' => 'SEO Agency in UAE | Boost Your Rankings with Sociomark',
-            'description' => "Boost your online presence with Dubai's leading SEO Company. Our SEO Services help improve rankings, increase traffic, and grow your business effectively.",
-            'keywords' => 'SEO agency Dubai, UAE search optimization, local SEO Dubai, SEO company UAE,  Digital marketing agency in Ajman, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
+            'title' => 'SEO agency in Mumbai | Sociomark',
+            'description' => "Boost online success with Sociomark, the leading SEO company in Mumbai. Our skilled SEO services in Mumbai provide approved strategies for measurable business success.",
+            'keywords' => 'best seo agency in mumbai,seo company in mumbai,seo services in mumbai,seo agency in mumbai,seo company mumbai,seo agency,seo company,search engine optimization'
         ];
         $categories = Category::all();
         $tags = Tag::all();
@@ -115,9 +115,9 @@ class ServiceController extends Controller
     public function website()
     {
         $meta = [
-            'title' => 'Website Development Company in UAE | Build Your Online Presence',
-            'description' => 'Looking for a top website development agency in Dubai? Our experts build responsive, user-friendly websites that drive conversions and boost online presence.',
-            'keywords' => 'website development UAE, web design Dubai, custom web solutions Dubai,  Digital marketing agency in Ajman, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
+            'title' => 'Website Development Company in Navi Mumbai',
+            'description' => 'Get your company or a business website designed and developed by Sociomark’s experienced web developers & designers. Request for a quote now.',
+            'keywords' => 'web design company, website development company'
         ];
         $blogs = DB::table('posts')
             ->leftJoin('media', 'posts.title', '=', 'media.title')
@@ -157,9 +157,9 @@ class ServiceController extends Controller
     public function socialMedia()
     {
         $meta = [
-            'title' => 'Social Media Marketing Agency in UAE | Sociomark',
-            'description' => 'Boost your brand with expert social media agency services in Dubai. Customized strategies to grow your online presence and engage your audience effectively.',
-            'keywords' => 'social media agency Dubai, SMO UAE, social campaigns Dubai, influencer marketing UAE,  Digital marketing agency in Ajman, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
+            'title' => 'Social Media agency in Navi Mumbai | Sociomark',
+            'description' => 'Sociomark, a top social media agency in Navi Mumbai, helps your business build a unique identity and connect with a broader audience for impactful growth.',
+            'keywords' => 'Social media agency,Social media company,Social media consultant,Social media services'
         ];
         $categories = Category::all();
         $tags = Tag::all();
