@@ -17,7 +17,7 @@
         </div>
     </div>
 
-    <section class="overflow-hidden mb-md-5 md-2 pt- " id="about-sec">
+    <section class="overflow-hidden mb-md-5 md-2 pt-5" id="about-sec">
         <div class="container">
             <div class="row align-items-end justify-content-center">
                 <div class="col-lg-10 col-12 d-flex justify-content-center align-items-center flex-column">
@@ -180,7 +180,7 @@
                     <article class="card__article filter-item cat1 cat3 col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="w-100">
                             <a href="{{ route('stemrxbio') }}">
-                                <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/project/1.png') }}" alt="image"
+                                <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/aainos.png') }}" alt="image"
                                     class="card__img img-fluid w-100" loading="lazy">
                             </a>
                         </div>
@@ -189,7 +189,7 @@
                     <article class="card__article filter-item cat1 cat3 col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="w-100">
                             <a href="{{ route('buildTrack') }}">
-                                <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/project/1.png') }}" alt="image"
+                                <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/ayushakti-usa.jpg') }}" alt="image"
                                     class="card__img img-fluid w-100" loading="lazy">
                             </a>
                         </div>
@@ -198,7 +198,7 @@
                     <article class="card__article filter-item cat1 cat3 col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="w-100">
                             <a href="{{ route('cyberPower') }}">
-                                <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/project/1.png') }}" alt="image"
+                                <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/ayushakti.jpg') }}" alt="image"
                                     class="card__img img-fluid w-100" loading="lazy">
                             </a>
                         </div>
@@ -207,7 +207,7 @@
                     <article class="card__article filter-item cat1 cat3 col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="w-100">
                             <a href="{{ route('nhs') }}">
-                                <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/project/1.png') }}" alt="image"
+                                <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/barebones.jpg') }}" alt="image"
                                     class="card__img img-fluid w-100" loading="lazy">
                             </a>
                         </div>
@@ -226,7 +226,7 @@
                 <article class="card__article filter-item cat1 cat3 col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="w-100">
                         <a href="{{ route('getTheHook') }}">
-                            <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/project/1.png') }}" alt="image"
+                            <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/dr-smita-naram.jpg') }}" alt="image"
                                 class="card__img img-fluid w-100" loading="lazy">
                         </a>
                     </div>
@@ -235,7 +235,7 @@
                 <article class="card__article filter-item cat2 cat1 col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="w-100">
                         <a href="{{ route('expert4travel') }}">
-                            <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/project/1.png') }}"
+                            <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/electro.jpg') }}"
                                 alt="image" class="card__img img-fluid w-100" loading="lazy">
                         </a>
                     </div>
@@ -245,7 +245,7 @@
                 <article class="card__article filter-item cat3 col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="w-100">
                         <a href="{{ route('eduauraa') }}">
-                            <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/project/1.png') }}" alt="image"
+                            <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/grab.jpg') }}" alt="image"
                                 class="card__img img-fluid w-100" loading="lazy">
                         </a>
                     </div>
@@ -255,7 +255,115 @@
                 <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="w-100">
                         <a href="{{ route('shahenaz') }}">
-                            <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/project/1.png') }}" alt="image"
+                            <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/kinnal collection.jpg') }}" alt="image"
+                                class="card__img img-fluid w-100" loading="lazy">
+                        </a>
+                    </div>
+                   
+                </article>
+                <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="w-100">
+                        <a href="{{ route('shahenaz') }}">
+                            <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/kolkatarolls.png') }}" alt="image"
+                                class="card__img img-fluid w-100" loading="lazy">
+                        </a>
+                    </div>
+                   
+                </article>
+                <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="w-100">
+                        <a href="{{ route('shahenaz') }}">
+                            <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/lime.jpg') }}" alt="image"
+                                class="card__img img-fluid w-100" loading="lazy">
+                        </a>
+                    </div>
+                   
+                </article>
+                <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="w-100">
+                        <a href="{{ route('shahenaz') }}">
+                            <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/of the hook nanamio.jpg') }}" alt="image"
+                                class="card__img img-fluid w-100" loading="lazy">
+                        </a>
+                    </div>
+                   
+                </article>
+                <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="w-100">
+                        <a href="{{ route('shahenaz') }}">
+                            <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/portraiturebypari.png') }}" alt="image"
+                                class="card__img img-fluid w-100" loading="lazy">
+                        </a>
+                    </div>
+                   
+                </article>
+                <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="w-100">
+                        <a href="{{ route('shahenaz') }}">
+                            <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/profinet.jpg') }}" alt="image"
+                                class="card__img img-fluid w-100" loading="lazy">
+                        </a>
+                    </div>
+                   
+                </article>
+                <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="w-100">
+                        <a href="{{ route('shahenaz') }}">
+                            <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/real-estate-awards.jpg') }}" alt="image"
+                                class="card__img img-fluid w-100" loading="lazy">
+                        </a>
+                    </div>
+                   
+                </article>
+                <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="w-100">
+                        <a href="{{ route('shahenaz') }}">
+                            <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/realestateawards.jpg') }}" alt="image"
+                                class="card__img img-fluid w-100" loading="lazy">
+                        </a>
+                    </div>
+                   
+                </article>
+                <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="w-100">
+                        <a href="{{ route('shahenaz') }}">
+                            <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/sincerelyfinance.png') }}" alt="image"
+                                class="card__img img-fluid w-100" loading="lazy">
+                        </a>
+                    </div>
+                   
+                </article>
+                <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="w-100">
+                        <a href="{{ route('shahenaz') }}">
+                            <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/springville.png') }}" alt="image"
+                                class="card__img img-fluid w-100" loading="lazy">
+                        </a>
+                    </div>
+                   
+                </article>
+                <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="w-100">
+                        <a href="{{ route('shahenaz') }}">
+                            <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/thegrandlegacy.png') }}" alt="image"
+                                class="card__img img-fluid w-100" loading="lazy">
+                        </a>
+                    </div>
+                   
+                </article>
+                <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="w-100">
+                        <a href="{{ route('shahenaz') }}">
+                            <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/theunitedemperors.png') }}" alt="image"
+                                class="card__img img-fluid w-100" loading="lazy">
+                        </a>
+                    </div>
+                   
+                </article>
+                <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="w-100">
+                        <a href="{{ route('shahenaz') }}">
+                            <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/trollers mac.jpg') }}" alt="image"
                                 class="card__img img-fluid w-100" loading="lazy">
                         </a>
                     </div>
