@@ -17,7 +17,7 @@
         </div>
     </div>
 
-    <section class="overflow-hidden mb-md-5 md-2 pt-5" id="about-sec">
+    <section class="overflow-hidden mb-md-5 md-2 pt- " id="about-sec">
         <div class="container">
             <div class="row align-items-end justify-content-center">
                 <div class="col-lg-10 col-12 d-flex justify-content-center align-items-center flex-column">
@@ -161,7 +161,7 @@
         </div>
     </section>
 
-       <section class="about-area2 overflow-hidden space garally" id="portfolio-sec">
+       <section class="about-area2 overflow-hidden space garally pb-lg-0" id="portfolio-sec">
         <div class="container ">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
