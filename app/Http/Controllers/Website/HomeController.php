@@ -21,9 +21,9 @@ class HomeController extends Controller
     public function Home()
     {
         $meta = [
-            'title' => 'Leading Digital Marketing Agency in UAE | Sociomark​',
-            'description' => "Sociomark is a top-rated digital marketing agency in Dubai, offering SEO, social media, and branding solutions to grow your business online effectively.",
-            'keywords' => 'Digital Marketing Agency in UAE, digital marketing company in Dubai'
+            'title' => 'Top Company for Digital Marketing Agency in Mumbai | Expert Services - Sociomark​',
+            'description' => "As a full-service digital marketing agency in Mumbai Sociomark offer tailored solutions to help businesses thrive online. Contact us today to learn how we can help you achieve your marketing goals.",
+            'keywords' => 'best digital marketing agency in Navi Mumbai, digital marketing agency in Navi Mumbai, digital marketing company in navi Mumbai, best digital marketing company in navi Mumbai, digital marketing agency in Mumbai, digital marketing company in Mumbai, best digital marketing agency in Mumbai, website development company in navi Mumbai'
         ];
         $categories = Category::all();
         $tags = Tag::all();
@@ -84,18 +84,18 @@ class HomeController extends Controller
     public function About()
     {
         $meta = [
-            'title' => 'Creative Marketing Agency in Dubai | Sociomark​​',
-            'description' => "Learn about Sociomark, a trusted digital marketing company in UAE, offering innovative strategies to grow your online presence and drive real results.",
-            'keywords' => 'About us, Sociomark, Best digital marleting agency in Ajman, Best Digital marketing agency in UAE, SEO agency in Dubai'
+            'title' => 'Boost Your Online Presence with Sociomark| Digital Marketing Services in Navi Mumbai​',
+            'description' => "Our digital marketing agency in Navi Mumbai can help you increase brand awareness, drive website traffic, and generate leads. Learn more about us.",
+            'keywords' => 'About Us, Sociomark, best digital marketing agency in Navi Mumbai, digital marketing agency in Navi Mumbai, digital marketing company in navi Mumbai, best digital marketing agency in Mumbai, website development company in navi Mumbai'
         ];
         return view("Frontend/AboutUs", compact('meta'));
     }
     public function Services()
     {
         $meta = [
-            'title' => 'Digital Marketing Services Dubai | SEO, PPC, SMM | Sociomark​​',
-            'description' => "Explore Digital Marketing Services in Dubai with Sociomark. We offer SEO, Social Media, PPC & more to grow your brand online.",
-            'keywords' => 'digital marketing services UAE, SEO PPC social media, content strategy UAE,  Performance marketing agency in UAE, Video editing in ajman '
+            'title' => 'Sociomark gives Full-Service Digital Marketing Agency in Mumbai | Drive Your Business Forward​',
+            'description' => "Our full-service digital marketing agency in Mumbai offers everything you need to take your online presence to the next level. From SEO to PPC, social media marketing to email marketing, we have the skills and expertise to drive your business forward.",
+            'keywords' => 'SEO company in navi Mumbai, SEO services in Mumbai, Search Engine Marketing Mumbai, social media services in Mumbai, social media services in navi Mumbai, best social media marketing company in Mumbai, social media agency in Mumbai, website development services in navi Mumbai, website development company in navi Mumbai'
         ];
         return view("Frontend/Services", compact('meta'));
     }
@@ -107,16 +107,16 @@ class HomeController extends Controller
     public function privacyAndPolicy()
     {
         $meta = [
-            'title' => 'Privacy Policy | Sociomark Digital Marketing UAE',
-            'description' => "View the privacy policy of Sociomark, a digital marketing agency in UAE, to understand how we protect your data and ensure transparency in our services."
+            'title' => 'Privacy Policy | Sociomark',
+            'description' => "Privacy Policy | Sociomark"
         ];
         return view("Frontend/privacyAndPolicy", compact('meta'));
     }
     public function termsAndcondition()
     {
         $meta = [
-            'title' => 'Terms & Conditions | Sociomark Digital Agency UAE',
-            'description' => "Read the terms and conditions of Sociomark, a digital marketing agency in UAE, to understand the rules for using our website and services."
+            'title' => 'Terms and Conditions | Sociomark',
+            'description' => "Terms and Conditions | Sociomark"
         ];
         return view("Frontend/termsAndcondition", compact('meta'));
     }
