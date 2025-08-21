@@ -103,7 +103,7 @@ return [
             'linkdin' => 'https://in.linkedin.com/company/the-professional-courier',
         ],
     ],
-    'bulid-track' => [
+    'build-track' => [
         'industry' => 'home-interior',
         'name' => 'Build Track',
         'view' => 'Frontend/Portfolio/bulidTrackSocial',

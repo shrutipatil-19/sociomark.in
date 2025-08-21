@@ -62,13 +62,13 @@ Route::get('/about', [HomeController::class, 'About'])->name('about');
 Route::get('/our-team', [HomeController::class, 'About'])->name('team');
 
 Route::get('/services',  [HomeController::class, 'Services'])->name('services');
-Route::get('/service/seo-agency-dubai', [ServiceController::class, 'seo'])->name('seo');
-Route::get('/service/website-development-agency', [ServiceController::class, 'website'])->name('website');
-Route::get('/service/social-media-agency-dubai', [ServiceController::class, 'socialMedia'])->name('socialMedia');
-Route::get('/service/digital-marketing-agency-dubai', [ServiceController::class, 'digitalMarketing'])->name('digitalMarketing');
-Route::get('/service/content-marketing-agency-dubai', [ServiceController::class, 'contentMarketing'])->name('contentMarketing');
-Route::get('/service/performance-marketing-agency', [ServiceController::class, 'sem'])->name('sem');
-Route::get('/service/photography-videography', [ServiceController::class, 'photoVideography'])->name('photoVideography');
+Route::get('/seo-agency-mumbai', [ServiceController::class, 'seo'])->name('seo');
+Route::get('/website-development-navi-mumbai', [ServiceController::class, 'website'])->name('website');
+Route::get('/social-media-agency-mumbai', [ServiceController::class, 'socialMedia'])->name('socialMedia');
+Route::get('/digital-marketing-agency-mumbai', [ServiceController::class, 'digitalMarketing'])->name('digitalMarketing');
+Route::get('/content-marketing-agency-mumbai', [ServiceController::class, 'contentMarketing'])->name('contentMarketing');
+Route::get('/performance-marketing-agency', [ServiceController::class, 'sem'])->name('sem');
+Route::get('/photography-videography', [ServiceController::class, 'photoVideography'])->name('photoVideography');
 
 // Route::get('/portfolio-inside', [PortfolioController::class, 'index'])->name('portfolio');
 Route::get('/portfolio', [PortfolioController::class, 'portfolioInside'])->name('portfolio');
@@ -134,7 +134,7 @@ Route::get('/pr', [PRWebController::class, 'index'])->name('pr');
 // Route::get('/industries', [IndustryController::class, 'home'])->name('industry_home');
 Route::get('/industry/{segment}', [IndustryController::class, 'single'])->name('industry_single');
 
-Route::get('/contact', [ContactController::class, 'index'])->name('contact');
+Route::get('/contact-us', [ContactController::class, 'index'])->name('contact');
 Route::post('/contact/store', [ContactController::class, 'store'])->name('contact.store');
 Route::post('/contact/popUpStore', [ContactController::class, 'popUpStore'])->name('popUpContact.store');
 

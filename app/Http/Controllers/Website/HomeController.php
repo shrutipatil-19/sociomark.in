@@ -101,8 +101,13 @@ class HomeController extends Controller
     }
     public function careers()
     {
+
+        $meta = [
+            'title' => 'Sociomark Careers & Job Opportunities',
+            'description' => 'Learn more about job and career opportunities at Sociomark. Search our current openings today to find the best fit for you and your career goals.'
+        ];
         // $jobs = Jobpost::all();
-        return view("Frontend/careers");
+        return view("Frontend/careers" , compact('meta'));
     }
     public function privacyAndPolicy()
     {
