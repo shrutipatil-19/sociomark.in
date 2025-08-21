@@ -10,9 +10,9 @@ class PortfolioController extends Controller
     public function index()
     {
         $meta = [
-            'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
-            'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms.",
-            'keywords' => 'best digital marketing agency in Ajman, digital marketing agency in UAE, digital marketing company in Dubai, best digital marketing to work with, Viral Campaigns, Client work, Sociomark website development company in Ajman'
+            'title' => 'Sociomark- Best Digital Marketing Agency | See Our Success Stories​',
+            'description' => "Explore our work of over 5 years and see how we have helped businesses of all sizes achieve their online goals.",
+            'keywords' => 'Sociomark, client work, clients we work for, viral campaigns, best agency to work with, best digital marketing agency in Navi Mumbai, digital marketing agency in Navi Mumbai, digital marketing company in navi Mumbai'
         ];
         return view('Frontend/Portfolio/insidePortfolio', compact('meta'));
         // return view('Frontend/Portfolio/ListPortfolioCat' , compact('meta'));
@@ -20,9 +20,9 @@ class PortfolioController extends Controller
     public function portfolioInside()
     {
         $meta = [
-            'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
-            'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms.",
-            'keywords' => 'best digital marketing agency in Ajman, digital marketing agency in UAE, digital marketing company in Dubai, best digital marketing to work with, Viral Campaigns, Client work, Sociomark website development company in Ajman'
+            'title' => 'Sociomark- Best Digital Marketing Agency | See Our Success Stories​',
+            'description' => "Explore our work of over 5 years and see how we have helped businesses of all sizes achieve their online goals.",
+            'keywords' => 'Sociomark, client work, clients we work for, viral campaigns, best agency to work with, best digital marketing agency in Navi Mumbai, digital marketing agency in Navi Mumbai, digital marketing company in navi Mumbai'
         ];
         $clients = config('clients');
 

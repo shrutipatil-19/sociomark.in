@@ -19,8 +19,9 @@ class BlogWebController extends Controller
         $tags = Tag::all();
 
         $meta = [
-            'title' => 'Sociomark Blog | Digital Marketing Insights in india',
-            'description' => 'Read expert tips, trends, and ideas from Sociomark, a digital marketing agency in india, to grow your brand online using SEO, social media, and more.'
+            'title' => 'Digital marketing blogs | Sociomark',
+            'description' => 'Avail yourself with informative digital marketing blogs written by our very skilled proffessionals at Sociomark.',
+            'keywords' => 'digital marketing blogs, best digital marketing blogs, top digital marketing blogs, digital marketing service blogs, best digital marketing agency in navi Mumbai, Sociomark, digital marketing company in Mumbai'
         ];
 
         if ($page > 1) {
