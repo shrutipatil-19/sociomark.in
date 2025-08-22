@@ -88,7 +88,7 @@
                 </div>
                 <div class="col-lg-12 col-12 d-flex justify-content-center align-items-center flex-column">
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                        data-aos-duration="1200" data-aos-easing="ease-in-out"> Are you struggling to create engaging content for your brand on social media? Do you feel that the content on your pages is not attracting or having engagement from your target audience? Is your brand not able to achieve the desired exposure that it needs? The significance of social media in the success of a business is undeniable. In today’s day and age social media is as important for a business as oxygen for humans. Not utilizing multiple channels is giving your share of the market space to competitors. And that is precisely where social media marketing comes in.
+                        data-aos-duration="1200" data-aos-easing="ease-in-out"> Are you struggling to create engaging content for your brand on social media? Do you feel that the content on your pages is not attracting or having engagement from your target audience? Is your brand not able to achieve the desired exposure that it needs? The significance of social media in the success of a business is undeniable. In today’s day and age social media is as important for a business as oxygen for humans. Not utilizing multiple channels is giving your share of the market space to competitors. And that is precisely where <a href="{{ route('socialMedia') }}">social media marketing</a> comes in.
                     </p>
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
                         data-aos-duration="1200" data-aos-easing="ease-in-out">But let us first understand what is social media marketing? and how it helps a business to have a strong online presence? Social media marketing aka SMM is the procedure that involves the creation of customized content for the target audience, building communities, and driving traffic to the business. By the marketing through social media, brands get the opportunity to interact with customers. It helps the brand to build a connection with the target audience through content that resonates with them. This aids in strengthening the brand-customer relationship.
@@ -97,7 +97,9 @@
                         data-aos-duration="1200" data-aos-easing="ease-in-out">There are multiple platforms businesses can utilize depending on the niche. Each of the platforms have their own speciality. They differ from each other in the aspect of having different kinds of audiences. These platforms include Facebook, Twitter, Instagram, LinkedIn, Pinterest, etc. Facebook's audience is a diverse mix of ages, interests, and backgrounds, making it a platform with broad reach. Instagram's audience is primarily young adults, highly visual, and focused on trends, lifestyle, and personal branding. Twitter's audience is news-driven, opinionated, and engaged in real-time conversations about current events and popular culture. LinkedIn's audience is primarily professionals focused on career development, networking, and industry insights. Pinterest's audience is a highly engaged, visually oriented consumer base actively seeking inspiration and ideas.
                     </p>
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                        data-aos-duration="1200" data-aos-easing="ease-in-out">Thus, having a presence on all these major platforms helps a business have a competitive edge over others by reaching more people.
+                        data-aos-duration="1200" data-aos-easing="ease-in-out">
+                        Thus, having a presence on all these major platforms helps a business have a competitive edge over others by reaching more people.
+
                     </p>
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
                         data-aos-duration="1200" data-aos-easing="ease-in-out">
@@ -111,7 +113,7 @@
                     </ul>
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
                         data-aos-duration="1200" data-aos-easing="ease-in-out">
-                        To create the best social media marketing strategy and execute it effectively, professional assistance is critical. This ensures your brand's voice is consistent, your message resonates, and you maximize your return on investment. As a leading social media company in mumbai, we deliver exceptional strategies that amplify your brand's online presence through innovative content creation, strategic platform management, and data-driven campaigns. Collaborate with the best social media agency in Mumbai today! Unlock your brand's full potential with expert strategies, captivating content, and measurable results. Let us elevate your online presence to new heights.
+                        To create the best social media marketing strategy and execute it effectively, professional assistance is critical. This ensures your brand's voice is consistent, your message resonates, and you maximize your return on investment. As a leading social media company in mumbai, we deliver exceptional strategies that amplify your brand's online presence through innovative content creation, strategic platform management, and data-driven campaigns. Collaborate with the <a href="{{ route('socialMedia') }}">best social media agency in Mumbai</a> today! Unlock your brand's full potential with expert strategies, captivating content, and measurable results. Let us elevate your online presence to new heights.
 
                     </p>
                 </div>
@@ -197,8 +199,29 @@
             </div>
         </div>
     </section>
+ <section class="overflow-hidden mb-md-5 md-2 pt-5" id="about-sec">
+        <div class="container">
+            <div class="row align-items-end justify-content-center">
+                <div class="col-lg-10 col-12 d-flex justify-content-center align-items-center flex-column">
+                    <div class="title-area mb-md-3 mb-2 mt-n1">
+                        <h2 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100"
+                            data-aos-duration="1000" data-aos-easing="ease-in-out">
+                            The reasons our partners place their 
+                            <span class="text-blue"> trust in us</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-12 d-flex justify-content-center align-items-center flex-column">
+                    <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
+                        data-aos-duration="1200" data-aos-easing="ease-in-out"> As a dynamic <a href="{{ route('digitalMarketing') }}">Digital marketing agency in Mumbai</a>, and one of the best SEO agency, we're passionate about helping businesses thrive in the digital space. With a team of seasoned experts, we offer a comprehensive range of social media marketing services tailored to meet your unique goals. Our focus lies in crafting innovative strategies that drive tangible results and elevate your brand's online presence. We're more than just an agency; we're your partners in digital success.
 
-    <section class="overflow-hidden space mb-md-5 mb-3" id="about-sec3">
+                    </p>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="overflow-hidden space mb-md-5 mb-3 bg-grey" id="about-sec3">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-10">
@@ -280,6 +303,28 @@
         <div class="shape-mockup d-none d-lg-block" data-bottom="0%" data-left="50%"><img
                 src="assets/img/shape/shape-14.png" alt=""></div> -->
 
+    </section>
+
+     <section class="overflow-hidden mb-md-5 md-2 pt-5" id="about-sec">
+        <div class="container">
+            <div class="row align-items-end justify-content-center">
+                <div class="col-lg-10 col-12 d-flex justify-content-center align-items-center flex-column">
+                    <div class="title-area mb-md-3 mb-2 mt-n1">
+                        <h2 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100"
+                            data-aos-duration="1000" data-aos-easing="ease-in-out">
+                            Examples that highlight what we do best—
+                            <span class="text-blue"> Case Studies</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-12 d-flex justify-content-center align-items-center flex-column">
+                    <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
+                        data-aos-duration="1200" data-aos-easing="ease-in-out"> Our proven success speaks for itself. We've helped brands across industries achieve exceptional results with our unique and impactful strategies. Our social media case study examples show how we've boosted brand engagement and driven conversions. Each <a href="{{ route('case-study') }}">case study for social media marketing</a> offers a deep dive into our process and the measurable impact of our work. We also highlight our compelling social media advertising case studies that showcase the power of paid campaigns. Explore our Best social media case study examples to see how we can help your brand succeed.
+                    </p>
+                
+                </div>
+            </div>
+        </div>
     </section>
 
     <section class="overflow-hidden space bg-grey" id="about-sec2">
@@ -1021,4 +1066,14 @@
     });
     // services tab end
 </script>
+@endpush
+
+@push('styles')
+<style>
+    p, ul{
+        width: 100% !important;
+        
+    }
+   
+</style>
 @endpush
