@@ -106,7 +106,8 @@
 
                         <b>Benefits of social media marketing for businesses.</b>
                     </p>
-                    <ul>
+                    <ul data-aos="fade-down" data-aos-delay="200"
+                        data-aos-duration="1200" data-aos-easing="ease-in-out">
                         <li class="mt-n2 mb-25 sec-para text-left">Increase website traffic.</li>
                         <li class="mt-n2 mb-25 sec-para text-left">Promote brand awareness.</li>
                         <li class="mt-n2 mb-25 sec-para text-left">Boost revenue.</li>
