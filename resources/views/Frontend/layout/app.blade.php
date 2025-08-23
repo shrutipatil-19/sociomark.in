@@ -138,6 +138,8 @@
     {{-- This will render all scripts pushed with @push('scripts') --}}
     @stack('scripts')
     <!-- Before </body> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Readmore.js/2.0.2/readmore.min.js"></script>
+
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
     <script>
         AOS.init({
@@ -211,7 +213,7 @@
                     x: 0
                 },
                 colors: colors,
-                scalar: 1.3 
+                scalar: 1.3
             });
 
             confetti({
@@ -222,14 +224,14 @@
                     x: 1
                 },
                 colors: colors,
-                scalar: 1.3 
+                scalar: 1.3
             });
 
             if (Date.now() < end) {
                 requestAnimationFrame(frame);
             }
         })();
-    </script> 
+    </script>
     @endif
     @stack('script')
 </body>

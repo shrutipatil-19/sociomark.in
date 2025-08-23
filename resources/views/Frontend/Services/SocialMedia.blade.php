@@ -93,8 +93,8 @@
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
                         data-aos-duration="1200" data-aos-easing="ease-in-out">But let us first understand what is social media marketing? and how it helps a business to have a strong online presence? Social media marketing aka SMM is the procedure that involves the creation of customized content for the target audience, building communities, and driving traffic to the business. By the marketing through social media, brands get the opportunity to interact with customers. It helps the brand to build a connection with the target audience through content that resonates with them. This aids in strengthening the brand-customer relationship.
                     </p>
-                    <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                        data-aos-duration="1200" data-aos-easing="ease-in-out">There are multiple platforms businesses can utilize depending on the niche. Each of the platforms have their own speciality. They differ from each other in the aspect of having different kinds of audiences. These platforms include Facebook, Twitter, Instagram, LinkedIn, Pinterest, etc. Facebook's audience is a diverse mix of ages, interests, and backgrounds, making it a platform with broad reach. Instagram's audience is primarily young adults, highly visual, and focused on trends, lifestyle, and personal branding. Twitter's audience is news-driven, opinionated, and engaged in real-time conversations about current events and popular culture. LinkedIn's audience is primarily professionals focused on career development, networking, and industry insights. Pinterest's audience is a highly engaged, visually oriented consumer base actively seeking inspiration and ideas.
+                    <p class="mt-n2 mb-25 sec-para text-left truncate" data-aos="fade-down" data-aos-delay="200"
+                        data-aos-duration="1200" data-aos-easing="ease-in-out" data-collapsed-words="20">There are multiple platforms businesses can utilize depending on the niche. Each of the platforms have their own speciality. They differ from each other in the aspect of having different kinds of audiences. These platforms include Facebook, Twitter, Instagram, LinkedIn, Pinterest, etc. Facebook's audience is a diverse mix of ages, interests, and backgrounds, making it a platform with broad reach. Instagram's audience is primarily young adults, highly visual, and focused on trends, lifestyle, and personal branding. Twitter's audience is news-driven, opinionated, and engaged in real-time conversations about current events and popular culture. LinkedIn's audience is primarily professionals focused on career development, networking, and industry insights. Pinterest's audience is a highly engaged, visually oriented consumer base actively seeking inspiration and ideas.
                     </p>
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
                         data-aos-duration="1200" data-aos-easing="ease-in-out">
@@ -112,8 +112,8 @@
                         <li class="mt-n2 mb-25 sec-para text-left">Promote brand awareness.</li>
                         <li class="mt-n2 mb-25 sec-para text-left">Boost revenue.</li>
                     </ul>
-                    <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                        data-aos-duration="1200" data-aos-easing="ease-in-out">
+                    <p class="mt-n2 mb-25 sec-para text-left truncate" data-aos="fade-down" data-aos-delay="200"
+                        data-aos-duration="1200" data-aos-easing="ease-in-out" data-collapsed-words="20">
                         To create the best social media marketing strategy and execute it effectively, professional assistance is critical. This ensures your brand's voice is consistent, your message resonates, and you maximize your return on investment. As a leading social media company in mumbai, we deliver exceptional strategies that amplify your brand's online presence through innovative content creation, strategic platform management, and data-driven campaigns. Collaborate with the <a href="{{ route('socialMedia') }}">best social media agency in Mumbai</a> today! Unlock your brand's full potential with expert strategies, captivating content, and measurable results. Let us elevate your online presence to new heights.
 
                     </p>
@@ -169,11 +169,13 @@
                     <div id="benefits">
                         <div class="benefit-block border-start border-4">
                             <h4 class="sub-sec-title">Understand and segment the social media audience</h4>
-                            <p class="sec-para">Understanding your target audience on social media platforms is essential. It helps to design the suitable strategies for your brand, considering what does the audience expect and what do they connect to. Not all followers contribute to the brand. Quality engagement and loyal followers are more valuable than a large but passive audience. Our social media experts understand the business and carefully select audience segments. Understanding your target audience and selecting the right platform is crucial for effective social media advertising or marketing. Each platform attracts a unique demographic, and tailoring your content accordingly is essential for maximum impact.</p>
+                            <p class="sec-para truncate" data-collapsed-words="20">Understanding your target audience on social media platforms is essential. It helps to design the suitable strategies for your brand, considering what does the audience expect and what do they connect to. Not all followers contribute to the brand. Quality engagement and loyal followers are more valuable than a large but passive audience. Our social media experts understand the business and carefully select audience segments. Understanding your target audience and selecting the right platform is crucial for effective social media advertising or marketing. Each platform attracts a unique demographic, and tailoring your content accordingly is essential for maximum impact.</p>
+
+
                         </div>
                         <div class="benefit-block border-start border-4">
                             <h4 class="sub-sec-title">Competitor research</h4>
-                            <p class="sec-para">Conducting a thorough competitor analysis is foundational to crafting a successful social media strategy. By understanding your competitors' strengths, weaknesses, and audience engagement, you can identify opportunities to differentiate your brand and capitalize on untapped market segments. A well-executed competitor analysis provides invaluable insights to refine your content strategy, optimize platform selection, and inform data-driven decision-making.
+                            <p class="sec-para truncate" data-collapsed-words="20">Conducting a thorough competitor analysis is foundational to crafting a successful social media strategy. By understanding your competitors' strengths, weaknesses, and audience engagement, you can identify opportunities to differentiate your brand and capitalize on untapped market segments. A well-executed competitor analysis provides invaluable insights to refine your content strategy, optimize platform selection, and inform data-driven decision-making.
                             </p>
                         </div>
                         <div class="benefit-block border-start border-4">
@@ -200,14 +202,14 @@
             </div>
         </div>
     </section>
- <section class="overflow-hidden mb-md-5 md-2 pt-5" id="about-sec">
+    <section class="overflow-hidden mb-md-5 md-2 pt-5" id="about-sec">
         <div class="container">
             <div class="row align-items-end justify-content-center">
                 <div class="col-lg-10 col-12 d-flex justify-content-center align-items-center flex-column">
                     <div class="title-area mb-md-3 mb-2 mt-n1">
                         <h2 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100"
                             data-aos-duration="1000" data-aos-easing="ease-in-out">
-                            The reasons our partners place their 
+                            The reasons our partners place their
                             <span class="text-blue"> trust in us</span>
                         </h2>
                     </div>
@@ -217,7 +219,7 @@
                         data-aos-duration="1200" data-aos-easing="ease-in-out"> As a dynamic <a href="{{ route('digitalMarketing') }}">Digital marketing agency in Mumbai</a>, and one of the best SEO agency, we're passionate about helping businesses thrive in the digital space. With a team of seasoned experts, we offer a comprehensive range of social media marketing services tailored to meet your unique goals. Our focus lies in crafting innovative strategies that drive tangible results and elevate your brand's online presence. We're more than just an agency; we're your partners in digital success.
 
                     </p>
-                
+
                 </div>
             </div>
         </div>
@@ -291,7 +293,7 @@
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Social Media Marketing/Services/Track, Learn, improve.png') }}"
                             alt="Track, Learn, improve" class="rounded-overflow">
-                        <p class="sec-para text">We keep track of the performance and then make regular adjustments to get the best results. Our goal is to make your reach closer and closer to your goals with each post. 
+                        <p class="sec-para text">We keep track of the performance and then make regular adjustments to get the best results. Our goal is to make your reach closer and closer to your goals with each post.
                         </p>
                     </div>
                 </div>
@@ -306,7 +308,7 @@
 
     </section>
 
-     <section class="overflow-hidden mb-md-5 md-2 pt-5" id="about-sec">
+    <section class="overflow-hidden mb-md-5 md-2 pt-5" id="about-sec">
         <div class="container">
             <div class="row align-items-end justify-content-center">
                 <div class="col-lg-10 col-12 d-flex justify-content-center align-items-center flex-column">
@@ -322,7 +324,7 @@
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
                         data-aos-duration="1200" data-aos-easing="ease-in-out"> Our proven success speaks for itself. We've helped brands across industries achieve exceptional results with our unique and impactful strategies. Our social media case study examples show how we've boosted brand engagement and driven conversions. Each <a href="{{ route('case-study') }}">case study for social media marketing</a> offers a deep dive into our process and the measurable impact of our work. We also highlight our compelling social media advertising case studies that showcase the power of paid campaigns. Explore our Best social media case study examples to see how we can help your brand succeed.
                     </p>
-                
+
                 </div>
             </div>
         </div>
@@ -1067,14 +1069,78 @@
     });
     // services tab end
 </script>
+<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+<script>
+    $('p.truncate').each(function() {
+        let $el = $(this);
+
+        // Check for word-based collapse
+        let wordLimit = $el.data('collapsed-words');
+        if (wordLimit) {
+            let words = $el.text().split(' ');
+            if (words.length > wordLimit) {
+                let visibleText = words.slice(0, wordLimit).join(' ');
+                let hiddenText = words.slice(wordLimit).join(' ');
+                $el.html(`
+                  ${visibleText}<span class="more-text" style="display:none;"> ${hiddenText}</span>
+                  <a href="#" class="read-more"> Read More</a>
+              `);
+            }
+        }
+
+        // Check for line-based collapse
+        let lineLimit = $el.data('collapsed-lines');
+        if (lineLimit) {
+            let lineHeight = parseFloat($el.css('line-height')) || 24; // default 24px
+            let collapsedHeight = lineHeight * lineLimit;
+            $el.css({
+                'max-height': collapsedHeight + 'px',
+                'overflow': 'hidden',
+                'position': 'relative'
+            });
+            $el.after('<a href="#" class="read-more">Read More</a>');
+        }
+    });
+
+    // Toggle for both types
+    $(document).on('click', '.read-more', function(e) {
+        e.preventDefault();
+        let $link = $(this);
+        let $target = $link.prev('p.truncate');
+
+        if ($target.find('.more-text').length) {
+            // Word-based toggle
+            $target.find('.more-text').slideToggle();
+            $link.text($link.text() === 'Read More' ? 'Read Less' : 'Read More');
+        } else {
+            // Line-based toggle
+            if ($target.css('overflow') === 'hidden') {
+                $target.css({
+                    'max-height': 'none',
+                    'overflow': 'visible'
+                });
+                $link.text('Read Less');
+            } else {
+                let lineLimit = $target.data('collapsed-lines');
+                let lineHeight = parseFloat($target.css('line-height')) || 24;
+                $target.css({
+                    'max-height': lineHeight * lineLimit + 'px',
+                    'overflow': 'hidden'
+                });
+                $link.text('Read More');
+            }
+        }
+    });
+</script>
+
 @endpush
 
 @push('styles')
 <style>
-    p, ul{
+    p,
+    ul {
         width: 100% !important;
-        
+
     }
-   
 </style>
 @endpush
