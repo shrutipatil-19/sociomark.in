@@ -67,8 +67,8 @@ Route::get('/website-development-navi-mumbai', [ServiceController::class, 'websi
 Route::get('/social-media-agency-mumbai', [ServiceController::class, 'socialMedia'])->name('socialMedia');
 Route::get('/digital-marketing-agency-mumbai', [ServiceController::class, 'digitalMarketing'])->name('digitalMarketing');
 Route::get('/content-marketing-agency-mumbai', [ServiceController::class, 'contentMarketing'])->name('contentMarketing');
-Route::get('/performance-marketing-agency', [ServiceController::class, 'sem'])->name('sem');
-Route::get('/photography-videography', [ServiceController::class, 'photoVideography'])->name('photoVideography');
+Route::get('/performance-marketing-agency-mumbai', [ServiceController::class, 'sem'])->name('sem');
+Route::get('/photography-videography-agency-mumbai', [ServiceController::class, 'photoVideography'])->name('photoVideography');
 
 // Route::get('/portfolio-inside', [PortfolioController::class, 'index'])->name('portfolio');
 Route::get('/portfolio', [PortfolioController::class, 'portfolioInside'])->name('portfolio');
