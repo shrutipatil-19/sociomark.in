@@ -94,7 +94,7 @@
                         data-aos-duration="1200" data-aos-easing="ease-in-out">But let us first understand what is social media marketing? and how it helps a business to have a strong online presence? Social media marketing aka SMM is the procedure that involves the creation of customized content for the target audience, building communities, and driving traffic to the business. By the marketing through social media, brands get the opportunity to interact with customers. It helps the brand to build a connection with the target audience through content that resonates with them. This aids in strengthening the brand-customer relationship.
                     </p>
                     <p class="mt-n2 mb-25 sec-para text-left truncate" data-aos="fade-down" data-aos-delay="200"
-                        data-aos-duration="1200" data-aos-easing="ease-in-out" data-collapsed-words="20">There are multiple platforms businesses can utilize depending on the niche. Each of the platforms have their own speciality. They differ from each other in the aspect of having different kinds of audiences. These platforms include Facebook, Twitter, Instagram, LinkedIn, Pinterest, etc. Facebook's audience is a diverse mix of ages, interests, and backgrounds, making it a platform with broad reach. Instagram's audience is primarily young adults, highly visual, and focused on trends, lifestyle, and personal branding. Twitter's audience is news-driven, opinionated, and engaged in real-time conversations about current events and popular culture. LinkedIn's audience is primarily professionals focused on career development, networking, and industry insights. Pinterest's audience is a highly engaged, visually oriented consumer base actively seeking inspiration and ideas.
+                        data-aos-duration="1200" data-aos-easing="ease-in-out" data-collapsed-words="40">There are multiple platforms businesses can utilize depending on the niche. Each of the platforms have their own speciality. They differ from each other in the aspect of having different kinds of audiences. These platforms include Facebook, Twitter, Instagram, LinkedIn, Pinterest, etc. Facebook's audience is a diverse mix of ages, interests, and backgrounds, making it a platform with broad reach. Instagram's audience is primarily young adults, highly visual, and focused on trends, lifestyle, and personal branding. Twitter's audience is news-driven, opinionated, and engaged in real-time conversations about current events and popular culture. LinkedIn's audience is primarily professionals focused on career development, networking, and industry insights. Pinterest's audience is a highly engaged, visually oriented consumer base actively seeking inspiration and ideas.
                     </p>
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
                         data-aos-duration="1200" data-aos-easing="ease-in-out">
@@ -113,7 +113,7 @@
                         <li class="mt-n2 mb-25 sec-para text-left">Boost revenue.</li>
                     </ul>
                     <p class="mt-n2 mb-25 sec-para text-left truncate" data-aos="fade-down" data-aos-delay="200"
-                        data-aos-duration="1200" data-aos-easing="ease-in-out" data-collapsed-words="20">
+                        data-aos-duration="1200" data-aos-easing="ease-in-out" data-collapsed-words="100">
                         To create the best social media marketing strategy and execute it effectively, professional assistance is critical. This ensures your brand's voice is consistent, your message resonates, and you maximize your return on investment. As a leading social media company in mumbai, we deliver exceptional strategies that amplify your brand's online presence through innovative content creation, strategic platform management, and data-driven campaigns. Collaborate with the <a href="{{ route('socialMedia') }}">best social media agency in Mumbai</a> today! Unlock your brand's full potential with expert strategies, captivating content, and measurable results. Let us elevate your online presence to new heights.
 
                     </p>
@@ -180,22 +180,22 @@
                         </div>
                         <div class="benefit-block border-start border-4">
                             <h4 class="sub-sec-title">Develop a social media calendar</h4>
-                            <p class="sec-para"> The next step involves the creation of a social media calendar. Our experts create a content calendar keeping in mind the business niche and the target audience. Creating a calendar helps the brand to stay consistent and offers a direction throughout the month. Identify the special days and develop creatives according to the brands voice for the particular occasion is an added advantage. You can also optimize your content calendar by specifying the best days and times to publish different content types on each platform.
+                            <p class="sec-para truncate" data-collapsed-words="20"> The next step involves the creation of a social media calendar. Our experts create a content calendar keeping in mind the business niche and the target audience. Creating a calendar helps the brand to stay consistent and offers a direction throughout the month. Identify the special days and develop creatives according to the brands voice for the particular occasion is an added advantage. You can also optimize your content calendar by specifying the best days and times to publish different content types on each platform.
                             </p>
                         </div>
 
 
                         <div class="benefit-block border-start border-4">
                             <h4 class="sub-sec-title">Create personalized content </h4>
-                            <p class="sec-para">Once the calendar has been made, the process of content creation begins. With an excellent team of expert content writers and social media strategists we work on developing personalized content which is suitable as per the brands voice and niche. Our goal is to develop content that not only informs and engages but also inspires action and builds a strong connection between your brand and your customers. By carefully considering your target audience and brand voice, we create content that stands out and delivers results.</p>
+                            <p class="sec-para truncate" data-collapsed-words="20">Once the calendar has been made, the process of content creation begins. With an excellent team of expert content writers and social media strategists we work on developing personalized content which is suitable as per the brands voice and niche. Our goal is to develop content that not only informs and engages but also inspires action and builds a strong connection between your brand and your customers. By carefully considering your target audience and brand voice, we create content that stands out and delivers results.</p>
                         </div>
                         <div class="benefit-block border-start border-4">
                             <h4 class="sub-sec-title">Engage & Interact Regularly</h4>
-                            <p class="sec-para">It is important to have a connection with your audience and interact with them to help build a community. We make that happen by making sure that every comment is replied to in a proper way with consistency.</p>
+                            <p class="sec-para truncate" data-collapsed-words="30">It is important to have a connection with your audience and interact with them to help build a community. We make that happen by making sure that every comment is replied to in a proper way with consistency.</p>
                         </div>
                         <div class="benefit-block border-start border-4">
                             <h4 class="sub-sec-title">Track and Adjust Performance</h4>
-                            <p class="sec-para"> After posting, we track each post and gather the data, which helps us in future postings. We make adjustments to improve performance so that your brand thrives in the social media landscape. </p>
+                            <p class="sec-para truncate" data-collapsed-words="20"> After posting, we track each post and gather the data, which helps us in future postings. We make adjustments to improve performance so that your brand thrives in the social media landscape. </p>
                         </div>
                     </div>
                 </div>
