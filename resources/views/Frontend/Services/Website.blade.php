@@ -6,7 +6,7 @@
 
 @section('content')
 <main id="seo-service">
-    <div class="breadcumb-wrapper p-0" style="margin-top: 105px;">
+    <div class="breadcumb-wrapper p-0" style="margin-top: 66px;">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 p-0">

@@ -15,9 +15,12 @@
     $currentPath = request()->getPathInfo(); // returns e.g., /blog
     @endphp
 
-    @if (array_key_exists($currentPath, $canonicalList))
+    <link rel="canonical" href="{{ url()->current() }}" />
+
+    <!-- @if (array_key_exists($currentPath, $canonicalList))
     <link rel="canonical" href="{{ $canonicalList[$currentPath] }}" />
-    @endif
+    @endif -->
+
     <!-- @if(app()->getLocale() == 'ar')
     <link href="{{ asset('css/rtl.css') }}" rel="stylesheet">
     @else

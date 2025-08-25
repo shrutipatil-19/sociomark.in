@@ -73,27 +73,20 @@
                         </h1> --}}
                         <h1 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100"
                             data-aos-duration="1000" data-aos-easing="ease-in-out">
-                            <span class="text-blue">Performance marketing agency in Dubai</span> helping brands grow smarter
+                            <span class="text-blue">Performance Marketing Agency
+                            </span> Driving Smarter Growth
                         </h1>
                     </div>
                 </div>
                 <div class="col-lg-12 col-12 d-flex justify-content-center align-items-center flex-column">
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                        data-aos-duration="1200" data-aos-easing="ease-in-out">Your audience is out there, scrolling,
-                        searching, comparing—and ads are how you grab their attention. Paid advertising isn’t just about
-                        showing up. It’s about appearing in the right place with a right message at the right time.
-                        That’s where Sociomark steps in. We craft ads that stop thumbs and spark interest. Whether it’s
-                        search, display, or video, each click is backed by strategy, creativity, and constant
-                        optimization. From snappy headlines to conversion-ready landing pages, every piece is built to
-                        bring in business.
+                        data-aos-duration="1200" data-aos-easing="ease-in-out">Your audience is out there scrolling, searching, and comparing to make the final choice. Paid ads are a faster way you can capture their attention, but success isn’t just about being present. It’s about being in the right place, with the right message, at the right time. That’s where Sociomark comes in. As a performance marketing agency, we create ads that stop scrolls, spark curiosity, and persuade action. From search and display to video campaigns, every click is powered by strategy, creativity, and continuous optimization.
                     </p>
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                        data-aos-duration="1200" data-aos-easing="ease-in-out">No cookie-cutter templates here. Your
-                        goals guide the approach. Want to boost traffic? Sell a product? Capture leads? There’s a paid
-                        solution for that. With SEM, you get targeted visibility that translates into action.
-                        From google ads to LinkedIn paid advertising, we help you tap into the
-                        platforms that matter.Your budget works smarter, your results go further, and your brand is
-                        under the spotlight that it needs.
+                        data-aos-duration="1200" data-aos-easing="ease-in-out">We’re not a one-size-fits-all creative agency. Your goals shape the roadmap. Whether you want to increase traffic, boost sales, or capture leads, there’s a paid solution designed for you. With SEM, you gain visibility that converts. From Google Ads to LinkedIn advertising, we help your brand shine on the platforms that matter most for your niche.
+                    </p>
+                    <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
+                        data-aos-duration="1200" data-aos-easing="ease-in-out">Alongside our social media marketing services, our expertise as a social marketing agency ensures every ad feels authentic. With us, your budget works the best, your campaigns perform smarter, and your brand gets the spotlight.
                     </p>
                 </div>
             </div>
@@ -121,7 +114,8 @@
                     <div class="title-area text-center">
                         <h2 class="fw-bold mb-5 sec-title" data-aos="fade-right" data-aos-delay="100"
                             data-aos-duration="1000" data-aos-easing="ease-in-out">
-                            How We Deliver <span class="text-blue">Impact</span>, Not Just <span class="text-blue">Impressions</span>
+                            Beyond Reach and Towards
+                            <span class="text-blue">Real Impact</span>
                         </h2>
                         {{-- <p class="sec-para">Here are a few of the SEO strategies that we as a Leading Digital Marketing
                                 Agency in Mumbai
@@ -145,27 +139,27 @@
                 <div class="col-md-6 mt-4 mt-md-0">
                     <div id="benefits">
                         <div class="benefit-block border-start border-4">
-                            <h4 class="sub-sec-title">Goal-First Planning</h4>
-                            <p class="sec-para"> It begins with knowing your destination. Every campaign is woven around a particular objective. </p>
+                            <h4 class="sub-sec-title">Goals Come First</h4>
+                            <p class="sec-para">We start by understanding where you want to go. Every campaign is built around clear objectives.</p>
                         </div>
                         <div class="benefit-block border-start border-4">
-                            <h4 class="sub-sec-title"> Precision Targeting</h4>
-                            <p class="sec-para">With paid search advertising, we go beyond demographics. Behaviour, intent, location—we zero in on what matters.
+                            <h4 class="sub-sec-title">Targeting That Works</h4>
+                            <p class="sec-para"> We go deeper than age or location. With paid search, we focus on behaviour, intent, and real interests that matter.
                             </p>
                         </div>
                         <div class="benefit-block border-start border-4">
-                            <h4 class="sub-sec-title">Creative That Converts</h4>
-                            <p class="sec-para"> Ad fatigue is real. That’s why our creatives—from YouTube paid ads to carousel posts—are built to engage and convert.</p>
+                            <h4 class="sub-sec-title">Creative That Drives Action</h4>
+                            <p class="sec-para">People get tired of the same ads. That’s why we design fresh creatives, whether it’s video ads or carousel posts.</p>
                         </div>
 
 
                         <div class="benefit-block border-start border-4">
-                            <h4 class="sub-sec-title">Smart Spend Allocation</h4>
-                            <p class="sec-para"> Your money deserves better. We place every rupee where it works hardest, from Google paid search to retargeting.</p>
+                            <h4 class="sub-sec-title">Smarter Use of Budget</h4>
+                            <p class="sec-para">Every rupee counts. From Google Ads to retargeting, we make sure your budget works in the smartest way possible.</p>
                         </div>
                         <div class="benefit-block border-start border-4">
-                            <h4 class="sub-sec-title"> Reports That Make Sense</h4>
-                            <p class="sec-para">Clear, useful, and jargon-free. You know what’s working and where we’re heading next.
+                            <h4 class="sub-sec-title">Reports You Can Understand</h4>
+                            <p class="sec-para">No confusing terms, just clear data. You’ll always know what’s working and what comes next. When it comes to results, performance marketing companies like ours focus on making every step smart and effective.
                             </p>
                         </div>
                     </div>
@@ -181,8 +175,9 @@
                     <div class="title-area text-center">
                         <h2 class="fw-bold mb-5 sec-title" data-aos="fade-right" data-aos-delay="100"
                             data-aos-duration="1000" data-aos-easing="ease-in-out">
-                            Our
-                            <span class="text-blue"> Paid Ads</span> Playbook
+                            Steps to Smarter
+
+                            <span class="text-blue"> Paid Ad</span> Campaigns
                         </h2>
                     </div>
                 </div>
@@ -190,61 +185,60 @@
             <div class="according-list-area">
                 <div class="according-list hover-item item-active">
                     <div class="accordion-item2">
-                        <h3 class="box-title text-center text-md-start">Understand the Audience</h3>
+                        <h3 class="box-title text-center text-md-start">Know Your Audience</h3>
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/Services/Understand the Audience.png') }}"
                             alt="Understand the Audience" class="rounded-overflow">
-                        <p class="sec-para text">People don’t click what doesn’t connect. So we start with understanding about them and their needs.
+                        <p class="sec-para text">We learn who they are, what they need, and where they spend time online.
                         </p>
 
                     </div>
                 </div>
                 <div class="according-list hover-item">
                     <div class="accordion-item2">
-                        <h3 class="box-title text-center text-md-start">Dig Into Keywords</h3>
+                        <h3 class="box-title text-center text-md-start">Explore the Right Keywords</h3>
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/Services/Dig Into Keywords.png') }}"
                             alt="Dig Into Keywords" class="rounded-overflow">
-                        <p class="sec-para text">Effective sem marketing relies on strong keyword research. We pick high-intent words that lead to results
-
+                        <p class="sec-para text">Finding the words people search helps your brand appear when it matters most.
                         </p>
 
                     </div>
                 </div>
                 <div class="according-list hover-item">
                     <div class="accordion-item2">
-                        <h3 class="box-title text-center text-md-start">Build Campaigns That Fit</h3>
+                        <h3 class="box-title text-center text-md-start">Create Campaigns with Purpose</h3>
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/Services/Build Campaigns That Fit.png') }}" alt="Build Campaigns That Fit"
                             class="rounded-overflow">
-                        <p class="sec-para text">One-size ads don’t perform. From LinkedIn paid ads to dynamic remarketing, we tailor it all.
+                        <p class="sec-para text">Every ad is designed to match your goals and speak to your audience clearly.
                         </p>
 
                     </div>
                 </div>
                 <div class="according-list hover-item">
                     <div class="accordion-item2">
-                        <h3 class="box-title text-center text-md-start">Launch, Monitor, Adapt</h3>
+                        <h3 class="box-title text-center text-md-start">Test, Track, Improve</h3>
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/Services/Launch, Monitor, Adapt.png') }}" alt="Launch, Monitor, Adapt"
                             class="rounded-overflow">
-                        <p class="sec-para text"> Campaigns go live with a plan—and a backup. Because digital never sleeps, and neither do we.
+                        <p class="sec-para text">We keep a close eye on performance and make changes that improve results.
                         </p>
 
                     </div>
                 </div>
                 <div class="according-list hover-item">
                     <div class="accordion-item2">
-                        <h3 class="box-title text-center text-md-start"> Stay On Top </h3>
+                        <h3 class="box-title text-center text-md-start"> Keep Evolving </h3>
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/Services/Stay On Top.png') }}"
                             alt="Stay On Top" class="rounded-overflow">
-                        <p class="sec-para text">With ongoing ppc management services, we keep campaigns sharp and in-sync with trends.
+                        <p class="sec-para text">As trends shift, we adapt so your campaigns always stay relevant and effective.
                         </p>
 
                     </div>
@@ -269,7 +263,8 @@
                     data-aos-easing="ease-in-out">
                     <div class="title-area mb-20">
                         <h2 class="sec-title mb-md-3 mb-2">
-                            Our Paid <span class="text-blue">Advertising Expertise </span>
+                            From Attention to Authentic
+                            <span class="text-blue">Action – Our expertise</span>
                         </h2>
                     </div>
                     <p class="sec-para d-none ">Our SEO strategies are designed to improve your website’s ranking on
@@ -281,8 +276,8 @@
                                 <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/icons/strategy.png') }}" width="60" alt="Icon">
                             </div>
                             <div class="media-body">
-                                <h4 class="sub-sec-title"> Strategy Over Spray</h4>
-                                <p class="sec-para">We don’t throw ads into the wind. As a <a href="{{ route('sem') }}"><b>Performance marketing agency in Dubai</b></a>, each of our campaign starts with intent, insight and ends with tangible results.</p>
+                                <h4 class="sub-sec-title"> Purposeful Planning</h4>
+                                <p class="sec-para">We don’t run random ads and hope that it lands perfectly. Our campaigns are backed by intent and insight with the goal of achieving tangible results.</p>
                             </div>
                         </div>
                         <div class="choose-feature">
@@ -290,8 +285,8 @@
                                 <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/icons/Platfortm.png') }}" width="60" alt="Icon">
                             </div>
                             <div class="media-body">
-                                <h4 class="sub-sec-title">Platform Power</h4>
-                                <p class="sec-para">From YouTube paid promotion to Facebook paid ads, we know what works where—and why.</p>
+                                <h4 class="sub-sec-title">Right Platforms</h4>
+                                <p class="sec-para"> From YouTube paid promotion to Facebook paid ads, we understand what is best for each of the platforms.</p>
                             </div>
                         </div>
                         <div class="choose-feature">
@@ -300,7 +295,8 @@
                             </div>
                             <div class="media-body">
                                 <h4 class="sub-sec-title">Always Optimizing</h4>
-                                <p class="sec-para"> Numbers don’t lie. We track, test, tweak, and repeat to keep performance high.
+                                <p class="sec-para">We track performance, adjust, and refine campaigns to maximize impact.
+
                                 </p>
                             </div>
                         </div>

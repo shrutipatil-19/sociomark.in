@@ -76,28 +76,29 @@
                     <div class="title-area mb-md-3 mb-2 mt-n1">
                         <h1 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100"
                             data-aos-duration="1000" data-aos-easing="ease-in-out">
-                            Achieve a Significant Growth in your Business with the power of <span class="text-blue">
-                                Digital Marketing</span>
+                            Gain an edge for your business with a smart
+                            <span class="text-blue">
+                                digital marketing agency</span>
                         </h1>
                     </div>
                 </div>
                 <div class="col-lg-12 col-12 d-flex justify-content-center align-items-center flex-column">
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                        data-aos-duration="1200" data-aos-easing="ease-in-out">Your digital presence is more than just a checklist. It's an ongoing conversation between your brand and the world. At Sociomark, we understand that every touchpoint matters, and we bring a blend of strategy, creativity, and technical know-how to make sure your brand stands out.
+                        data-aos-duration="1200" data-aos-easing="ease-in-out">A digital presence shouldn’t just be another thing in the checklist. It is your gateway for your brand to meet the world. We understand that in such a competitive world, every opportunity to have an interaction is important. This can be done with a recipe that requires proper proportions of creativity, technical expertise and strategy, ensuring that your brand is heard.
                     </p>
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                        data-aos-duration="1200" data-aos-easing="ease-in-out">We offer the best options for you, whether you're looking for professional SEO services in Dubai to increase your online presence or a smart social media marketing in Ajmal to interact with and expand your audience. We are aware that your website is the foundation of your online presence and is more than just a page. Therefore, the creation of user-friendly, responsive, and SEO-optimized websites that have a lasting effect and produce tangible results is the main goal of our website development services.
+                        data-aos-duration="1200" data-aos-easing="ease-in-out">As a trusted SEO agency in Mumbai, we have assisted businesses to gain attention and build an impactful online presence. Whether your need is for an expert search solution or a talented social media agency in Mumbai to connect to your target customers and help your brand grow, Sociomark is here to help. Coming to the website part, it is much more than just a page on the internet; it is a base of your presence. That’s why our website development team is dedicated to making responsive, search-optimized and user-friendly platforms that deliver the results our clients need.
                     </p>
-                    
+
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                        data-aos-duration="1200" data-aos-easing="ease-in-out">We don't just create; we ensure your brand gets noticed and converts. Amplify your reach with our paid advertising services in the Mumbai, expertly designed to drive engagement and conversions. Because content is key, our content marketing services in the Ajmal ensure you deliver value to your audience while powerfully telling your brand's story.
+                        data-aos-duration="1200" data-aos-easing="ease-in-out">As a marketing agency, our scope of operation goes far beyond just creation. Our goal is to get your brand noticed and remembered. Our digital marketing services also include content strategies that not only provide value to the customers but also do so in a graceful way.
                     </p>
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                        data-aos-duration="1200" data-aos-easing="ease-in-out">Need captivating visuals? Our professional photography and video production services bring your brand's unique personality to life in the most engaging way possible, from corporate video services in Dubai to product photography . Let us help your brand shine!
+                        data-aos-duration="1200" data-aos-easing="ease-in-out">Be it eye-catching visuals or product or corporate shoots, our team of skilled photographers and videographers are here to help your brand have a face and a voice that speaks with your target audience in an impactful way.
 
                     </p>
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                        data-aos-duration="1200" data-aos-easing="ease-in-out">Sociomark doesn't just offer services, we offer a partnership to help you grow. As per your needs we customize our plan of action so that every piece of your online presence works together to help you shine.
+                        data-aos-duration="1200" data-aos-easing="ease-in-out">At Sociomark, our goal is not to just offer solutions; we are here to build long-term partnerships. Our plans are made to suit your business needs so that all areas of your digital presence work in sync to help your brand flourish.
                     </p>
                 </div>
             </div>
@@ -125,8 +126,8 @@
                     <div class="title-area text-center">
                         <h2 class="fw-bold mb-5 sec-title" data-aos="fade-right" data-aos-delay="100"
                             data-aos-duration="1000" data-aos-easing="ease-in-out">
-                            Our Method to make the
-                            <span class="text-blue">magic happen</span>
+                            Our Process That Aligns Every Step
+                            <span class="text-blue">with Your Goals</span>
                         </h2>
                         {{-- <p class="sec-para">Here are a few of the SEO strategies that we as a Leading Digital Marketing
                                 Agency in Mumbai
@@ -149,30 +150,25 @@
                 <div class="col-md-6 mt-4 mt-md-0">
                     <div id="benefits">
                         <div class="benefit-block border-start border-4">
-                            <h4 class="sub-sec-title">Start with Goals</h4>
-                            <p class="sec-para">We begin by understanding your business, your audience, and what is the
-                                end result you are aiming for. Clear goals = clear path. </p>
+                            <h4 class="sub-sec-title">A strong start with goals</h4>
+                            <p class="sec-para">Understanding your business, including the audience as well as the end results. Because we believe clear goals equal a clear path.</p>
                         </div>
                         <div class="benefit-block border-start border-4">
-                            <h4 class="sub-sec-title">Craft the Plan</h4>
-                            <p class="sec-para">No cut-paste templates. We build a strategy that fits your voice and
-                                serves your growth, step by step.</p>
+                            <h4 class="sub-sec-title">Plan the Smart Way</h4>
+                            <p class="sec-para">This stage transforms ideas into a structured approach, which aligns every action with your vision.</p>
                         </div>
                         <div class="benefit-block border-start border-4">
-                            <h4 class="sub-sec-title">Create for Every Channel</h4>
-                            <p class="sec-para"> From blogs to visuals to ads, we design content that’s right for each
-                                space—and connects instantly.
+                            <h4 class="sub-sec-title">Creating for every platform</h4>
+                            <p class="sec-para">From blog posts to social media campaigns, we make content that is suitable for each space and connects with the audience.
                             </p>
                         </div>
                         <div class="benefit-block border-start border-4">
-                            <h4 class="sub-sec-title">Distribute Smartly</h4>
-                            <p class="sec-para"> We don’t just post. We promote with purpose, making sure the right eyes
-                                land on your message.</p>
+                            <h4 class="sub-sec-title">Smarter distribution</h4>
+                            <p class="sec-para">More than posting, it’s about putting your message where it will yield the best results.</p>
                         </div>
                         <div class="benefit-block border-start border-4">
-                            <h4 class="sub-sec-title">Refine as We Go</h4>
-                            <p class="sec-para"><a href="{{ route('digitalMarketing') }}"><b>Digital Marketing</b></a> is always moving. We monitor, analyse, and tweak regularly to
-                                keep your growth steady.</p>
+                            <h4 class="sub-sec-title">Adapting to Keep You Ahead</h4>
+                            <p class="sec-para">Digital trends shift quickly, so we refine and optimize to keep your brand on top.</p>
                         </div>
                     </div>
                 </div>
@@ -187,8 +183,8 @@
                     <div class="title-area text-center">
                         <h2 class="fw-bold mb-5 sec-title" data-aos="fade-right" data-aos-delay="100"
                             data-aos-duration="1000" data-aos-easing="ease-in-out">
-                            Our Approach is All About
-                            <span class="text-blue"> Balance</span>
+                            Balanced approach leads to
+                            <span class="text-blue"> powerful outcomes</span>
                         </h2>
                     </div>
                 </div>
@@ -196,61 +192,59 @@
             <div class="according-list-area">
                 <div class="according-list hover-item item-active">
                     <div class="accordion-item2">
-                        <h3 class="box-title text-center text-md-start">Understand the Brand Inside Out</h3>
+                        <h3 class="box-title text-center text-md-start">Dive Deep into the Brand</h3>
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Services/Understand the Brand Inside Out.png') }}"
                             alt="Understand the Brand Inside Out" class="rounded-overflow">
-                        <p class="sec-para text">We dive into your business, market, and audience to know exactly what makes your brand tick.
+                        <p class="sec-para text">We study every detail to understand what truly defines you.
                         </p>
                     </div>
                 </div>
                 <div class="according-list hover-item">
                     <div class="accordion-item2">
-                        <h3 class="box-title text-center text-md-start">Study Competitors and Gaps</h3>
+                        <h3 class="box-title text-center text-md-start">Analyse Rivals and Opportunities</h3>
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Services/Study Competitors and Gaps.png') }}"
                             alt="Understand the Brand Inside Out" class="rounded-overflow">
-                        <p class="sec-para text">We study what others in your space are doing—and how we can help you stand out.
+                        <p class="sec-para text">As a digital marketing company, research is a key part for us. Exploring the market helps us spot what others miss.
                         </p>
 
                     </div>
                 </div>
                 <div class="according-list hover-item">
                     <div class="accordion-item2">
-                        <h3 class="box-title text-center text-md-start">Plan with Precision</h3>
+                        <h3 class="box-title text-center text-md-start">Craft a Detailed Roadmap</h3>
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Services/Plan with Precision.png') }}"
                             alt="Plan with Precision" class="rounded-overflow">
-                        <p class="sec-para text"> We build detailed plans with timelines and touchpoints so everything flows smoothly from day one.
+                        <p class="sec-para text">Every step is planned with clarity and direction.
                         </p>
 
                     </div>
                 </div>
                 <div class="according-list hover-item">
                     <div class="accordion-item2">
-                        <h3 class="box-title text-center text-md-start">Create with Intent</h3>
+                        <h3 class="box-title text-center text-md-start">Design with Purpose</h3>
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Services/Create with Intent.png') }}"
                             alt="Create with Intent" class="rounded-overflow">
-                        <p class="sec-para text"> Every creative is built to speak your brand’s language, and every
-                            word is placed with purpose.
+                        <p class="sec-para text">Ideas are shaped to connect meaningfully with your audience.
                         </p>
 
                     </div>
                 </div>
                 <div class="according-list hover-item">
                     <div class="accordion-item2">
-                        <h3 class="box-title text-center text-md-start">Execute and Optimise</h3>
+                        <h3 class="box-title text-center text-md-start">Implement and Refine</h3>
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Services/Execute and Optimise.png') }}"
                             alt="Execute and Optimise" class="rounded-overflow">
-                        <p class="sec-para text">We run your campaigns, track results, and keep fine-tuning so every
-                            effort moves the needle.
+                        <p class="sec-para text">We execute each campaign with focus and improve at every stage. This has helped us be one of the best digital marketing agency throughout the years.
                         </p>
 
                     </div>
@@ -275,7 +269,8 @@
                     data-aos-easing="ease-in-out">
                     <div class="title-area mb-20">
                         <h2 class="fw-bold mb-5 sec-title">
-                            The Roots of Our <span class="text-blue text-center">Trusted Reputation</span>
+                            The foundation of our reputation in the
+                            <span class="text-blue text-center">digital marketing world</span>
                         </h2>
                     </div>
                     <p class="sec-para d-none ">Our SEO strategies are designed to improve your website’s ranking on
@@ -288,9 +283,8 @@
                                     width="60" alt="Icon">
                             </div>
                             <div class="media-body">
-                                <h4 class="sub-sec-title">Sharp Strategy First</h4>
-                                <p class="sec-para"> We don’t guess. We research, plan, and build strategies that are
-                                    tailored to your goals and audience. That’s how we drive real impact.</p>
+                                <h4 class="sub-sec-title">Strategy leads</h4>
+                                <p class="sec-para">We don’t rely on assumptions. Every plan of ours is backed by research and designed around your audience and goals, which ensures that each action makes an impact.</p>
                             </div>
                         </div>
                         <div class="choose-feature">
@@ -299,9 +293,8 @@
                                     width="60" alt="Icon">
                             </div>
                             <div class="media-body">
-                                <h4 class="sub-sec-title">Channel-by-Channel Expertise</h4>
-                                <p class="sec-para">From SEO to social to content and ads—we understand how each piece
-                                    works. More importantly, how they work together.
+                                <h4 class="sub-sec-title">Mastery Across Every Channel</h4>
+                                <p class="sec-para">From SEO and social to content and ads, we know the role each plays and how to align them for maximum results.
                                 </p>
                             </div>
                         </div>
@@ -311,9 +304,8 @@
                                     width="60" alt="Icon">
                             </div>
                             <div class="media-body">
-                                <h4 class="sub-sec-title">Built to Grow</h4>
-                                <p class="sec-para"> Our approach is long-term. Everything we do is structured to scale
-                                    with your business and its ambitions.
+                                <h4 class="sub-sec-title">Motivated by Growth</h4>
+                                <p class="sec-para">Our approach is designed to adapt and expand with your business, keeping pace with your goals
                                 </p>
                             </div>
                         </div>
@@ -394,7 +386,8 @@
             <!-- Header Text -->
             <h2 class="fw-bold mb-5 sec-title text-center" data-aos="fade-up" data-aos-delay="100"
                 data-aos-duration="1000" data-aos-easing="ease-in-out">
-                What’s Included in Our <span class="text-blue"> Digital Marketing Package</span>
+                Your Complete
+                <span class="text-blue"> Digital Marketing Toolkit</span>
             </h2>
             <!-- Feature Icons Row 1 -->
             <div class="row justify-content-evenly mt-5">
@@ -444,6 +437,31 @@
                 data-aos-duration="1000" data-aos-easing="ease-in-out">
                 <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Package.png') }}"
                     alt="Dashboard Screenshot" class="dashboard-img rounded-overflow">
+            </div>
+        </div>
+    </section>
+  <section class="overflow-hidden space mb-md-5 md-2 pt-5" id="about-sec">
+        <div class="container">
+            <div class="row align-items-end justify-content-center">
+                <div class="col-lg-9 col-12 d-flex justify-content-center align-items-center flex-column">
+                    <div class="title-area mb-md-3 mb-2 mt-n1">
+                        <h1 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100"
+                            data-aos-duration="1000" data-aos-easing="ease-in-out">
+                           Proven Success Through 
+
+                            <span class="text-blue">
+                                Case Studies</span>
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-12 d-flex justify-content-center align-items-center flex-column">
+                    <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
+                        data-aos-duration="1200" data-aos-easing="ease-in-out">Every strategy is only as strong as the results it helps to gain. That’s why we share some of the best social media case studies to highlight the impact. Each digital marketing strategy case study and online marketing case study reflects how we have turned ideas into growth for our clients. From performance marketing campaigns to full-scale solutions from our advertising agency, these stories showcase what’s possible when good work is done with a proper approach. Read it here.
+                    </p>
+                    
+
+                   
+                </div>
             </div>
         </div>
     </section>
