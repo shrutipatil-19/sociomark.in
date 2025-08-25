@@ -86,7 +86,7 @@
                         </h1>
                     </div>
                 </div>
-                <div class="col-lg-12 col-12 d-flex justify-content-center align-items-center flex-column">
+                <div class="col-lg-12 col-12 d-flex justify-content-center align-items-center flex-column about-para">
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
                         data-aos-duration="1200" data-aos-easing="ease-in-out"> Are you struggling to create engaging content for your brand on social media? Do you feel that the content on your pages is not attracting or having engagement from your target audience? Is your brand not able to achieve the desired exposure that it needs? The significance of social media in the success of a business is undeniable. In today’s day and age social media is as important for a business as oxygen for humans. Not utilizing multiple channels is giving your share of the market space to competitors. And that is precisely where <a href="{{ route('socialMedia') }}">social media marketing</a> comes in.
                     </p>
@@ -169,33 +169,33 @@
                     <div id="benefits">
                         <div class="benefit-block border-start border-4">
                             <h4 class="sub-sec-title">Understand and segment the social media audience</h4>
-                            <p class="sec-para truncate" data-collapsed-words="20">Understanding your target audience on social media platforms is essential. It helps to design the suitable strategies for your brand, considering what does the audience expect and what do they connect to. Not all followers contribute to the brand. Quality engagement and loyal followers are more valuable than a large but passive audience. Our social media experts understand the business and carefully select audience segments. Understanding your target audience and selecting the right platform is crucial for effective social media advertising or marketing. Each platform attracts a unique demographic, and tailoring your content accordingly is essential for maximum impact.</p>
+                            <p class="sec-para truncate" data-collapsed-words="32">Understanding your target audience on social media platforms is essential. It helps to design the suitable strategies for your brand, considering what does the audience expect and what do they connect to. Not all followers contribute to the brand. Quality engagement and loyal followers are more valuable than a large but passive audience. Our social media experts understand the business and carefully select audience segments. Understanding your target audience and selecting the right platform is crucial for effective social media advertising or marketing. Each platform attracts a unique demographic, and tailoring your content accordingly is essential for maximum impact.</p>
 
 
                         </div>
                         <div class="benefit-block border-start border-4">
                             <h4 class="sub-sec-title">Competitor research</h4>
-                            <p class="sec-para truncate" data-collapsed-words="20">Conducting a thorough competitor analysis is foundational to crafting a successful social media strategy. By understanding your competitors' strengths, weaknesses, and audience engagement, you can identify opportunities to differentiate your brand and capitalize on untapped market segments. A well-executed competitor analysis provides invaluable insights to refine your content strategy, optimize platform selection, and inform data-driven decision-making.
+                            <p class="sec-para truncate" data-collapsed-words="37">Conducting a thorough competitor analysis is foundational to crafting a successful social media strategy. By understanding your competitors' strengths, weaknesses, and audience engagement, you can identify opportunities to differentiate your brand and capitalize on untapped market segments. A well-executed competitor analysis provides invaluable insights to refine your content strategy, optimize platform selection, and inform data-driven decision-making.
                             </p>
                         </div>
                         <div class="benefit-block border-start border-4">
                             <h4 class="sub-sec-title">Develop a social media calendar</h4>
-                            <p class="sec-para truncate" data-collapsed-words="20"> The next step involves the creation of a social media calendar. Our experts create a content calendar keeping in mind the business niche and the target audience. Creating a calendar helps the brand to stay consistent and offers a direction throughout the month. Identify the special days and develop creatives according to the brands voice for the particular occasion is an added advantage. You can also optimize your content calendar by specifying the best days and times to publish different content types on each platform.
+                            <p class="sec-para truncate" data-collapsed-words="27"> The next step involves the creation of a social media calendar. Our experts create a content calendar keeping in mind the business niche and the target audience. Creating a calendar helps the brand to stay consistent and offers a direction throughout the month. Identify the special days and develop creatives according to the brands voice for the particular occasion is an added advantage. You can also optimize your content calendar by specifying the best days and times to publish different content types on each platform.
                             </p>
                         </div>
 
 
                         <div class="benefit-block border-start border-4">
                             <h4 class="sub-sec-title">Create personalized content </h4>
-                            <p class="sec-para truncate" data-collapsed-words="20">Once the calendar has been made, the process of content creation begins. With an excellent team of expert content writers and social media strategists we work on developing personalized content which is suitable as per the brands voice and niche. Our goal is to develop content that not only informs and engages but also inspires action and builds a strong connection between your brand and your customers. By carefully considering your target audience and brand voice, we create content that stands out and delivers results.</p>
+                            <p class="sec-para truncate" data-collapsed-words="40">Once the calendar has been made, the process of content creation begins. With an excellent team of expert content writers and social media strategists we work on developing personalized content which is suitable as per the brands voice and niche. Our goal is to develop content that not only informs and engages but also inspires action and builds a strong connection between your brand and your customers. By carefully considering your target audience and brand voice, we create content that stands out and delivers results.</p>
                         </div>
                         <div class="benefit-block border-start border-4">
                             <h4 class="sub-sec-title">Engage & Interact Regularly</h4>
-                            <p class="sec-para truncate" data-collapsed-words="30">It is important to have a connection with your audience and interact with them to help build a community. We make that happen by making sure that every comment is replied to in a proper way with consistency.</p>
+                            <p class="sec-para">It is important to have a connection with your audience and interact with them to help build a community. We make that happen by making sure that every comment is replied to in a proper way with consistency.</p>
                         </div>
                         <div class="benefit-block border-start border-4">
                             <h4 class="sub-sec-title">Track and Adjust Performance</h4>
-                            <p class="sec-para truncate" data-collapsed-words="20"> After posting, we track each post and gather the data, which helps us in future postings. We make adjustments to improve performance so that your brand thrives in the social media landscape. </p>
+                            <p class="sec-para"> After posting, we track each post and gather the data, which helps us in future postings. We make adjustments to improve performance so that your brand thrives in the social media landscape. </p>
                         </div>
                     </div>
                 </div>
@@ -1103,10 +1103,11 @@
     });
 
     // Toggle for both types
+    // Toggle for both types
     $(document).on('click', '.read-more', function(e) {
         e.preventDefault();
         let $link = $(this);
-        let $target = $link.prev('p.truncate');
+        let $target = $link.closest('p.truncate'); // FIXED
 
         if ($target.find('.more-text').length) {
             // Word-based toggle
@@ -1138,9 +1139,10 @@
 @push('styles')
 <style>
     p,
-    ul {
+    .about-para ul {
         width: 100% !important;
 
     }
+    
 </style>
 @endpush
