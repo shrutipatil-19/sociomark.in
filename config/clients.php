@@ -334,18 +334,18 @@ return [
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         'portfolio-image' => 'frontend-assets/img/work/cosplay-genie/1.jpg'
     ],
-    // 'okinawa' => [
-    //     'industry' => 'automobile',
-    //     'name' => 'Okinawa',
-    //     // 'view' => 'Frontend/Portfolio/okinawaSocial',
-    //     'meta' =>   [
-    //         'title' => 'Digital marketing services for Okinawa| Sociomark Portoflio ​',
-    //         'description' => "Explore how we boosted Okinawa's online visibility through targeted digital marketing, SEO to drive engagement and lead generation."
-    //     ],
-    //     'image' => 'frontend-assets/img/clients/okinawa.jpg'
-    // ],
+    'okinawa' => [
+        'industry' => 'automobile',
+        'name' => 'Okinawa',
+        // 'view' => 'Frontend/Portfolio/okinawaSocial',
+        'meta' =>   [
+            'title' => 'Digital marketing services for Okinawa| Sociomark Portoflio ​',
+            'description' => "Explore how we boosted Okinawa's online visibility through targeted digital marketing, SEO to drive engagement and lead generation."
+        ],
+        'image' => 'frontend-assets/img/clients/okinawa.jpg'
+    ],
     'bem' => [
-        'industry' => 'logistics',
+        'industry' => ['logistics', 'automobile'],
         'name' => 'bem',
         'view' => 'Frontend/Portfolio/bemSocial',
         'meta' =>   [
