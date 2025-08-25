@@ -2,10 +2,10 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12">
-                <h2 class="sec-title mb-20 text-center"><span class="text-blue">Our Featured
-                        Work</span></h2>
-                <p class="mb-20 sec-para text-center"><b>We have successfully completed over 800+ Project <br>Now It’s YOUR
-                        turn!</b>
+                <h2 class="sec-title mb-20 text-center"><span class="text-blue">What We’ve
+                    </span>Achieved</h2>
+                <p class="mb-20 sec-para text-center"><b>800+ successful projects and counting. Let’s make your project next!
+                    </b>
             </div>
             <div class="col-12">
                 <div class="swiper projectSwiper">

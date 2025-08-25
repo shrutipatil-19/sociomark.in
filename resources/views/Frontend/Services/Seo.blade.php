@@ -139,11 +139,11 @@
                     <div id="benefits">
                         <div class="benefit-block border-start border-4">
                             <h4 class="sub-sec-title">Competitor Deep Dive</h4>
-                            <p class="sec-para">As a successful SEO company in Mumbai, we research who your biggest competitors are. What they are doing. What works and what doesn’t. This helps us to formulate strategies that will help you get faster and better results. The reason being, with a thorough research and analysis, we can dodge the mistakes that others may have done and learn from it.</p>
+                            <p class="sec-para truncate" data-collapsed-words="23">As a successful SEO company in Mumbai, we research who your biggest competitors are. What they are doing. What works and what doesn’t. This helps us to formulate strategies that will help you get faster and better results. The reason being, with a thorough research and analysis, we can dodge the mistakes that others may have done and learn from it.</p>
                         </div>
                         <div class="benefit-block border-start border-4">
                             <h4 class="sub-sec-title">SEO Infrastructure Check</h4>
-                            <p class="sec-para">This part involves SEO / website audit. Including both on-page and off page Seo. We identify what is holding you back from better rankings, the reason behind the slowing of your site and so on. Be it crawling issues to broken links, our team of dedicated SEO professionals fix all the gaps that create a hurdle.
+                            <p class="sec-para truncate" data-collapsed-words="34">This part involves SEO / website audit. Including both on-page and off page Seo. We identify what is holding you back from better rankings, the reason behind the slowing of your site and so on. Be it crawling issues to broken links, our team of dedicated SEO professionals fix all the gaps that create a hurdle.
                             </p>
                         </div>
                         <div class="benefit-block border-start border-4">

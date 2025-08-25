@@ -141,6 +141,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Readmore.js/2.0.2/readmore.min.js"></script>
 
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    @include('Frontend/partial/wordCountScript')
     <script>
         AOS.init({
             duration: 700,

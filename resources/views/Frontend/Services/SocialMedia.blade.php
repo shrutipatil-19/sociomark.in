@@ -1069,70 +1069,7 @@
     });
     // services tab end
 </script>
-<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
-<script>
-    $('p.truncate').each(function() {
-        let $el = $(this);
 
-        // Check for word-based collapse
-        let wordLimit = $el.data('collapsed-words');
-        if (wordLimit) {
-            let words = $el.text().split(' ');
-            if (words.length > wordLimit) {
-                let visibleText = words.slice(0, wordLimit).join(' ');
-                let hiddenText = words.slice(wordLimit).join(' ');
-                $el.html(`
-                  ${visibleText}<span class="more-text" style="display:none;"> ${hiddenText}</span>
-                  <a href="#" class="read-more"> Read More</a>
-              `);
-            }
-        }
-
-        // Check for line-based collapse
-        let lineLimit = $el.data('collapsed-lines');
-        if (lineLimit) {
-            let lineHeight = parseFloat($el.css('line-height')) || 24; // default 24px
-            let collapsedHeight = lineHeight * lineLimit;
-            $el.css({
-                'max-height': collapsedHeight + 'px',
-                'overflow': 'hidden',
-                'position': 'relative'
-            });
-            $el.after('<a href="#" class="read-more">Read More</a>');
-        }
-    });
-
-    // Toggle for both types
-    // Toggle for both types
-    $(document).on('click', '.read-more', function(e) {
-        e.preventDefault();
-        let $link = $(this);
-        let $target = $link.closest('p.truncate'); // FIXED
-
-        if ($target.find('.more-text').length) {
-            // Word-based toggle
-            $target.find('.more-text').slideToggle();
-            $link.text($link.text() === 'Read More' ? 'Read Less' : 'Read More');
-        } else {
-            // Line-based toggle
-            if ($target.css('overflow') === 'hidden') {
-                $target.css({
-                    'max-height': 'none',
-                    'overflow': 'visible'
-                });
-                $link.text('Read Less');
-            } else {
-                let lineLimit = $target.data('collapsed-lines');
-                let lineHeight = parseFloat($target.css('line-height')) || 24;
-                $target.css({
-                    'max-height': lineHeight * lineLimit + 'px',
-                    'overflow': 'hidden'
-                });
-                $link.text('Read More');
-            }
-        }
-    });
-</script>
 
 @endpush
 

@@ -90,27 +90,23 @@
                 </div>
                 <div class="col-xxl-8 col-lg-8">
                     <div class="page-content">
-                        <h1 class="h2 sec-title mb-20" data-aos="fade-left" data-aos-duration="3000">Why
-                            <span class="text-blue">Make A Mark</span> With Us?
+                        <h1 class="h2 sec-title mb-20" data-aos="fade-left" data-aos-duration="3000">Setting the Mark for Excellence in
+
+                            <span class="text-blue">Every Step We Take
+                            </span>
                         </h1>
-                        <p class="sec-para" data-aos="fade-left" data-aos-duration="3000"><b>Sociomark’s team adds great value to each project by
-                                bringing in a cumulative experience of 30 years.</b>
+                        <p class="sec-para" data-aos="fade-left" data-aos-duration="3000"><b>Our team brings in a cumulative experience of over 3 decades, adding great value and expertise to every project we undertake.</b>
 
                         </p>
-                        <p class="sec-para mb-30" data-aos="fade-left" data-aos-duration="3000"> Targeting the correct audience, getting you to the top
-                            of the search rankings & consistently put out more engaging, minimalistic,
-                            quirky & appealing content, are the key factors for setting us apart!</p>
+                        <p class="sec-para mb-30" data-aos="fade-left" data-aos-duration="3000">Offering the best digital marketing services and working as a leading social media company in Mumbai, we focus on reaching the right audience, boosting your search ranking, and consistently creating content that is engaging, clean, playful, and visually appealing—this is what makes us stand out!</p>
                     </div>
                 </div>
             </div>
             <div class="d-none">
                 <div class="row align-items-center">
-                    <h2 class="h2 page-title mb-20 text-center text-uppercase text-blue"><b>Create More
-                            Awareness</b></span>
+                    <h2 class="h2 page-title mb-20 text-center text-uppercase text-blue"><b>Expand Your Reach</b></span>
                     </h2>
-                    <p class="blog-text mb-35 text-center">Overall, A 360 degree approach, facilitating a
-                        complete coverage
-                        of all possible digital mediums. You know we can mark all possibilities!</p>
+                    <p class="blog-text mb-35 text-center">We take a full-circle approach, ensuring every digital channel is covered. We make sure no opportunity goes unmarked.</p>
                 </div>
                 <div class="row">
                     <div class="service-process-wrap">
@@ -120,9 +116,8 @@
                                     height="50" alt="Social Media Marketing">
                             </div>
                             <div class="service-process_centent">
-                                <h5 class="service-process_title">Social Media Marketing</h5>
-                                <p class="service-process_text">Targeting the correct audience at the right
-                                    time, across all the social media platforms.</p>
+                                <h5 class="service-process_title">Social media marketing</h5>
+                                <p class="service-process_text">With SMM, speak to the right audience at the right time, across the suitable platforms for your niche or industry.</p>
                             </div>
                         </div>
                         <div class="service-process">
@@ -132,8 +127,7 @@
                             </div>
                             <div class="service-process_centent">
                                 <h5 class="service-process_title">Search Engine Optimization </h5>
-                                <p class="service-process_text">Ensuring visibility for the search engine,
-                                    collaborative efforts that help in brand topping the search list.</p>
+                                <p class="service-process_text">As one of the best SEO agency, and with our expertise as an SEO consultant and SEO expert, we help your brand reach new heights. Being part of the leading best SEO companies, we ensure your efforts get noticed and deliver real results.</p>
                             </div>
                         </div>
                         <div class="service-process">
@@ -143,8 +137,7 @@
                             </div>
                             <div class="service-process_centent">
                                 <h5 class="service-process_title">Website Development</h5>
-                                <p class="service-process_text">Creating a face for the brand with seamless
-                                    integration, that helps build a connect with your audience.</p>
+                                <p class="service-process_text">Helping brands get a digital storefront/identity that is not only aesthetically appealing but also functional and user-friendly.</p>
                             </div>
                         </div>
 
@@ -170,8 +163,7 @@
                             </div>
                             <div class="service-process_centent">
                                 <h5 class="service-process_title"> Performance Marketing</h5>
-                                <p class="service-process_text">Ensuring visibility for the search engine,
-                                    collaborative efforts that help in brand topping the search list.</p>
+                                <p class="service-process_text">As a skilled performance marketing agency, we help your brand appear in front of people that really matter to your brand.</p>
                             </div>
                         </div>
                         <div class="service-process">
@@ -181,8 +173,7 @@
                             </div>
                             <div class="service-process_centent">
                                 <h5 class="service-process_title">Content Marketing</h5>
-                                <p class="service-process_text">Creating a face for the brand with seamless
-                                    integration, that helps build a connect with your audience.</p>
+                                <p class="service-process_text">Helping your brand communicate clearly and creatively. Content is one of the most crucial parts of our digital marketing services.</p>
                             </div>
                         </div>
                         <div class="service-process">
@@ -206,12 +197,10 @@
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-lg-4">
-                    <h2 class="sec-title mb-20" data-aos="fade-right" data-aos-duration="1000">Create More
-                        <span class="text-blue">Awareness</span>
+                    <h2 class="sec-title mb-20" data-aos="fade-right" data-aos-duration="1000">Expand Your
+                        <span class="text-blue">Reach</span>
                     </h2>
-                    <p class="sec-para mb-35" data-aos="fade-right" data-aos-duration="2000">Overall, A 360 degree approach, facilitating a
-                        complete coverage
-                        of all possible digital mediums. You know we can mark all possibilities!</p>
+                    <p class="sec-para mb-35" data-aos="fade-right" data-aos-duration="2000">We take a full-circle approach, ensuring every digital channel is covered. We make sure no opportunity goes unmarked.</p>
                 </div>
                 <div class="col-lg-8">
                     <div class="service-process-wrap">
@@ -223,8 +212,7 @@
                             <a href="{{ route('socialMedia') }}">
                                 <div class="service-process_centent">
                                     <h5 class="sub-sec-title">Social Media Marketing</h5>
-                                    <p class="sec-para">Targeting the correct audience at the right
-                                        time, across all the social media platforms.</p>
+                                    <p class="sec-para">With SMM, speak to the right audience at the right time, across the suitable platforms for your niche or industry.</p>
                                 </div>
                             </a>
                         </div>
@@ -236,8 +224,7 @@
                             <a href="{{ route('seo') }}">
                                 <div class="service-process_centent">
                                     <h5 class="sub-sec-title">SEO </h5>
-                                    <p class="sec-para">Ensuring visibility for the search engine,
-                                        collaborative efforts that help in brand topping the search list.</p>
+                                    <p class="sec-para truncate" data-collapsed-words="25">As one of the best SEO agency, and with our expertise as an SEO consultant and SEO expert, we help your brand reach new heights. Being part of the leading best SEO companies, we ensure your efforts get noticed and deliver real results.</p>
                                 </div>
                             </a>
                         </div>
@@ -249,8 +236,7 @@
                             <a href="{{ route('website') }}">
                                 <div class="service-process_centent">
                                     <h5 class="sub-sec-title">Website Development</h5>
-                                    <p class="sec-para">Creating a face for the brand with seamless
-                                        integration, that helps build a connect with your audience.</p>
+                                    <p class="sec-para">Helping brands get a digital storefront/identity that is not only aesthetically appealing but also functional and user-friendly.</p>
                                 </div>
                             </a>
                         </div>
@@ -262,8 +248,7 @@
                             <a href="{{ route('digitalMarketing') }}">
                                 <div class="service-process_centent">
                                     <h5 class="sub-sec-title">Digital Marketing</h5>
-                                    <p class="sec-para">71% prefer communicating through email. One of
-                                        the best ways to personalize communication for your brand.</p>
+                                    <p class="sec-para">A powerful tool to connect directly with your audience. Featured in our marketing service portfolio, we design email campaigns that deliver the right message and persuade with purpose.</p>
                                 </div>
                             </a>
                         </div>
@@ -275,8 +260,7 @@
                             <a href="{{ route('sem') }}">
                                 <div class="service-process_centent">
                                     <h5 class="sub-sec-title">Performance Marketing</h5>
-                                    <p class="sec-para">Ensuring visibility for the search engine,
-                                        collaborative efforts that help in brand topping the search list.</p>
+                                    <p class="sec-para">As a skilled performance marketing agency, we help your brand appear in front of people that really matter to your brand.</p>
                                 </div>
                             </a>
                         </div>
@@ -288,8 +272,7 @@
                             <a href="{{ route('contentMarketing') }}">
                                 <div class="service-process_centent">
                                     <h5 class="sub-sec-title">Content Marketing</h5>
-                                    <p class="sec-para">Creating a face for the brand with seamless
-                                        integration, that helps build a connect with your audience.</p>
+                                    <p class="sec-para">Helping your brand communicate clearly and creatively. Content is one of the most crucial parts of our digital marketing services.</p>
                                 </div>
                             </a>
                         </div>
@@ -314,7 +297,8 @@
     <section class="space">
         <div class="container-fluid">
             <div class="row mb-35">
-                <h2 class="h2 sec-title mb-md-5 mb-3 text-center">The Mighty <span class="text-blue">Exposure</span>
+                <h2 class="h2 sec-title mb-md-5 mb-3 text-center">The impact of our work for
+                    <span class="text-blue">our esteemed clients</span>
                 </h2>
                 <div class="swiper caseStudySwiper">
                     <div class="swiper-wrapper">
