@@ -1,4 +1,4 @@
-<h2>New Lead Notification</h2>
+<h2>New Lead Notification From India</h2>
 
 <p><strong>Name:</strong> {{ $lead->name }}</p>
 <p><strong>Email:</strong> {{ $lead->email }}</p>
