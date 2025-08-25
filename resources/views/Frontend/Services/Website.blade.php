@@ -179,7 +179,7 @@
                 <div class="filter-active row h-auto g-4">
                     <article class="card__article filter-item cat1 cat3 col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="w-100">
-                            <a href="{{ route('stemrxbio') }}">
+                            <a href="#">
                                 <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/aainos.png') }}" alt="image"
                                     class="card__img img-fluid w-100" loading="lazy">
                             </a>
@@ -188,7 +188,7 @@
                     </article>
                     <article class="card__article filter-item cat1 cat3 col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="w-100">
-                            <a href="{{ route('buildTrack') }}">
+                            <a href="#">
                                 <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/ayushakti-usa.jpg') }}" alt="image"
                                     class="card__img img-fluid w-100" loading="lazy">
                             </a>
@@ -197,7 +197,7 @@
                     </article>
                     <article class="card__article filter-item cat1 cat3 col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="w-100">
-                            <a href="{{ route('cyberPower') }}">
+                            <a href="#">
                                 <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/ayushakti.jpg') }}" alt="image"
                                     class="card__img img-fluid w-100" loading="lazy">
                             </a>
@@ -206,7 +206,7 @@
                     </article>
                     <article class="card__article filter-item cat1 cat3 col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="w-100">
-                            <a href="{{ route('nhs') }}">
+                            <a href="#">
                                 <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/barebones.jpg') }}" alt="image"
                                     class="card__img img-fluid w-100" loading="lazy">
                             </a>
@@ -225,7 +225,7 @@
                 </article> --}}
                 <article class="card__article filter-item cat1 cat3 col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="w-100">
-                        <a href="{{ route('getTheHook') }}">
+                        <a href="#">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/dr-smita-naram.jpg') }}" alt="image"
                                 class="card__img img-fluid w-100" loading="lazy">
                         </a>
@@ -234,7 +234,7 @@
                 </article>
                 <article class="card__article filter-item cat2 cat1 col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="w-100">
-                        <a href="{{ route('expert4travel') }}">
+                        <a href="#">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/electro.jpg') }}"
                                 alt="image" class="card__img img-fluid w-100" loading="lazy">
                         </a>
@@ -244,7 +244,7 @@
 
                 <article class="card__article filter-item cat3 col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="w-100">
-                        <a href="{{ route('eduauraa') }}">
+                        <a href="#">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/grab.jpg') }}" alt="image"
                                 class="card__img img-fluid w-100" loading="lazy">
                         </a>
@@ -254,7 +254,7 @@
 
                 <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="w-100">
-                        <a href="{{ route('shahenaz') }}">
+                        <a href="#">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/kinnal collection.jpg') }}" alt="image"
                                 class="card__img img-fluid w-100" loading="lazy">
                         </a>
@@ -263,7 +263,7 @@
                 </article>
                 <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="w-100">
-                        <a href="{{ route('shahenaz') }}">
+                        <a href="#">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/kolkatarolls.png') }}" alt="image"
                                 class="card__img img-fluid w-100" loading="lazy">
                         </a>
@@ -272,7 +272,7 @@
                 </article>
                 <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="w-100">
-                        <a href="{{ route('shahenaz') }}">
+                        <a href="#">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/lime.jpg') }}" alt="image"
                                 class="card__img img-fluid w-100" loading="lazy">
                         </a>
@@ -281,7 +281,7 @@
                 </article>
                 <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="w-100">
-                        <a href="{{ route('shahenaz') }}">
+                        <a href="#">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/of the hook nanamio.jpg') }}" alt="image"
                                 class="card__img img-fluid w-100" loading="lazy">
                         </a>
@@ -290,7 +290,7 @@
                 </article>
                 <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="w-100">
-                        <a href="{{ route('shahenaz') }}">
+                        <a href="#">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/portraiturebypari.png') }}" alt="image"
                                 class="card__img img-fluid w-100" loading="lazy">
                         </a>
@@ -299,7 +299,7 @@
                 </article>
                 <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="w-100">
-                        <a href="{{ route('shahenaz') }}">
+                        <a href="#">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/profinet.jpg') }}" alt="image"
                                 class="card__img img-fluid w-100" loading="lazy">
                         </a>
@@ -308,7 +308,7 @@
                 </article>
                 <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="w-100">
-                        <a href="{{ route('shahenaz') }}">
+                        <a href="#">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/real-estate-awards.jpg') }}" alt="image"
                                 class="card__img img-fluid w-100" loading="lazy">
                         </a>
@@ -317,7 +317,7 @@
                 </article>
                 <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="w-100">
-                        <a href="{{ route('shahenaz') }}">
+                        <a href="#">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/realestateawards.jpg') }}" alt="image"
                                 class="card__img img-fluid w-100" loading="lazy">
                         </a>
@@ -326,7 +326,7 @@
                 </article>
                 <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="w-100">
-                        <a href="{{ route('shahenaz') }}">
+                        <a href="#">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/sincerelyfinance.png') }}" alt="image"
                                 class="card__img img-fluid w-100" loading="lazy">
                         </a>
@@ -335,7 +335,7 @@
                 </article>
                 <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="w-100">
-                        <a href="{{ route('shahenaz') }}">
+                        <a href="#">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/springville.png') }}" alt="image"
                                 class="card__img img-fluid w-100" loading="lazy">
                         </a>
@@ -344,7 +344,7 @@
                 </article>
                 <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="w-100">
-                        <a href="{{ route('shahenaz') }}">
+                        <a href="#">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/thegrandlegacy.png') }}" alt="image"
                                 class="card__img img-fluid w-100" loading="lazy">
                         </a>
@@ -353,7 +353,7 @@
                 </article>
                 <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="w-100">
-                        <a href="{{ route('shahenaz') }}">
+                        <a href="#">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/theunitedemperors.png') }}" alt="image"
                                 class="card__img img-fluid w-100" loading="lazy">
                         </a>
@@ -362,7 +362,7 @@
                 </article>
                 <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="w-100">
-                        <a href="{{ route('shahenaz') }}">
+                        <a href="#">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/website/trollers mac.jpg') }}" alt="image"
                                 class="card__img img-fluid w-100" loading="lazy">
                         </a>
