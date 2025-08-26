@@ -24,33 +24,22 @@
                     <div class="title-area mb-md-3 mb-2 mt-n1">
                         <h1 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100"
                             data-aos-duration="1000" data-aos-easing="ease-in-out">
-                            Your Story, Reimagined: Innovative <span class="text-blue"> Photography & Videography in Dubai </span>
+                            The Best photography & videography agency that makes your <span class="text-blue"> every frame count </span>
                         </h1>
                     </div>
                 </div>
                 <div class="col-lg-12 col-12 d-flex justify-content-center align-items-center flex-column">
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                        data-aos-duration="1200" data-aos-easing="ease-in-out">People remember emotions and feelings
-                        over mere facts. And nothing captures those better than powerful visuals. At Sociomark, we help
-                        brands speak the visual language of today through striking Product Photography and high-impact
-                        <a href="{{ route('photoVideography') }}"> video editing in ajman dubai.</a>.
+                        data-aos-duration="1200" data-aos-easing="ease-in-out">We all have experienced it; emotions stay with us and not facts. Powerful visuals are an effective way to capture them. At Sociomark, we help brands excel in the language of visual communications through eye-catching and awe-inspiring videography and photography.
                     </p>
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                        data-aos-duration="1200" data-aos-easing="ease-in-out">No matter if you are launching a product,
-                        hosting an event, or building a brand from the start—visual content plays a starring role. More
-                        than looking good, It’s about creating content that connects, converts, and stays with your
-                        audience. Every frame we craft is rooted in your brand’s story and goals.
+                        data-aos-duration="1200" data-aos-easing="ease-in-out">Be it events, product shoots or building a brand from the very start, visual content is one of the main ingredients of the whole recipe. It is not just about looking good; it is about making them feel something through visual storytelling.
                     </p>
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                        data-aos-duration="1200" data-aos-easing="ease-in-out">From the plan to the final shot, we mix
-                        creativity with intent. Need crisp shots for your next catalogue? Or a brand film that tells
-                        your journey in 60 seconds? We’ve got the lens for it. With an eye for detail and a love for
-                        stories, we create visuals that don’t just get seen—they get remembered.
+                        data-aos-duration="1200" data-aos-easing="ease-in-out">Being a part of social media marketing, visuals are the medium that conveys the message to the audience and they ought to be creative and relatable. As a videography agency in Mumbai, we have worked with a diverse range of clients and delivered results for all their visual content needs. Be it crisp shots for a catalogue, a brand film, or a product shoot, our work is known to be remembered.
                     </p>
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                        data-aos-duration="1200" data-aos-easing="ease-in-out">Let’s skip the stock footage and go for
-                        something real. Real moments, real people, and real results. Because the right shot at the right
-                        time? It’s more powerful than a paragraph.
+                        data-aos-duration="1200" data-aos-easing="ease-in-out">So let us skip the stock footage and create something natural and real. Real people, real moments and eventually real results.
                     </p>
                 </div>
             </div>
@@ -78,8 +67,8 @@
                     <div class="title-area text-center">
                         <h2 class="fw-bold mb-5 sec-title" data-aos="fade-right" data-aos-delay="100"
                             data-aos-duration="1000" data-aos-easing="ease-in-out">
-                            Our Approach to
-                            <span class="text-blue"> Visual Storytelling</span>.
+                            Our approach to framing 
+                            <span class="text-blue"> visual masterpieces</span>.
                         </h2>
                         {{-- <p class="sec-para">Here are a few of the SEO strategies that we as a Leading Digital Marketing
                                 Agency in Mumbai
@@ -103,34 +92,25 @@
                 <div class="col-md-6 mt-4 mt-md-0">
                     <div id="benefits">
                         <div class="benefit-block border-start border-4">
-                            <h4 class="sub-sec-title">Understand the Brand Vibe</h4>
-                            <p class="sec-para">We find out what makes your brand tick. So, your visuals feel like an
-                                extension of your personality.
+                            <h4 class="sub-sec-title">Knowing the brand</h4>
+                            <p class="sec-para">The process begins by understanding the brand’s personality. So that the visuals resonate and feel like a part or an extension of the brand.
                             </p>
                         </div>
                         <div class="benefit-block border-start border-4">
-                            <h4 class="sub-sec-title">Scout and Prep Like Pros</h4>
-                            <p class="sec-para">The right lighting and location matter. Our team preps everything in
-                                advance, so shoot day runs smooth.
+                            <h4 class="sub-sec-title">Plan and prep before the shoot.</h4>
+                            <p class="sec-para">The right light and the right location are invaluable. Our team does that in advance so that the shoots are smooth.
                             </p>
                         </div>
                         <div class="benefit-block border-start border-4">
-                            <h4 class="sub-sec-title">Capture Moments That Matter</h4>
-                            <p class="sec-para">It’s not just about poses—it’s about presence. We look for
-                                authenticity, movement, and energy in every shot.</p>
+                            <h4 class="sub-sec-title">Framing the moment</h4>
+                            <p class="sec-para">Being a photography agency in India, we know that it’s not just about the presence but the authenticity that we put into it that makes brands stand out. That is what we look for in every frame and shot.</p>
                         </div>
                         <div class="benefit-block border-start border-4">
-                            <h4 class="sub-sec-title">Use the Right Gear and People</h4>
-                            <p class="sec-para">From studio setups to drone shots, we use the latest tools and skilled
-                                talent for crisp, pro-level quality.
+                            <h4 class="sub-sec-title">Right gear and the right crew</h4>
+                            <p class="sec-para">To ensure high-quality output, we use the latest tools and technology. From drone shots to studio setups, along with a skilled team, we ensure that the outcome is the best.
                             </p>
                         </div>
-                        <div class="benefit-block border-start border-4">
-                            <h4 class="sub-sec-title">Tailor the Story for Your Audience</h4>
-                            <p class="sec-para"> Visuals aren't one-size-fits-all. That's why we specialize in creating custom visual content that truly resonates. Whether you need professional photography services in Dubai or compelling brand storytelling through video, we meticulously craft each piece to deliver maximum impact and connect with your audience.
-
-                            </p>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -144,8 +124,8 @@
                     <div class="title-area text-center">
                         <h2 class="fw-bold mb-5 sec-title" data-aos="fade-right" data-aos-delay="100"
                             data-aos-duration="1000" data-aos-easing="ease-in-out">
-                            How We Deliver
-                            <span class="text-blue"> Stand-Out Visuals</span>
+                            The Way We Craft Impactful Stories 
+                            <span class="text-blue"> Through the Lens</span>
                         </h2>
                     </div>
                 </div>
@@ -153,51 +133,47 @@
             <div class="according-list-area">
                 <div class="according-list hover-item item-active">
                     <div class="accordion-item2">
-                        <h3 class="box-title text-center text-md-start">Creative Discovery </h3>
+                        <h3 class="box-title text-center text-md-start">Uncovering Ideas</h3>
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Photography and Video/Services/Creative Discovery.png') }}"
                             alt="Creative Discovery" class="rounded-overflow">
-                        <p class="sec-para text">Every great visual begins with a great brief. Understanding your
-                            story, your audience, and your goals is our first step.
+                        <p class="sec-para text">Every visual begins with a brief behind it. We crack the brief in ways that feel unique and work towards bringing out the best from it.
                         </p>
 
                     </div>
                 </div>
                 <div class="according-list hover-item">
                     <div class="accordion-item2">
-                        <h3 class="box-title text-center text-md-start">Concept Planning</h3>
+                        <h3 class="box-title text-center text-md-start">Designing the Blueprint</h3>
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Photography and Video/Services/Concept Planning.png') }}"
                             alt="Concept Planning" class="rounded-overflow">
-                        <p class="sec-para text">We map out what the visuals will look like and feel like—from mood
-                            boards to shot lists—so there are no surprises on set.
+                        <p class="sec-para text">We plan everything in advance with clarity. Mood boards, short lists and requirements. So that there are no surprises or delays during the shoot.
                         </p>
                     </div>
                 </div>
                 <div class="according-list hover-item">
                     <div class="accordion-item2">
-                        <h3 class="box-title text-center text-md-start">Production with Purpose</h3>
+                        <h3 class="box-title text-center text-md-start">Bringing Concepts to Life</h3>
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Photography and Video/Services/production with Purpose.png') }}"
                             alt="Production with Purpose" class="rounded-overflow">
-                        <p class="sec-para text">Our team captures content with intention, whether it’s for a short ad,
-                            event, or long-form campaign.
+                        <p class="sec-para text">Our team captures the moments with a proper plan and direction. Be it a short ad, a long form, a campaign or an event.
                         </p>
 
                     </div>
                 </div>
                 <div class="according-list hover-item">
                     <div class="accordion-item2">
-                        <h3 class="box-title text-center text-md-start">Post-Production Magic</h3>
+                        <h3 class="box-title text-center text-md-start">Shaping the Final Cut</h3>
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Photography and Video/Services/Post-Production Magic.png') }}"
                             alt="Post-Production Magic" class="rounded-overflow">
-                        <p class="sec-para text">From editing to colour correction, our finishing touches bring clarity
-                            and polish to every frame.
+                        <p class="sec-para text">Correcting tones, fine-tuning frames, and perfecting the last details for a stunning result.
                         </p>
 
                     </div>
@@ -222,7 +198,8 @@
                     data-aos-easing="ease-in-out">
                     <div class="title-area mb-20">
                         <h2 class="sec-title mb-md-3 mb-2">
-                            Why Brands <span class="text-blue">Trust Our Lens</span>
+                            The reason brands count 
+ <span class="text-blue">on our frames</span>
                         </h2>
                     </div>
                     <p class="sec-para d-none ">Our SEO strategies are designed to improve your website’s ranking on
@@ -235,9 +212,8 @@
                                     width="60" alt="Icon">
                             </div>
                             <div class="media-body">
-                                <h4 class="sub-sec-title">Visuals That Resonate </h4>
-                                <p class="sec-para">We don’t just take pictures or shoot videos. We frame emotion,
-                                    energy, and purpose into every project.</p>
+                                <h4 class="sub-sec-title">Relatable visual story</h4>
+                                <p class="sec-para">We don’t just capture random shots just for the sake of doing it. Every frame has a purpose behind it, an energy, and an emotion that captures the true essence of the brand.</p>
                             </div>
                         </div>
                         <div class="choose-feature">
@@ -246,9 +222,8 @@
                                     width="60" alt="Icon">
                             </div>
                             <div class="media-body">
-                                <h4 class="sub-sec-title">Strategic Storytelling</h4>
-                                <p class="sec-para">Our work reflects your voice. Each piece is tailored to deliver the
-                                    right message to the right audience.</p>
+                                <h4 class="sub-sec-title">Storytelling with strategy</h4>
+                                <p class="sec-para">The work that we put our has a voice behind it. The one that resonates with your brand and delivers the message to the target audience.</p>
                             </div>
                         </div>
                         <div class="choose-feature">
@@ -257,9 +232,8 @@
                                     width="60" alt="Icon">
                             </div>
                             <div class="media-body">
-                                <h4 class="sub-sec-title">Always on Brand</h4>
-                                <p class="sec-para"> Whether it's sleek product photography or immersive
-                                    corporate video production in Ajman.
+                                <h4 class="sub-sec-title">Consistency in quality</h4>
+                                <p class="sec-para"> From the original concept/idea to the final cut, we ensure reliability with results that brands can count on, every time. 
                                 </p>
                             </div>
                         </div>
