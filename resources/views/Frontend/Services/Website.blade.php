@@ -24,37 +24,25 @@
                     <div class="title-area mb-md-3 mb-2 mt-n1">
                         <h1 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100"
                             data-aos-duration="1000" data-aos-easing="ease-in-out">
-                            Make Your First Click Count with Expert <span class="text-blue">Website Development Company in Dubai</span>
+                            Your Trusted Website Development Agency for
+                            <span class="text-blue">Seamless Online Solutions</span>
                         </h1>
                     </div>
                 </div>
                 <div class="col-lg-12 col-12 d-flex justify-content-center align-items-center flex-column">
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                        data-aos-duration="1200" data-aos-easing="ease-in-out"> A website is not a show piece. It should
-                        work hard for your brand—pulling in visitors, guiding them, and leaving a lasting impression.
-                        That’s where a skilled website development agency in Ajman steps in.
+                        data-aos-duration="1200" data-aos-easing="ease-in-out">A website isn’t just a display or a showpiece, it’s a tool that works for your brand 24/7, by attracting visitors, guiding them, and leaving an impression. That’s why partnering with a skilled website development company in Mumbai matters.
                     </p>
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                        data-aos-duration="1200" data-aos-easing="ease-in-out">At Sociomark, the goal is to turn ideas
-                        into experiences. Clean visuals meet clever functionality. Every element is planned to look
-                        good, load fast, and feel intuitive. Whether it’s a sleek one-pager or a full-featured platform,
-                        the focus stays the same: design with purpose and build with intent.
+                        data-aos-duration="1200" data-aos-easing="ease-in-out">At Sociomark, we build ideas into functional experiences for our esteemed clients. We blend clean design with practical features. Every part of the site is built to function efficiently and look good. From simple landing pages to full-featured platforms, our focus remains the same: design with purpose, build with intent.
                     </p>
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                        data-aos-duration="1200" data-aos-easing="ease-in-out">Think of your site as your brand’s
-                        digital handshake. It needs to be strong, smart, and memorable. That means mobile-first layouts,
-                        easy navigation, and performance that keeps users around. From structure to scroll, everything
-                        is shaped around your audience.
+                        data-aos-duration="1200" data-aos-easing="ease-in-out">Think of your website as your brand’s first impression online. It should be clear, easy to navigate, and optimized for the best performance. Mobile-first layouts, smooth navigation, and user-focused design keep visitors engaged.
                     </p>
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                        data-aos-duration="1200" data-aos-easing="ease-in-out">The best websites are a blend of style
-                        and substance. With the latest tools and trends, the result isn’t just a site, it’s an
-                        experience your audience will love coming back to.
+                        data-aos-duration="1200" data-aos-easing="ease-in-out">The best websites are those that balance style and functionality. Using modern tools and techniques, we ensure your site isn’t just a page, it’s an experience your audience enjoys coming back to. Along with digital marketing services, SEO company support, and social media marketing, your website becomes a key part of your brand’s growth.
                     </p>
-                    <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                        data-aos-duration="1200" data-aos-easing="ease-in-out">First impressions matter. Make yours
-                        count.
-                    </p>
+
                 </div>
             </div>
         </div>
@@ -161,7 +149,7 @@
         </div>
     </section>
 
-       <section class="about-area2 overflow-hidden space garally pb-lg-0" id="portfolio-sec">
+    <section class="about-area2 overflow-hidden space garally pb-lg-0" id="portfolio-sec">
         <div class="container ">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
@@ -184,7 +172,7 @@
                                     class="card__img img-fluid w-100" loading="lazy">
                             </a>
                         </div>
-                       
+
                     </article>
                     <article class="card__article filter-item cat1 cat3 col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="w-100">
@@ -193,7 +181,7 @@
                                     class="card__img img-fluid w-100" loading="lazy">
                             </a>
                         </div>
-                        
+
                     </article>
                     <article class="card__article filter-item cat1 cat3 col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="w-100">
@@ -202,7 +190,7 @@
                                     class="card__img img-fluid w-100" loading="lazy">
                             </a>
                         </div>
-                        
+
                     </article>
                     <article class="card__article filter-item cat1 cat3 col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="w-100">
@@ -211,7 +199,7 @@
                                     class="card__img img-fluid w-100" loading="lazy">
                             </a>
                         </div>
-                        
+
                     </article>
                     {{-- <article class="card__article filter-item cat1 cat3 col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="w-100">
@@ -230,7 +218,7 @@
                                 class="card__img img-fluid w-100" loading="lazy">
                         </a>
                     </div>
-                   
+
                 </article>
                 <article class="card__article filter-item cat2 cat1 col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="w-100">
@@ -239,7 +227,7 @@
                                 alt="image" class="card__img img-fluid w-100" loading="lazy">
                         </a>
                     </div>
-                   
+
                 </article>
 
                 <article class="card__article filter-item cat3 col-12 col-sm-6 col-md-4 col-lg-3">
@@ -249,7 +237,7 @@
                                 class="card__img img-fluid w-100" loading="lazy">
                         </a>
                     </div>
-                   
+
                 </article>
 
                 <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
@@ -259,7 +247,7 @@
                                 class="card__img img-fluid w-100" loading="lazy">
                         </a>
                     </div>
-                   
+
                 </article>
                 <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="w-100">
@@ -268,7 +256,7 @@
                                 class="card__img img-fluid w-100" loading="lazy">
                         </a>
                     </div>
-                   
+
                 </article>
                 <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="w-100">
@@ -277,7 +265,7 @@
                                 class="card__img img-fluid w-100" loading="lazy">
                         </a>
                     </div>
-                   
+
                 </article>
                 <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="w-100">
@@ -286,7 +274,7 @@
                                 class="card__img img-fluid w-100" loading="lazy">
                         </a>
                     </div>
-                   
+
                 </article>
                 <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="w-100">
@@ -295,7 +283,7 @@
                                 class="card__img img-fluid w-100" loading="lazy">
                         </a>
                     </div>
-                   
+
                 </article>
                 <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="w-100">
@@ -304,7 +292,7 @@
                                 class="card__img img-fluid w-100" loading="lazy">
                         </a>
                     </div>
-                   
+
                 </article>
                 <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="w-100">
@@ -313,7 +301,7 @@
                                 class="card__img img-fluid w-100" loading="lazy">
                         </a>
                     </div>
-                   
+
                 </article>
                 <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="w-100">
@@ -322,7 +310,7 @@
                                 class="card__img img-fluid w-100" loading="lazy">
                         </a>
                     </div>
-                   
+
                 </article>
                 <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="w-100">
@@ -331,7 +319,7 @@
                                 class="card__img img-fluid w-100" loading="lazy">
                         </a>
                     </div>
-                   
+
                 </article>
                 <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="w-100">
@@ -340,7 +328,7 @@
                                 class="card__img img-fluid w-100" loading="lazy">
                         </a>
                     </div>
-                   
+
                 </article>
                 <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="w-100">
@@ -349,7 +337,7 @@
                                 class="card__img img-fluid w-100" loading="lazy">
                         </a>
                     </div>
-                   
+
                 </article>
                 <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="w-100">
@@ -358,7 +346,7 @@
                                 class="card__img img-fluid w-100" loading="lazy">
                         </a>
                     </div>
-                   
+
                 </article>
                 <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="w-100">
@@ -367,7 +355,7 @@
                                 class="card__img img-fluid w-100" loading="lazy">
                         </a>
                     </div>
-                   
+
                 </article>
             </div>
         </div>
@@ -381,8 +369,8 @@
                     <div class="title-area text-center">
                         <h2 class="fw-bold mb-5 sec-title" data-aos="fade-right" data-aos-delay="100"
                             data-aos-duration="1000" data-aos-easing="ease-in-out">
-                            How Our
-                            <span class="text-blue"> Work Delivers</span> What You Need
+                            How We Deploy
+                            <span class="text-blue"> Ideas into Action</span>
                         </h2>
                         {{-- <p class="sec-para">Here are a few of the SEO strategies that we as a Leading Digital Marketing
                                 Agency in Mumbai
@@ -406,33 +394,28 @@
                 <div class="col-md-6 mt-4 mt-md-0">
                     <div id="benefits">
                         <div class="benefit-block border-start border-4">
-                            <h4 class="sub-sec-title">Understand the Goal</h4>
-                            <p class="sec-para"> We start by understanding your brand and the purpose that you want to
-                                achieve.</p>
+                            <h4 class="sub-sec-title">Define the objective</h4>
+                            <p class="sec-para"> We begin by getting to know your brand and the outcomes you want to achieve.</p>
                         </div>
                         <div class="benefit-block border-start border-4">
-                            <h4 class="sub-sec-title">Plan the Journey</h4>
-                            <p class="sec-para">We map the experience from initial click to the final action to be
-                                taken. It’s all about smooth flow.
+                            <h4 class="sub-sec-title">Outline the Path</h4>
+                            <p class="sec-para">We design the full user journey, from the first interaction to the desired action, ensuring a seamless experience throughout.
                             </p>
                         </div>
                         <div class="benefit-block border-start border-4">
-                            <h4 class="sub-sec-title">Craft Visuals with Purpose</h4>
-                            <p class="sec-para"> Using strong <b>UI UX design</b>, we amplify the ease and joy of user
-                                experience./b>.
+                            <h4 class="sub-sec-title">Design with Intent</h4>
+                            <p class="sec-para"> With thoughtful UI/UX design, we enhance the ease and enjoyment of every user interaction.
                             </p>
                         </div>
 
 
                         <div class="benefit-block border-start border-4">
-                            <h4 class="sub-sec-title">Develop with Care </h4>
-                            <p class="sec-para"> Clean code, fast loads, and safe structure—that’s how our web
-                                development company works.</p>
+                            <h4 class="sub-sec-title">Build with Precision </h4>
+                            <p class="sec-para"> Our web development approach focuses on clean code, fast loading, and a secure structure to deliver reliable results.</p>
                         </div>
                         <div class="benefit-block border-start border-4">
-                            <h4 class="sub-sec-title">Test and Refine</h4>
-                            <p class="sec-para"> Before going live, we test every button, scroll, and form to ensure it
-                                all works perfectly.</p>
+                            <h4 class="sub-sec-title">Test and Optimize</h4>
+                            <p class="sec-para">We thoroughly check every interaction, button, form, and scroll to make sure everything works flawlessly before launch.</p>
                         </div>
                     </div>
                 </div>
@@ -447,8 +430,8 @@
                     <div class="title-area text-center">
                         <h2 class="fw-bold mb-5 sec-title" data-aos="fade-right" data-aos-delay="100"
                             data-aos-duration="1000" data-aos-easing="ease-in-out">
-                            Beyond the blueprint –
-                            <span class="text-blue">Our Approach</span>
+                            Our process from concept to completion of the
+                            <span class="text-blue">website</span>
                         </h2>
                     </div>
                 </div>
@@ -456,61 +439,57 @@
             <div class="according-list-area">
                 <div class="according-list hover-item item-active">
                     <div class="accordion-item2">
-                        <h3 class="box-title text-center text-md-start">Know Your Audience</h3>
+                        <h3 class="box-title text-center text-md-start">Understand the Users</h3>
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/Services/Know your Audience.png') }}"
                             alt="Know Your Audience" class="rounded-overflow">
-                        <p class="sec-para text">We begin by understanding your users—what they want, and how they
-                            behave online.
+                        <p class="sec-para text">Gain insight into your audience to create a website that meets their needs.
                         </p>
 
                     </div>
                 </div>
                 <div class="according-list hover-item">
                     <div class="accordion-item2">
-                        <h3 class="box-title text-center text-md-start">Study the Competition</h3>
+                        <h3 class="box-title text-center text-md-start">Analyse the Market</h3>
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/Services/Study the competition.png') }}"
                             alt="Study the Competition" class="rounded-overflow">
-                        <p class="sec-para text"> We check out the competition and find ways to outperform them and
-                            emerge as an industry leader.
+                        <p class="sec-para text">Study competitors and trends to position your brand effectively.
                         </p>
                     </div>
                 </div>
                 <div class="according-list hover-item">
                     <div class="accordion-item2">
-                        <h3 class="box-title text-center text-md-start">Plan Your Website Structure</h3>
+                        <h3 class="box-title text-center text-md-start">Design Your Site Layout</h3>
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/Services/Plan your website structure.png') }}"
                             alt="Plan Your Website Structure" class="rounded-overflow">
-                        <p class="sec-para text">Every section has a purpose. Every word, a reason to be there.
+                        <p class="sec-para text">Plan a clear and intuitive structure for a seamless user experience.
                         </p>
                     </div>
                 </div>
                 <div class="according-list hover-item">
                     <div class="accordion-item2">
-                        <h3 class="box-title text-center text-md-start">Create with Strategy</h3>
+                        <h3 class="box-title text-center text-md-start">Develop with Purpose</h3>
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/Services/Create with Strategy.png') }}"
                             alt="Create with Strategy" class="rounded-overflow">
-                        <p class="sec-para text">As a leading web design agency, we design layouts that guide
-                            users naturally.
+                        <p class="sec-para text">A Build a functional, fast, and secure website tailored to your goals.
                         </p>
                     </div>
                 </div>
                 <div class="according-list hover-item">
                     <div class="accordion-item2">
-                        <h3 class="box-title text-center text-md-start">Launch with Support</h3>
+                        <h3 class="box-title text-center text-md-start">Go Live with Assistance</h3>
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/Services/Launch with support.png') }}"
                             alt="Launch with Support" class="rounded-overflow">
-                        <p class="sec-para text"> Your site goes live, but we stay on board to improve, update, and
-                            scale with you.
+                        <p class="sec-para text">Once your site is live, we stay involved to update, improve, and expand it.
                         </p>
                     </div>
                 </div>
@@ -532,7 +511,7 @@
                     data-aos-easing="ease-in-out">
                     <div class="title-area mb-20">
                         <h2 class="sec-title mb-md-3 mb-2">
-                            Why Teams Choose to <span class="text-blue">Code with Us</span>
+                            Why Teams Trust Our <span class="text-blue">Code</span>
                         </h2>
                     </div>
                     <p class="sec-para d-none ">Our SEO strategies are designed to improve your website’s ranking on
@@ -545,9 +524,8 @@
                                     width="60" alt="Icon">
                             </div>
                             <div class="media-body">
-                                <h4 class="sub-sec-title">Design + Function</h4>
-                                <p class="sec-para"> With our web design services, we help brands build sites that look
-                                    good and work beautifully. No trade-offs.</p>
+                                <h4 class="sub-sec-title">Form plus Function</h4>
+                                <p class="sec-para">Our web design services create websites that are visually appealing and fully functional, no compromises.</p>
                             </div>
                         </div>
                         <div class="choose-feature">
@@ -556,9 +534,8 @@
                                     width="60" alt="Icon">
                             </div>
                             <div class="media-body">
-                                <h4 class="sub-sec-title">Built for You</h4>
-                                <p class="sec-para"> Every brand is different. As a website design company, we
-                                    tailor every pixel to your story.</p>
+                                <h4 class="sub-sec-title">Custom-Made for Your Brand</h4>
+                                <p class="sec-para">Every business is unique. As a website design company, we craft every element to reflect your story.</p>
                             </div>
                         </div>
                         <div class="choose-feature">
@@ -567,10 +544,8 @@
                                     width="60" alt="Icon">
                             </div>
                             <div class="media-body">
-                                <h4 class="sub-sec-title">Reliable Team</h4>
-                                <p class="sec-para"> We’re responsive, creative, and genuinely excited to work with
-                                    you. Be it Ecommerce websites, portfolio websites or the need is for
-                                    website builders for small business or a multinational firm, as a web design company in the Mumabi we cater to all and deliver exceptional results every time.
+                                <h4 class="sub-sec-title">Dependable Team</h4>
+                                <p class="sec-para"> We’re responsive, inventive, and genuinely invested in your success. Whether it’s an ecommerce site, a portfolio, or a website for a small business or multinational, our web design company delivers consistent, high-quality results every time.
                                 </p>
                             </div>
                         </div>
@@ -971,7 +946,6 @@
         width: 80px;
         height: 80px;
     }
-
 </style>
 @endpush
 
