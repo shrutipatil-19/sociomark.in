@@ -27,7 +27,7 @@ class HomeController extends Controller
         ];
         $categories = Category::all();
         $tags = Tag::all();
-        $prs = PR::latest()->get();
+        $prs = PR::orderBy('post_date', 'desc')->get();
 
         $firstBlog = Posts::latest()->first(); // Get latest blog
 
@@ -107,7 +107,7 @@ class HomeController extends Controller
             'description' => 'Learn more about job and career opportunities at Sociomark. Search our current openings today to find the best fit for you and your career goals.'
         ];
         // $jobs = Jobpost::all();
-        return view("Frontend/careers" , compact('meta'));
+        return view("Frontend/careers", compact('meta'));
     }
     public function privacyAndPolicy()
     {

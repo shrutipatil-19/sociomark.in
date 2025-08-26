@@ -10,7 +10,7 @@ class PRWebController extends Controller
 {
     public function index()
     {
-        $p_r_s = PR::all();
-        return view('Frontend/PR/pr', compact('p_r_s'));
+        $prs = PR::orderBy('post_date', 'desc')->get();
+        return view('Frontend.PR.pr', compact('prs'));
     }
 }
