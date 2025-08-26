@@ -86,7 +86,7 @@ Header Area
                         @php
                         use Carbon\Carbon;
 
-                        $expiryDate = Carbon::create(2025, 8, 28);
+                        $expiryDate = Carbon::create(2025, 9, 6);
                         @endphp
 
                         @if(Carbon::now()->lte($expiryDate))
