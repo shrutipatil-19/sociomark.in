@@ -263,8 +263,47 @@
     }
 </style>
 @endpush
+@push('styles')
+<style>
+     #curtain1, #curtain2 {
+         position: fixed; /* Use fixed positioning to cover the entire viewport */
+         top: 0;
+         height: 100vh; /* Cover the full viewport height */
+         /* Add a smooth transition for the width property */
+         transition: width 5s ease-in-out; 
+         z-index: 10; /* Make sure curtains are on top of everything else */
+         
+         /* Styles for the curtain images */
+         background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
+     }
+     
+     #curtain1 {
+         left: 0;
+         width: 50vw; /* Initial width is 50% of the viewport width */
+         /* Use a placeholder image for the left curtain */
+         background-image: url("{{ asset('frontend-assets/img/curtain1.jpg') }}");
+     }
+
+     #curtain2 {
+         right: 0;
+         width: 50vw; /* Initial width is 50% of the viewport width */
+         /* Use a placeholder image for the right curtain */
+         background-image: url("{{ asset('frontend-assets/img/curtain2.jpg') }}");
+     }
+     
+     /* The CSS class to open the curtains */
+     .open-curtains #curtain1,
+     .open-curtains #curtain2 {
+         width: 0; /* Animate the width to 0 to "open" the curtains */
+     }
+</style>
+@endpush
 
 @section('content')
+ <div id="curtain1"></div>
+      <div id="curtain2"></div> 
 <main id="home">
     {{-- Video Section --}}
     <section class="overflow-hidden video-heading height-full mb-md-3">
@@ -569,7 +608,7 @@
                             title="Sociomark Showreel" frameborder="0" allow="autoplay;  picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
                         <video preload="auto" class="w-100" playsinline autoplay muted loop>
-                            <source src="{{ asset('frontend-assets/sociomark_showreel.mp4') }}">
+                            <source src="{{ asset('frontend-assets/video/sociomark_showreel.mp4') }}">
                         </video>
                     </div>
                     @push('scripts')
@@ -2183,5 +2222,19 @@
         });
     });
     // services tab end
+</script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        // Wait a moment before starting the animation for a smoother effect
+        setTimeout(function() {
+            // Add the class to start the CSS transition
+            $("body").addClass("open-curtains");
+        }, 500); // 500ms delay
+    });
+
+    // Optional function to manually close the curtains
+    function close_curtain() {
+        $("body").removeClass("open-curtains");
+    }
 </script>
 @endpush

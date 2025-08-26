@@ -90,9 +90,9 @@
                             <a href="{{ route('home') }}" class="th-btn white-border th-icon th-radius">
                                 Back To Home
                             </a>
-                            <!--<a href="" class="th-btn white-border th-icon th-radius">-->
-                            <!--    Download-->
-                            <!--</a>-->
+                            <a id="download-trigger" href="{{ asset('frontend-assets/CRED DECK SOCIOMARK_2025.pdf') }}" class="th-btn white-border th-icon th-radius" download>
+                             Credential Deck Download
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -100,6 +100,16 @@
         </div>
 
     </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const downloadLink = document.getElementById('download-trigger');
+            if (downloadLink) {
+                downloadLink.click();
+            } else {
+                console.error("Download link element not found. Check the ID.");
+            }
+        });
+    </script>
     @include('Frontend/partial/jsLinks')
 </body>
 
