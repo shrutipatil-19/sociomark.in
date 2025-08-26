@@ -1783,7 +1783,8 @@ session(['curtains_shown' => true]);
         <div class="container">
             <div class="title-area text-center mb-25">
                 <h2 class="fw-bold sec-title my-3" data-aos="fade-up" data-aos-delay="100">
-                    <span class="text-orange">PR Sociopedia</span><br>A library that goes beyond the brief
+                    <span class="text-orange">PR Sociopedia</span><br>
+                    {{-- A library that goes beyond the brief --}}
                 </h2>
             </div>
             <div class="swiper mySwiper">
