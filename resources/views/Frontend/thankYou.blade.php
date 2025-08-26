@@ -110,6 +110,7 @@
             }
         });
     </script>
+    {{-- test --}}
     @include('Frontend/partial/jsLinks')
 </body>
 
