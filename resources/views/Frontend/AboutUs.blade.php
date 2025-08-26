@@ -83,38 +83,37 @@
                     <div class="title-area mb-md-3 mb-2 mt-n1">
                         <!-- <h2 class="sec-title text-center "> Our Comprehensive International SEO Solutions</h2> -->
                         <h1 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100">
-                            Your Brand’s Digital Partner, <br><span class="text-blue"> Every Step of the Way</span>
+                            Passionate Minds Behind Your
+                            <br><span class="text-blue"> Social Media Marketing Success</span>
                         </h1>
                     </div>
                 </div>
                 <div class="col-lg-12 d-flex justify-content-center align-items-center flex-column">
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="100">
-                        At Sociomark, we don’t believe in one-size-fits-all. Since 2017, we’ve partnered with
-                        brands across India and beyond—crafting tailored digital strategies that are as unique as their
-                        stories. Be it SEO, social media, performance marketing, or full-stack development, our approach
-                        is rooted in listening first, executing second, and always delivering what truly works.
+                        At Sociomark, we believe in the power of original ideas. No copy-paste templates, just raw and original concepts. As a social media marketing agency and an SEO company in Mumbai since 2017, we have worked with brands across the nation and abroad.
                     </p>
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="100">
-                        As a full-service digital marketing agency, we bring together creativity, data, and strategy
-                        under one roof. For us, success isn’t measured by vanity metrics—it's measured by real impact
-                        and lasting relationships. While the world chases trends, we build brands with purpose and
-                        precision. That’s what makes us truly reMARKable.
+                        From social media to website development to SEO services and more, our process begins with understanding your needs, moves to a planned and thoughtful execution and finally ends with an output that brings you the results.
+                    </p>
+                    <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="100">
+                        As a full-stack digital marketing agency, we are recognized as a leading SEO agency while also delivering a wide range of impactful digital marketing services.
+                    </p>
+                    <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="100">
+                        We see success differently; it’s about driving real growth instead of chasing numbers, and building lasting partnerships instead of short-term wins. While trends fade, brands built with purpose last—and that’s the reMARKable difference we bring.
                     </p>
                 </div>
                 <div class="col-lg-9 col-12 d-flex justify-content-center align-items-center flex-column">
                     <div class="title-area mb-md-3 mb-2 mt-n1">
                         <!-- <h2 class="sec-title text-center "> Our Comprehensive International SEO Solutions</h2> -->
                         <h2 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100">
-                            What <span class="text-blue">Drives Us</span>
+                            What Inspires Us <span class="text-blue">Each Morning</span>
                         </h2>
                     </div>
                 </div>
                 <div class="col-lg-12 d-flex justify-content-center align-items-center flex-column">
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="100">
-                        We're not just a team—we're a collective of curious minds, passionate storytellers, strategic
-                        thinkers, and design junkies. Our power lies in how we mix insight with imagination and strategy
-                        with soul. Since 2017 of building brands across industries, we’ve learned that meaningful
-                        marketing comes from meaningful intent.
+                        We’re more than just a team; we’re a bunch of passionate people who love what we do. Telling stories, thinking differently, designing visuals, and crafting creative content, that’s what drives us and keeps our energy alive every day. Since 2017, we’ve partnered with brands across diverse industries. One important lesson we’ve learned is that meaningful marketing always starts with genuine intent.
+
                     </p>
                 </div>
             </div>
@@ -270,7 +269,9 @@
                     <div class="title-area text-center">
                         <!-- <div class="shadow-title">Process</div> -->
                         <!-- <span class="sub-title sub-title4 mb-4 mb-md-5">Work Process<span></span></span> -->
-                        <h2 class="sec-title  ">From Brief to <span class="text-blue">Brilliance</span></h2>
+                        <h2 class="sec-title  ">From Concept to
+                            <span class="text-blue">Creation</span>
+                        </h2>
                     </div>
                 </div>
             </div>
@@ -285,8 +286,8 @@
                         </div>
                     </div>
                     <div class="text mt-1 mt-3 d-flex justify-content-center align-items-center flex-column">
-                        <h4 class="sub-sec-title">Pick What You Need</h4>
-                        <p class="sec-para">Choose the service that fits your brand’s current goals.</p>
+                        <h4 class="sub-sec-title">Choose Your Solution.</h4>
+                        <p class="sec-para">Identify the service that best supports your current goals.</p>
                     </div>
                 </div>
 
@@ -294,9 +295,8 @@
                 <div class="col-md-3 col-sm-6 col-12 process-step d-flex flex-column-reverse flex-md-column zig-up"
                     data-aos="fade-up" data-aos-delay="400">
                     <div class="text d-flex justify-content-center align-items-center flex-column">
-                        <h4 class="sub-sec-title">Share Your Vision</h4>
-                        <p class="sec-para">From campaign goals to creative vibes, the more you share, the better we
-                            plan.</p>
+                        <h4 class="sub-sec-title">Let’s Hear Your Vision.</h4>
+                        <p class="sec-para">From targets to creative concepts, your input shapes our planning.</p>
                     </div>
                     <div class="img mt-0 mt-md-3">
                         <div class="shadow-title">02</div>
@@ -317,8 +317,8 @@
                         </div>
                     </div>
                     <div class="text mt-1 mt-3 d-flex justify-content-center align-items-center flex-column">
-                        <h4 class="sub-sec-title">Let’s Talk</h4>
-                        <p class="sec-para">We’ll schedule a call to align on vision, ideas, and execution.</p>
+                        <h4 class="sub-sec-title">Start the Conversation</h4>
+                        <p class="sec-para">We’ll schedule a call to discuss your goals, ideas, and next steps.</p>
                     </div>
                 </div>
 
@@ -326,8 +326,8 @@
                 <div class="col-md-3 col-sm-6 col-12 process-step d-flex flex-column-reverse flex-md-column"
                     data-aos="fade-up" data-aos-delay="600">
                     <div class="text d-flex justify-content-center align-items-center flex-column">
-                        <h4 class="sub-sec-title">Watch It Come Alive</h4>
-                        <p class="sec-para">Get the final solution, tailored to your brief and ready to roll.</p>
+                        <h4 class="sub-sec-title">Ready to launch</h4>
+                        <p class="sec-para">You’ll receive the final solution, made according to your brief and ready to use.</p>
                     </div>
                     <div class="img mt-0 mt-md-3">
                         <div class="shadow-title">04</div>
@@ -347,14 +347,13 @@
                 <div class="col-xl-6">
                     <div class="title-area mb-35">
                         <h2 class="sec-title " data-aos="fade-right" data-aos-delay="200">90-Day <span
-                                class="text-blue">Gameplan</span></h2>
-                        <p class="mb-30 sec-para" data-aos="fade-right" data-aos-delay="200"><b>"A Growth Success
-                                cycle formula created by Team Sociomark to give the
-                                best results to its clients.</b></p>
+                                class="text-blue">Game plan</span></h2>
+                        <p class="mb-30 sec-para" data-aos="fade-right" data-aos-delay="200"><b>"A growth success cycle designed by Team Sociomark to deliver optimal results for our clients."</b></p>
                         <ol data-aos="fade-right" data-aos-delay="200">
-                            <li class="sec-para">Learn from the past</li>
-                            <li class="sec-para">Uncover the bottlenecks</li>
-                            <li class="sec-para">Clear the mind to make room for new</li>
+                            <li class="sec-para">Reflect on the Past
+                            </li>
+                            <li class="sec-para">Spot the Bottlenecks</li>
+                            <li class="sec-para">Make Space for New Ideas</li>
                         </ol>
                     </div>
                 </div>
@@ -506,19 +505,10 @@
                             Vivek Baandal </a>& <a href="https://www.linkedin.com/in/hetadesai/">Mrs. Heta Desai
                             Baandal</a></h4>
                     <p class="sec-para" data-aos="fade-left">
-                        From a shared mezzanine-floor office with two passionate dreamers to a vibrant team of 50+
-                        overlooking the beautiful Palm Beach—this journey has been nothing short of magic. What began in
-                        college as a spark between creativity and hustle has grown into a full-blown digital force.
-                        Together, <b><a
-                                href="https://www.linkedin.com/in/vivek-baandal-7b478243/">Mr. Vivek Baandal</a> & <a href="https://www.linkedin.com/in/hetadesai/">Mrs. Heta Desai Baandal</a></b> have shaped Sociomark into a
-                        space where late-night brainstorms, potluck lunches, team townhalls and campaign features all
-                        live in harmony. It's massy. It's classy. It’s us.
+                        From a modest mezzanine-floor office shared by two passionate dreamers to a thriving team of 50+ with a view of the stunning Palm Beach, this journey has been nothing short of extraordinary. What started in college as a spark between creativity and ambition has grown into a full-fledged digital powerhouse. Together, Vivek and Heta have shaped Sociomark into a space where late-night brainstorms, team lunches, town halls, and campaign celebrations coexist effortlessly. It’s bold. It’s vibrant. It’s us.
                     </p>
                     <p class="sec-para" data-aos="fade-left" data-aos-delay="200">
-                        They’ve built an agency where ideas don’t just flow—they flourish. Where clients feel heard, and
-                        brands grow loud. From guiding start-ups to scaling legacy brands, they continue to lead with
-                        clarity, curiosity and purpose. And yes, the name Sociomark came in a dream. Some stories are
-                        just meant to be...
+                        They’ve built an agency where ideas don’t just exist—they thrive. A place where clients are heard, and brands amplify their presence. From mentoring start-ups to scaling established names, they continue to lead with clarity, curiosity, and purpose. And yes, the name Sociomark? It came in a dream. Some stories are just destined to be.
                     </p>
 
                     <a href="{{ route('workculture') }}" class="th-btn th-icon text-white p-3 logo-info mt-2"
@@ -532,7 +522,7 @@
         <div class="container">
             <div class="title-area text-center d-none">
                 {{-- <span class="sub-title sub-title4 ">EXPERT TEAM <span></span></span> --}}
-                <h2 class="sec-title ">Meet Our <span class="text-blue">Remarkables</span></h2>
+                <h2 class="sec-title "> The Edge That Makes Us <span class="text-blue">Remarkable</span></h2>
             </div>
             <div class="d-none">
                 <div class="team-collage position-relative">
@@ -623,17 +613,14 @@
 
                 <div class="col-md-12 col-12 pe-0 pe-md-5">
                     <h2 class="fw-bold sec-title my-3" data-aos="fade-down" data-aos-delay="100">
-                        What Makes Us <span class="text-blue"> Remarkable</span>
+                        The Edge That Makes Us
+                        <span class="text-blue"> Remarkable</span>
                     </h2>
                     <p class="sec-para" data-aos="fade-up" data-aos-delay="200">
-                        We’re not just another digital agency—we’re storytellers, strategists, and serious brand nerds.
-                        From brainstorming big ideas to building lasting impact, we bring the perfect mix of creativity,
-                        strategy, and speed to the table.
+                        We’re not just another digital team; we’re storytellers, strategists, and passionate individuals who love to build brands. From brainstorming big ideas to creating lasting impact, we bring creativity and strategy to deliver results that matter.
                     </p>
                     <p class="sec-para" data-aos="fade-up" data-aos-delay="200">
-                        Since 2017, we’ve partnered with brands across India and beyond—crafting digital
-                        journeys that are anything but ordinary. Whether it’s content, campaigns, or conversions—we keep
-                        it fresh, we keep it focused, and we keep it fast.
+                        Since 2017, we’ve partnered with brands across India and beyond, crafting digital journeys that are anything but ordinary. As one of the best photography & videography agencies, we bring visuals to life. Alongside our performance marketing companies’ expertise and SEO services, we ensure your brand reaches the right audience, drives conversions, and grows effectively. In short, our digital marketing approach keeps it fresh, focused, and fast.
                     </p>
                 </div>
             </div>
@@ -644,12 +631,11 @@
                         <div
                             class="flip-box-front first-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
                             <img src="{{ asset('frontend-assets/img/icon/about/Quality Content.png') }}"
-                                alt="quality content" class="h-50 w-50">
-                            <h4 class="sub-sec-title">Quality Content</h4>
+                                alt="Quality over quantity" class="h-50 w-50">
+                            <h4 class="sub-sec-title">Quality over quantity</h4>
                         </div>
                         <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
-                            <p class="sec-para">We create content that connects, converts and keeps your audience
-                                coming back for more.</p>
+                            <p class="sec-para">We believe in quality content that makes your brand remembered.</p>
                         </div>
                     </div>
                 </div>
@@ -659,12 +645,11 @@
                         <div
                             class="flip-box-front second-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
                             <img src="{{ asset('frontend-assets/img/icon/about/Custumized Content.png') }}"
-                                alt="Customized Strategy" class="h-50 w-50">
-                            <h4 class="sub-sec-title">Customized Strategy</h4>
+                                alt="Tailored approach" class="h-50 w-50">
+                            <h4 class="sub-sec-title">Tailored approach</h4>
                         </div>
                         <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
-                            <p class="sec-para">No one-size-fits-all here. Every strategy is made-to-measure for your
-                                brand and its unique voice.</p>
+                            <p class="sec-para">"One size fits all" is a myth. We craft a strategy for your brand’s unique voice.</p>
                         </div>
                     </div>
                 </div>
@@ -672,13 +657,12 @@
                     <div class="flip-box-inner h-100">
                         <div
                             class="flip-box-front first-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
-                            <img src="{{ asset('frontend-assets/img/icon/about/Result Driven.png') }}" alt="Results-Driven"
+                            <img src="{{ asset('frontend-assets/img/icon/about/Result Driven.png') }}" alt="Result-oriented"
                                 class="h-50 w-50">
-                            <h4 class="sub-sec-title">Results-Driven</h4>
+                            <h4 class="sub-sec-title">Result-oriented</h4>
                         </div>
                         <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
-                            <p class="sec-para">We love creativity, but we love conversions more. Think ROI with a
-                                creative twist.</p>
+                            <p class="sec-para">Creativity that brings results becomes more valuable. And this is what we bring to the table</p>
                         </div>
                     </div>
                 </div>
@@ -688,12 +672,11 @@
                         <div
                             class="flip-box-front second-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
                             <img src="{{ asset('frontend-assets/img/icon/about/Creative distinction.png') }}"
-                                alt="Creative Distinction" class="h-50 w-50">
-                            <h4 class="sub-sec-title">Creative Distinction</h4>
+                                alt="Innovative Mind" class="h-50 w-50">
+                            <h4 class="sub-sec-title">Innovative Mind</h4>
                         </div>
                         <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
-                            <p class="sec-para">Ideas that turn heads, visuals that stop scrolls—our creative game is
-                                always a level up.</p>
+                            <p class="sec-para">Creativity that catches attention, leaves an impression, and gets your brand noticed.</p>
                         </div>
                     </div>
                 </div>
@@ -703,12 +686,11 @@
                         <div
                             class="flip-box-front first-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
                             <img src="{{ asset('frontend-assets/img/icon/about/Collaborative Growth.png') }}"
-                                alt="Collaborative Growth" class="h-50 w-50">
-                            <h4 class="sub-sec-title">Collaborative Growth</h4>
+                                alt="Partnering for growth" class="h-50 w-50">
+                            <h4 class="sub-sec-title">Partnering for growth</h4>
                         </div>
                         <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
-                            <p class="sec-para">We don’t just work for you—we work with you. Because real success is a
-                                team sport.</p>
+                            <p class="sec-para">We understand the importance of teamwork. That is the reason we don’t work for you; we work with you.</p>
                         </div>
                     </div>
                 </div>
@@ -722,8 +704,7 @@
                             <h4 class="sub-sec-title">Quirky Approach </h4>
                         </div>
                         <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
-                            <p class="sec-para">A pinch of humour, a whole lot of hustle - That’s our recipe. We like
-                                to keep things fun, fresh and fearlessly different.</p>
+                            <p class="sec-para">A little bit of humour and lightheartedness adds a lot of flavour. We keep things fun and fresh where they can be.</p>
                         </div>
                     </div>
                 </div>
@@ -732,12 +713,12 @@
                     <div class="flip-box-inner h-100">
                         <div
                             class="flip-box-front first-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
-                            <img src="{{ asset('frontend-assets/img/icon/about/Turn-around.png') }}" alt="Quick Turn Around Time"
+                            <img src="{{ asset('frontend-assets/img/icon/about/Turn-around.png') }}" alt="Rapid Execution"
                                 class="h-50 w-50">
-                            <h4 class="sub-sec-title">Quick Turn Around Time</h4>
+                            <h4 class="sub-sec-title">Rapid Execution</h4>
                         </div>
                         <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
-                            <p class="sec-para">Your deadlines are sacred. We move fast—without losing the magic.</p>
+                            <p class="sec-para">We respect deadlines. We move with the clock to deliver the results. </p>
                         </div>
                     </div>
                 </div>
