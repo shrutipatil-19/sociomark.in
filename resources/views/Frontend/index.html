@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<style>
+    .chat-toggle {
+        position: fixed;
+        /* fixed so it stays in place */
+        bottom: 20px;
+        right: 20px;
+        background: #007bff;
+        color: #fff;
+        border: none;
+        padding: 12px 16px;
+        font-size: 20px;
+        border-radius: 50%;
+        cursor: pointer;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+    }
+
+    /* Arrow + message pointing to button */
+    .chat-pointer {
+        position: fixed;
+        bottom: 28px;
+        right: 88px;
+        background: #fff;
+        padding: 8px 12px;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #333;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+        animation: fadeIn 0.8s ease-in-out;
+    }
+
+    /* Triangle Arrow */
+    .chat-pointer::after {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        right: 20px;
+        border-width: 10px;
+        border-style: solid;
+        border-color: #fff transparent transparent transparent;
+    }
+
+    /* Fade in */
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(10px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+</style>
+
+<body>
+    <!-- Chat Toggle Button -->
+    <button class="chat-toggle" id="chatToggle">💬</button>
+
+    <!-- Arrow pointing to chat button -->
+    <div class="chat-pointer">Click here 👉🏽</div>
+
+    <script>
+        window.addEventListener("load", function () {
+            setTimeout(() => {
+                document.querySelector(".chat-pointer").style.display = "none";
+            }, 5000); // hide after 5 seconds
+        });
+    </script>
+
+</body>
+
+</html>

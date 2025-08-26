@@ -62,19 +62,59 @@
 @endsection
 @push('styles')
 <style>
-        .chat-toggle {
+    .chat-toggle {
         position: fixed;
-        bottom: 20px;
-        right: 20px;
+        bottom: 90px;
+        right: 28px;
         background: #ff5722;
         color: white;
         border: none;
         padding: 15px;
         border-radius: 50%;
         cursor: pointer;
-        box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-        z-index: 9999;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        z-index: 999;
     }
+
+    /* Arrow + message pointing to button */
+    .chat-pointer {
+        position: fixed;
+        bottom: 93px;
+        right: 88px;
+        background: #fff;
+        padding: 8px 12px;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: bold;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+        animation: fadeIn 0.8s ease-in-out;
+        z-index: 999;
+    }
+
+    /* Triangle Arrow */
+    .chat-pointer::after {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        right: 20px;
+        border-width: 10px;
+        border-style: solid;
+        border-color: #fff transparent transparent transparent;
+    }
+
+    /* Fade in */
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(10px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
     #home .about-area2 .sec-title {
         width: 67rem;
     }
@@ -265,45 +305,81 @@
 @endpush
 @push('styles')
 <style>
-     #curtain1, #curtain2 {
-         position: fixed; /* Use fixed positioning to cover the entire viewport */
-         top: 0;
-         height: 100vh; /* Cover the full viewport height */
-         /* Add a smooth transition for the width property */
-         transition: width 5s ease-in-out; 
-         z-index: 10; /* Make sure curtains are on top of everything else */
-         
-         /* Styles for the curtain images */
-         background-size: cover;
-         background-position: center;
-         background-repeat: no-repeat;
-     }
-     
-     #curtain1 {
-         left: 0;
-         width: 50vw; /* Initial width is 50% of the viewport width */
-         /* Use a placeholder image for the left curtain */
-         background-image: url("{{ asset('frontend-assets/img/curtain1.jpg') }}");
-     }
+    #curtain1,
+    #curtain2 {
+        position: fixed;
+        /* Use fixed positioning to cover the entire viewport */
+        top: 0;
+        height: 100vh;
+        /* Cover the full viewport height */
+        /* Add a smooth transition for the width property */
+        transition: width 5s ease-in-out;
+        z-index: 10;
+        /* Make sure curtains are on top of everything else */
 
-     #curtain2 {
-         right: 0;
-         width: 50vw; /* Initial width is 50% of the viewport width */
-         /* Use a placeholder image for the right curtain */
-         background-image: url("{{ asset('frontend-assets/img/curtain2.jpg') }}");
-     }
-     
-     /* The CSS class to open the curtains */
-     .open-curtains #curtain1,
-     .open-curtains #curtain2 {
-         width: 0; /* Animate the width to 0 to "open" the curtains */
-     }
+        /* Styles for the curtain images */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: 1000;
+    }
+
+    #curtain1 {
+        left: 0;
+        width: 50vw;
+        /* Initial width is 50% of the viewport width */
+        /* Use a placeholder image for the left curtain */
+        background-image: url("{{ asset('frontend-assets/img/curtain1.jpg') }}");
+    }
+
+    #curtain2 {
+        right: 0;
+        width: 50vw;
+        /* Initial width is 50% of the viewport width */
+        /* Use a placeholder image for the right curtain */
+        background-image: url("{{ asset('frontend-assets/img/curtain2.jpg') }}");
+    }
+
+    /* The CSS class to open the curtains */
+    .open-curtains #curtain1,
+    .open-curtains #curtain2 {
+        width: 0;
+        /* Animate the width to 0 to "open" the curtains */
+    }
 </style>
 @endpush
 
 @section('content')
- <div id="curtain1"></div>
-      <div id="curtain2"></div> 
+@php
+use Carbon\Carbon;
+
+$expiryDate = Carbon::create(2025, 8, 28);
+
+$showCurtain = Route::currentRouteName() === 'home'
+&& Carbon::now()->lte($expiryDate)
+&& !session()->has('curtains_shown');
+@endphp
+
+@if($showCurtain)
+<div id="curtain1"></div>
+<div id="curtain2"></div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        // First load → play animation
+        setTimeout(function() {
+            $("body").addClass("open-curtains");
+        }, 500);
+    });
+</script>
+
+@php
+session(['curtains_shown' => true]);
+@endphp
+@endif
+
+
+
 <main id="home">
     {{-- Video Section --}}
     <section class="overflow-hidden video-heading height-full mb-md-3">
@@ -2162,6 +2238,33 @@
     </div>
     <!-- Chat Toggle Button -->
     <a href="{{ route('launch.wall') }}"><button class="chat-toggle" id="chatToggle">💬</button></a>
+    <!-- Arrow pointing to chat button -->
+
+    @php
+    $showMsg = Route::currentRouteName() === 'home'
+    && !session()->has('msg_shown');
+    @endphp
+
+    @if($showMsg)
+    <div class="chat-pointer sec-para">Send Wishes 👉🏽</div>
+
+    <script>
+        window.addEventListener("load", function() {
+            setTimeout(() => {
+                const el = document.querySelector(".chat-pointer");
+                if (el) {
+                    el.style.display = "none";
+                }
+            }, 10000); // hides after 30 seconds
+        });
+    </script>
+
+    @php
+    session(['msg_shown' => true]);
+    @endphp
+    @endif
+
+
 </main>
 @endsection
 
@@ -2223,18 +2326,7 @@
     });
     // services tab end
 </script>
-<script type="text/javascript">
-    $(document).ready(function() {
-        // Wait a moment before starting the animation for a smoother effect
-        setTimeout(function() {
-            // Add the class to start the CSS transition
-            $("body").addClass("open-curtains");
-        }, 500); // 500ms delay
-    });
 
-    // Optional function to manually close the curtains
-    function close_curtain() {
-        $("body").removeClass("open-curtains");
-    }
-</script>
+
+
 @endpush

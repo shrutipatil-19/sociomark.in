@@ -64,7 +64,7 @@
 @endsection
 @section('content')
 <main id="about-us" style="margin-top:68px;">
-    <div class="breadcumb-wrapper p-0">
+    <div class=" p-0">
         <div class="">
             <div class="w-100">
 

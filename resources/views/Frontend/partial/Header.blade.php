@@ -89,7 +89,7 @@ Header Area
                         $expiryDate = Carbon::create(2025, 8, 28);
                         @endphp
 
-                        @if(Route::currentRouteName() === 'home' && Carbon::now()->lte($expiryDate))
+                        @if(Carbon::now()->lte($expiryDate))
                         <div class="confetti-wrapper d-none d-lg-inline-block">
 
                             <div class="confetti"></div>
@@ -100,13 +100,21 @@ Header Area
                             <div class="confetti"></div>
 
 
+
                             <img src="{{ asset('frontend-assets/img/nav-element/gnpti-bappa1.png') }}" alt="ladu plate" height="50" style="width: 100px; height: 100px;" class="bappa-animate d-none d-lg-inline-block">
+                            @push('style')
+                            <style>
+                                .breadcumb-wrapper {
+                                    margin-top: 105px !important;
+                                }
+                            </style>
+                            @endpush
                         </div>
 
                         @endif
                         <div class="d-flex flex-column align-items-start">
 
-                            @if(Route::currentRouteName() === 'home' && Carbon::now()->lte($expiryDate))
+                            @if(Carbon::now()->lte($expiryDate))
                             <div>
                                 <div class="confetti-wrapper d-inline-block d-lg-none">
 
