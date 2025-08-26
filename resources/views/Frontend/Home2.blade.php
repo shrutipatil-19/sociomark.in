@@ -1791,14 +1791,14 @@ session(['curtains_shown' => true]);
                 <div class="swiper-wrapper">
 
                     @foreach ($prs as $pr)
-
                     <div class="swiper-slide">
                         <div class="box-blog th-blog blog-single has-post-thumbnail">
                             <div class="blog-img box-blog w-100">
-                                <a href="{{url($pr->link)  }}">
+                                <a href="{{ url($pr->link) }}">
                                     <img loading="lazy"
-                                        src="{{ url('storage/app/public/' . ($pr->img?? 'default.jpg')) }}"
-                                        alt="pr Image - {{ $pr->card_title }}" class="w-100 h-100 object-fit-cover">
+                                        src="{{ url('storage/app/public/' . ($pr->img ?? 'default.jpg')) }}"
+                                        alt="pr Image - {{ $pr->card_title }}"
+                                        class="w-100 h-100 object-fit-cover">
                                 </a>
                             </div>
                             <div class="blog-content content-padding">
@@ -1808,17 +1808,14 @@ session(['curtains_shown' => true]);
                                     </p>
                                 </div>
                                 <h3 class="blog-title blog-title-text">
-                                    <a href="{{url($pr->link)  }}">
-                                        {{ $pr->card_title}}
+                                    <a href="{{ url($pr->link) }}">
+                                        {{ $pr->card_title }}
                                     </a>
                                 </h3>
-
                                 <p class="blog-text d-none">{{ Str::limit(strip_tags($pr->description), 50) }}</p>
-
                             </div>
                         </div>
                     </div>
-
                     @endforeach
 
 
