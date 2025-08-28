@@ -80,6 +80,14 @@
                         </div>
                     </a>
                 </div>
+                <div class="col-md-3 col-xl-auto filter-item cat4">
+                    <a href="{{ route('social_media', ['client'=>'jop']) }}" class="project-item d-block">
+                        <div class="box-img global-img">
+                            <img src="{{ asset('frontend-assets/img/clients/jop_palm.jpg') }}"
+                                alt="project image">
+                        </div>
+                    </a>
+                </div>
                 <div class="col-md-3 col-xl-auto filter-item cat6">
                     <a href="" class="project-item d-block">
                         <div class="box-img global-img">
@@ -345,7 +353,7 @@
                         </div>
                     </a>
                 </div> --}}
-                <div class="col-md-3 col-xl-auto filter-item cat_">
+                <div class="col-md-3 col-xl-auto filter-item cat_ cat5">
                     <a href="{{ route('social_media', ['client' => 'the-professional-couriers']) }}" class="project-item d-block">
                         <div class="box-img global-img">
                             <img src="{{ asset('frontend-assets/img/clients/tpc01.jpg') }}"
