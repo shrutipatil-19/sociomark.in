@@ -21,7 +21,7 @@ class HomeController extends Controller
     public function Home()
     {
         $meta = [
-            'title' => 'Top Company for Digital Marketing Agency in Mumbai | Expert Services - Sociomark​',
+            'title' => 'Top Digital Marketing Agency in Mumbai | Sociomark​',
             'description' => "As a full-service digital marketing agency in Mumbai Sociomark offer tailored solutions to help businesses thrive online. Contact us today to learn how we can help you achieve your marketing goals.",
             'keywords' => 'best digital marketing agency in Navi Mumbai, digital marketing agency in Navi Mumbai, digital marketing company in navi Mumbai, best digital marketing company in navi Mumbai, digital marketing agency in Mumbai, digital marketing company in Mumbai, best digital marketing agency in Mumbai, website development company in navi Mumbai'
         ];

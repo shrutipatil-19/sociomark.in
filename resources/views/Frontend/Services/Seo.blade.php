@@ -75,8 +75,8 @@
                     <div class="title-area mb-md-3 mb-2 mt-n1">
                         <h1 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100"
                             data-aos-duration="1000" data-aos-easing="ease-in-out">
-                            An SEO agency built to put you
-                            <span class="text-blue"> on the map
+                            An SEO agency built to 
+                            <span class="text-blue">put you on the map
                             </span>
                         </h1>
                     </div>

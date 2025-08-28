@@ -10,7 +10,7 @@ class CaseStudyController extends Controller
     public function index()
     {
         $meta = [
-            'title' => 'Read our Succesful case studies | Grow Your Business with Sociomark​​',
+            'title' => 'Read our Successful case studies | Grow Your Business with Sociomark​​',
             'description' => "know how we develop a businesses's, online presence, brand, website traffic, generate leads, tailor solutions in thses case studies.",
             'keywords' => 'Sociomark, Sociomark Digital Marketing, Digital Marketing Agency In Navi Mumbai, Digital Marketing Company In Navi Mumbai, Internet Marketing Agency In Navi Mumbai, Internet Marketing Company In Navi Mumbai, Digital Advertising Company In Navi Mumbai, Internet Advertising Company In Navi Mumbai, Digital Advertising Agency In Navi Mumbai, Internet Advertising Agency In Navi Mumbai, Real Estate Digital Marketing Agency In Navi Mumbai, SEO Agency In Navi Mumbai, Website Design Agency In Navi Mumbai, Website Development Agency In Navi Mumbai, E-Commerce Website Development Agency In Navi Mumbai'
         ];

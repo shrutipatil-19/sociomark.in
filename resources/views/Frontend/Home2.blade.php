@@ -518,7 +518,7 @@ session(['curtains_shown' => true]);
                                 <div class="counter-box ">
                                     <h3 class="box-number text-orange"><span class="counter-number">200</span>+</h3>
                                     <div class="media-body">
-                                        <p class="text-white counter-text mb-n1">Campaigns</p>
+                                        <p class="text-white counter-text mb-n1">Campaign</p>
                                     </div>
                                 </div>
                             </div>
@@ -1021,7 +1021,7 @@ session(['curtains_shown' => true]);
                                         </div>
                                     </div>
                                     <div class="col-">
-                                        <p class="sec-para mt-3">Targeted ad campaigns that reach the right audience, maximize ROI, and turn clicks into conversions.
+                                        <p class="sec-para mt-3">Targeted ad Campaign that reach the right audience, maximize ROI, and turn clicks into conversions.
                                         </p>
                                         <a href="{{ route('sem') }}" class="th-btn white-border th-icon th-radius">
                                             Read More
@@ -1221,7 +1221,7 @@ session(['curtains_shown' => true]);
                                             </div>
                                             <div class="col-">
                                                 <p class="sec-para mt-3 text-white">Tired of burning the budget with
-                                                    zero ROI? Get campaigns
+                                                    zero ROI? Get Campaign
                                                     that don’t just perform—they outperform. See how we make every click
                                                     count.
 

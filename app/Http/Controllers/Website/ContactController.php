@@ -42,8 +42,8 @@ class ContactController extends Controller
             'utm_medium' => 'nullable|string|max:255',
             'utm_campaign' => 'nullable|string|max:255',
             'utm_term' => 'nullable|string|max:255',
-            'utm_content' => 'nullable|string|max:255'
-            // 'source' => 'nullable'
+            'utm_content' => 'nullable|string|max:255',
+            'source' => 'nullable'
         ]);
         $data['phone'] = $data['countryCode'] . ' ' . $data['phone'];
         $data['service'] = implode(', ', $data['service']);
