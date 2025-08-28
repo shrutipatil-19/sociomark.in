@@ -6,11 +6,11 @@
 
 @section('content')
 <main id="case-study">
-    <section style="margin-top: 68px;">
+    <section style="margin-top: 105px;"class="">
         <div class="full-width">
             <picture>
                 <source media="(min-width: 1400px)" srcset="{{ asset('frontend-assets/img/banners/case-studies.png') }}" loading="lazy">
-                <img src="{{ asset('frontend-assets/img/banners/case-studies.png') }}" alt="case study" loading="lazy">
+                <img src="{{ asset('frontend-assets/img/banners/case-studies.png') }}" alt="case study" loading="lazy" class="w-100">
             </picture>
         </div>
     </section>
@@ -131,7 +131,7 @@
                         </a>
                     </div>
                     <div class="card__data">
-                        <h4 class="sub-sec-title">Offthohook</h4>
+                        <h4 class="sub-sec-title">Off Tho Hook</h4>
                         <a href="{{ route('getTheHook') }}" class="card__button text-blue">Read More</a>
                     </div>
                 </article>
