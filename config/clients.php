@@ -289,7 +289,7 @@ return [
         // 'view' => 'Frontend/Portfolio/nhssSocial',
         // 'redirect_to_segment' => 'nhs',
         'image' => 'frontend-assets/img/clients/NHS International Rodas.jpg'
-
+  
     ],
     'nhs-kavesar-thane' => [
         'industry' => 'education',
