@@ -117,7 +117,10 @@
     <aside class="showreel-fixed d-none d-md-block">
         <button class="th-btn style1 showreel-close position-absolute"><i class="fa-solid fa-close"></i></button>
         <a class="wrapper" href="https://www.instagram.com/reel/C53hrnWSGXQ/" target="_blank">
-            <img src="{{ asset('frontend-assets/img/showreel.gif') }}" alt="Showreel">
+            {{-- <img src="{{ asset('frontend-assets/img/showreel.gif') }}" alt="Showreel"> --}}
+            <video playsinline class="w-100" autoplay muted loop>
+                <source src="{{ asset('frontend-assets/video/Video.mp4') }}">
+            </video>
         </a>
     </aside>
     <script>
