@@ -136,6 +136,14 @@
             </div>
         </a>
     </div>
+    <div class="col-md-3 col-xl-auto filter-item cat0">
+        <a href="" class="project-item d-block">
+            <div class="box-img global-img">
+                <img src="{{ asset('frontend-assets/img/clients/dyp.jpg') }}"
+                    alt="project image">
+            </div>
+        </a>
+    </div>
     <div class="col-md-3 col-xl-auto filter-item cat_">
         <a href="https://www.electrocareindia.in/" target="_blank" class="project-item d-block">
             <div class="box-img global-img">
@@ -203,7 +211,7 @@
      <div class="col-md-3 col-xl-auto filter-item cat0">
         <a href="{{ route('social_media', ['client'=>'nhss']) }}" class="project-item d-block">
             <div class="box-img global-img">
-                <img src="{{ asset('frontend-assets/img/clients/NHS Kolshet Thane.png') }}"
+                <img src="{{ asset('frontend-assets/img/clients/NHS Kolshet Thane.jpg') }}"
                     alt="project image">
             </div>
         </a>
@@ -211,7 +219,7 @@
      <div class="col-md-3 col-xl-auto filter-item cat0">
         <a href="{{ route('social_media', ['client'=>'nhss']) }}" class="project-item d-block">
             <div class="box-img global-img">
-                <img src="{{ asset('frontend-assets/img/clients/NHS Airoli.png') }}"
+                <img src="{{ asset('frontend-assets/img/clients/NHS Airoli.jpg') }}"
                     alt="project image">
             </div>
         </a>
@@ -219,7 +227,7 @@
  <div class="col-md-3 col-xl-auto filter-item cat0">
         <a href="{{ route('social_media', ['client'=>'nhss']) }}" class="project-item d-block">
             <div class="box-img global-img">
-                <img src="{{ asset('frontend-assets/img/clients/NHS International Rodas.png') }}"
+                <img src="{{ asset('frontend-assets/img/clients/NHS International Rodas.jpg') }}"
                     alt="project image">
             </div>
         </a>
@@ -227,7 +235,7 @@
      <div class="col-md-3 col-xl-auto filter-item cat0">
         <a href="{{ route('social_media', ['client'=>'nhss']) }}" class="project-item d-block">
             <div class="box-img global-img">
-                <img src="{{ asset('frontend-assets/img/clients/NHS Panvel.png') }}"
+                <img src="{{ asset('frontend-assets/img/clients/NHS Panvel.jpg') }}"
                     alt="project image">
             </div>
         </a>
@@ -235,7 +243,7 @@
      <div class="col-md-3 col-xl-auto filter-item cat0">
         <a href="{{ route('social_media', ['client'=>'nhss']) }}" class="project-item d-block">
             <div class="box-img global-img">
-                <img src="{{ asset('frontend-assets/img/clients/NHS Public Airoli.png') }}"
+                <img src="{{ asset('frontend-assets/img/clients/NHS Public Airoli.jpg') }}"
                     alt="project image">
             </div>
         </a>
@@ -243,7 +251,7 @@
      <div class="col-md-3 col-xl-auto filter-item cat0">
         <a href="{{ route('social_media', ['client'=>'nhss']) }}" class="project-item d-block">
             <div class="box-img global-img">
-                <img src="{{ asset('frontend-assets/img/clients/NHS Vasant lawns.png') }}"
+                <img src="{{ asset('frontend-assets/img/clients/NHS Vasant lawns.jpg') }}"
                     alt="project image">
             </div>
         </a>
@@ -284,7 +292,7 @@
     <div class="col-md-3 col-xl-auto filter-item cat9">
         <a href="{{ route('social_media', ['client'=>'mahindra-first-choice-services']) }}" class="project-item d-block">
             <div class="box-img global-img">
-                <img src="{{ asset('frontend-assets/img/clients/Mahindra first choice.png') }}"
+                <img src="{{ asset('frontend-assets/img/clients/Mahindra first choice.jpg') }}"
                     alt="project image">
             </div>
         </a>

@@ -216,7 +216,7 @@ return [
             'description' => "As a digital marketing agency, we boosted CyberPowerPC’s social media with strategic management, engaging content, and targeted audience growth.",
             'keywords' => 'gaming PC marketing, tech brand digital strategy, esports PC branding,Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ],
-        // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
+        'image' => 'frontend-assets/img/clients/cyberpower.jpg',
         'portfolio-image' => 'frontend-assets/img/work/cyberpwer/Cyberpower.jpg'
     ],
     'jivana' => [
@@ -275,6 +275,62 @@ return [
             'linkdin' => '',
         ],
     ],
+    'nhs-airoli' => [
+        'industry' => 'education',
+        'name' => 'NHS Airoli',
+        // 'view' => 'Frontend/Portfolio/nhssSocial',
+        // 'redirect_to_segment' => 'nhs',
+        'image' => 'frontend-assets/img/clients/NHS Airoli.jpg'
+
+    ],
+    'nhs-international-roads' => [
+        'industry' => 'education',
+        'name' => 'NHS Airoli',
+        // 'view' => 'Frontend/Portfolio/nhssSocial',
+        // 'redirect_to_segment' => 'nhs',
+        'image' => 'frontend-assets/img/clients/NHS International Rodas.jpg'
+
+    ],
+    'nhs-kavesar-thane' => [
+        'industry' => 'education',
+        'name' => 'NHS Kavesar',
+        // 'view' => 'Frontend/Portfolio/nhssSocial',
+
+        'image' => 'frontend-assets/img/clients/NHS Kavesar Thane.jpg'
+
+    ],
+    'nhs-kolshet-thane' => [
+        'industry' => 'education',
+        'name' => 'NHS Kolshet',
+        // 'view' => 'Frontend/Portfolio/nhssSocial',
+
+        'image' => 'frontend-assets/img/clients/NHS Kolshet Thane.jpg'
+
+    ],
+    'nhs-panvel' => [
+        'industry' => 'education',
+        'name' => 'NHS Panvel',
+        // 'view' => 'Frontend/Portfolio/nhssSocial',
+
+        'image' => 'frontend-assets/img/clients/NHS Panvel.jpg'
+
+    ],
+    'nhs-public-airoli' => [
+        'industry' => 'education',
+        'name' => 'NHS Public Airoli',
+        // 'view' => 'Frontend/Portfolio/nhssSocial',
+
+        'image' => 'frontend-assets/img/clients/NHS Public Airoli.jpg'
+
+    ],
+    'nhs-vasant-lawns' => [
+        'industry' => 'education',
+        'name' => 'NHS Vasant Lawns',
+        // 'view' => 'Frontend/Portfolio/nhssSocial',
+
+        'image' => 'frontend-assets/img/clients/NHS Vasant lawns.jpg'
+
+    ],
     'shahenaz' => [
         'industry' => 'fashion',
         'name' => 'Shahenaz',
@@ -311,6 +367,7 @@ return [
             'linkdin' => 'https://in.linkedin.com/company/nodwin_gaming',
         ],
     ],
+
     'road-to-safety' => [
         'industry' => 'news-media',
         'name' => 'Road To Safety',
@@ -334,6 +391,17 @@ return [
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         'portfolio-image' => 'frontend-assets/img/work/cosplay-genie/1.jpg'
     ],
+    'watch' => [
+        'industry' => 'fashion',
+        'name' => 'Watch',
+        // 'view' => 'Frontend/Portfolio/cosplayGenieSocialMedia',
+        // 'meta' => [
+        //     'title' => 'Cosplay Genie​',
+        //     'description' => "Transform into your favourite character with Cosplay Genie's high-quality costumes and accessories. Shop a wide range of options or customize your own for the perfect cosplay look. Sociomark is responsible for overseeing and executing Cosplay Genie 's complete digital marketing strategy."
+        // ],
+        'image' => 'frontend-assets/img/clients/watch.jpg',
+        // 'portfolio-image' => 'frontend-assets/img/work/cosplay-genie/1.jpg'
+    ],
     'okinawa' => [
         'industry' => 'automobile',
         'name' => 'Okinawa',
@@ -344,6 +412,7 @@ return [
         ],
         'image' => 'frontend-assets/img/clients/okinawa.jpg'
     ],
+
     'bem' => [
         'industry' => ['logistics', 'automobile'],
         'name' => 'bem',
@@ -454,7 +523,7 @@ return [
         'portfolio-image' => 'frontend-assets/img/case-study/smarter-logo.png'
     ],
     'mahindra-first-choice-services' => [
-        'industry' => 'gaming',
+        'industry' => 'automobile',
         'name' => 'mahindra-first-choice-services',
         'view' => 'Frontend/Portfolio/mahidraFirstChoiceSocialMedia',
         'meta' => [
@@ -462,7 +531,7 @@ return [
             'description' => "Mahindra First Choice Services is India&#39;s certified used car company. Sociomark helped them in social media management, graphic designing and many more.",
             'keywords' => 'Mahindra First Choice Services,Sociomark Client,Sociomark Work'
         ],
-        // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
+        'image' => 'frontend-assets/img/clients/Mahindra first choice.jpg',
         'portfolio-image' => 'frontend-assets/img/work/mahindra-first-choice-services/1.jpg'
     ],
     'team-cashless-india' => [
@@ -603,7 +672,7 @@ return [
         'industry' => 'education',
         'name' => 'Dy Patil',
         'route' => 'portfolio',
-        'image' => 'frontend-assets/img/clients/dyp01.jpg'
+        'image' => 'frontend-assets/img/clients/dyp.jpg'
     ],
     // 'dy-patil-ambi' => [
     //     'industry' => 'education',
@@ -740,14 +809,14 @@ return [
 
 
     'adi-arogyam' => [
-        'industry' => 'gaming', // no clue
+        'industry' => 'healthcare', // no clue
         'name' => 'Adi Arogyam',
         'view' => 'Frontend/Portfolio/adiArogyamSocial',
         'meta' => [
             'title' => 'Adi Arogyam Superspecility Hospital Creative | Sociomark​',
             'description' => "SocioMark digital marketing agency in Dubai boosted Adi Arogyam’s online presence with effective social media strategies and creative content."
         ],
-        // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
+        'image' => 'frontend-assets/img/clients/adi-arogyam.jpg',
         'portfolio-image' => 'frontend-assets/img/work/banner/adi_arogyam.png'
     ],
 
@@ -842,8 +911,8 @@ return [
         'meta' => [
             'title' => 'Social Media & Creative Design for TPC | Sociomark​',
             'description' => "Handled social media and crafted digital creatives for TPC to strengthen brand presence, drive engagement, and maintain a consistent visual identity."
-        ]
-        // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
+        ],
+        'image' => 'frontend-assets/img/clients/tpc01.jpg',
         // 'portfolio-image' => 'frontend-assets/img/work/banner/tmc.jpg'
     ],
 ];
