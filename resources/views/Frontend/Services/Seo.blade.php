@@ -75,8 +75,8 @@
                     <div class="title-area mb-md-3 mb-2 mt-n1">
                         <h1 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100"
                             data-aos-duration="1000" data-aos-easing="ease-in-out">
-                            An SEO agency built to 
-                            <span class="text-blue">put you on the map
+                            Not just rankings, an agency that 
+                            <span class="text-blue">grows your revenue.
                             </span>
                         </h1>
                     </div>
@@ -292,7 +292,7 @@
                     data-aos="fade-left" data-aos-delay=" 300">
                     <div class="h-100">
                         <div
-                            class="flip-box-front first-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
+                            class="flip-box-front second-feature-card h-100 d-flex align-items-center justify-content-start flex-column">
 
                             <h4 class="sub-sec-title text-blue"><b>Free Audit</b></h4>
                             <p class="sec-para">Get a clear picture of your website’s performance with our free audit. We identify issues, uncover opportunities, and show how your SEO can improve.</p>

@@ -184,30 +184,78 @@
             </div>
         </a>
     </div>
-    <div class="col-md-3 col-xl-auto filter-item cat0">
+    <!-- <div class="col-md-3 col-xl-auto filter-item cat0">
         <a href="{{ route('social_media', ['client'=>'nhss']) }}" class="project-item d-block">
             <div class="box-img global-img">
                 <img src="{{ asset('frontend-assets/img/clients/nhsinternational.jpg') }}"
                     alt="project image">
             </div>
         </a>
-    </div>
-    <div class="col-md-3 col-xl-auto filter-item cat0">
+    </div> -->
+    <!-- <div class="col-md-3 col-xl-auto filter-item cat0">
         <a href="{{ route('social_media', ['client'=>'nhss']) }}" class="project-item d-block">
             <div class="box-img global-img">
                 <img src="{{ asset('frontend-assets/img/clients/nhspsa.jpg') }}"
                     alt="project image">
             </div>
         </a>
+    </div> -->
+     <div class="col-md-3 col-xl-auto filter-item cat0">
+        <a href="{{ route('social_media', ['client'=>'nhss']) }}" class="project-item d-block">
+            <div class="box-img global-img">
+                <img src="{{ asset('frontend-assets/img/clients/NHS Kolshet Thane.png') }}"
+                    alt="project image">
+            </div>
+        </a>
     </div>
-    <div class="col-md-3 col-xl-auto filter-item cat0">
+     <div class="col-md-3 col-xl-auto filter-item cat0">
+        <a href="{{ route('social_media', ['client'=>'nhss']) }}" class="project-item d-block">
+            <div class="box-img global-img">
+                <img src="{{ asset('frontend-assets/img/clients/NHS Airoli.png') }}"
+                    alt="project image">
+            </div>
+        </a>
+    </div>
+ <div class="col-md-3 col-xl-auto filter-item cat0">
+        <a href="{{ route('social_media', ['client'=>'nhss']) }}" class="project-item d-block">
+            <div class="box-img global-img">
+                <img src="{{ asset('frontend-assets/img/clients/NHS International Rodas.png') }}"
+                    alt="project image">
+            </div>
+        </a>
+    </div>
+     <div class="col-md-3 col-xl-auto filter-item cat0">
+        <a href="{{ route('social_media', ['client'=>'nhss']) }}" class="project-item d-block">
+            <div class="box-img global-img">
+                <img src="{{ asset('frontend-assets/img/clients/NHS Panvel.png') }}"
+                    alt="project image">
+            </div>
+        </a>
+    </div>
+     <div class="col-md-3 col-xl-auto filter-item cat0">
+        <a href="{{ route('social_media', ['client'=>'nhss']) }}" class="project-item d-block">
+            <div class="box-img global-img">
+                <img src="{{ asset('frontend-assets/img/clients/NHS Public Airoli.png') }}"
+                    alt="project image">
+            </div>
+        </a>
+    </div>
+     <div class="col-md-3 col-xl-auto filter-item cat0">
+        <a href="{{ route('social_media', ['client'=>'nhss']) }}" class="project-item d-block">
+            <div class="box-img global-img">
+                <img src="{{ asset('frontend-assets/img/clients/NHS Vasant lawns.png') }}"
+                    alt="project image">
+            </div>
+        </a>
+    </div>
+    <!-- <div class="col-md-3 col-xl-auto filter-item cat0">
         <a href="{{ route('social_media', ['client'=>'nhss']) }}" class="project-item d-block">
             <div class="box-img global-img">
                 <img src="{{ asset('frontend-assets/img/clients/nhs_logo.png') }}"
                     alt="project image">
             </div>
         </a>
-    </div>
+    </div> -->
     <div class="col-md-3 col-xl-auto filter-item cat7">
         <a href="{{ route('social_media', ['client'=>'nodwin-gaming']) }}" class="project-item d-block">
             <div class="box-img global-img">
@@ -226,13 +274,23 @@
     </div>
 
     <div class="col-md-3 col-xl-auto filter-item cat9">
-        <a href="" class="project-item d-block">
+        <a href="{{ route('social_media', ['client'=>'okinawa']) }}" class="project-item d-block">
             <div class="box-img global-img">
                 <img src="{{ asset('frontend-assets/img/clients/okinawa.jpg') }}"
                     alt="project image">
             </div>
         </a>
     </div>
+    <div class="col-md-3 col-xl-auto filter-item cat9">
+        <a href="{{ route('social_media', ['client'=>'mahindra-first-choice-services']) }}" class="project-item d-block">
+            <div class="box-img global-img">
+                <img src="{{ asset('frontend-assets/img/clients/Mahindra first choice.png') }}"
+                    alt="project image">
+            </div>
+        </a>
+    </div>
+
+
     <div class="col-md-3 col-xl-auto filter-item cat2">
         <a href="https://offthehookgrabandgo.com/" target="_blank" class="project-item d-block">
             <div class="box-img global-img">
