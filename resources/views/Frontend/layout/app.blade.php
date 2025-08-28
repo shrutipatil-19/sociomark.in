@@ -70,14 +70,14 @@
     <!--==============================
      Preloader
   ==============================-->
-    <div class="preloader p-3">
+    {{-- <div class="preloader p-3">
         <button class="th-btn style1 preloaderCls"><i class="fa-solid fa-close ms-2"></i></button>
         <div class="preloader-inner">
-            <img src="{{ asset('frontend-assets/img/preloader.gif') }}" alt="Sociomark" height="200">
+            <img src="{{ asset('frontend-assets/img/preloader.gif') }}" alt="Sociomark" height="200"> --}}
 
             {{-- <span class="loader"></span> --}}
-        </div>
-    </div>
+        {{-- </div>
+    </div> --}}
     <div class="popup-search-box d-none d-lg-block">
         <button class="searchClose"><i class="fal fa-times"></i></button>
         <form action="#">
