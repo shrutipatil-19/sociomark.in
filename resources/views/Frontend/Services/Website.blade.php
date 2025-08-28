@@ -62,7 +62,7 @@
                     <div class="service-process-wrap">
                         <div class="service-process" data-aos="fade-left" data-aos-duration="1000">
                             <div class="align-content-center service-process_img"><img
-                                    src="{{ asset('frontend-assets/img/servicePages/Website Developement/tech/tech_work_1.png') }}" class="w-100 h-100"
+                                    src="{{ asset('frontend-assets/img/ServicePages/Website Developement/tech/tech_work_1.png') }}" class="w-100 h-100"
                                     alt="HTML">
                             </div>
                             <a href="#">
@@ -74,7 +74,7 @@
                         </div>
                         <div class="service-process" data-aos="fade-left" data-aos-duration="2000">
                             <div class="align-content-center service-process_img"><img
-                                    src="{{ asset('frontend-assets/img/servicePages/Website Developement/tech/tech_work_2.png') }}" class="w-100 h-100"
+                                    src="{{ asset('frontend-assets/img/ServicePages/Website Developement/tech/tech_work_2.png') }}" class="w-100 h-100"
                                     alt="SEO">
                             </div>
                             <a href="#">
@@ -86,7 +86,7 @@
                         </div>
                         <div class="service-process" data-aos="fade-left" data-aos-duration="1000">
                             <div class="align-content-center service-process_img"><img
-                                    src="{{ asset('frontend-assets/img/servicePages/Website Developement/tech/tech_work_3.png') }}" class="w-100 h-100"
+                                    src="{{ asset('frontend-assets/img/ServicePages/Website Developement/tech/tech_work_3.png') }}" class="w-100 h-100"
                                     alt="Website Development">
                             </div>
                             <a href="#">
@@ -98,7 +98,7 @@
                         </div>
                         <div class="service-process" data-aos="fade-left" data-aos-duration="1000">
                             <div class="align-content-center service-process_img"><img
-                                    src="{{ asset('frontend-assets/img/servicePages/Website Developement/tech/tech_work_4.png') }}" class="w-100 h-100"
+                                    src="{{ asset('frontend-assets/img/ServicePages/Website Developement/tech/tech_work_4.png') }}" class="w-100 h-100"
                                     alt="Digital Marketing">
                             </div>
                             <a href="#">
@@ -110,7 +110,7 @@
                         </div>
                         <div class="service-process" data-aos="fade-left" data-aos-duration="2000">
                             <div class="align-content-center service-process_img"><img
-                                    src="{{ asset('frontend-assets/img/servicePages/Website Developement/tech/tech_work_10.png') }}" class="w-100 h-100"
+                                    src="{{ asset('frontend-assets/img/ServicePages/Website Developement/tech/tech_work_10.png') }}" class="w-100 h-100"
                                     alt="Performance Marketing">
                             </div>
                             <a href="#">
@@ -122,7 +122,7 @@
                         </div>
                         <div class="service-process" data-aos="fade-left" data-aos-duration="3000">
                             <div class="align-content-center service-process_img"><img
-                                    src="{{ asset('frontend-assets/img/servicePages/Website Developement/tech/tech_work_12.png') }}" class="w-100 h-100"
+                                    src="{{ asset('frontend-assets/img/ServicePages/Website Developement/tech/tech_work_12.png') }}" class="w-100 h-100"
                                     alt="Content Marketing">
                             </div>
                             <a href="#">
