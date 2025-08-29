@@ -98,19 +98,14 @@ Header Area
                             <div class="confetti"></div>
                             <div class="confetti"></div>
                             <div class="confetti"></div>
-
-
-
                             <img src="{{ asset('frontend-assets/img/nav-element/gnpti-bappa1.png') }}" alt="ladu plate" height="50" style="width: 100px; height: 100px;" class="bappa-animate d-none d-lg-inline-block">
-                            @push('style')
-                            <style>
-                                .breadcumb-wrapper {
-                                    margin-top: 105px !important;
-                                }
-                            </style>
-                            @endpush
-                        </div>
 
+                        </div>
+                        <style>
+                            .breadcumb-wrapper {
+                                margin-top: 105px !important;
+                            }
+                        </style>
                         @endif
                         <div class="d-flex flex-column align-items-start">
 
