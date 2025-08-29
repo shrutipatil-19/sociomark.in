@@ -62,7 +62,97 @@
             max-height: 60vh;
         }
     </style>
-    <section class="overflow-hidden space bg-grey" id="work-flow">
+    <section class="bg-grey space services px-5">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-4">
+                    <h2 class="sec-title mb-20" data-aos="fade-right" data-aos-duration="1000">Create More
+                        <span class="text-blue">Awareness</span>
+                    </h2>
+                    <p class="sec-para mb-35" data-aos="fade-right" data-aos-duration="2000">Overall, A 360 degree approach, facilitating a
+                        complete coverage
+                        of all possible digital mediums. You know we can mark all possibilities!</p>
+                </div>
+                <div class="col-lg-8">
+                    <div class="service-process-wrap">
+                        <div class="service-process" data-aos="fade-left" data-aos-duration="1000">
+                            <div class="align-content-center service-process_img"><img
+                                    src="{{ asset('frontend-assets/img/ServicePages/Website Developement/tech/tech_work_1.png') }}" class="w-100 h-100"
+                                    alt="HTML">
+                            </div>
+                            <a href="#">
+                                <div class="service-process_centent">
+                                    <h5 class="sub-sec-title">ZeroGPT</h5>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div class="service-process" data-aos="fade-left" data-aos-duration="2000">
+                            <div class="align-content-center service-process_img"><img
+                                    src="{{ asset('frontend-assets/img/ServicePages/Website Developement/tech/tech_work_2.png') }}" class="w-100 h-100"
+                                    alt="SEO">
+                            </div>
+                            <a href="#">
+                                <div class="service-process_centent">
+                                    <h5 class="sub-sec-title">AI Content Detector </h5>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div class="service-process" data-aos="fade-left" data-aos-duration="1000">
+                            <div class="align-content-center service-process_img"><img
+                                    src="{{ asset('frontend-assets/img/ServicePages/Website Developement/tech/tech_work_3.png') }}" class="w-100 h-100"
+                                    alt="Website Development">
+                            </div>
+                            <a href="#">
+                                <div class="service-process_centent">
+                                    <h5 class="sub-sec-title">Copyleaks</h5>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div class="service-process" data-aos="fade-left" data-aos-duration="1000">
+                            <div class="align-content-center service-process_img"><img
+                                    src="{{ asset('frontend-assets/img/ServicePages/Website Developement/tech/tech_work_4.png') }}" class="w-100 h-100"
+                                    alt="Digital Marketing">
+                            </div>
+                            <a href="#">
+                                <div class="service-process_centent">
+                                    <h5 class="sub-sec-title">GPTZero</h5>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div class="service-process" data-aos="fade-left" data-aos-duration="2000">
+                            <div class="align-content-center service-process_img"><img
+                                    src="{{ asset('frontend-assets/img/ServicePages/Website Developement/tech/tech_work_10.png') }}" class="w-100 h-100"
+                                    alt="Performance Marketing">
+                            </div>
+                            <a href="#">
+                                <div class="service-process_centent">
+                                    <h5 class="sub-sec-title">Quetext</h5>
+
+                                </div>
+                            </a>
+                        </div>
+                      
+                        {{-- <div class="service-process">
+                                    <div class="align-content-center service-process_img"><img
+                                            src="{ asset('frontend-assets/img/icon/service/Social.png') }}"
+                        height="50" alt="">
+                    </div>
+                    <div class="service-process_centent">
+                        <h5 class="service-process_title">Photography & Video Production</h5>
+                        <p class="service-process_text">Creating a face for the brand with seamless
+                            integration, that helps build a connect with your audience.</p>
+                    </div>
+                </div> --}}
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <section class="overflow-hidden space" id="work-flow">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
@@ -122,7 +212,7 @@
         </div>
     </section>
 
-    <section class="overflow-hidden space" id="about-sec3">
+    <section class="overflow-hidden space bg-grey" id="about-sec3">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-10">
@@ -203,7 +293,7 @@
 
     </section>
 
-    <section class="overflow-hidden space bg-grey" id="about-sec2">
+    <section class="overflow-hidden space " id="about-sec2">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-8" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1200"
