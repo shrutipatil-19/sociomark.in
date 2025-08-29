@@ -67,7 +67,7 @@
                     <div class="title-area text-center">
                         <h2 class="fw-bold mb-5 sec-title" data-aos="fade-right" data-aos-delay="100"
                             data-aos-duration="1000" data-aos-easing="ease-in-out">
-                            Our approach to framing 
+                            Our approach to framing
                             <span class="text-blue"> visual masterpieces</span>.
                         </h2>
                         {{-- <p class="sec-para">Here are a few of the SEO strategies that we as a Leading Digital Marketing
@@ -110,7 +110,7 @@
                             <p class="sec-para">To ensure high-quality output, we use the latest tools and technology. From drone shots to studio setups, along with a skilled team, we ensure that the outcome is the best.
                             </p>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -124,7 +124,7 @@
                     <div class="title-area text-center">
                         <h2 class="fw-bold mb-5 sec-title" data-aos="fade-right" data-aos-delay="100"
                             data-aos-duration="1000" data-aos-easing="ease-in-out">
-                            The Way We Craft Impactful Stories 
+                            The Way We Craft Impactful Stories
                             <span class="text-blue"> Through the Lens</span>
                         </h2>
                     </div>
@@ -198,8 +198,8 @@
                     data-aos-easing="ease-in-out">
                     <div class="title-area mb-20">
                         <h2 class="sec-title mb-md-3 mb-2">
-                            The reason brands count 
- <span class="text-blue">on our frames</span>
+                            The reason brands count
+                            <span class="text-blue">on our frames</span>
                         </h2>
                     </div>
                     <p class="sec-para d-none ">Our SEO strategies are designed to improve your website’s ranking on
@@ -233,7 +233,7 @@
                             </div>
                             <div class="media-body">
                                 <h4 class="sub-sec-title">Consistency in quality</h4>
-                                <p class="sec-para"> From the original concept/idea to the final cut, we ensure reliability with results that brands can count on, every time. 
+                                <p class="sec-para"> From the original concept/idea to the final cut, we ensure reliability with results that brands can count on, every time.
                                 </p>
                             </div>
                         </div>
@@ -255,6 +255,135 @@
         </div>
     </section>
 
+    <section class="port-bann overflow-hidden space ">
+        <div class="container">
+            <div class="row">
+                <h2 class=" sec-title text-center">Photography <span class="text-blue">Creative</span></h2>
+                </h2>
+                <div class="swiper creativeSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <blockquote
+                                class="instagram-media"
+                                data-instgrm-permalink="https://www.instagram.com/reel/DDhX55BgFgF/?utm_source=ig_embed&amp;utm_campaign=loading"
+                                data-instgrm-version="14"
+                                style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:1px; max-width:540px; min-width:326px; padding:0; width:calc(100% - 2px); height:500px;">
+                            </blockquote>
+
+                            <script async src="//www.instagram.com/embed.js"></script>
+
+
+                        </div>
+
+                        <div class="swiper-slide">
+                            <blockquote
+                                class="instagram-media"
+                                data-instgrm-permalink="https://www.instagram.com/reel/DHGFv0wy32I/?utm_source=ig_embed&amp;utm_campaign=loading"
+                                data-instgrm-version="14"
+                                style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:1px; max-width:540px; min-width:326px; padding:0; width:calc(100% - 2px); height:500px;">
+                            </blockquote>
+
+                            <script async src="//www.instagram.com/embed.js"></script>
+
+
+                        </div>
+                        <div class="swiper-slide">
+                            <blockquote
+                                class="instagram-media"
+                                data-instgrm-permalink="https://www.instagram.com/reel/DIWhZbposlv/?utm_source=ig_embed&amp;utm_campaign=loading"
+                                data-instgrm-version="14"
+                                style="background:#FFF; border:0; border-radius:3px; box-shadow:none; margin:1px; max-width:540px; min-width:326px; padding:0; width:100%; height:500px;">
+                            </blockquote>
+
+                            <script async src="//www.instagram.com/embed.js"></script>
+
+
+                        </div>
+                        <div class="swiper-slide">
+                            <blockquote
+                                class="instagram-media"
+                                data-instgrm-permalink="https://www.instagram.com/reel/DKrl9nPyMVr/?utm_source=ig_embed&amp;utm_campaign=loading"
+                                data-instgrm-version="14"
+                                style="background:#FFF; border:0; border-radius:8px; box-shadow:none; margin:0 auto; max-width:540px; min-width:326px; padding:0; width:100%; height:500px;">
+                            </blockquote>
+
+                            <script async src="//www.instagram.com/embed.js"></script>
+
+
+                        </div>
+                        <div class="swiper-slide">
+                            <blockquote
+                                class="instagram-media"
+                                data-instgrm-permalink="https://www.instagram.com/reel/DL4q8wPM9Yc/?utm_source=ig_embed&amp;utm_campaign=loading"
+                                data-instgrm-version="14"
+                                style="background:#FFF; border:0; border-radius:8px; box-shadow:none; margin:0 auto; max-width:540px; min-width:326px; padding:0; width:100%; height:500px;">
+                            </blockquote>
+
+                            <script async src="//www.instagram.com/embed.js"></script>
+
+
+                        </div>
+                        <div class="swiper-slide">
+                            <blockquote
+                                class="instagram-media"
+                                data-instgrm-permalink="https://www.instagram.com/reel/DMk6fhPS0q9/?utm_source=ig_embed&amp;utm_campaign=loading"
+                                data-instgrm-version="14"
+                                style="background:#FFF; border:0; border-radius:8px; box-shadow:none; margin:0 auto; max-width:540px; min-width:326px; padding:0; width:100%; height:500px;">
+                            </blockquote>
+
+                            <script async src="//www.instagram.com/embed.js"></script>
+
+                        </div>
+                        <div class="swiper-slide">
+                            <blockquote
+                                class="instagram-media"
+                                data-instgrm-permalink="https://www.instagram.com/reel/DNQV-QsSMCq/?utm_source=ig_embed&amp;utm_campaign=loading"
+                                data-instgrm-version="14"
+                                style="background:#FFF; border:0; border-radius:8px; box-shadow:none; margin:0 auto; max-width:540px; min-width:326px; padding:0; width:100%; height:500px;">
+                            </blockquote>
+
+                            <script async src="//www.instagram.com/embed.js"></script>
+
+                        </div>
+                    </div>
+                    <!--<div class="swiper-button-next"></div>-->
+                    <!--<div class="swiper-button-prev"></div>-->
+                    {{-- <div class="swiper-pagination"></div> --}}
+                </div>
+
+                <script>
+                    var swiper = new Swiper(".creativeSwiper", {
+                        spaceBetween: 30,
+                        centeredSlides: true,
+                        slidesPerView: 1,
+                        loop: true,
+                        autoplay: {
+                            delay: 2500,
+                            disableOnInteraction: false,
+                        },
+                        breakpoints: {
+                            375: {
+                                slidesPerView: 1,
+                                spaceBetween: 20,
+                            },
+                            768: {
+                                slidesPerView: 2,
+                                spaceBetween: 40,
+                            },
+                            1024: {
+                                slidesPerView: 3,
+                                spaceBetween: 50,
+                            },
+                        },
+                        pagination: {
+                            el: ".creativeSwiper .swiper-pagination",
+                            clickable: true,
+                        },
+                    });
+                </script>
+            </div>
+        </div>
+    </section>
     <div class="space-extra2-bottom">
         <div class="container">
             <div class="row text-center">
