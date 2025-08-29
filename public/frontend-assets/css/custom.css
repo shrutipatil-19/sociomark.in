@@ -2029,32 +2029,3 @@ main#home {
 /* services tab end */
 /* delete if want */
 
-.benefit-block:hover {
-    border-left: 5px solid #106c97 !important;
-}
-
-.benefit-block:hover .sub-sec-title {
-    color: #106c97 !important;
-}
-
-#benefits {
-    max-height: 60vh;
-}
-
-.service-process:hover {
-    background-color: antiquewhite;
-}
-
-.service-process-wrap-inner {
-    grid-template-columns: repeat(4, 1fr);
-}
-
-.service-process_img {
-    margin-left: 45%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
-    border-width: 1px;
-    border: 1px solid transparent !important;
-    margin-top: -43px;
-    width: 80px;
-    height: 80px;
-}

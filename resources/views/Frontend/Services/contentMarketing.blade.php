@@ -66,18 +66,16 @@
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-lg-4">
-                    <h2 class="sec-title mb-20" data-aos="fade-right" data-aos-duration="1000">Create More
-                        <span class="text-blue">Awareness</span>
+                    <h2 class="sec-title mb-20" data-aos="fade-right" data-aos-duration="1000">Shape brand 
+                        <span class="text-blue">stories</span>
                     </h2>
-                    <p class="sec-para mb-35" data-aos="fade-right" data-aos-duration="2000">Overall, A 360 degree approach, facilitating a
-                        complete coverage
-                        of all possible digital mediums. You know we can mark all possibilities!</p>
+                    <p class="sec-para mb-35 truncate" data-collapsed-words="50" data-aos="fade-right" data-aos-duration="2000">Overall, A 360 Words have the power to shape brands, and we craft stories that fuel growth and visibility. As a leading content marketing and SEO company, we create strategies that align with your goals and help your brand rank higher. Every piece of content passes through more than 5 tools, ZeroGPT , grammarly * , *Copyleaks , GPTZero , Quetext , and more, to ensure originality. The result is unique, AI-free, and SEO-friendly content. With the right blend of words, visuals, and storytelling, we turn communication into your brand’s strongest asset.</p>
                 </div>
                 <div class="col-lg-8">
                     <div class="service-process-wrap service-process-wrap-inner">
                         <div class="service-process" data-aos="fade-left" data-aos-duration="1000">
                             <div class="align-content-center service-process_img"><img
-                                    src="{{ asset('frontend-assets/img/ServicePages/Website Developement/tech/tech_work_1.png') }}" class="w-100 h-100"
+                                    src="{{ asset('frontend-assets/img/ServicePages/Content Marketing/tools/ZeroGPT.png') }}" class="w-100 h-100"
                                     alt="HTML">
                             </div>
                             <a href="#">
@@ -89,8 +87,8 @@
                         </div>
                         <div class="service-process" data-aos="fade-left" data-aos-duration="2000">
                             <div class="align-content-center service-process_img"><img
-                                    src="{{ asset('frontend-assets/img/ServicePages/Website Developement/tech/tech_work_2.png') }}" class="w-100 h-100"
-                                    alt="SEO">
+                                    src="{{ asset(path: 'frontend-assets/img/ServicePages/Content Marketing/tools/Grammarly.png') }}" class="w-100 h-100"
+                                    alt="AI Content Detector">
                             </div>
                             <a href="#">
                                 <div class="service-process_centent">
@@ -101,8 +99,8 @@
                         </div>
                         <div class="service-process" data-aos="fade-left" data-aos-duration="1000">
                             <div class="align-content-center service-process_img"><img
-                                    src="{{ asset('frontend-assets/img/ServicePages/Website Developement/tech/tech_work_3.png') }}" class="w-100 h-100"
-                                    alt="Website Development">
+                                    src="{{ asset('frontend-assets/img/ServicePages/Content Marketing/tools/Copyleaks.png') }}" class="w-100 h-100"
+                                    alt="Copyleaks">
                             </div>
                             <a href="#">
                                 <div class="service-process_centent">
@@ -113,8 +111,8 @@
                         </div>
                         <div class="service-process" data-aos="fade-left" data-aos-duration="1000">
                             <div class="align-content-center service-process_img"><img
-                                    src="{{ asset('frontend-assets/img/ServicePages/Website Developement/tech/tech_work_4.png') }}" class="w-100 h-100"
-                                    alt="Digital Marketing">
+                                    src="{{ asset('frontend-assets/img/ServicePages/Content Marketing/tools/GPTZero.png') }}" class="w-100 h-100"
+                                    alt="GPTZero">
                             </div>
                             <a href="#">
                                 <div class="service-process_centent">
@@ -125,8 +123,8 @@
                         </div>
                         <div class="service-process" data-aos="fade-left" data-aos-duration="2000">
                             <div class="align-content-center service-process_img"><img
-                                    src="{{ asset('frontend-assets/img/ServicePages/Website Developement/tech/tech_work_10.png') }}" class="w-100 h-100"
-                                    alt="Performance Marketing">
+                                    src="{{ asset('frontend-assets/img/ServicePages/Content Marketing/tools/Quetext.png') }}" class="w-100 h-100"
+                                    alt="Quetext">
                             </div>
                             <a href="#">
                                 <div class="service-process_centent">
@@ -135,7 +133,7 @@
                                 </div>
                             </a>
                         </div>
-                      
+
                         {{-- <div class="service-process">
                                     <div class="align-content-center service-process_img"><img
                                             src="{ asset('frontend-assets/img/icon/service/Social.png') }}"
@@ -159,7 +157,7 @@
                     <div class="title-area text-center">
                         <h2 class="fw-bold mb-5 sec-title" data-aos="fade-right" data-aos-delay="100"
                             data-aos-duration="1000" data-aos-easing="ease-in-out">
-                            The process behind the 
+                            The process behind the
                             <span class="text-blue"> progress</span>
                         </h2>
                         {{-- <p class="sec-para">Here are a few of the SEO strategies that we as a Leading Digital Marketing
@@ -300,7 +298,7 @@
                     data-aos-easing="ease-in-out">
                     <div class="title-area mb-20">
                         <h2 class="sec-title mb-md-3 mb-2">
-                            How We Help You Lead the  <span class="text-blue">Content Game</span>
+                            How We Help You Lead the <span class="text-blue">Content Game</span>
                         </h2>
                     </div>
                     <p class="sec-para d-none ">Our SEO strategies are designed to improve your website’s ranking on
@@ -591,7 +589,39 @@
     @include('Frontend/partial/contactUs')
 </main>
 @endsection
+@push('styles')
+<style>
+    .benefit-block:hover {
+        border-left: 5px solid #106c97 !important;
+    }
 
+    .benefit-block:hover .sub-sec-title {
+        color: #106c97 !important;
+    }
+
+    #benefits {
+        max-height: 60vh;
+    }
+
+    .service-process:hover {
+        background-color: antiquewhite;
+    }
+
+    .service-process-wrap-inner {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .service-process_img {
+        margin-left: 45%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+        border-width: 1px;
+        border: 1px solid transparent !important;
+        margin-top: -43px;
+        width: 80px;
+        height: 80px;
+    }
+</style>
+@endpush
 @push('scripts')
 <script>
     var swiper = new Swiper(".mySwiper", {
