@@ -74,7 +74,7 @@
                         of all possible digital mediums. You know we can mark all possibilities!</p>
                 </div>
                 <div class="col-lg-8">
-                    <div class="service-process-wrap">
+                    <div class="service-process-wrap service-process-wrap-inner">
                         <div class="service-process" data-aos="fade-left" data-aos-duration="1000">
                             <div class="align-content-center service-process_img"><img
                                     src="{{ asset('frontend-assets/img/ServicePages/Website Developement/tech/tech_work_1.png') }}" class="w-100 h-100"

@@ -2045,7 +2045,7 @@ main#home {
     background-color: antiquewhite;
 }
 
-.service-process-wrap {
+.service-process-wrap-inner {
     grid-template-columns: repeat(4, 1fr);
 }
 
