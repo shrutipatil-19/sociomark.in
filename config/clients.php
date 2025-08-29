@@ -280,6 +280,7 @@ return [
         'name' => 'NHS Airoli',
         // 'view' => 'Frontend/Portfolio/nhssSocial',
         // 'redirect_to_segment' => 'nhs',
+        'route' => 'nhs',
         'image' => 'frontend-assets/img/clients/NHS Airoli.jpg'
 
     ],
@@ -287,15 +288,15 @@ return [
         'industry' => 'education',
         'name' => 'NHS Airoli',
         // 'view' => 'Frontend/Portfolio/nhssSocial',
-        // 'redirect_to_segment' => 'nhs',
+        'route' => 'nhs',
         'image' => 'frontend-assets/img/clients/NHS International Rodas.jpg'
-  
+
     ],
     'nhs-kavesar-thane' => [
         'industry' => 'education',
         'name' => 'NHS Kavesar',
         // 'view' => 'Frontend/Portfolio/nhssSocial',
-
+        'route' => 'nhs',
         'image' => 'frontend-assets/img/clients/NHS Kavesar Thane.jpg'
 
     ],
@@ -303,7 +304,7 @@ return [
         'industry' => 'education',
         'name' => 'NHS Kolshet',
         // 'view' => 'Frontend/Portfolio/nhssSocial',
-
+        'route' => 'nhs',
         'image' => 'frontend-assets/img/clients/NHS Kolshet Thane.jpg'
 
     ],
@@ -311,7 +312,7 @@ return [
         'industry' => 'education',
         'name' => 'NHS Panvel',
         // 'view' => 'Frontend/Portfolio/nhssSocial',
-
+        'route' => 'nhs',
         'image' => 'frontend-assets/img/clients/NHS Panvel.jpg'
 
     ],
@@ -319,7 +320,7 @@ return [
         'industry' => 'education',
         'name' => 'NHS Public Airoli',
         // 'view' => 'Frontend/Portfolio/nhssSocial',
-
+        'route' => 'nhs',
         'image' => 'frontend-assets/img/clients/NHS Public Airoli.jpg'
 
     ],
@@ -327,7 +328,7 @@ return [
         'industry' => 'education',
         'name' => 'NHS Vasant Lawns',
         // 'view' => 'Frontend/Portfolio/nhssSocial',
-
+        'route' => 'nhs',
         'image' => 'frontend-assets/img/clients/NHS Vasant lawns.jpg'
 
     ],
