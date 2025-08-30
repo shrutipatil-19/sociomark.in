@@ -47,7 +47,7 @@
                         Sharing real stories, testimonials, and insights, we make your brand more relatable and trustworthy. Our strategies combine the use of various platforms and tools, based on where the audiences are. The content is tailored so that it reflects the values and strength of your brand.
                         Ultimately, our goal is to help healthcare providers be able to help and serve more and more people.
                     </p>
-                    <a href="#" class="th-btn th-icon" data-bs-toggle="modal" data-bs-target="#getAQuoteModal">
+                    <a href="{{ route('contact') }}" class="th-btn th-icon">
                         Get A Quote <i class="fa-solid fa-arrow-right ms-2"></i></a>
                 </div>
             </div>

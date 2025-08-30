@@ -47,7 +47,7 @@
                     <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
                         Let us make a meaningful difference in the education sector and help your institution shine and thrive.
                     </p>
-                    <a href="#" class="th-btn th-icon" data-bs-toggle="modal" data-bs-target="#getAQuoteModal">Get
+                    <a href="{{ route('contact') }}" class="th-btn th-icon">Get
                         A Quote <i class="fa-solid fa-arrow-right ms-2"></i></a>
                 </div>
             </div>

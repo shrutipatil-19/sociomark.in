@@ -55,7 +55,7 @@
                     <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
                         Over the years we have helped our clients from the FMCG niche to be a part of their customers' kitchens by consistent and proper messaging, helping them to be visible and sell better.
                     </p>
-                    <a href="#" class="th-btn th-icon" data-bs-toggle="modal" data-bs-target="#getAQuoteModal">Get
+                    <a href="{{ route('contact') }}" class="th-btn th-icon">Get
                         A Quote <i class="fa-solid fa-arrow-right ms-2"></i></a>
                 </div>
             </div>

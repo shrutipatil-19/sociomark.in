@@ -51,7 +51,7 @@
                     <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
                         Over the years we have helped our clients from this domain be seen and heard through consistent and valuable content, thus guiding them to be a trusted voice in this space.
                     </p>
-                    <a href="#" class="th-btn th-icon" data-bs-toggle="modal" data-bs-target="#getAQuoteModal">Get
+                    <a href="{{ route('contact') }}" class="th-btn th-icon">Get
                         A Quote <i class="fa-solid fa-arrow-right ms-2"></i></a>
                 </div>
             </div>

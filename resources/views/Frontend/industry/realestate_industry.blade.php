@@ -52,7 +52,7 @@
                         Finally, when all these digital marketing tools are executed in a proper way, they turn casual browsers into interested ones. Using tailored strategies, over the years we have assisted our clients in the real estate space to be seen and sell better.
 
                     </p>
-                    <a href="#" class="th-btn th-icon" data-bs-toggle="modal" data-bs-target="#getAQuoteModal">Get
+                    <a href="{{ route('contact') }}" class="th-btn th-icon">Get
                         A Quote <i class="fa-solid fa-arrow-right ms-2"></i></a>
                 </div>
             </div>
