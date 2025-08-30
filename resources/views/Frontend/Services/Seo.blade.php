@@ -75,7 +75,7 @@
                     <div class="title-area mb-md-3 mb-2 mt-n1">
                         <h1 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100"
                             data-aos-duration="1000" data-aos-easing="ease-in-out">
-                            Not just rankings, an agency that 
+                            Not just rankings, an agency that
                             <span class="text-blue">grows your revenue.
                             </span>
                         </h1>
@@ -108,7 +108,174 @@
             max-height: 60vh;
         }
     </style>
-    <section class="overflow-hidden space bg-grey" id="work-flow">
+    <section class="overflow-hidden space bg-grey" id="about-sec2">
+        <div class="container">
+            <div class="row align-items-start">
+                <div class="col-xl-7" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1200"
+                    data-aos-easing="ease-in-out">
+                    <div class="title-area mb-20">
+                        <h2 class="sec-title mb-md-3 mb-2">
+                            From Zero presence to ranking on 50+keywords in just 90 days! -
+                            <span class="text-blue">Download the Pare Case study now</span>
+                        </h2>
+                    </div>
+                    <p class="sec-para ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, quidem eaque aliquam obcaecati libero eum accusantium, reprehenderit nesciunt quaerat sapiente deleniti, at minima architecto quae enim fugiat deserunt? Qui aspernatur enim eveniet repellat! Repellendus amet fugiat corporis unde soluta? Accusantium natus cum ducimus eos placeat. Ea saepe aspernatur ad eos!
+                    </p>
+                    <!-- <a href="{{ route('workculture') }}" class="th-btn th-icon text-white p-3 logo-info mt-2"
+                        data-aos="fade-left" data-aos-delay="100">Download</a> -->
+                    <a href="#" class="th-btn th-icon" data-bs-toggle="modal"
+                        data-bs-target="#getAQuoteModal">Download<i class="fa-solid fa-arrow-right ms-2"></i></a>
+                </div>
+                <div class="col-xl-5" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1200"
+                    data-aos-easing="ease-in-out">
+                    <div class="choose-image" style="height: 350px;">
+                        <div class="tilt-active">
+                            {{-- <img src="{{ asset('frontend-assets/img/Services-page/Why choose Seo.png') }}"
+                            alt="Choose" class="w-100"> --}}
+                            <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/Code with us.png') }}" alt="Choose"
+                                class="w-100 h-100 object-cover">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- popup modal  start-->
+    <!-- Modal -->
+    <div class="modal fade" id="getAQuoteModal" tabindex="-1" aria-labelledby="getAQuoteModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content contact-form style2" style="padding: 10px 10px;">
+                <div class="modal-header">
+                    <h2 class="modal-title fs-5 text-blue" id="getAQuoteModalLabel">Apply Now</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="">
+                        @if (session('success'))
+                        <div class="alert alert-success">
+                            {{ session('success') }}
+                        </div>
+                        @endif
+
+                        <!-- Contact Popup Form -->
+                        <!-- Contact Popup Form -->
+                        <form action="" method="POST" id="popupForm"
+                            enctype="multipart/form-data">
+                            @csrf
+                            <input type="hidden" name="page_url" id="page_url">
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="name"><b>Your Name</b><span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control @error('name') is-invalid @enderror"
+                                        name="name" id="popName" placeholder="Enter your Name"
+                                        value="{{ old('name') }}">
+                                    @error('name')
+                                    <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+
+                                <div class="form-group col-md-6">
+                                    <label for="email"><b>Email</b><span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control @error('email') is-invalid @enderror"
+                                        name="email" id="popEmail" placeholder="Enter your Email"
+                                        value="{{ old('email') }}">
+                                    @error('email')
+                                    <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+
+                                <div class="form-group col-md-6">
+                                    <label for="phone"><b>Phone</b><span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control @error('phone') is-invalid @enderror"
+                                        name="phone" id="popPhone" placeholder="Enter your Phone"
+                                        value="{{ old('phone') }}" maxlength="10" pattern="\d{10}">
+                                    @error('phone')
+                                    <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+
+                               
+
+                               
+
+                                <div class="col-12 form-group mb-0 text-center">
+                                    <button type="submit" class="th-btn th-radius">Send</button>
+                                </div>
+                            </div>
+                        </form>
+
+                        <script type="text/javascript">
+                            $.validator.addMethod("emailregex", function(value, element) {
+                                return this.optional(element) || /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/i.test(value);
+                            });
+
+                            $.validator.addMethod("letters", function(value, element) {
+                                return this.optional(element) || /^[a-zA-Z\s']*$/i.test(value);
+                            });
+
+                            $.validator.addMethod("numbers", function(value, element) {
+                                return this.optional(element) || /^[0-9]{10}$/.test(value);
+                            });
+
+                            $('#popupForm').validate({
+                                rules: {
+                                    name: {
+                                        required: true,
+                                        letters: true,
+                                    },
+                                    email: {
+                                        required: true,
+                                        emailregex: true,
+                                    },
+                                    phone: {
+                                        required: true,
+                                        numbers: true,
+                                        minlength: 10,
+                                        maxlength: 10,
+                                    },
+
+                                },
+                                messages: {
+                                    name: {
+                                        required: 'This Name field is required',
+                                        letters: 'Only Letters & Spaces are Allowed.'
+                                    },
+                                    phone: {
+                                        required: 'This Phone field is required',
+                                        numbers: 'Please enter 10 digits',
+                                        minlength: 'Phone number must be 10 digits',
+                                        maxlength: 'Phone number must be 10 digits',
+                                    },
+
+                                    email: 'Please enter a Valid Email Id',
+
+                                },
+                                submitHandler: function(form) {
+                                    form.submit();
+                                }
+                            });
+                        </script>
+                        <script>
+                            document.addEventListener('DOMContentLoaded', function() {
+                                const pageUrlField = document.getElementById('page_url');
+                                if (pageUrlField) {
+                                    pageUrlField.value = window.location.href;
+                                }
+                            });
+                        </script>
+
+                    </div>
+                </div>
+                <div class="modal-footer d-none">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- popup modal  end-->
+    <section class="overflow-hidden space " id="work-flow">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-12">
@@ -175,7 +342,7 @@
         </div>
     </section>
 
-    <section class="overflow-hidden space mb-5 mb-md-0" id="about-sec3">
+    <section class="overflow-hidden space mb-5 mb-md-0 bg-grey" id="about-sec3">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
@@ -276,13 +443,13 @@
     </section>
 
 
-    <section class="overflow-hidden position-relative space bg-grey" id="about-flip">
+    <section class="overflow-hidden position-relative space" id="about-flip">
         <div class="container">
             <div class="row text-center d-flex justify-content-center justify-content-md-end">
 
                 <div class="col-md-12 col-12 pe-0 pe-md-5">
                     <h2 class="fw-bold sec-title my-3" data-aos="fade-down" data-aos-delay="100">
-                        The process That Sets Us Apart as the 
+                        The process That Sets Us Apart as the
                         <span class="text-blue"> Best SEO Agency</span>
                     </h2>
                 </div>
@@ -370,8 +537,8 @@
                     data-aos-easing="ease-in-out">
                     <div class="title-area mb-20">
                         <h2 class="sec-title mb-md-3 mb-2">
-                            The Difference a Partnership with 
- <span class="text-blue">Us Makes</span>
+                            The Difference a Partnership with
+                            <span class="text-blue">Us Makes</span>
                         </h2>
                     </div>
                     <p class="sec-para d-none ">Our SEO strategies are designed to improve your website’s ranking on
@@ -427,14 +594,14 @@
         </div>
     </section>
 
-     <section class="overflow-hidden mb-md-5 md-2 pt-5 bg-grey" id="about-sec">
+    <section class="overflow-hidden mb-md-5 md-2 pt-5 bg-grey" id="about-sec">
         <div class="container">
             <div class="row align-items-end justify-content-center">
                 <div class="col-lg-9 col-12 d-flex justify-content-center align-items-center flex-column">
                     <div class="title-area mb-md-3 mb-2 mt-n1">
                         <h1 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100"
                             data-aos-duration="1000" data-aos-easing="ease-in-out">
-                            From almost invisible to unmissable, read our case studies to witness 
+                            From almost invisible to unmissable, read our case studies to witness
                             <span class="text-blue"> the results we have achieved.
                             </span>
                         </h1>
@@ -444,7 +611,7 @@
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
                         data-aos-duration="1200" data-aos-easing="ease-in-out">Explore the best SEO case study to see how a properly planned strategy can lead to significant and measurable growth. Every case study for SEO demonstrates the impact of our approach on real businesses.
                     </p>
-                   
+
                 </div>
             </div>
         </div>

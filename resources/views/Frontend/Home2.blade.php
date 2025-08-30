@@ -71,7 +71,7 @@
         padding: 0px;
         border-radius: 50%;
         cursor: pointer;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); */
         z-index: 999;
         width: 70px; 
         height: 70px; 

@@ -2029,3 +2029,6 @@ main#home {
 /* services tab end */
 /* delete if want */
 
+.object-cover{
+    object-fit: cover;
+}
