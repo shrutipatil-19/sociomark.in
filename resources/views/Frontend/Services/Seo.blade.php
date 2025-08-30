@@ -288,7 +288,7 @@
     <section class="overflow-hidden space" id="">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-xl-5" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1200"
+                <div class="col-xl-5" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1200"
                     data-aos-easing="ease-in-out">
                     <div class="choose-image">
                         <div class="tilt-active">
@@ -300,7 +300,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-7" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1200"
+                <div class="col-xl-7" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1200"
                     data-aos-easing="ease-in-out">
                     <div class="title-area mb-20">
                         <h2 class="sec-title mb-md-3 mb-2">
