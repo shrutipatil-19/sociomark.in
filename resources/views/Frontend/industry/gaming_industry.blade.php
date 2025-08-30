@@ -47,7 +47,7 @@
                     <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
                         Our team includes those who love gaming, which makes the whole process fun and authentic. They understand the gaming lingo and the trends and what connects with the audience. Over the years we have helped various gaming brands be at the top of their digital marketing game.
                     </p>
-                    <a href="#" class="th-btn th-icon" data-bs-toggle="modal" data-bs-target="#getAQuoteModal">Get
+                    <a href="{{ route('contact') }}" class="th-btn th-icon">Get
                         A Quote <i class="fa-solid fa-arrow-right ms-2"></i></a>
                 </div>
             </div>

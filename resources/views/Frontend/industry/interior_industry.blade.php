@@ -49,7 +49,7 @@
                     <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
                         When done right, digital marketing turns casual viewers into a loyal customer base. Over time the brand becomes a trusted source for home styling ideas and inspirations. Our portfolio of clients includes many from this particular domain. We have helped them design strategies and create powerful content that inspires their target audience and drives more revenue.
                     </p>
-                    <a href="#" class="th-btn th-icon" data-bs-toggle="modal" data-bs-target="#getAQuoteModal">Get
+                    <a href="{{ route('contact') }}" class="th-btn th-icon">Get
                         A Quote <i class="fa-solid fa-arrow-right ms-2"></i></a>
                 </div>
             </div>

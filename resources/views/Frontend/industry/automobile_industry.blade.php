@@ -49,7 +49,9 @@
                     <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
                         The digital space moves faster than the buying cycle, and staying ahead is essential. Consistent engagement keeps interest alive until the purchase moment arrives. We help automobile brands speed up their digital game, earn their spot in the buyer’s shortlist, and drive loyalty that lasts well beyond the sale.
                     </p>
-                    <a target="_blank" href="#" class="th-btn th-icon" data-bs-toggle="modal" data-bs-target="#getAQuoteModal">Get
+                    {{-- <a target="_blank" href="#" class="th-btn th-icon" data-bs-toggle="modal" data-bs-target="#getAQuoteModal">Get
+                        A Quote <i class="fa-solid fa-arrow-right ms-2"></i></a> --}}
+                    <a target="_blank" href="{{ route('contact') }}" class="th-btn th-icon">Get
                         A Quote <i class="fa-solid fa-arrow-right ms-2"></i></a>
                 </div>
             </div>

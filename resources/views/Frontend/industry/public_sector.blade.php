@@ -49,7 +49,7 @@
                     <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
                         Over the years, we have worked with government bodies and municipalities to make these conversations more open and accessible. We help cover events, share updates, and create content that reflects their hard work and dedication. Our goal is to help government organizations stay connected with citizens, build trust, and communicate with clarity.
                     </p>
-                    <a href="#" class="th-btn th-icon" data-bs-toggle="modal" data-bs-target="#getAQuoteModal">Get
+                    <a href="{{ route('contact') }}" class="th-btn th-icon">Get
                         A Quote <i class="fa-solid fa-arrow-right ms-2"></i></a>
                 </div>
             </div>
