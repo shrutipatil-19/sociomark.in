@@ -76,7 +76,7 @@
                         <div class="service-process" data-aos="fade-left" data-aos-duration="1000">
                             <div class="align-content-center service-process_img"><img
                                     src="{{ asset('frontend-assets/img/ServicePages/Content Marketing/tools/ZeroGPT.png') }}" class="w-100 h-100"
-                                    alt="HTML">
+                                    alt="ZeroGPT" style="filter: invert(1);">
                             </div>
                             <a href="#">
                                 <div class="service-process_centent">
