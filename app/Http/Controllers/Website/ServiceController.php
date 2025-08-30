@@ -355,7 +355,7 @@ class ServiceController extends Controller
             'email'  => $request->email,
             'phone'  => $request->phone,
         ]);
-         $pdfFilePath = public_path('frontend-assets/CRED DECK SOCIOMARK_2025.pdf');
+         $pdfFilePath = public_path('frontend-assets/img/ServicePages/SEO/caseStudy/pdf/pare.pdf');
 
         // Check if the file exists before attempting to download
         if (file_exists($pdfFilePath)) {
