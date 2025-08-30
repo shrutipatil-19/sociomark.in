@@ -2244,7 +2244,7 @@ session(['curtains_shown' => true]);
         </a>
 
 
-        @php
+        <!-- @php
         $showMsg = Route::currentRouteName() === 'home'
         && !session()->has('msg_shown');
         @endphp
@@ -2266,7 +2266,7 @@ session(['curtains_shown' => true]);
         @php
         session(['msg_shown' => true]);
         @endphp
-        @endif
+        @endif -->
 
 
 </main>
