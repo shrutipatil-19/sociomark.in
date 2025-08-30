@@ -65,15 +65,17 @@
     .chat-toggle {
         position: fixed;
         bottom: 90px;
-        right: 28px;
-        background: #ff5722;
+        right: 20px;
         color: white;
         border: none;
-        padding: 15px;
+        padding: 0px;
         border-radius: 50%;
         cursor: pointer;
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
         z-index: 999;
+        width: 70px; 
+        height: 70px; 
+        background-color: transparent;
     }
 
     /* Arrow + message pointing to button */
@@ -2234,33 +2236,37 @@ session(['curtains_shown' => true]);
         </div>
     </div>
     </div>
-    <!-- Chat Toggle Button -->
-    <a href="{{ route('launch.wall') }}"><button class="chat-toggle" id="chatToggle">💬</button></a>
-    <!-- Arrow pointing to chat button -->
+    <!-- <a href="{{ route('launch.wall') }}"><button class="chat-toggle" id="chatToggle">💬</button></a> -->
+    <a href="https://wa.me/919876543210" target="_blank" class="chat-toggle" id="chatToggle">
 
-    @php
-    $showMsg = Route::currentRouteName() === 'home'
-    && !session()->has('msg_shown');
-    @endphp
+        <img src="{{ asset('frontend-assets/img/whatsapp img/whatsapp.png') }}"
+            alt="whatsapp" class="w-100">
+        </a>
 
-    @if($showMsg)
-    <div class="chat-pointer sec-para">Send Wishes 👉🏽</div>
 
-    <script>
-        window.addEventListener("load", function() {
-            setTimeout(() => {
-                const el = document.querySelector(".chat-pointer");
-                if (el) {
-                    el.style.display = "none";
-                }
-            }, 10000); // hides after 30 seconds
-        });
-    </script>
+        @php
+        $showMsg = Route::currentRouteName() === 'home'
+        && !session()->has('msg_shown');
+        @endphp
 
-    @php
-    session(['msg_shown' => true]);
-    @endphp
-    @endif
+        @if($showMsg)
+        <div class="chat-pointer sec-para">Send Wishes 👉🏽</div>
+
+        <script>
+            window.addEventListener("load", function() {
+                setTimeout(() => {
+                    const el = document.querySelector(".chat-pointer");
+                    if (el) {
+                        el.style.display = "none";
+                    }
+                }, 10000); // hides after 30 seconds
+            });
+        </script>
+
+        @php
+        session(['msg_shown' => true]);
+        @endphp
+        @endif
 
 
 </main>

@@ -6,7 +6,7 @@
 
 @section('content')
 <main id="case-study">
-    <section style="margin-top: 105px;"class="">
+    <section style="margin-top: 66px;"class="">
         <div class="full-width">
             <picture>
                 <source media="(min-width: 1400px)" srcset="{{ asset('frontend-assets/img/banners/case-studies.png') }}" loading="lazy">
