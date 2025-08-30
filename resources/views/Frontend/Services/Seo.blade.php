@@ -110,7 +110,7 @@
     </style>
     <section class="overflow-hidden space bg-grey" id="about-sec2">
         <div class="container">
-            <div class="row align-items-start">
+            <div class="row align-items-center">
                 <div class="col-xl-7" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1200"
                     data-aos-easing="ease-in-out">
                     <div class="title-area mb-20">
@@ -119,7 +119,9 @@
                             <span class="text-blue">just 90 days!</span>
                         </h2>
                     </div>
-                    <p class="sec-para ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, quidem eaque aliquam obcaecati libero eum accusantium, reprehenderit nesciunt quaerat sapiente deleniti, at minima architecto quae enim fugiat deserunt? Qui aspernatur enim eveniet repellat! Repellendus amet fugiat corporis unde soluta? Accusantium natus cum ducimus eos placeat. Ea saepe aspernatur ad eos!
+                    <p class="sec-para ">PARÉ went from almost invisible online to owning the first page.
+                        300% more visibility and 15 high-ranking keywords marked a strong shift in their visibility.
+                        The result? 2.5x organic growth in product inquiries, and much more.
                     </p>
                     <!-- <a href="{{ route('workculture') }}" class="th-btn th-icon text-white p-3 logo-info mt-2"
                         data-aos="fade-left" data-aos-delay="100">Download</a> -->
@@ -129,7 +131,7 @@
                         data-bs-toggle="modal"
                         data-bs-target="#getAQuoteModal"
                         data-pdf="Pare case study.pdf">
-                        Download Pare Case study<i class="fa-solid fa-arrow-right ms-2"></i>
+                        Download the PARÉ case study now<i class="fa-solid fa-arrow-right ms-2"></i>
                     </a>
                 </div>
                 <div class="col-xl-5" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1200"
@@ -285,8 +287,8 @@
 
     <section class="overflow-hidden space" id="">
         <div class="container">
-            <div class="row align-items-start">
-                <div class="col-xl-5" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1200"
+            <div class="row align-items-center">
+                <div class="col-xl-5" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1200"
                     data-aos-easing="ease-in-out">
                     <div class="choose-image">
                         <div class="tilt-active">
@@ -298,7 +300,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-7" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1200"
+                <div class="col-xl-7" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1200"
                     data-aos-easing="ease-in-out">
                     <div class="title-area mb-20">
                         <h2 class="sec-title mb-md-3 mb-2">
@@ -306,14 +308,16 @@
                             <span class="text-blue">for the client!</span>
                         </h2>
                     </div>
-                    <p class="sec-para ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, quidem eaque aliquam obcaecati libero eum accusantium, reprehenderit nesciunt quaerat sapiente deleniti, at minima architecto quae enim fugiat deserunt? Qui aspernatur enim eveniet repellat! Repellendus amet fugiat corporis unde soluta? Accusantium natus cum ducimus eos placeat. Ea saepe aspernatur ad eos!
+                    <p class="sec-para ">From a restricted presence to top-ranking keywords, Total Foods saw a major shift.
+                        Organic growth rose by 150% while impressions grew 179%.
+                        We also helped cut back their dependence on quick commerce platforms.
                     </p>
 
                     <a href="#" class="th-btn th-icon openFormBtn"
                         data-bs-toggle="modal"
                         data-bs-target="#getAQuoteModal"
                         data-pdf="Total Foods Case Study.pdf">
-                        Download Total Food Case study<i class="fa-solid fa-arrow-right ms-2"></i>
+                        Download the Total Foods case study now<i class="fa-solid fa-arrow-right ms-2"></i>
                     </a>
                 </div>
 
@@ -488,7 +492,7 @@
     </section>
 
 
-    <section class="overflow-hidden position-relative space" id="about-flip">
+    <section class="overflow-hidden position-relative space bg-grey" id="about-flip">
         <div class="container">
             <div class="row text-center d-flex justify-content-center justify-content-md-end">
 
