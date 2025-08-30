@@ -111,7 +111,7 @@
     <section class="overflow-hidden space bg-grey" id="about-sec2">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-xl-7" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1200"
+                <div class="col-xl-7 mb-3 mb-lg-0" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1200"
                     data-aos-easing="ease-in-out">
                     <div class="title-area mb-20">
                         <h2 class="sec-title mb-md-3 mb-2">
@@ -293,7 +293,7 @@
     <section class="overflow-hidden space" id="work-flow">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-xl-12">
+                <div class="col-xl-12 ">
                     <div class="title-area text-center">
                         <h2 class="fw-bold mb-5 sec-title" data-aos="fade-right" data-aos-delay="100"
                             data-aos-duration="1000" data-aos-easing="ease-in-out">
@@ -359,7 +359,7 @@
     <section class="overflow-hidden space bg-grey" id="">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-xl-5" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1200"
+                <div class="col-xl-5 mt-3 mt-lg-0" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1200"
                     data-aos-easing="ease-in-out">
                     <div class="choose-image">
                         <div class="tilt-active">
@@ -512,7 +512,7 @@
                     data-aos="fade-left" data-aos-delay=" 300">
                     <div class="h-100">
                         <div
-                            class="flip-box-front second-feature-card h-100 d-flex align-items-center justify-content-start flex-column">
+                            class="flip-box-front first-feature-card h-100 d-flex align-items-center justify-content-start flex-column">
 
                             <h4 class="sub-sec-title text-blue"><b>Free Audit</b></h4>
                             <p class="sec-para">Get a clear picture of your website’s performance with our free audit. We identify issues, uncover opportunities, and show how your SEO can improve.</p>
