@@ -488,7 +488,7 @@
     </section>
 
 
-    <section class="overflow-hidden position-relative space" id="about-flip">
+    <section class="overflow-hidden position-relative space bg-grey" id="about-flip">
         <div class="container">
             <div class="row text-center d-flex justify-content-center justify-content-md-end">
 
