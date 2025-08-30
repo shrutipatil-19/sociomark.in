@@ -119,10 +119,14 @@
                             <span class="text-blue">just 90 days!</span>
                         </h2>
                     </div>
-                    <p class="sec-para ">PARÉ went from almost invisible online to owning the first page.
-                        300% more visibility and 15 high-ranking keywords marked a strong shift in their visibility.
-                        The result? 2.5x organic growth in product inquiries, and much more.
-                    </p>
+                    <ul>
+                        <li class="sec-para">
+                            PARÉ went from almost invisible online to owning the first page.
+                        </li>
+                        <li class="sec-para">300% more visibility and 15 high-ranking keywords marked a strong shift in their visibility.</li>
+                        <li class="sec-para">The result? 2.5x organic growth in product inquiries, and much more.</li>
+                    </ul>
+
                     <!-- <a href="{{ route('workculture') }}" class="th-btn th-icon text-white p-3 logo-info mt-2"
                         data-aos="fade-left" data-aos-delay="100">Download</a> -->
                     <!-- <a href="#" class="th-btn th-icon" data-bs-toggle="modal"
@@ -285,46 +289,8 @@
     </div>
     <!-- popup modal  end-->
 
-    <section class="overflow-hidden space" id="">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-5" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1200"
-                    data-aos-easing="ease-in-out">
-                    <div class="choose-image">
-                        <div class="tilt-active">
-                            {{-- <img src="{{ asset('frontend-assets/img/Services-page/Why choose Seo.png') }}"
-                            alt="Choose" class="w-100"> --}}
-                            <img src="{{ asset('frontend-assets/img/ServicePages/SEO/caseStudy/totalfood.png') }}" alt="Choose"
-                                class="w-100 h-100 object-cover">
 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-7" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1200"
-                    data-aos-easing="ease-in-out">
-                    <div class="title-area mb-20">
-                        <h2 class="sec-title mb-md-3 mb-2">
-                            150% Growth, a real chicken dinner win
-                            <span class="text-blue">for the client!</span>
-                        </h2>
-                    </div>
-                    <p class="sec-para ">From a restricted presence to top-ranking keywords, Total Foods saw a major shift.
-                        Organic growth rose by 150% while impressions grew 179%.
-                        We also helped cut back their dependence on quick commerce platforms.
-                    </p>
-
-                    <a href="#" class="th-btn th-icon openFormBtn"
-                        data-bs-toggle="modal"
-                        data-bs-target="#getAQuoteModal"
-                        data-pdf="Total Foods Case Study.pdf">
-                        Download the Total Foods case study now<i class="fa-solid fa-arrow-right ms-2"></i>
-                    </a>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <section class="overflow-hidden space bg-grey" id="work-flow">
+    <section class="overflow-hidden space" id="work-flow">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-12">
@@ -390,7 +356,45 @@
             </div>
         </div>
     </section>
+    <section class="overflow-hidden space bg-grey" id="">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-5" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1200"
+                    data-aos-easing="ease-in-out">
+                    <div class="choose-image">
+                        <div class="tilt-active">
+                            {{-- <img src="{{ asset('frontend-assets/img/Services-page/Why choose Seo.png') }}"
+                            alt="Choose" class="w-100"> --}}
+                            <img src="{{ asset('frontend-assets/img/ServicePages/SEO/caseStudy/totalfood.png') }}" alt="Choose"
+                                class="w-100 h-100 object-cover">
 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-7" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1200"
+                    data-aos-easing="ease-in-out">
+                    <div class="title-area mb-20">
+                        <h2 class="sec-title mb-md-3 mb-2">
+                            150% Growth, a real chicken dinner win
+                            <span class="text-blue">for the client!</span>
+                        </h2>
+                    </div>
+                    <ul>
+                        <li class="sec-para">From a restricted presence to top-ranking keywords, Total Foods saw a major shift.</li>
+                        <li class="sec-para">Organic growth rose by 150% while impressions grew 179%.</li>
+                        <li class="sec-para">We also helped cut back their dependence on quick commerce platforms.</li>
+                    </ul>
+                    <a href="#" class="th-btn th-icon openFormBtn"
+                        data-bs-toggle="modal"
+                        data-bs-target="#getAQuoteModal"
+                        data-pdf="Total Foods Case Study.pdf">
+                        Download the Total Foods case study now<i class="fa-solid fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
     <section class="overflow-hidden space mb-5 mb-md-0 " id="about-sec3">
         <div class="container">
             <div class="row justify-content-center">
