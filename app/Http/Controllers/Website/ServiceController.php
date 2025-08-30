@@ -75,7 +75,6 @@ class ServiceController extends Controller
             ]
         ];
     }
-
     public function seo()
     {
         $meta = [
@@ -348,10 +347,11 @@ class ServiceController extends Controller
             'name'   => 'required|string|max:255',
             'email'  => 'required|email|max:255',
             'phone'  => 'required|digits:10',
-            'pdf'    => 'required|string', // validate pdf input
+            'url' =>'required',
+            'pdf'    => 'required|string', 
         ]);
 
-        caseStudyForm::create($request->only('name', 'email', 'phone'));
+        caseStudyForm::create($request->only('name', 'email', 'phone', 'url'));
 
         $pdfFilePath = public_path('frontend-assets/img/ServicePages/SEO/caseStudy/pdf/' . $request->pdf);
 

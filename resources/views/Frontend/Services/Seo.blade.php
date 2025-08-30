@@ -169,6 +169,7 @@
                         <form action="{{ route('caseStudyForm') }}" method="POST" id="popupForm"
                             enctype="multipart/form-data">
                             @csrf
+                            <input type="hidden" name="url" value="{{ url()->current() }}">
                             <input type="hidden" name="pdf" id="pdfInput">
                             <div class="row">
                                 <div class="form-group col-md-6">
@@ -301,13 +302,13 @@
                     data-aos-easing="ease-in-out">
                     <div class="title-area mb-20">
                         <h2 class="sec-title mb-md-3 mb-2">
-                            150% Growth, a real chicken dinner win 
+                            150% Growth, a real chicken dinner win
                             <span class="text-blue">for the client!</span>
                         </h2>
                     </div>
                     <p class="sec-para ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, quidem eaque aliquam obcaecati libero eum accusantium, reprehenderit nesciunt quaerat sapiente deleniti, at minima architecto quae enim fugiat deserunt? Qui aspernatur enim eveniet repellat! Repellendus amet fugiat corporis unde soluta? Accusantium natus cum ducimus eos placeat. Ea saepe aspernatur ad eos!
                     </p>
-                  
+
                     <a href="#" class="th-btn th-icon openFormBtn"
                         data-bs-toggle="modal"
                         data-bs-target="#getAQuoteModal"
