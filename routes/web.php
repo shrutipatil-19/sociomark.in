@@ -58,6 +58,9 @@ Route::get('/chat/message', [LaunchMessageController::class, 'index'])->name('la
 Route::post('/chat', [LaunchMessageController::class, 'store'])->name('launch.wall.store');
 
 Route::get('/', [HomeController::class, 'Home'])->name('home');
+Route::get('/home', function () {
+    return redirect()->route('home');
+});
 Route::get('/about', [HomeController::class, 'About'])->name('about');
 Route::get('/our-team', [HomeController::class, 'About'])->name('team');
 
@@ -148,8 +151,8 @@ Route::post('/admin/login', [AuthController::class, 'login']);
 Route::post('/admin/logout', [AuthController::class, 'logout'])->name('logout');
 
 // Route::middleware(['auth', 'admin:admin'])->group(function () {
-    Route::get('/admin/register', [AuthController::class, 'showRegisterForm'])->name('register');
-    Route::post('/admin/register', [AuthController::class, 'register'])->name('storeregister');
+Route::get('/admin/register', [AuthController::class, 'showRegisterForm'])->name('register');
+Route::post('/admin/register', [AuthController::class, 'register'])->name('storeregister');
 // });
 
 // Own Profile can Edit only || use middleware
@@ -167,7 +170,6 @@ Route::middleware(['canGate:all-access'])->group(function () {
 Route::middleware(['canGate:admin-access'])->group(function () {
     Route::get('/admin/message', [adminLaunchMessageController::class, 'index'])->name('message');
     Route::delete('/wishes/{id}', [adminLaunchMessageController::class, 'destroy'])->name('wishes.destroy');
-
 });
 
 // Only Seo user have access of this url
@@ -209,7 +211,6 @@ Route::middleware(['canGate:hr-access'])->group(function () {
     Route::get('/admin/job-leads', [admincareerController::class, 'jobLeads'])->name('job');
     Route::get('/admin/job/create', [jobController::class, 'create'])->name('job.create');
     Route::post('/admin/job/store', [jobController::class, 'store'])->name('job.store');
-
 });
 
 
