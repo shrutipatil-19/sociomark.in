@@ -115,20 +115,26 @@
                     data-aos-easing="ease-in-out">
                     <div class="title-area mb-20">
                         <h2 class="sec-title mb-md-3 mb-2">
-                            From Zero presence to ranking on 50+keywords in just 90 days! -
-                            <span class="text-blue">Download the Pare Case study now</span>
+                            From Zero presence to ranking on 50+keywords in
+                            <span class="text-blue">just 90 days!</span>
                         </h2>
                     </div>
                     <p class="sec-para ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, quidem eaque aliquam obcaecati libero eum accusantium, reprehenderit nesciunt quaerat sapiente deleniti, at minima architecto quae enim fugiat deserunt? Qui aspernatur enim eveniet repellat! Repellendus amet fugiat corporis unde soluta? Accusantium natus cum ducimus eos placeat. Ea saepe aspernatur ad eos!
                     </p>
                     <!-- <a href="{{ route('workculture') }}" class="th-btn th-icon text-white p-3 logo-info mt-2"
                         data-aos="fade-left" data-aos-delay="100">Download</a> -->
-                    <a href="#" class="th-btn th-icon" data-bs-toggle="modal"
-                        data-bs-target="#getAQuoteModal">Download<i class="fa-solid fa-arrow-right ms-2"></i></a>
+                    <!-- <a href="#" class="th-btn th-icon" data-bs-toggle="modal"
+                        data-bs-target="#getAQuoteModal">Download the Pare Case study<i class="fa-solid fa-arrow-right ms-2"></i></a> -->
+                    <a href="#" class="th-btn th-icon openFormBtn"
+                        data-bs-toggle="modal"
+                        data-bs-target="#getAQuoteModal"
+                        data-pdf="Pare case study.pdf">
+                        Download Pare Case study<i class="fa-solid fa-arrow-right ms-2"></i>
+                    </a>
                 </div>
                 <div class="col-xl-5" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1200"
                     data-aos-easing="ease-in-out">
-                    <div class="choose-image" style="height: 350px;">
+                    <div class="choose-image">
                         <div class="tilt-active">
                             {{-- <img src="{{ asset('frontend-assets/img/Services-page/Why choose Seo.png') }}"
                             alt="Choose" class="w-100"> --}}
@@ -163,7 +169,7 @@
                         <form action="{{ route('caseStudyForm') }}" method="POST" id="popupForm"
                             enctype="multipart/form-data">
                             @csrf
-                            <input type="hidden" name="page_url" id="page_url">
+                            <input type="hidden" name="pdf" id="pdfInput">
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="name"><b>Your Name</b><span class="text-danger">*</span></label>
@@ -195,9 +201,9 @@
                                     @enderror
                                 </div>
 
-                               
 
-                               
+
+
 
                                 <div class="col-12 form-group mb-0 text-center">
                                     <button type="submit" class="th-btn th-radius">Send</button>
@@ -275,7 +281,45 @@
         </div>
     </div>
     <!-- popup modal  end-->
-    <section class="overflow-hidden space " id="work-flow">
+
+    <section class="overflow-hidden space" id="">
+        <div class="container">
+            <div class="row align-items-start">
+                <div class="col-xl-5" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1200"
+                    data-aos-easing="ease-in-out">
+                    <div class="choose-image">
+                        <div class="tilt-active">
+                            {{-- <img src="{{ asset('frontend-assets/img/Services-page/Why choose Seo.png') }}"
+                            alt="Choose" class="w-100"> --}}
+                            <img src="{{ asset('frontend-assets/img/ServicePages/SEO/caseStudy/totalfood.png') }}" alt="Choose"
+                                class="w-100 h-100 object-cover">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-7" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1200"
+                    data-aos-easing="ease-in-out">
+                    <div class="title-area mb-20">
+                        <h2 class="sec-title mb-md-3 mb-2">
+                            150% Growth, a real chicken dinner win 
+                            <span class="text-blue">for the client!</span>
+                        </h2>
+                    </div>
+                    <p class="sec-para ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, quidem eaque aliquam obcaecati libero eum accusantium, reprehenderit nesciunt quaerat sapiente deleniti, at minima architecto quae enim fugiat deserunt? Qui aspernatur enim eveniet repellat! Repellendus amet fugiat corporis unde soluta? Accusantium natus cum ducimus eos placeat. Ea saepe aspernatur ad eos!
+                    </p>
+                  
+                    <a href="#" class="th-btn th-icon openFormBtn"
+                        data-bs-toggle="modal"
+                        data-bs-target="#getAQuoteModal"
+                        data-pdf="Total Foods Case Study.pdf">
+                        Download Total Food Case study<i class="fa-solid fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="overflow-hidden space bg-grey" id="work-flow">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-12">
@@ -342,7 +386,7 @@
         </div>
     </section>
 
-    <section class="overflow-hidden space mb-5 mb-md-0 bg-grey" id="about-sec3">
+    <section class="overflow-hidden space mb-5 mb-md-0 " id="about-sec3">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
@@ -1160,6 +1204,34 @@
     });
     // services tab end
 </script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const pdfInput = document.getElementById('pdfInput');
+
+        // Attach click event to all "Download" buttons
+        document.querySelectorAll('.openFormBtn').forEach(button => {
+            button.addEventListener('click', function() {
+                const pdfFile = this.getAttribute('data-pdf');
+                pdfInput.value = pdfFile; // 🔹 Set hidden input value
+            });
+        });
+    });
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const form = document.getElementById("popupForm");
+
+        form.addEventListener("submit", function() {
+            // Wait until request is finished (after redirect/download)
+            setTimeout(() => {
+                form.reset(); // clears inputs
+                document.getElementById('pdfInput').value = ''; // clear hidden pdf
+            }, 500);
+        });
+    });
+</script>
+
+
 @endpush
 
 @push('styles')

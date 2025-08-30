@@ -342,27 +342,23 @@ class ServiceController extends Controller
         }
         return view("Frontend/Services/photoVideography", compact('blogs', 'meta'));
     }
-    public function caseStudyForm(Request $request){
-         $request->validate([
+    public function caseStudyForm(Request $request)
+    {
+        $request->validate([
             'name'   => 'required|string|max:255',
             'email'  => 'required|email|max:255',
             'phone'  => 'required|digits:10',
-           
+            'pdf'    => 'required|string', // validate pdf input
         ]);
 
-        $lead =   caseStudyForm::create([
-            'name'   => $request->name,
-            'email'  => $request->email,
-            'phone'  => $request->phone,
-        ]);
-         $pdfFilePath = public_path('frontend-assets/img/ServicePages/SEO/caseStudy/pdf/pare.pdf');
+        caseStudyForm::create($request->only('name', 'email', 'phone'));
 
-        // Check if the file exists before attempting to download
+        $pdfFilePath = public_path('frontend-assets/img/ServicePages/SEO/caseStudy/pdf/' . $request->pdf);
+
         if (file_exists($pdfFilePath)) {
             return response()->download($pdfFilePath);
         }
-        // Send email to HR about job
-        // Mail::to('hr@sociomark.in')->send(new NewJobLead($lead));
-         return redirect()->back()->with('success', 'Your message has been sent successfully!');
+
+        return redirect()->back()->with('error', 'PDF not found.');
     }
 }
