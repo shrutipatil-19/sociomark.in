@@ -66,6 +66,8 @@ Route::get('/our-team', [HomeController::class, 'About'])->name('team');
 
 Route::get('/services',  [HomeController::class, 'Services'])->name('services');
 Route::get('/seo-agency-mumbai', [ServiceController::class, 'seo'])->name('seo');
+Route::post('/seo-agency-mumbai', [ServiceController::class, 'caseStudyForm'])->name('caseStudyForm');
+
 Route::get('/website-development-navi-mumbai', [ServiceController::class, 'website'])->name('website');
 Route::get('/social-media-agency-mumbai', [ServiceController::class, 'socialMedia'])->name('socialMedia');
 Route::get('/digital-marketing-agency-mumbai', [ServiceController::class, 'digitalMarketing'])->name('digitalMarketing');

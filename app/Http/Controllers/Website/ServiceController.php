@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Website;
 
 use App\Http\Controllers\Controller;
+use App\Models\caseStudyForm;
 use Illuminate\Http\Request;
 use App\Models\Tag;
 use App\Models\Category;
@@ -340,5 +341,28 @@ class ServiceController extends Controller
             }
         }
         return view("Frontend/Services/photoVideography", compact('blogs', 'meta'));
+    }
+    public function caseStudyForm(Request $request){
+         $request->validate([
+            'name'   => 'required|string|max:255',
+            'email'  => 'required|email|max:255',
+            'phone'  => 'required|digits:10',
+           
+        ]);
+
+        $lead =   caseStudyForm::create([
+            'name'   => $request->name,
+            'email'  => $request->email,
+            'phone'  => $request->phone,
+        ]);
+         $pdfFilePath = public_path('frontend-assets/CRED DECK SOCIOMARK_2025.pdf');
+
+        // Check if the file exists before attempting to download
+        if (file_exists($pdfFilePath)) {
+            return response()->download($pdfFilePath);
+        }
+        // Send email to HR about job
+        // Mail::to('hr@sociomark.in')->send(new NewJobLead($lead));
+         return redirect()->back()->with('success', 'Your message has been sent successfully!');
     }
 }

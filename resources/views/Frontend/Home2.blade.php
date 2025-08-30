@@ -2237,7 +2237,7 @@ session(['curtains_shown' => true]);
     </div>
     </div>
     <!-- <a href="{{ route('launch.wall') }}"><button class="chat-toggle" id="chatToggle">💬</button></a> -->
-    <a href="https://wa.me/919876543210" target="_blank" class="chat-toggle" id="chatToggle">
+    <a href="https://wa.me/+91 93210 19202" target="_blank" class="chat-toggle" id="chatToggle">
 
         <img src="{{ asset('frontend-assets/img/whatsapp img/whatsapp.png') }}"
             alt="whatsapp" class="w-100">

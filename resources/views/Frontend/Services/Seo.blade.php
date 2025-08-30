@@ -132,7 +132,7 @@
                         <div class="tilt-active">
                             {{-- <img src="{{ asset('frontend-assets/img/Services-page/Why choose Seo.png') }}"
                             alt="Choose" class="w-100"> --}}
-                            <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/Code with us.png') }}" alt="Choose"
+                            <img src="{{ asset('frontend-assets/img/ServicePages/SEO/caseStudy/pare.png') }}" alt="Choose"
                                 class="w-100 h-100 object-cover">
 
                         </div>
@@ -160,7 +160,7 @@
 
                         <!-- Contact Popup Form -->
                         <!-- Contact Popup Form -->
-                        <form action="" method="POST" id="popupForm"
+                        <form action="{{ route('caseStudyForm') }}" method="POST" id="popupForm"
                             enctype="multipart/form-data">
                             @csrf
                             <input type="hidden" name="page_url" id="page_url">
