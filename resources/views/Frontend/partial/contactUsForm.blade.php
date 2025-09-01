@@ -288,8 +288,8 @@
 
     <div class="form-group mt-3">
         <div class="form-check p-0">
-            <label>Captcha: {{ $num1 }} + {{ $num2 }} = ?</label>
-            <input type="text" name="captcha" required>
+            <label class="sec-para">Captcha: {{ $num1 }} + {{ $num2 }} = ?</label>
+            <input type="text" name="captcha" placeholder="Enter your answer" required>
             @error('captcha')
             <p style="color:red">{{ $message }}</p>
             @enderror
@@ -441,7 +441,6 @@
 </script>
 <script type="text/javascript">
     $(document).ready(function() {
-        // Add custom validation methods
         $.validator.addMethod("emailregex", function(value, element) {
             return this.optional(element) || /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/i.test(value);
         });
@@ -452,9 +451,12 @@
             return this.optional(element) || /^[0-9]{10}$/.test(value);
         });
 
-        // jQuery Validation
+        $.validator.addMethod("captchaCheck", function(value, element) {
+            return this.optional(element) || /^[0-9]+$/.test(value); 
+        });
+
         $('#contactform').validate({
-            ignore: [], // Ensure validation on unchecked checkboxes as well
+            ignore: [],
             rules: {
                 name: {
                     required: true,
@@ -483,7 +485,11 @@
                     minlength: 1
                 },
                 consent: {
-                    required: true // Make sure consent checkbox is validated
+                    required: true
+                },
+                captcha: {
+                    required: true,
+                    captchaCheck: true
                 }
             },
             messages: {
@@ -503,7 +509,11 @@
                 message: 'This message field is required',
                 budget: 'Please select a budget range',
                 'service[]': 'Please select at least one service',
-                consent: 'You must agree before submitting' // Consent checkbox error message
+                consent: 'You must agree before submitting',
+                captcha: {
+                    required: 'Please solve the captcha',
+                    captchaCheck: 'Only numbers are allowed in captcha'
+                }
             },
             errorPlacement: function(error, element) {
                 if (element.attr("name") === "service[]") {
@@ -515,7 +525,7 @@
                 }
             },
             submitHandler: function(form) {
-                form.submit(); // Only submit if validation passes
+                form.submit(); // Submit if all validations pass
             }
         });
 
