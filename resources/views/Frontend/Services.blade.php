@@ -193,7 +193,7 @@
         </div>
     </section>
 
-    <section class="bg-grey space services px-5">
+    <section class="bg-grey space services px-0 px-lg-5">
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-lg-4">
@@ -305,78 +305,78 @@
                         <div class="swiper-slide">
                             <picture>
                                 <source media="(min-width: 768px)"
-                                    srcset="https://www.sociomark.in/lp/assets/media/images/case-study/bannernw18.png">
+                                    srcset="{{ asset('frontend-assets/img/ServicePages/banner/bannernw18.png') }}">
                                 <source media="(min-width: 768px)"
-                                    srcset="https://www.sociomark.in/lp/assets/media/images/case-study/bannernw18.png">
+                                    srcset="{{ asset('frontend-assets/img/ServicePages/banner/bannernw18.png') }}">
                                 <source
-                                    srcset="https://www.sociomark.in/lp/assets/media/images/case-study/banner-nw18.png">
+                                    srcset="{{ asset('frontend-assets/img/ServicePages/banner/banner-nw18.png') }}">
                                 <img loading="lazy"
-                                    src="https://www.sociomark.in/lp/assets/media/images/case-study/banner-nw18.png"
+                                    src="{{ asset('frontend-assets/img/ServicePages/banner/banner-nw18.png') }}"
                                     alt="exposure" class="w-100 img-border">
                             </picture>
                         </div>
                         <div class="swiper-slide">
                             <picture>
                                 <source media="(min-width: 768px)"
-                                    srcset="https://www.sociomark.in/lp/assets/media/images/case-study/bannerdesk_nodwin.png">
+                                    srcset="{{ asset('frontend-assets/img/ServicePages/banner/bannerdesk_nodwin.png') }}">
                                 <source media="(min-width: 768px)"
-                                    srcset="https://www.sociomark.in/lp/assets/media/images/case-study/bannerdesk_nodwin.png">
+                                    srcset="{{ asset('frontend-assets/img/ServicePages/banner/bannerdesk_nodwin.png') }}">
                                 <source
-                                    srcset="https://www.sociomark.in/lp/assets/media/images/case-study/bannermob_nodwin.png">
+                                    srcset="{{ asset('frontend-assets/img/ServicePages/banner/bannermob_nodwin.png') }}">
                                 <img loading="lazy"
-                                    src="https://www.sociomark.in/lp/assets/media/images/case-study/bannermob_nodwin.png"
+                                    src="{{ asset('frontend-assets/img/ServicePages/banner/bannermob_nodwin.png') }}"
                                     alt="exposure" class="w-100 img-border">
                             </picture>
                         </div>
                         <div class="swiper-slide">
                             <picture>
                                 <source media="(min-width: 768px)"
-                                    srcset="https://www.sociomark.in/lp/assets/media/images/case-study/bannerdesk_times_network.png">
+                                    srcset="{{ asset('frontend-assets/img/ServicePages/banner/bannerdesk_times_network.png') }}">
                                 <source media="(min-width: 768px)"
-                                    srcset="https://www.sociomark.in/lp/assets/media/images/case-study/bannerdesk_times_network.png">
+                                    srcset="{{ asset('frontend-assets/img/ServicePages/banner/bannerdesk_times_network.png') }}">
                                 <source
-                                    srcset="https://www.sociomark.in/lp/assets/media/images/case-study/bannermob_times_network.png">
+                                    srcset="{{ asset('frontend-assets/img/ServicePages/banner/bannermob_times_network.png') }}">
                                 <img loading="lazy"
-                                    src="https://www.sociomark.in/lp/assets/media/images/case-study/bannermob_times_network.png"
+                                    src="{{ asset('frontend-assets/img/ServicePages/banner/bannermob_times_network.png') }}"
                                     alt="exposure" class="w-100 img-border">
                             </picture>
                         </div>
                         <div class="swiper-slide">
                             <picture>
                                 <source media="(min-width: 768px)"
-                                    srcset="https://www.sociomark.in/lp/assets/media/images/case-study/bannerdesk_shahenaz.png">
+                                    srcset="{{ asset('frontend-assets/img/ServicePages/banner/bannerdesk_shahenaz.png') }}">
                                 <source media="(min-width: 768px)"
-                                    srcset="https://www.sociomark.in/lp/assets/media/images/case-study/bannerdesk_shahenaz.png">
+                                    srcset="{{ asset('frontend-assets/img/ServicePages/banner/bannerdesk_shahenaz.png') }}">
                                 <source
-                                    srcset="https://www.sociomark.in/lp/assets/media/images/case-study/bannerdmob_shahenaz.png">
+                                    srcset="{{ asset('frontend-assets/img/ServicePages/banner/bannerdmob_shahenaz.png') }}">
                                 <img loading="lazy"
-                                    src="https://www.sociomark.in/lp/assets/media/images/case-study/bannerdmob_shahenaz.png"
+                                    src="{{ asset('frontend-assets/img/ServicePages/banner/bannerdmob_shahenaz.png') }}"
                                     alt="exposure" class="w-100 img-border">
                             </picture>
                         </div>
                         <div class="swiper-slide">
                             <picture>
                                 <source media="(min-width: 768px)"
-                                    srcset="https://www.sociomark.in/lp/assets/media/images/case-study/bannerdesk_aha_homes.png">
+                                    srcset="{{ asset('frontend-assets/img/ServicePages/banner/bannerdesk_aha_homes.png') }}">
                                 <source media="(min-width: 768px)"
-                                    srcset="https://www.sociomark.in/lp/assets/media/images/case-study/bannerdesk_aha_homes.png">
+                                    srcset="{{ asset('frontend-assets/img/ServicePages/banner/bannerdesk_aha_homes.png') }}">
                                 <source
-                                    srcset="https://www.sociomark.in/lp/assets/media/images/case-study/bannermob_aha_homes.png">
+                                    srcset="{{ asset('frontend-assets/img/ServicePages/banner/bannermob_aha_homes.png') }}">
                                 <img loading="lazy"
-                                    src="https://www.sociomark.in/lp/assets/media/images/case-study/bannermob_aha_homes.png"
+                                    src="{{ asset('frontend-assets/img/ServicePages/banner/bannermob_aha_homes.png') }}"
                                     alt="exposure" class="w-100 img-border">
                             </picture>
                         </div>
                         <div class="swiper-slide">
                             <picture>
                                 <source media="(min-width: 768px)"
-                                    srcset="https://www.sociomark.in/lp/assets/media/images/case-study/bannerdesk_ayushakti.png">
+                                    srcset="{{ asset('frontend-assets/img/ServicePages/banner/bannerdesk_ayushakti.png') }}">
                                 <source media="(min-width: 768px)"
-                                    srcset="https://www.sociomark.in/lp/assets/media/images/case-study/bannerdesk_ayushakti.png">
+                                    srcset="{{ asset('frontend-assets/img/ServicePages/banner/bannerdesk_ayushakti.png') }}">
                                 <source
-                                    srcset="https://www.sociomark.in/lp/assets/media/images/case-study/bannermob_ayushakti.png.png">
+                                    srcset="{{ asset('frontend-assets/img/ServicePages/banner/bannermob_ayushakti.png') }}">
                                 <img loading="lazy"
-                                    src="https://www.sociomark.in/lp/assets/media/images/case-study/bannermob_ayushakti.png.png"
+                                    src="{{ asset('frontend-assets/img/ServicePages/banner/bannermob_ayushakti.png') }}"
                                     alt="exposure" class="w-100 img-border">
                             </picture>
                         </div>
