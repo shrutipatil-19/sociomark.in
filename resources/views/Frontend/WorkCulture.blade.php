@@ -881,10 +881,10 @@
                                 el: ".swiper-pagination",
                                 type: "progressbar",
                             },
-                            // autoplay: {
-                            //     delay: 2500,
-                            //     disableOnInteraction: false,
-                            // },
+                            autoplay: {
+                                delay: 2500,
+                                disableOnInteraction: false,
+                            },
                             breakpoints: {
                                 768: {
                                     slidesPerView: 2,
