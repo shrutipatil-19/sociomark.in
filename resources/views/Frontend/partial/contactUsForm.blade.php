@@ -275,11 +275,27 @@
         </div>
         <span id="consent-error" class="text-danger mt-1 d-block"></span>
     </div>
-    <div class="g-recaptcha" data-sitekey="{{ env('GOOGLE_RECAPTCHA_KEY') }}"></div>
+    <!-- <div class="g-recaptcha" data-sitekey="{{ env('GOOGLE_RECAPTCHA_KEY') }}"></div>
 
     @if ($errors->has('g-recaptcha-response'))
     <span class="text-danger">{{ $errors->first('g-recaptcha-response') }}</span>
-    @endif
+    @endif -->
+    @php
+    $num1 = rand(1, 10);
+    $num2 = rand(1, 10);
+    session(['captcha_answer' => $num1 + $num2]);
+    @endphp
+
+    <div class="form-group mt-3">
+        <div class="form-check p-0">
+            <label>Captcha: {{ $num1 }} + {{ $num2 }} = ?</label>
+            <input type="text" name="captcha" required>
+            @error('captcha')
+            <p style="color:red">{{ $message }}</p>
+            @enderror
+        </div>
+    </div>
+
     <div class="col-12 form-group mb-0 text-center">
         <button type="submit" class="th-btn th-radius">Book A Free Strategy Call</button>
     </div>

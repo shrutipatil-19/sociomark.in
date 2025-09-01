@@ -25,36 +25,43 @@ class ContactController extends Controller
 
     public function store(Request $request)
     {
-
         $data = $request->validate([
-            'name' => 'required|string|max:255',
-            'email' => 'required|email',
-            'phone' => ['required', 'regex:/^\+?[0-9\s\-]{7,20}$/'],
-            'countryCode' => ['required'],
-            'service' => 'required|array',
-            'budget' => 'required',
-            'companyname' => 'nullable',
-            'timeline' => 'nullable',
-            'url' => 'nullable',
-            'aboutUs' => 'nullable',
+            'name'         => 'required|string|max:255',
+            'email'        => 'required|email',
+            'phone'        => ['required', 'regex:/^\+?[0-9\s\-]{7,20}$/'],
+            'countryCode'  => ['required'],
+            'service'      => 'required|array',
+            'budget'       => 'required',
+            'companyname'  => 'nullable',
+            'timeline'     => 'nullable',
+            'url'          => 'nullable',
+            'aboutUs'      => 'nullable',
             'messageforus' => 'nullable',
-            'consent' => 'required|accepted', // This ensures the checkbox is checked
-            'utm_source' => 'nullable|string|max:255',
-            'utm_medium' => 'nullable|string|max:255',
+            'consent'      => 'required|accepted',
+            'utm_source'   => 'nullable|string|max:255',
+            'utm_medium'   => 'nullable|string|max:255',
             'utm_campaign' => 'nullable|string|max:255',
-            'utm_term' => 'nullable|string|max:255',
-            'utm_content' => 'nullable|string|max:255',
-            'source' => 'nullable',
-            'g-recaptcha-response' => [new ReCaptcha()],
+            'utm_term'     => 'nullable|string|max:255',
+            'utm_content'  => 'nullable|string|max:255',
+            'source'       => 'nullable',
+            'captcha'      => 'required|numeric',
         ]);
-        $data['phone'] = $data['countryCode'] . ' ' . $data['phone'];
+
+        if ((int)$request->captcha !== (int)session('captcha_answer')) {
+            session()->forget('captcha_answer');
+            return back()
+                ->withErrors(['captcha' => 'Incorrect answer to the math question.'])
+                ->withInput();
+        }
+
+        session()->forget('captcha_answer');
+
+        $data['phone']   = $data['countryCode'] . ' ' . $data['phone'];
         $data['service'] = implode(', ', $data['service']);
+        $data['source']  = $data['source'] ?? $request->headers->get('referer');
 
-        $data['source'] = $request->headers->get('referer');
         $lead = Contact::create($data);
-        // $lead = Contact::create($request->all());
 
-        // Send email to business analyst
         // Mail::to('shruti.sociomark@gmail.com')->send(new NewLeadNotification($lead));
         $recipients = [
             // 'shruti.sociomark@gmail.com',
@@ -68,6 +75,15 @@ class ContactController extends Controller
         // Mail::to($recipients)->send(new NewLeadNotification($lead));
         return redirect()->route('thankYou')->with('success', 'Your message has been sent successfully!');
     }
+    // public function showForm()
+    // {
+    //     $num1 = rand(1, 10);
+    //     $num2 = rand(1, 10);
+
+    //     session(['captcha_answer' => $num1 + $num2]);
+
+    //     return view('Frontend/partial/contactUsForm', compact('num1', 'num2'));
+    // }
 
     public function popUpStore(Request $request)
     {
