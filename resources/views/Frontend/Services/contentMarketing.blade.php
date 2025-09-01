@@ -308,7 +308,7 @@
                         <div class="choose-feature">
                             <div class="box-icon d-flex justify-content-center align-items-center">
                                 <img src="{{ asset('frontend-assets/img/ServicePages/Content Marketing/icons/creative.png') }}"
-                                    width="60" alt="Icon" class="w-100 h-100">
+                                    width="60" alt="Icon">
                             </div>
                             <div class="media-body">
                                 <h4 class="sub-sec-title">Creative That Connects</h4>
@@ -319,7 +319,7 @@
                         <div class="choose-feature">
                             <div class="box-icon d-flex justify-content-center align-items-center">
                                 <img src="{{ asset('frontend-assets/img/ServicePages/Content Marketing/icons/Strategy.png') }}"
-                                    width="60" alt="Icon" class="w-100 h-100">
+                                    width="60" alt="Icon">
                             </div>
                             <div class="media-body">
                                 <h4 class="sub-sec-title">Stories with Strategy</h4>
@@ -329,7 +329,7 @@
                         <div class="choose-feature">
                             <div class="box-icon d-flex justify-content-center align-items-center">
                                 <img src="{{ asset('frontend-assets/img/ServicePages/Content Marketing/icons/Story.png') }}"
-                                    width="60" alt="Icon" class="w-100 h-100">
+                                    width="60" alt="Icon">
                             </div>
                             <div class="media-body">
                                 <h4 class="sub-sec-title">Built to Perform</h4>
