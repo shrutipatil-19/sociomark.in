@@ -590,8 +590,8 @@
                     data-aos-easing="ease-in-out">
                     <div class="title-area mb-20">
                         <h2 class="sec-title mb-md-3 mb-2">
-                            The Difference a Partnership with
-                            <span class="text-blue">Us Makes</span>
+                            How a Partnership with 
+                            <span class="text-blue">Us Makes a Difference</span>
                         </h2>
                     </div>
                     <p class="sec-para d-none ">Our SEO strategies are designed to improve your website’s ranking on

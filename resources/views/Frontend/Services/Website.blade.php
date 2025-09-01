@@ -47,7 +47,7 @@
             </div>
         </div>
     </section>
-    <section class="bg-grey space services px-5">
+    <section class="bg-grey space services px-0 px-lg-5">
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-lg-4">
@@ -944,6 +944,12 @@
         margin-top: -43px;
         width: 80px;
         height: 80px;
+    }
+
+    @media (max-width: 575px) {
+        .service-process-wrap-inner {
+            grid-template-columns: repeat(2, 1fr);
+        }
     }
 </style>
 @endpush
