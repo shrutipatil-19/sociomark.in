@@ -101,7 +101,7 @@
                                     {{-- <img src="assets/img/icon/call.svg" alt=""> --}}
                                 </div>
                                 <div class="box-text">
-                                    <a href="tel:+8169482831" class="box-link">HR : +91 8169482831</a> | <a href="tel:+91 9321019202" class="box-link">BD : +91 93210 19202</a>
+                                    HR :<a href="tel:+8169482831" class="box-link"> +91 8169482831</a> <br> BD :<a href="tel:+91 9321019202" class="box-link"> +91 93210 19202</a>
                                 </div>
                             </div>
                             <div class="info-box">
