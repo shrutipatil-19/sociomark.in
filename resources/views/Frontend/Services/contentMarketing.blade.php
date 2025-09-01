@@ -62,11 +62,11 @@
             max-height: 60vh;
         }
     </style>
-    <section class="bg-grey space services px-5">
+    <section class="bg-grey space services px-0 px-lg-5">
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-lg-4">
-                    <h2 class="sec-title mb-20" data-aos="fade-right" data-aos-duration="1000">Shape brand 
+                    <h2 class="sec-title mb-20" data-aos="fade-right" data-aos-duration="1000">Shape brand
                         <span class="text-blue">stories</span>
                     </h2>
                     <p class="sec-para mb-35 truncate" data-collapsed-words="41" data-aos="fade-right" data-aos-duration="2000">Overall, A 360 Words have the power to shape brands, and we craft stories that fuel growth and visibility. As a leading content marketing and SEO company, we create strategies that align with your goals and help your brand rank higher. Every piece of content passes through more than 5 tools, ZeroGPT , grammarly * , *Copyleaks , GPTZero , Quetext , and more, to ensure originality. The result is unique, AI-free, and SEO-friendly content. With the right blend of words, visuals, and storytelling, we turn communication into your brand’s strongest asset.</p>
@@ -308,7 +308,7 @@
                         <div class="choose-feature">
                             <div class="box-icon d-flex justify-content-center align-items-center">
                                 <img src="{{ asset('frontend-assets/img/ServicePages/Content Marketing/icons/creative.png') }}"
-                                    width="60" alt="Icon" class="w-100 h-100">
+                                    width="60" alt="Icon">
                             </div>
                             <div class="media-body">
                                 <h4 class="sub-sec-title">Creative That Connects</h4>
@@ -319,7 +319,7 @@
                         <div class="choose-feature">
                             <div class="box-icon d-flex justify-content-center align-items-center">
                                 <img src="{{ asset('frontend-assets/img/ServicePages/Content Marketing/icons/Strategy.png') }}"
-                                    width="60" alt="Icon" class="w-100 h-100">
+                                    width="60" alt="Icon">
                             </div>
                             <div class="media-body">
                                 <h4 class="sub-sec-title">Stories with Strategy</h4>
@@ -329,7 +329,7 @@
                         <div class="choose-feature">
                             <div class="box-icon d-flex justify-content-center align-items-center">
                                 <img src="{{ asset('frontend-assets/img/ServicePages/Content Marketing/icons/Story.png') }}"
-                                    width="60" alt="Icon" class="w-100 h-100">
+                                    width="60" alt="Icon">
                             </div>
                             <div class="media-body">
                                 <h4 class="sub-sec-title">Built to Perform</h4>
@@ -619,6 +619,12 @@
         margin-top: -43px;
         width: 80px;
         height: 80px;
+    }
+
+    @media (max-width: 575px) {
+        .service-process-wrap-inner {
+            grid-template-columns: repeat(2, 1fr);
+        }
     }
 </style>
 @endpush

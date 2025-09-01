@@ -41,6 +41,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/additional-methods.min.js"
         integrity="sha512-TiQST7x/0aMjgVTcep29gi+q5Lk5gVTUPE9XgN0g96rwtjEjLpod4mlBRKWHeBcvGBAEvJBmfDqh2hfMMmg+5A=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <!-- <script type="text/javascript">
         function googleTranslateElementInit() {
             new google.translate.TranslateElement({
@@ -75,8 +76,8 @@
         <div class="preloader-inner">
             <img src="{{ asset('frontend-assets/img/preloader.gif') }}" alt="Sociomark" height="200"> --}}
 
-            {{-- <span class="loader"></span> --}}
-        {{-- </div>
+    {{-- <span class="loader"></span> --}}
+    {{-- </div>
     </div> --}}
     <div class="popup-search-box d-none d-lg-block">
         <button class="searchClose"><i class="fal fa-times"></i></button>
@@ -208,54 +209,54 @@
     @php
     use Carbon\Carbon;
 
-    
+
     $expiryDate = Carbon::create(2025, 8, 28);
-        $showConfetti=Route::currentRouteName()==='home'
-        && Carbon::now()->lte($expiryDate)
-        && !session()->has('confetti_shown');
-        @endphp
+    $showConfetti=Route::currentRouteName()==='home'
+    && Carbon::now()->lte($expiryDate)
+    && !session()->has('confetti_shown');
+    @endphp
 
-        @if($showConfetti)
-        <script>
-            const end = Date.now() + 10 * 1000; // run for 10s
-            const colors = ["#106c97", "#ff900b"]; // custom colors
+    @if($showConfetti)
+    <script>
+        const end = Date.now() + 10 * 1000; // run for 10s
+        const colors = ["#106c97", "#ff900b"]; // custom colors
 
-            (function frame() {
-                confetti({
-                    particleCount: 2,
-                    angle: 60,
-                    spread: 55,
-                    origin: {
-                        x: 0
-                    },
-                    colors: colors,
-                    scalar: 1.3
-                });
+        (function frame() {
+            confetti({
+                particleCount: 2,
+                angle: 60,
+                spread: 55,
+                origin: {
+                    x: 0
+                },
+                colors: colors,
+                scalar: 1.3
+            });
 
-                confetti({
-                    particleCount: 2,
-                    angle: 120,
-                    spread: 55,
-                    origin: {
-                        x: 1
-                    },
-                    colors: colors,
-                    scalar: 1.3
-                });
+            confetti({
+                particleCount: 2,
+                angle: 120,
+                spread: 55,
+                origin: {
+                    x: 1
+                },
+                colors: colors,
+                scalar: 1.3
+            });
 
-                if (Date.now() < end) {
-                    requestAnimationFrame(frame);
-                }
-            })();
-        </script>
+            if (Date.now() < end) {
+                requestAnimationFrame(frame);
+            }
+        })();
+    </script>
 
-        @php
-        // Mark as shown so it won't run again in this session
-        session(['confetti_shown' => true]);
-        @endphp
-        @endif
+    @php
+    // Mark as shown so it won't run again in this session
+    session(['confetti_shown' => true]);
+    @endphp
+    @endif
 
-        @stack('script')
+    @stack('script')
 </body>
 
 </html>

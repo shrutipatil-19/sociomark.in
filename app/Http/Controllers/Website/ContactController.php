@@ -8,6 +8,7 @@ use App\Models\Contact;
 use App\Models\PopUpContact;
 use App\Mail\NewLeadNotification;
 use Illuminate\Support\Facades\Mail;
+use App\Rules\ReCaptcha;
 
 class ContactController extends Controller
 {
@@ -43,7 +44,8 @@ class ContactController extends Controller
             'utm_campaign' => 'nullable|string|max:255',
             'utm_term' => 'nullable|string|max:255',
             'utm_content' => 'nullable|string|max:255',
-            'source' => 'nullable'
+            'source' => 'nullable',
+            'g-recaptcha-response' => [new ReCaptcha()],
         ]);
         $data['phone'] = $data['countryCode'] . ' ' . $data['phone'];
         $data['service'] = implode(', ', $data['service']);
@@ -55,15 +57,15 @@ class ContactController extends Controller
         // Send email to business analyst
         // Mail::to('shruti.sociomark@gmail.com')->send(new NewLeadNotification($lead));
         $recipients = [
-            'shruti.sociomark@gmail.com',
-            'brandsolution@sociomark.in',
-            'business@sociomark.in',
-            'heta@sociomark.in',
+            // 'shruti.sociomark@gmail.com',
+            // 'brandsolution@sociomark.in',
+            // 'business@sociomark.in',
+            // 'heta@sociomark.in',
             'rishi@sociomark.in',
-            'sonali@sociomark.in'
+            // 'sonali@sociomark.in'
         ];
 
-        Mail::to($recipients)->send(new NewLeadNotification($lead));
+        // Mail::to($recipients)->send(new NewLeadNotification($lead));
         return redirect()->route('thankYou')->with('success', 'Your message has been sent successfully!');
     }
 
