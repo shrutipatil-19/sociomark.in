@@ -13,6 +13,18 @@ return [
         'image' => 'frontend-assets/img/clients/tataplay.png',
         'portfolio-image' => 'frontend-assets/img/work/banner/tata_play.png'
     ],
+    'newj' => [
+        'industry' => 'news-media',
+        'name' => 'NEWJ',
+        // 'view' => 'Frontend/Portfolio/tataplaySocial',
+        // 'meta' => [
+        //     'title' => 'Tata Play Social Media | Sociomark Portfolio Dubai​',
+        //     'description' => "Discover how our digital marketing agency in Dubai helped Tata Play enhance engagement through creative and effective social media campaigns.",
+        //     'keywords' => 'Best Digital marketing agency for Entertainment industry, Digital marketing agency in Ajman, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
+        // ],
+        'image' => 'frontend-assets/img/clients/newj_logo.jpg'
+        // 'portfolio-image' => 'frontend-assets/img/work/banner/tata_play.png'
+    ],
     'stemrx-bioscience' => [
         'industry' => 'healthcare',
         'name' => 'StemRx',
