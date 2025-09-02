@@ -1679,11 +1679,11 @@ main#home {
     }
 }
 
-#work-flow .key-image {
+/* #work-flow .key-image {
     width: 100%;
     height: 100%;
     object-fit: contain;
-}
+} */
 
 #work-flow .benefit-block {
     padding: 10px 25px;

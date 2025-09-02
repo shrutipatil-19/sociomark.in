@@ -173,7 +173,7 @@
                     <div class="circle-wrapper" data-aos="fade-right" data-aos-delay="200" data-tilt data-tilt-max="10">
                         <div class="circle" data-tilt data-tilt-max="10">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Content Marketing/skills.png') }}"
-                                alt="Key" class="key-image mt-3">
+                                alt="Key" class="mt-3">
                         </div>
                     </div>
                 </div>
