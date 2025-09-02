@@ -57,7 +57,7 @@
 
         <h2 class="mt-4 sub-sec-title text-blue">Key Highlights of the Journey:</h2>
         <p class="sec-para"></p>
-        <ul>
+
             <div class="row">
                 <div class="col-sm-6 imgs">
                     <!--<h2 class="mt-4 sub-sec-title text-blue">Elephant Topical</h2>-->
@@ -118,7 +118,6 @@
                     <script async="" src="//www.instagram.com/embed.js"></script>
                 </div>
             </div>
-        </ul>
 
         <h2 class="mt-4 sub-sec-title text-blue">Results/Conclution:</h2>
         <div class="row">

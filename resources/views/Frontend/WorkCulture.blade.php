@@ -1006,6 +1006,7 @@
                     <button data-filter=".cat-2020" class="tab-btn" type="button">2022 - 2018</button>
                     <button data-filter=".cat-old" class="tab-btn" type="button">2017</button>
                 </div>
+               <div class="row justify-content-center">
                 <div class="masonary-gallery-active" id="masonary-gallery">
                     @for ($i = 1; $i <= 25; $i++)
                         <a href="{{ asset('frontend-assets/img/gallery/workplace/2020 (' . $i . ').jpg') }}"
@@ -1043,6 +1044,7 @@
                                         </a>
                                         @endfor
                 </div>
+               </div>
                 <!-- <div class="project-btn mt-60"><a href="portfolio.html" class="th-btn th-radius">View All Portfolio</a>
                                                                                                                                                                                                                 </div> -->
                 @push('scripts')

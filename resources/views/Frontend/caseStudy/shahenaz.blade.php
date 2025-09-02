@@ -92,7 +92,7 @@
         <h2 class="mt-4 sub-sec-title text-blue">Our Solution:</h2>
         <h3 class="fs-5 text-blue">90-Day Game Plan</h3>
         <div class="row">
-            <div class="col-md-4 col-6">
+            <div class="col-md-4 col-12">
                 <table>
                     <tr>
                         <th>Our Mission</th>
@@ -102,7 +102,7 @@
                     </tr>
                 </table>
             </div>
-            <div class="col-md-4 col-6">
+            <div class="col-md-4 col-12">
                 <table>
                     <tr>
                         <th>Our Vision</th>
@@ -112,7 +112,7 @@
                     </tr>
                 </table>
             </div>
-            <div class="col-md-4 col-6">
+            <div class="col-md-4 col-12">
                 <table>
                     <tr>
                         <th>Our Goals</th>
@@ -152,7 +152,7 @@
 
 
         <div class="row mt-5">
-            <div class="col-6 col-md-4">
+            <div class="col-12 col-md-6">
 
                 <div class="strategy text-center sec-para" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">24.31%</div>
                 <h3 class="text-center text-blue sub-sec-title mt-3">Impressions Increased By</h3>
@@ -165,7 +165,7 @@
                     </tr>
                 </table>
             </div>
-            <div class="col-6 col-md-4">
+            <div class="col-12 col-md-6">
 
                 <div class="strategy text-center sec-para" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">71.72%</div>
                 <p class="text-center text-blue sub-sec-title mt-3">Impressions Increased By</p>
@@ -178,21 +178,27 @@
                     </tr>
                 </table>
             </div>
+        </div>
+        <div class="row">
             <div class="col-6 col-md-4">
                 <div class="percentage">
                     <div class="strategy text-center" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">120k+</div>
                     <h3 class="text-center fs-6 text-blue mt-3">Impressions</h3>
                 </div>
+            </div>
+            <div class="col-6 col-md-4">
                 <div class="percentage">
                     <div class="strategy text-center" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">63k+</div>
                     <h3 class="text-center fs-6 text-blue mt-3">Reach</h3>
                 </div>
+            </div>
+                <div class="col-6 col-md-4">
                 <div class="percentage">
                     <div class="strategy text-center" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">68k+</div>
                     <h3 class="text-center fs-6 text-blue mt-3">Video Views</h3>
                 </div>
+                </div>
             </div>
-        </div>
 
 
 
@@ -205,7 +211,7 @@
 
 
         <div class="row mt-5">
-            <div class="col-6 col-md-4">
+            <div class="col-12 col-md-6">
 
                 <div class="strategy text-center sec-para" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">30.25%</div>
                 <h3 class="text-center text-blue sub-sec-title mt-3">Impressions Increased By</h3>
@@ -218,7 +224,7 @@
                     </tr>
                 </table>
             </div>
-            <div class="col-6 col-md-4">
+            <div class="col-12 col-md-6">
 
                 <div class="strategy text-center sec-para" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">31.56%</div>
                 <p class="text-center text-blue sub-sec-title mt-3">Video Views Increased By</p>
@@ -231,21 +237,28 @@
                     </tr>
                 </table>
             </div>
-            <div class="col-6 col-md-4">
-                <div class="percentage">
-                    <div class="strategy text-center" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">50k+</div>
-                    <h3 class="text-center fs-6 text-blue mt-3">Impressions</h3>
-                </div>
-                <div class="percentage">
-                    <div class="strategy text-center" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">24k+</div>
-                    <h3 class="text-center fs-6 text-blue mt-3">Reach</h3>
-                </div>
-                <div class="percentage">
-                    <div class="strategy text-center" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">20k+</div>
-                    <h3 class="text-center fs-6 text-blue mt-3">Video Views</h3>
-                </div>
-            </div>
         </div>
+
+        <div class="row">
+            <div class="col-6 col-md-4">
+                    <div class="percentage">
+                        <div class="strategy text-center" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">50k+</div>
+                        <h3 class="text-center fs-6 text-blue mt-3">Impressions</h3>
+                    </div>
+            </div>
+            <div class="col-6 col-md-4">
+                    <div class="percentage">
+                        <div class="strategy text-center" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">24k+</div>
+                        <h3 class="text-center fs-6 text-blue mt-3">Reach</h3>
+                    </div>
+            </div>
+            <div class="col-6 col-md-4">
+                    <div class="percentage">
+                        <div class="strategy text-center" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">20k+</div>
+                        <h3 class="text-center fs-6 text-blue mt-3">Video Views</h3>
+                    </div>
+            </div>
+            </div>
 
         <h2 class="mt-4 sub-sec-title text-blue">Visually Pleasing Grids</h2>
 

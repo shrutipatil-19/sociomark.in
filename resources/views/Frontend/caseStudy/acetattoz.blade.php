@@ -13,7 +13,7 @@
     .breadcumb-wrapper {
         margin-top: 4.3rem;
         background-color: #e2e2e2;
-        background-size: contain;
+        background-size: cover;
     }
 
     #portfolioCommon {
@@ -26,7 +26,7 @@
 @section('content')
 <main>
 
-    <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/case-study/ace tatto.png') }}">
+    <div class="breadcumb-wrapper" data-bg-src="{{ asset('frontend-assets/img/case-study/acetatto.png') }}">
         <div class="container">
             <div class="breadcumb-content">
 
