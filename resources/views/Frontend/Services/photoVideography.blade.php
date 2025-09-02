@@ -267,7 +267,7 @@
                                 class="instagram-media"
                                 data-instgrm-permalink="https://www.instagram.com/reel/DDhX55BgFgF/?utm_source=ig_embed&amp;utm_campaign=loading"
                                 data-instgrm-version="14"
-                                style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:1px; max-width:540px; min-width:326px; padding:0; width:calc(100% - 2px); height:500px; object-fit: contain; ">
+                                style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:1px; max-width:540px; min-width:326px; padding:0; width:calc(100% - 2px); object-fit: contain; ">
                             </blockquote>
 
                             <script async src="//www.instagram.com/embed.js"></script>
@@ -280,7 +280,7 @@
                                 class="instagram-media"
                                 data-instgrm-permalink="https://www.instagram.com/reel/DHGFv0wy32I/?utm_source=ig_embed&amp;utm_campaign=loading"
                                 data-instgrm-version="14"
-                                style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:1px; max-width:540px; min-width:326px; padding:0; width:calc(100% - 2px); height:500px; object-fit: contain;">
+                                style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:1px; max-width:540px; min-width:326px; padding:0; width:calc(100% - 2px);object-fit: contain;">
                             </blockquote>
 
                             <script async src="//www.instagram.com/embed.js"></script>
@@ -292,7 +292,7 @@
                                 class="instagram-media"
                                 data-instgrm-permalink="https://www.instagram.com/reel/DIWhZbposlv/?utm_source=ig_embed&amp;utm_campaign=loading"
                                 data-instgrm-version="14"
-                                style="background:#FFF; border:0; border-radius:3px; box-shadow:none; margin:1px; max-width:540px; min-width:326px; padding:0; width:100%; height:500px; object-fit: contain;">
+                                style="background:#FFF; border:0; border-radius:3px; box-shadow:none; margin:1px; max-width:540px; min-width:326px; padding:0; width:100%; object-fit: contain;">
                             </blockquote>
 
                             <script async src="//www.instagram.com/embed.js"></script>
@@ -304,7 +304,7 @@
                                 class="instagram-media"
                                 data-instgrm-permalink="https://www.instagram.com/reel/DKrl9nPyMVr/?utm_source=ig_embed&amp;utm_campaign=loading"
                                 data-instgrm-version="14"
-                                style="background:#FFF; border:0; border-radius:8px; box-shadow:none; margin:0 auto; max-width:540px; min-width:326px; padding:0; width:100%; height:500px; object-fit: contain;">
+                                style="background:#FFF; border:0; border-radius:8px; box-shadow:none; margin:0 auto; max-width:540px; min-width:326px; padding:0; width:100%; object-fit: contain;">
                             </blockquote>
 
                             <script async src="//www.instagram.com/embed.js"></script>
@@ -316,7 +316,7 @@
                                 class="instagram-media"
                                 data-instgrm-permalink="https://www.instagram.com/reel/DL4q8wPM9Yc/?utm_source=ig_embed&amp;utm_campaign=loading"
                                 data-instgrm-version="14"
-                                style="background:#FFF; border:0; border-radius:8px; box-shadow:none; margin:0 auto; max-width:540px; min-width:326px; padding:0; width:100%; height:500px; object-fit: contain;">
+                                style="background:#FFF; border:0; border-radius:8px; box-shadow:none; margin:0 auto; max-width:540px; min-width:326px; padding:0; width:100%; object-fit: contain;">
                             </blockquote>
 
                             <script async src="//www.instagram.com/embed.js"></script>
@@ -328,7 +328,7 @@
                                 class="instagram-media"
                                 data-instgrm-permalink="https://www.instagram.com/reel/DMk6fhPS0q9/?utm_source=ig_embed&amp;utm_campaign=loading"
                                 data-instgrm-version="14"
-                                style="background:#FFF; border:0; border-radius:8px; box-shadow:none; margin:0 auto; max-width:540px; min-width:326px; padding:0; width:100%; height:500px; object-fit: contain;">
+                                style="background:#FFF; border:0; border-radius:8px; box-shadow:none; margin:0 auto; max-width:540px; min-width:326px; padding:0; width:100%; object-fit: contain;">
                             </blockquote>
 
                             <script async src="//www.instagram.com/embed.js"></script>
@@ -339,7 +339,7 @@
                                 class="instagram-media"
                                 data-instgrm-permalink="https://www.instagram.com/reel/DNQV-QsSMCq/?utm_source=ig_embed&amp;utm_campaign=loading"
                                 data-instgrm-version="14"
-                                style="background:#FFF; border:0; border-radius:8px; box-shadow:none; margin:0 auto; max-width:540px; min-width:326px; padding:0; width:100%; height:500px; object-fit: contain;">
+                                style="background:#FFF; border:0; border-radius:8px; box-shadow:none; margin:0 auto; max-width:540px; min-width:326px; padding:0; width:100%; object-fit: contain;">
                             </blockquote>
 
                             <script async src="//www.instagram.com/embed.js"></script>
