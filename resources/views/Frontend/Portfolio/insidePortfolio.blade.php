@@ -289,15 +289,15 @@
     <div class="overflow-hidden space contact-head">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="title-area text-center text-xl-start col-md-4 head-text-div mt-1">
+                <div class="title-area text-center text-xl-start col-md-5 head-text-div mt-1">
                     <h1 class="sec-title head-text head-mbl-text" data-aos="fade-right" data-aos-delay="100"
                         data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        Our Work <span class="text-blue">Speaks Louder</span> Than Words
+                        Our Work <br><span class="text-blue">Speaks Louder<br></span> Than Words
                     </h1>
                 </div>
-                <div class="text-center text-xl-start col-md-8 pl-40">
+                <div class="text-center text-xl-start col-md-7">
                     <p class="sec-para" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000"
-                        data-aos-easing="ease-in-out">We love what we do, and it shows in our work. Every project is a chance to create something special. Check out the projects we’ve worked on and see how we help brands grow. Our portfolio reflects our passion for creativity and results. Each project tells a unique story of collaboration and success. We’re proud of what we’ve built and excited for what’s next!
+                        data-aos-easing="ease-in-out">We love what we do, and it shows in our work. Every project is a chance to create something special. Check out the projects we’ve worked on and see how we help brands grow. <br>Our portfolio reflects our passion for creativity and results. Each project tells a unique story of collaboration and success. We’re proud of what we’ve built and excited for what’s next!
                     </p>
 
                 </div>

@@ -67,10 +67,10 @@
         <p class="sec-para">Using a series of videos and introducing LinkedIn for the first time to directly connect with the management community of the Real Estate sector, we achieved a massive response (750+ leads that came from Social Media were organic).</p>
         <div class="row">
             <div class="col-md-6 col-12">
-                <iframe src="https://www.facebook.com/plugins/post.php?href=https://www.facebook.com/CNBCAWAAZREA/videos/934191723456147/?v=934191723456147/&amp;width=500" width="100%" height="450" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F823992281371621%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
             </div>
             <div class="col-md-6 col-12">
-                <iframe src="https://www.facebook.com/plugins/post.php?href=https://www.facebook.com/CNBCAWAAZREA/videos/2314246412131501/?v=2314246412131501&amp;width=500" width="100%" height="450" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F2314246412131501%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
             </div>
         </div>
         <div class="clearfix"></div>
@@ -91,7 +91,7 @@
         <p class="sec-para">To ensure that there is no gap in our communication, even though the awards were pushed by more than three months, we created a series of tête-à-tête between Shreegopal Kabra, MD RR Kabel and Vipin Bhat, editor of CNBC-AWAAZ on the current scenario of India's Real Estate sector; including tips from Kabra Ji on achieving success in life.</p>
         <div class="row">
             <div class="col-md-6 col-12">
-                <iframe src="https://www.facebook.com/plugins/post.php?href=https://www.facebook.com/CNBCAWAAZREA/videos/657187034743944/&amp;width=500" width="100%" height="450" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F657187034743944%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
             </div>
             <div class="col-md-6 col-12">
                 <div class="row" style="text-align: center">
@@ -272,10 +272,10 @@
             <!--	<iframe src="https://www.facebook.com/plugins/post.php?href=https://www.facebook.com/CNBCAWAAZREA/videos/3185690734804051/&width=500" width="100%" height="450" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>-->
             <!--</div>-->
             <div class="col-md-4 col-12">
-                <iframe src="https://www.facebook.com/plugins/post.php?href=https://www.facebook.com/CNBCAWAAZREA/videos/568256283747825/&amp;width=500" width="100%" height="450" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F568256283747825%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
             </div>
             <div class="col-md-4 col-12">
-                <iframe src="https://www.facebook.com/plugins/post.php?href=https://www.facebook.com/CNBCAWAAZREA/videos/725852964533950/&amp;width=500" width="100%" height="450" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F725852964533950%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
             </div>
         </div>
 
