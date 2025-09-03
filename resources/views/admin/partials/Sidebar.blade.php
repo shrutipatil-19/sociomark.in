@@ -26,14 +26,14 @@
             </li>
             @endcan
 
-             @can('admin-access')
+            @can('admin-access')
             <!-- <p>Admin Access is working!</p> -->
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a href="{{ url('/admin/message') }}" class="nav-link">
                     <i class="link-icon" data-feather="box"></i>
                     <span class="link-title">Wishes</span>
                 </a>
-            </li>
+            </li> -->
             @endcan
             <!-- User Section (Show Only Services, Blog, etc.) -->
             @can('user-access')
@@ -85,6 +85,13 @@
                     </ul>
                 </div>
             </li>
+
+            <li class="nav-item">
+                <a href="{{ route('casestudy') }}" class="nav-link">
+                    <i class="link-icon" data-feather="box"></i>
+                    <span class="link-title">Casestudy Download</span>
+                </a>
+            </li>
             @endcan
 
             @can('hr-access')
@@ -96,13 +103,13 @@
                     <span class="link-title">Jobs</span>
                     <i class="link-arrow" data-feather="chevron-down"></i>
                 </a> -->
-                <!-- <div class="collapse" data-bs-parent="#sidebarNav" id="uiComponents">
+            <!-- <div class="collapse" data-bs-parent="#sidebarNav" id="uiComponents">
                     <ul class="nav sub-menu">
-                        <!-- <li class="nav-item">
+                        <li class="nav-item">
                             <a href="pages/ui-components/accordion.html" class="nav-link">Add Jobs</a>
                         </li> -->
 
-                <!-- <li class="nav-item">
+            <!-- <li class="nav-item">
                             <a href="pages/ui-components/badges.html" class="nav-link">Badges</a>
                         </li>
                         <li class="nav-item">
@@ -120,7 +127,7 @@
                         <li class="nav-item">
                             <a href="pages/ui-components/carousel.html" class="nav-link">Carousel</a>
                         </li> -->
-                <!-- <li class="nav-item">
+            <!-- <li class="nav-item">
                             <a href="pages/ui-components/collapse.html" class="nav-link">Collapse</a>
                         </li>
                         <li class="nav-item">
@@ -144,7 +151,7 @@
                         <li class="nav-item">
                             <a href="pages/ui-components/pagination.html" class="nav-link">Pagination</a>
                         </li> -->
-                <!-- <li class="nav-item">
+            <!-- <li class="nav-item">
                             <a href="pages/ui-components/popover.html" class="nav-link">Popovers</a>
                         </li>
                         <li class="nav-item">
@@ -165,6 +172,7 @@
                         <li class="nav-item">
                             <a href="pages/ui-components/tooltips.html" class="nav-link">Tooltips</a>
                         </li> 
+                       
                     </ul>
                 </div> -->
             </li>

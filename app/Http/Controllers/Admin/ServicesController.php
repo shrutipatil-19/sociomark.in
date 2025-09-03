@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\caseStudyForm;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
 
@@ -14,7 +15,12 @@ class ServicesController extends Controller
             // Allow access
             return view('admin.addServices');
         }
-        
+
         abort(403, 'Unauthorized access.');
+    }
+    public function casestudy()
+    {
+        $caseStudies = caseStudyForm::get();
+        return view('admin.Pages.caseStudy.list', compact('caseStudies'));
     }
 }

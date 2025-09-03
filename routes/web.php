@@ -181,6 +181,7 @@ Route::middleware(['canGate:user-access'])->group(function () {
     Route::resource('/admin/tags', TagController::class);
     Route::resource('/admin/blogs', BlogController::class);
     Route::resource('prs', PRController::class);
+    Route::get('/admin/casestudy', [ServicesController::class, 'casestudy'])->name('casestudy');
 });
 
 // Only Business user have access of this url
