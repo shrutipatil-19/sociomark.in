@@ -160,7 +160,7 @@
 
                     </h1>
                 </div>
-                <div class="text-center text-xl-start col-md-8 pl-40">
+                <div class="text-center text-xl-start col-md-8">
                     <p class="sec-para" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000"
                         data-aos-easing="ease-in-out">Got an idea or need more details? Don’t hesitate to reach out.
                         We’re eager to hear what’s on your mind and explore how we can help. Whether you’re starting a

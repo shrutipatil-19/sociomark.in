@@ -1,16 +1,14 @@
 <section class="overflow-hidden space bg-grey" id="team-sec">
     <div class="container">
-        <div class="row">
-            <div class="title-area text-center text-xl-start col-md-4 head-text-div">
+        <div class="row align-items-center align-content-center">
+            <div class="title-area text-center text-xl-start col-md-5 head-text-div mb-0">
                 <h2 class="sec-title head-text head-mbl-text aos-init aos-animate" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
                     View Our Similar<span class="text-blue"> Case Study</span>
                 </h2>
             </div>
-            <div class="text-center text-xl-start col-md-8">
+            <div class="text-center text-xl-start col-md-7">
                 <p class="sec-para aos-init aos-animate" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">We identify the most relevant and high-traffic keywords for your business. Our
                     team conducts thorough research to understand.</p>
-                <p class="sec-para aos-init" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000" data-aos-easing="ease-in-out">We identify the most relevant and high-traffic keywords for your business. Our
-                    team conducts thorough research to understand yourer.</p>
             </div>
         </div>
 

@@ -104,7 +104,7 @@
   --main-container: 1290px;
   --container-gutters: 24px;
   --section-space: 90px;
-  --section-space-mobile: 80px;
+  --section-space-mobile: 40px;
   --section-title-space: 60px;
   --ripple-ani-duration: 5s;
 }

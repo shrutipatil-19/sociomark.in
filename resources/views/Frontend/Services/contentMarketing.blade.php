@@ -173,7 +173,7 @@
                     <div class="circle-wrapper" data-aos="fade-right" data-aos-delay="200" data-tilt data-tilt-max="10">
                         <div class="circle" data-tilt data-tilt-max="10">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Content Marketing/skills.png') }}"
-                                alt="Key" class="key-image mt-3">
+                                alt="Key" class="mt-3">
                         </div>
                     </div>
                 </div>
@@ -466,8 +466,10 @@
             <!-- Dashboard Images -->
             <div class="mt-5" data-aos="zoom-in" data-tilt data-tilt-max="10" data-aos-delay="100"
                 data-aos-duration="1000" data-aos-easing="ease-in-out">
-                <img src="{{ asset('frontend-assets/img/ServicePages/Content Marketing/Package.png') }}"
+                <a href="{{ route('blog') }}">
+                    <img src="{{ asset('frontend-assets/img/ServicePages/Content Marketing/Package.png') }}"
                     alt="Dashboard Screenshot" class="dashboard-img rounded-overflow">
+                </a>
             </div>
         </div>
     </section>

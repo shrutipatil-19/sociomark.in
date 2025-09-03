@@ -6,7 +6,7 @@ Mobile Menu
     <div class="th-menu-area text-center">
         <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
         <!-- Wrap Ganpati + Confetti -->
-        <div class="confetti-wrapper d-inline-block d-lg-none">
+        <div class="confetti-wrapper d-inline-block d-none">
             <!-- Confetti pieces -->
             <div class="confetti"></div>
             <div class="confetti"></div>
@@ -16,7 +16,7 @@ Mobile Menu
             <div class="confetti"></div>
 
             <!-- Ganpati Image -->
-            <img src="{{ asset('frontend-assets/img/nav-element/gnpti-bappa1.png') }}" alt="ladu plate" height="50" style="width: 100px; height: 100px;" class="bappa-animate d-inline-block d-lg-none">
+            {{-- <img src="{{ asset('frontend-assets/img/nav-element/gnpti-bappa1.png') }}" alt="ladu plate" height="50" style="width: 100px; height: 100px;" class="bappa-animate d-inline-block d-lg-none"> --}}
         </div>
 
         <div class="mobile-logo">

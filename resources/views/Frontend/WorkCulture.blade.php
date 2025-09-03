@@ -233,7 +233,7 @@
             </picture>
         </div>
     </section>
-    <section class="overflow-hidden space">
+    <section class="overflow-hidden space d-none">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -249,7 +249,7 @@
             </div>
         </div>
     </section>
-    <section class="about-area2 overflow-hidden pb-md-5 pb-3 pt-2" id="about-sec">
+    <section class="about-area2 overflow-hidden space pt-5" id="about-sec">
         <div class="container">
             <div class="row flex-row-reverse align-items-start">
                 <div class="col-lg-6 mb-30 mb-xl-0">
@@ -391,7 +391,7 @@
             </div>
         </div>
     </section> -->
-<!-- 
+<!--] 
     <section class="space bg-grey d-none">
         <div class="container-fluid">
             <div class="section-vertical">
@@ -1006,6 +1006,7 @@
                     <button data-filter=".cat-2020" class="tab-btn" type="button">2022 - 2018</button>
                     <button data-filter=".cat-old" class="tab-btn" type="button">2017</button>
                 </div>
+               <div class="row justify-content-center">
                 <div class="masonary-gallery-active" id="masonary-gallery">
                     @for ($i = 1; $i <= 25; $i++)
                         <a href="{{ asset('frontend-assets/img/gallery/workplace/2020 (' . $i . ').jpg') }}"
@@ -1043,6 +1044,7 @@
                                         </a>
                                         @endfor
                 </div>
+               </div>
                 <!-- <div class="project-btn mt-60"><a href="portfolio.html" class="th-btn th-radius">View All Portfolio</a>
                                                                                                                                                                                                                 </div> -->
                 @push('scripts')

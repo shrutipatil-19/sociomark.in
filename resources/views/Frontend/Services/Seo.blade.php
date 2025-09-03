@@ -145,7 +145,7 @@
                             {{-- <img src="{{ asset('frontend-assets/img/Services-page/Why choose Seo.png') }}"
                             alt="Choose" class="w-100"> --}}
                             <img src="{{ asset('frontend-assets/img/ServicePages/SEO/caseStudy/pare.png') }}" alt="Choose"
-                                class="w-100 h-100 object-cover">
+                                class="w-100">
 
                         </div>
                     </div>
@@ -311,7 +311,7 @@
                     <div class="circle-wrapper" data-aos="fade-right" data-aos-delay="200" data-tilt data-tilt-max="10">
                         <div class="circle" data-tilt data-tilt-max="10">
                             <img src="{{ asset('frontend-assets/img/ServicePages/SEO/Creating Impact.png') }}"
-                                alt="Key" class="key-image mt-3">
+                                alt="Key" class="mt-3">
                         </div>
                     </div>
                 </div>
@@ -359,14 +359,14 @@
     <section class="overflow-hidden space bg-grey" id="">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-xl-5 mt-3 mt-lg-0" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1200"
+                <div class="col-xl-5 mt-3 mb-3 mt-lg-0" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1200"
                     data-aos-easing="ease-in-out">
                     <div class="choose-image">
                         <div class="tilt-active">
                             {{-- <img src="{{ asset('frontend-assets/img/Services-page/Why choose Seo.png') }}"
                             alt="Choose" class="w-100"> --}}
                             <img src="{{ asset('frontend-assets/img/ServicePages/SEO/caseStudy/totalfood.png') }}" alt="Choose"
-                                class="w-100 h-100 object-cover">
+                                class="w-100">
 
                         </div>
                     </div>

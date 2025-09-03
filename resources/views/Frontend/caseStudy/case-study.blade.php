@@ -3,7 +3,13 @@
 @section('custome-style')
 
 @endsection
-
+@push('styles')
+<style>
+    .card__article {
+    height: auto !important;
+}
+</style>
+@endpush
 @section('content')
 <main id="case-study">
     <section style="margin-top: 66px;"class="">
@@ -64,7 +70,7 @@
 
             <!-- Tab Content -->
             <div class="portfolio-container">
-                <div class="filter-active row h-auto g-4">
+                <div class="filter-active row g-4">
                     <article class="card__article filter-item cat1 cat3 col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="w-100">
                             <a href="{{ route('stemrxbio') }}">
