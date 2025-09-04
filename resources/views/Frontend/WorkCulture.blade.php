@@ -636,7 +636,7 @@
         </div>
     </section> -->
 
-    <section class="space bg-grey d-none">
+    <section class="space bg-grey ">
         <div class="container">
             <div class="row justify-content-center mb-4">
                 <div class="col-lg-8">
@@ -903,7 +903,7 @@
         </div>
         </div>
     </section>
-    <section class="space bg-grey">
+    <section class="space bg-grey d-none">
         <div class="container">
             <div class="row justify-content-center mb-4">
                 <div class="col-lg-8">
