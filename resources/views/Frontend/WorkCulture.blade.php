@@ -937,14 +937,14 @@
                     <li><a href="#2014">2014</a></li>
                     <li><a href="#2015">2015</a></li>
                     <li><a href="#2016">2016</a></li>
-
+ 
                 </ul>
                 <ul id="issues">
                     <li id="1984" class="d-flex">
-                        <div class="img col-7">
+                        <div class="img col-6">
                             <img src="https://www.sociomark.in/public/frontend-assets/img/gallery/workplace/2020 (16).jpg" alt="">
                         </div>
-                        <div class="info col-5">
+                        <div class="info col-6">
                             <h2 class="sec-sub-title ">1984</h2>
                             <p class="sec-para">DKN Hotels founded with the acquisition of the Surf Motel Carlsbad, CA</p>
                             <br>
@@ -1446,8 +1446,7 @@
     }
 
     .sec-sub-title {
-        color: #ffcc00;
-        font-size: 48px;
+        color: #ff900b;
         margin: 20px 0;
         text-shadow: #000 1px 1px 2px;
         text-align: left;
@@ -1455,12 +1454,10 @@
     }
 
     #issues li p {
-        font-size: 14px;
+
         margin-right: 70px;
         margin-left: 70px;
-        font-weight: normal;
-        line-height: 22px;
-        text-shadow: #000 1px 1px 2px;
+
     }
 
     #grad_left,
@@ -1502,12 +1499,12 @@
 
     #next {
         right: 0;
-        background: red;
+        background: #106c97;
     }
 
     #prev {
         left: 0;
-        background: blue;
+        background: #106c97;
     }
 
     #next.disabled,

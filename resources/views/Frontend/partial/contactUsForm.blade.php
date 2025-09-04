@@ -106,7 +106,7 @@
             <label for="contactNumber" class="sec-para">Contact Number<span class="text-danger">*</span></label>
             {{-- <input type="tel" class="form-control"
                                                 placeholder="Enter Your Number"> --}}
-            <input type="tel" class="form-control @error('phone') is-invalid @enderror" name="phone"
+            <input type="number" class="form-control @error('phone') is-invalid @enderror" name="phone"
                 id="contactNumber" placeholder="Enter your Phone" value="{{ old('phone') }}" maxlength="10"
                 pattern="\d{10}">
             @error('phone')
