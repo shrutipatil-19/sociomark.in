@@ -264,18 +264,18 @@
                     <div class="">
                         <div class="title-area mb-35">
                             <!-- <span class="sub-title sub-title4 style1 mb-4 mb-md-5">Why Choose Sociomark</span> -->
-                            <h1 class="sec-title ">More than just a <span class="text-orange">Workplace</span> </h1>
-                            <p class="mb-30 sec-para">At Sociomark, work feels less like a duty and more like a shared
-                                passion.
-                                Our culture is built on creativity, collaboration, and a healthy dose of everyday fun.
-                                We believe that the best ideas are born when people feel valued, inspired, and empowered
-                                to bring their whole selves to work. From brainstorming sessions that spark innovation
-                                to team lunches, festive celebrations, and spontaneous laugh sessions, every day here is
-                                a blend of hustle and heart. Together, we’re not just growing brands; we’re building a
-                                workplace where growth, ownership, and good vibes are non-negotiable.</p>
+                            <h1 class="sec-title ">More than just a <span class="text-orange">Workplace</span> </h2>
+                                <p class="mb-30 sec-para">At Sociomark, work feels less like a duty and more like a shared
+                                    passion.
+                                    Our culture is built on creativity, collaboration, and a healthy dose of everyday fun.
+                                    We believe that the best ideas are born when people feel valued, inspired, and empowered
+                                    to bring their whole selves to work. From brainstorming sessions that spark innovation
+                                    to team lunches, festive celebrations, and spontaneous laugh sessions, every day here is
+                                    a blend of hustle and heart. Together, we’re not just growing brands; we’re building a
+                                    workplace where growth, ownership, and good vibes are non-negotiable.</p>
 
-                            <a href="{{ route('about') }}" class="th-btn th-icon">About Us<i
-                                    class="fa-solid fa-arrow-right ms-2"></i></a>
+                                <a href="{{ route('about') }}" class="th-btn th-icon">About Us<i
+                                        class="fa-solid fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -391,7 +391,7 @@
             </div>
         </div>
     </section> -->
-<!--] 
+    <!--] 
     <section class="space bg-grey d-none">
         <div class="container-fluid">
             <div class="section-vertical">
@@ -636,7 +636,7 @@
         </div>
     </section> -->
 
-    <section class="space bg-grey">
+    <section class="space bg-grey d-none">
         <div class="container">
             <div class="row justify-content-center mb-4">
                 <div class="col-lg-8">
@@ -903,6 +903,268 @@
         </div>
         </div>
     </section>
+    <section class="space bg-grey">
+        <div class="container">
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-8">
+                    <div class="title-area text-center">
+                        <div class="shadow-title">Journey</div>
+                        {{-- <span class="sub-title sub-title4 mb-4 mb-md-5">Our Journey<span></span></span> --}}
+                        <h2 class="sec-title  ">Our <span class="text-orange">reMARKable Journey</span></h2>
+                    </div>
+                </div>
+            </div>
+
+            <div id="timeline">
+                <ul id="dates">
+                    <li><a href="#1984">1984</a></li>
+                    <li><a href="#1987">1987</a></li>
+                    <li><a href="#1991">1991</a></li>
+                    <li><a href="#1992">1992</a></li>
+                    <li><a href="#1993">1993</a></li>
+                    <li><a href="#1995">1995</a></li>
+                    <li><a href="#1996">1996</a></li>
+                    <li><a href="#1997">1997</a></li>
+                    <li><a href="#1998">1998</a></li>
+                    <li><a href="#1999">1999</a></li>
+                    <li><a href="#2000">2000</a></li>
+                    <li><a href="#2001">2001</a></li>
+                    <li><a href="#2002">2002</a></li>
+                    <li><a href="#2004">2004</a></li>
+                    <li><a href="#2006">2006</a></li>
+                    <li><a href="#2007">2007</a></li>
+                    <li><a href="#2009">2009</a></li>
+                    <li><a href="#2014">2014</a></li>
+                    <li><a href="#2015">2015</a></li>
+                    <li><a href="#2016">2016</a></li>
+
+                </ul>
+                <ul id="issues">
+                    <li id="1984" class="d-flex">
+                        <div class="img col-7">
+                            <img src="https://www.sociomark.in/public/frontend-assets/img/gallery/workplace/2020 (16).jpg" alt="">
+                        </div>
+                        <div class="info col-5">
+                            <h2 class="sec-sub-title ">1984</h2>
+                            <p class="sec-para">DKN Hotels founded with the acquisition of the Surf Motel Carlsbad, CA</p>
+                            <br>
+                            <p class="sec-para">Acquisition of the Marco Polo Inn Anaheim, CA (repositioned as: Days Inn)</p>
+                        </div>
+
+                    </li>
+
+                    <li id="1987" class="d-flex">
+                        <div class="img col-7">
+                            <img src="https://www.sociomark.in/public/frontend-assets/img/gallery/workplace/2020 (16).jpg" alt="">
+                        </div>
+                        <div class="info col-5">
+                            <h2 class="sec-sub-title ">1987</h2>
+                            <p class="sec-para">DKN Hotels founded with the acquisition of the Surf Motel Carlsbad, CA</p>
+                            <br>
+                            <p class="sec-para">Acquisition of the Marco Polo Inn Anaheim, CA (repositioned as: Days Inn)</p>
+                        </div>
+
+                    </li>
+                    <li id="1991" class="d-flex">
+                        <div class="img col-7">
+                            <img src="https://www.sociomark.in/public/frontend-assets/img/gallery/workplace/2020 (16).jpg" alt="">
+                        </div>
+                        <div class="info col-5">
+                            <h2 class="sec-sub-title ">1991</h2>
+                            <p class="sec-para">DKN Hotels founded with the acquisition of the Surf Motel Carlsbad, CA</p>
+                            <br>
+                            <p class="sec-para">Acquisition of the Marco Polo Inn Anaheim, CA (repositioned as: Days Inn)</p>
+                        </div>
+
+                    </li>
+                    <li id="1992" class="d-flex">
+                        <div class="img col-7">
+                            <img src="https://www.sociomark.in/public/frontend-assets/img/gallery/workplace/2020 (16).jpg" alt="">
+                        </div>
+                        <div class="info col-5">
+                            <h2 class="sec-sub-title ">1992</h2>
+                            <p class="sec-para">DKN Hotels founded with the acquisition of the Surf Motel Carlsbad, CA</p>
+                            <br>
+                            <p class="sec-para">Acquisition of the Marco Polo Inn Anaheim, CA (repositioned as: Days Inn)</p>
+                        </div>
+
+                    </li>
+                    <li id="1993" class="d-flex">
+                        <div class="img col-7">
+                            <img src="https://www.sociomark.in/public/frontend-assets/img/gallery/workplace/2020 (16).jpg" alt="">
+                        </div>
+                        <div class="info col-5">
+                            <h2 class="sec-sub-title ">1993</h2>
+                            <p class="sec-para">DKN Hotels founded with the acquisition of the Surf Motel Carlsbad, CA</p>
+                            <br>
+                            <p class="sec-para">Acquisition of the Marco Polo Inn Anaheim, CA (repositioned as: Days Inn)</p>
+                        </div>
+
+                    </li>
+                    <li id="1995" class="d-flex">
+                        <div class="img col-7">
+                            <img src="https://www.sociomark.in/public/frontend-assets/img/gallery/workplace/2020 (16).jpg" alt="">
+                        </div>
+                        <div class="info col-5">
+                            <h2 class="sec-sub-title ">1995</h2>
+                            <p class="sec-para">DKN Hotels founded with the acquisition of the Surf Motel Carlsbad, CA</p>
+                            <br>
+                            <p class="sec-para">Acquisition of the Marco Polo Inn Anaheim, CA (repositioned as: Days Inn)</p>
+                        </div>
+
+                    </li>
+                    <li id="1996" class="d-flex">
+                        <div class="img col-7">
+                            <img src="https://www.sociomark.in/public/frontend-assets/img/gallery/workplace/2020 (16).jpg" alt="">
+                        </div>
+                        <div class="info col-5">
+                            <h2 class="sec-sub-title ">1996</h2>
+                            <p class="sec-para">DKN Hotels founded with the acquisition of the Surf Motel Carlsbad, CA</p>
+                            <br>
+                            <p class="sec-para">Acquisition of the Marco Polo Inn Anaheim, CA (repositioned as: Days Inn)</p>
+                        </div>
+
+                    </li>
+                    <li id="1997" class="d-flex">
+                        <div class="img col-7">
+                            <img src="https://www.sociomark.in/public/frontend-assets/img/gallery/workplace/2020 (16).jpg" alt="">
+                        </div>
+                        <div class="info col-5">
+                            <h2 class="sec-sub-title ">1997</h2>
+                            <p class="sec-para">DKN Hotels founded with the acquisition of the Surf Motel Carlsbad, CA</p>
+                            <br>
+                            <p class="sec-para">Acquisition of the Marco Polo Inn Anaheim, CA (repositioned as: Days Inn)</p>
+                        </div>
+
+                    </li>
+                    <li id="1998" class="d-flex">
+                        <div class="img col-7">
+                            <img src="https://www.sociomark.in/public/frontend-assets/img/gallery/workplace/2020 (16).jpg" alt="">
+                        </div>
+                        <div class="info col-5">
+                            <h2 class="sec-sub-title ">1998</h2>
+                            <p class="sec-para">DKN Hotels founded with the acquisition of the Surf Motel Carlsbad, CA</p>
+                            <br>
+                            <p class="sec-para">Acquisition of the Marco Polo Inn Anaheim, CA (repositioned as: Days Inn)</p>
+                        </div>
+
+                    </li>
+                    <li id="1999" class="d-flex">
+                        <div class="img col-7">
+                            <img src="https://www.sociomark.in/public/frontend-assets/img/gallery/workplace/2020 (16).jpg" alt="">
+                        </div>
+                        <div class="info col-5">
+                            <h2 class="sec-sub-title ">1999</h2>
+                            <p class="sec-para">DKN Hotels founded with the acquisition of the Surf Motel Carlsbad, CA</p>
+                            <br>
+                            <p class="sec-para">Acquisition of the Marco Polo Inn Anaheim, CA (repositioned as: Days Inn)</p>
+                        </div>
+
+                    </li>
+                    <li id="2000" class="d-flex">
+                        <div class="img col-7">
+                            <img src="https://www.sociomark.in/public/frontend-assets/img/gallery/workplace/2020 (16).jpg" alt="">
+                        </div>
+                        <div class="info col-5">
+                            <h2 class="sec-sub-title ">2000</h2>
+                            <p class="sec-para">DKN Hotels founded with the acquisition of the Surf Motel Carlsbad, CA</p>
+                            <br>
+                            <p class="sec-para">Acquisition of the Marco Polo Inn Anaheim, CA (repositioned as: Days Inn)</p>
+                        </div>
+
+                    </li>
+                    <li id="2001" class="d-flex">
+                        <div class="img col-7">
+                            <img src="https://www.sociomark.in/public/frontend-assets/img/gallery/workplace/2020 (16).jpg" alt="">
+                        </div>
+                        <div class="info col-5">
+                            <h2 class="sec-sub-title ">2001</h2>
+                            <p class="sec-para">DKN Hotels founded with the acquisition of the Surf Motel Carlsbad, CA</p>
+                            <br>
+                            <p class="sec-para">Acquisition of the Marco Polo Inn Anaheim, CA (repositioned as: Days Inn)</p>
+                        </div>
+
+                    </li>
+                    <li id="2002" class="d-flex">
+                        <div class="img col-7">
+                            <img src="https://www.sociomark.in/public/frontend-assets/img/gallery/workplace/2020 (16).jpg" alt="">
+                        </div>
+                        <div class="info col-5">
+                            <h2 class="sec-sub-title ">2002</h2>
+                            <p class="sec-para">DKN Hotels founded with the acquisition of the Surf Motel Carlsbad, CA</p>
+                            <br>
+                            <p class="sec-para">Acquisition of the Marco Polo Inn Anaheim, CA (repositioned as: Days Inn)</p>
+                        </div>
+
+                    </li>
+                    <li id="2004">
+
+                        <h2 class="sec-sub-title ">2004</h2>
+                        <p class="sec-para">Acquisition of the Fairfield Inn in Buena Park, CA </p>
+                        <br>
+                        <p class="sec-para">Acquisition of the Heritage Hotel in Sacramento, CA (repositioned as Courtyard Inn and Fairfield
+                            Inn)
+                        </p>
+                        <br>
+                        <p class="sec-para">Construction of the New Town Place in Sacramento, CA</p>
+                        <br>
+                        <p class="sec-para">Acquisition of the Fairfield Inn in Placentia, CA (repositioned as: Quality Inn)</p>
+                    </li>
+                    <li id="2006">
+
+                        <h2 class="sec-sub-title ">2006</h2>
+                        <p class="sec-para">Acquisition of the Amerisuites Hotel in Ontario, CA (repositioned as: Hyatt Place)</p>
+                    </li>
+
+                    <li id="2007">
+
+                        <h2 class="sec-sub-title ">2007</h2>
+                        <p class="sec-para">Acquisitioon of the Country Plaza Inn in San Clemente, CA (repositioned as: Holiday Inn Express)
+                        </p>
+                    </li>
+
+                    <li id="2009">
+
+                        <h2 class="sec-sub-title ">2009</h2>
+                        <p class="sec-para">Construction of the Hilton Garden Inn in San Bernardino, CA</p>
+                    </li>
+
+                    <li id="2014">
+
+                        <h2 class="sec-sub-title ">2014</h2>
+                        <p class="sec-para">Construction of the SpringHill Suites Anaheim Maingate in Anaheim, CA</p>
+                        <br>
+                        <p class="sec-para">Acquisition of the Cardiff-by-the-Sea Lodge in Cardiff-by-the-Sea, CA</p>
+                        <br>
+                        <p class="sec-para">Acquisition of the Hilton Hotel in San Bernardino, CA (repositioned as: DoubleTree)</p>
+                    </li>
+
+                    <li id="2015">
+
+                        <h2 class="sec-sub-title ">2015</h2>
+                        <p class="sec-para">Acquisition of the Wyndham Garden Ventura Pierpont Inn in Ventura, CA</p>
+                        <br>
+                        <p class="sec-para">Construction of the Residence Inn in Rancho Cucamonga, CA</p>
+                        <br>
+                        <p class="sec-para">Construction of the Hampton Inn & Suites in Murrietta, CA</p>
+                        <br>
+                        <p class="sec-para">Construction of the Homewood Suites in Irvine, CA</p>
+                    </li>
+
+                    <li id="2016">
+
+                        <h2 class="sec-sub-title ">2016</h2>
+                        <p class="sec-para">Construction of the SpringHill Suites in Carlsbad, CA</p>
+                    </li>
+                </ul>
+                <!-- <div id="grad_left"></div>
+                <div id="grad_right"></div> -->
+                <a href="#" id="next">+</a>
+                <a href="#" id="prev">-</a>
+            </div>
+        </div>
+        </div>
+    </section>
 
     <section class="overflow-hidden arrow-wrap" id="team-sec">
         <div class="container">
@@ -1006,45 +1268,45 @@
                     <button data-filter=".cat-2020" class="tab-btn" type="button">2022 - 2018</button>
                     <button data-filter=".cat-old" class="tab-btn" type="button">2017</button>
                 </div>
-               <div class="row justify-content-center">
-                <div class="masonary-gallery-active" id="masonary-gallery">
-                    @for ($i = 1; $i <= 25; $i++)
-                        <a href="{{ asset('frontend-assets/img/gallery/workplace/2020 (' . $i . ').jpg') }}"
-                        class="filter-item mb-3 cat-2020 project-item box-img">
-                        <img src="{{ asset('frontend-assets/img/gallery/workplace/2020 (' . $i . ').jpg') }}"
-                            class="w-100" alt="Workplace 2020 - Image {{ $i }}" loading="lazy">
-                        </a>
-                        @endfor
-                        @for ($i = 1; $i <= 6; $i++)
-                            <a href="{{ asset('frontend-assets/img/gallery/workplace/2022 (' . $i . ').jpg') }}"
-                            class="filter-item mb-3 cat-2022 project-item box-img">
-                            <img src="{{ asset('frontend-assets/img/gallery/workplace/2022 (' . $i . ').jpg') }}"
-                                class="w-100" alt="Workplace 2022 - Image {{ $i }}" loading="lazy">
+                <div class="row justify-content-center">
+                    <div class="masonary-gallery-active" id="masonary-gallery">
+                        @for ($i = 1; $i <= 25; $i++)
+                            <a href="{{ asset('frontend-assets/img/gallery/workplace/2020 (' . $i . ').jpg') }}"
+                            class="filter-item mb-3 cat-2020 project-item box-img">
+                            <img src="{{ asset('frontend-assets/img/gallery/workplace/2020 (' . $i . ').jpg') }}"
+                                class="w-100" alt="Workplace 2020 - Image {{ $i }}" loading="lazy">
                             </a>
                             @endfor
-                            @for ($i = 1; $i <= 3; $i++)
-                                <a href="{{ asset('frontend-assets/img/gallery/workplace/2023 (' . $i . ').jpg') }}"
-                                class="filter-item mb-3 cat-2023 project-item box-img">
-                                <img src="{{ asset('frontend-assets/img/gallery/workplace/2023 (' . $i . ').jpg') }}"
-                                    class="w-100" alt="Workplace 2023 - Image {{ $i }}" loading="lazy">
+                            @for ($i = 1; $i <= 6; $i++)
+                                <a href="{{ asset('frontend-assets/img/gallery/workplace/2022 (' . $i . ').jpg') }}"
+                                class="filter-item mb-3 cat-2022 project-item box-img">
+                                <img src="{{ asset('frontend-assets/img/gallery/workplace/2022 (' . $i . ').jpg') }}"
+                                    class="w-100" alt="Workplace 2022 - Image {{ $i }}" loading="lazy">
                                 </a>
                                 @endfor
-                                @for ($i = 1; $i <= 37; $i++)
-                                    <a href="{{ asset('frontend-assets/img/gallery/workplace/2024 (' . $i . ').jpg') }}"
-                                    class="filter-item mb-3 cat-2024 project-item box-img">
-                                    <img src="{{ asset('frontend-assets/img/gallery/workplace/2024 (' . $i . ').jpg') }}"
-                                        class="w-100" alt="Workplace 2024 - Image {{ $i }}" loading="lazy">
+                                @for ($i = 1; $i <= 3; $i++)
+                                    <a href="{{ asset('frontend-assets/img/gallery/workplace/2023 (' . $i . ').jpg') }}"
+                                    class="filter-item mb-3 cat-2023 project-item box-img">
+                                    <img src="{{ asset('frontend-assets/img/gallery/workplace/2023 (' . $i . ').jpg') }}"
+                                        class="w-100" alt="Workplace 2023 - Image {{ $i }}" loading="lazy">
                                     </a>
                                     @endfor
-                                    @for ($i = 1; $i <= 22; $i++)
-                                        <a href="{{ asset('frontend-assets/img/gallery/workplace/2025 (' . $i . ').jpg') }}"
-                                        class="filter-item mb-3 cat-2025 project-item box-img">
-                                        <img src="{{ asset('frontend-assets/img/gallery/workplace/2025 (' . $i . ').jpg') }}"
-                                            class="w-100" alt="Workplace 2025 - Image {{ $i }}" loading="lazy">
+                                    @for ($i = 1; $i <= 37; $i++)
+                                        <a href="{{ asset('frontend-assets/img/gallery/workplace/2024 (' . $i . ').jpg') }}"
+                                        class="filter-item mb-3 cat-2024 project-item box-img">
+                                        <img src="{{ asset('frontend-assets/img/gallery/workplace/2024 (' . $i . ').jpg') }}"
+                                            class="w-100" alt="Workplace 2024 - Image {{ $i }}" loading="lazy">
                                         </a>
                                         @endfor
+                                        @for ($i = 1; $i <= 22; $i++)
+                                            <a href="{{ asset('frontend-assets/img/gallery/workplace/2025 (' . $i . ').jpg') }}"
+                                            class="filter-item mb-3 cat-2025 project-item box-img">
+                                            <img src="{{ asset('frontend-assets/img/gallery/workplace/2025 (' . $i . ').jpg') }}"
+                                                class="w-100" alt="Workplace 2025 - Image {{ $i }}" loading="lazy">
+                                            </a>
+                                            @endfor
+                    </div>
                 </div>
-               </div>
                 <!-- <div class="project-btn mt-60"><a href="portfolio.html" class="th-btn th-radius">View All Portfolio</a>
                                                                                                                                                                                                                 </div> -->
                 @push('scripts')
@@ -1098,3 +1360,449 @@
     </section>
 </main>
 @endsection
+@push('styles')
+<style>
+    .sociales {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #timeline {
+        width: 1200px;
+        /* height: 350px; */
+        overflow: hidden;
+        margin: 0px auto;
+        position: relative;
+        background: url('../images/dot.gif') left 45px repeat-x;
+    }
+
+    #dates {
+        width: 1200px;
+        height: 60px;
+        overflow: hidden;
+    }
+
+    #dates li {
+        list-style: none;
+        float: left;
+        width: 100px;
+        height: 50px;
+        font-size: 24px;
+        text-align: center;
+        background: url('../images/biggerdot.png') center bottom no-repeat;
+    }
+
+    #dates a {
+        line-height: 38px;
+        padding-bottom: 10px;
+    }
+
+    #dates .selected {
+        font-size: 38px;
+    }
+
+    #issues {
+        width: 1200px;
+        height: 350px;
+        overflow: hidden;
+    }
+
+    #issues li {
+        width: 1200px;
+        height: 350px;
+        list-style: none;
+        float: left;
+    }
+
+    #issues li.selected img {
+        -webkit-transform: scale(1.1, 1.1);
+        -moz-transform: scale(1.1, 1.1);
+        -o-transform: scale(1.1, 1.1);
+        -ms-transform: scale(1.1, 1.1);
+        transform: scale(1.1, 1.1);
+    }
+
+    #issues li img {
+        float: left;
+        margin: 10px 30px 10px 50px;
+        background: transparent;
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)";
+        /* IE 8 */
+
+        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF);
+        /* IE 6 & 7 */
+
+        zoom: 1;
+        -webkit-transition: all 2s ease-in-out;
+        -moz-transition: all 2s ease-in-out;
+        -o-transition: all 2s ease-in-out;
+        -ms-transition: all 2s ease-in-out;
+        transition: all 2s ease-in-out;
+        -webkit-transform: scale(0.7, 0.7);
+        -moz-transform: scale(0.7, 0.7);
+        -o-transform: scale(0.7, 0.7);
+        -ms-transform: scale(0.7, 0.7);
+        transform: scale(0.7, 0.7);
+    }
+
+    .sec-sub-title {
+        color: #ffcc00;
+        font-size: 48px;
+        margin: 20px 0;
+        text-shadow: #000 1px 1px 2px;
+        text-align: left;
+        padding-left: 70px;
+    }
+
+    #issues li p {
+        font-size: 14px;
+        margin-right: 70px;
+        margin-left: 70px;
+        font-weight: normal;
+        line-height: 22px;
+        text-shadow: #000 1px 1px 2px;
+    }
+
+    #grad_left,
+    #grad_right {
+        width: 100px;
+        height: 350px;
+        position: absolute;
+        top: 0;
+    }
+
+    #grad_left {
+        left: 0;
+        background: url('../images/grad_left.png') repeat-y;
+    }
+
+    #grad_right {
+        right: 0;
+        background: url('../images/grad_right.png') repeat-y;
+    }
+
+    #next,
+    #prev {
+        position: absolute;
+        top: 0;
+        font-size: 70px;
+        top: 170px;
+        width: 22px;
+        height: 38px;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        text-indent: -9999px;
+        overflow: hidden;
+    }
+
+    #next:hover,
+    #prev:hover {
+        background-position: 0 -76px;
+    }
+
+    #next {
+        right: 0;
+        background: red;
+    }
+
+    #prev {
+        left: 0;
+        background: blue;
+    }
+
+    #next.disabled,
+    #prev.disabled {
+        opacity: 0.2;
+    }
+</style>
+@endpush
+@push('scripts')
+<script>
+    /* ----------------------------------
+    jQuery Timelinr 0.9.54
+    tested with jQuery v1.6+
+    
+    Copyright 2011, CSSLab.cl
+    Free under the MIT license.
+    https://www.opensource.org/licenses/mit-license.php
+    
+    instructions: http://www.csslab.cl/2011/08/18/jquery-timelinr/
+    ---------------------------------- */
+
+    jQuery.fn.timelinr = function(options) {
+        // default plugin settings
+        settings = jQuery.extend({
+            orientation: 'horizontal', // value: horizontal | vertical, default to horizontal
+            containerDiv: '#timeline', // value: any HTML tag or #id, default to #timeline
+            datesDiv: '#dates', // value: any HTML tag or #id, default to #dates
+            datesSelectedClass: 'selected', // value: any class, default to selected
+            datesSpeed: 'normal', // value: integer between 100 and 1000 (recommended) or 'slow', 'normal' or 'fast'; default to normal
+            issuesDiv: '#issues', // value: any HTML tag or #id, default to #issues
+            issuesSelectedClass: 'selected', // value: any class, default to selected
+            issuesSpeed: 'fast', // value: integer between 100 and 1000 (recommended) or 'slow', 'normal' or 'fast'; default to fast
+            issuesTransparency: 0.2, // value: integer between 0 and 1 (recommended), default to 0.2
+            issuesTransparencySpeed: 500, // value: integer between 100 and 1000 (recommended), default to 500 (normal)
+            prevButton: '#prev', // value: any HTML tag or #id, default to #prev
+            nextButton: '#next', // value: any HTML tag or #id, default to #next
+            arrowKeys: 'false', // value: true | false, default to false
+            startAt: 1, // value: integer, default to 1 (first)
+            autoPlay: 'false', // value: true | false, default to false
+            autoPlayDirection: 'forward', // value: forward | backward, default to forward
+            autoPlayPause: 2000 // value: integer (1000 = 1 seg), default to 2000 (2segs)
+        }, options);
+
+        $(function() {
+            // setting variables... many of them
+            var howManyDates = $(settings.datesDiv + ' li').length;
+            var howManyIssues = $(settings.issuesDiv + ' li').length;
+            var currentDate = $(settings.datesDiv).find('a.' + settings.datesSelectedClass);
+            var currentIssue = $(settings.issuesDiv).find('li.' + settings.issuesSelectedClass);
+            var widthContainer = $(settings.containerDiv).width();
+            var heightContainer = $(settings.containerDiv).height();
+            var widthIssues = $(settings.issuesDiv).width();
+            var heightIssues = $(settings.issuesDiv).height();
+            var widthIssue = $(settings.issuesDiv + ' li').width();
+            var heightIssue = $(settings.issuesDiv + ' li').height();
+            var widthDates = $(settings.datesDiv).width();
+            var heightDates = $(settings.datesDiv).height();
+            var widthDate = $(settings.datesDiv + ' li').width();
+            var heightDate = $(settings.datesDiv + ' li').height();
+            // set positions!
+            if (settings.orientation == 'horizontal') {
+                $(settings.issuesDiv).width(widthIssue * howManyIssues);
+                $(settings.datesDiv).width(widthDate * howManyDates).css('marginLeft', widthContainer / 2 - widthDate / 2);
+                var defaultPositionDates = parseInt($(settings.datesDiv).css('marginLeft').substring(0, $(settings.datesDiv).css('marginLeft').indexOf('px')));
+            } else if (settings.orientation == 'vertical') {
+                $(settings.issuesDiv).height(heightIssue * howManyIssues);
+                $(settings.datesDiv).height(heightDate * howManyDates).css('marginTop', heightContainer / 2 - heightDate / 2);
+                var defaultPositionDates = parseInt($(settings.datesDiv).css('marginTop').substring(0, $(settings.datesDiv).css('marginTop').indexOf('px')));
+            }
+
+            $(settings.datesDiv + ' a').click(function(event) {
+                event.preventDefault();
+                // first vars
+                var whichIssue = $(this).text();
+                var currentIndex = $(this).parent().prevAll().length;
+                // moving the elements
+                if (settings.orientation == 'horizontal') {
+                    $(settings.issuesDiv).animate({
+                        'marginLeft': -widthIssue * currentIndex
+                    }, {
+                        queue: false,
+                        duration: settings.issuesSpeed
+                    });
+                } else if (settings.orientation == 'vertical') {
+                    $(settings.issuesDiv).animate({
+                        'marginTop': -heightIssue * currentIndex
+                    }, {
+                        queue: false,
+                        duration: settings.issuesSpeed
+                    });
+                }
+                $(settings.issuesDiv + ' li').animate({
+                    'opacity': settings.issuesTransparency
+                }, {
+                    queue: false,
+                    duration: settings.issuesSpeed
+                }).removeClass(settings.issuesSelectedClass).eq(currentIndex).addClass(settings.issuesSelectedClass).fadeTo(settings.issuesTransparencySpeed, 1);
+                // prev/next buttons now disappears on first/last issue | bugfix from 0.9.51: lower than 1 issue hide the arrows | bugfixed: arrows not showing when jumping from first to last date
+                if (howManyDates == 1) {
+                    $(settings.prevButton + ',' + settings.nextButton).fadeOut('fast');
+                } else if (howManyDates == 2) {
+                    if ($(settings.issuesDiv + ' li:first-child').hasClass(settings.issuesSelectedClass)) {
+                        $(settings.prevButton).fadeOut('fast');
+                        $(settings.nextButton).fadeIn('fast');
+                    } else if ($(settings.issuesDiv + ' li:last-child').hasClass(settings.issuesSelectedClass)) {
+                        $(settings.nextButton).fadeOut('fast');
+                        $(settings.prevButton).fadeIn('fast');
+                    }
+                } else {
+                    if ($(settings.issuesDiv + ' li:first-child').hasClass(settings.issuesSelectedClass)) {
+                        $(settings.nextButton).fadeIn('fast');
+                        $(settings.prevButton).fadeOut('fast');
+                    } else if ($(settings.issuesDiv + ' li:last-child').hasClass(settings.issuesSelectedClass)) {
+                        $(settings.prevButton).fadeIn('fast');
+                        $(settings.nextButton).fadeOut('fast');
+                    } else {
+                        $(settings.nextButton + ',' + settings.prevButton).fadeIn('slow');
+                    }
+                }
+                // now moving the dates
+                $(settings.datesDiv + ' a').removeClass(settings.datesSelectedClass);
+                $(this).addClass(settings.datesSelectedClass);
+                if (settings.orientation == 'horizontal') {
+                    $(settings.datesDiv).animate({
+                        'marginLeft': defaultPositionDates - (widthDate * currentIndex)
+                    }, {
+                        queue: false,
+                        duration: 'settings.datesSpeed'
+                    });
+                } else if (settings.orientation == 'vertical') {
+                    $(settings.datesDiv).animate({
+                        'marginTop': defaultPositionDates - (heightDate * currentIndex)
+                    }, {
+                        queue: false,
+                        duration: 'settings.datesSpeed'
+                    });
+                }
+            });
+
+            $(settings.nextButton).bind('click', function(event) {
+                event.preventDefault();
+                // bugixed from 0.9.54: now the dates gets centered when there's too much dates.
+                var currentIndex = $(settings.issuesDiv).find('li.' + settings.issuesSelectedClass).index();
+                if (settings.orientation == 'horizontal') {
+                    var currentPositionIssues = parseInt($(settings.issuesDiv).css('marginLeft').substring(0, $(settings.issuesDiv).css('marginLeft').indexOf('px')));
+                    var currentIssueIndex = currentPositionIssues / widthIssue;
+                    var currentPositionDates = parseInt($(settings.datesDiv).css('marginLeft').substring(0, $(settings.datesDiv).css('marginLeft').indexOf('px')));
+                    var currentIssueDate = currentPositionDates - widthDate;
+                    if (currentPositionIssues <= -(widthIssue * howManyIssues - (widthIssue))) {
+                        $(settings.issuesDiv).stop();
+                        $(settings.datesDiv + ' li:last-child a').click();
+                    } else {
+                        if (!$(settings.issuesDiv).is(':animated')) {
+                            // bugixed from 0.9.52: now the dates gets centered when there's too much dates.
+                            $(settings.datesDiv + ' li').eq(currentIndex + 1).find('a').trigger('click');
+                        }
+                    }
+                } else if (settings.orientation == 'vertical') {
+                    var currentPositionIssues = parseInt($(settings.issuesDiv).css('marginTop').substring(0, $(settings.issuesDiv).css('marginTop').indexOf('px')));
+                    var currentIssueIndex = currentPositionIssues / heightIssue;
+                    var currentPositionDates = parseInt($(settings.datesDiv).css('marginTop').substring(0, $(settings.datesDiv).css('marginTop').indexOf('px')));
+                    var currentIssueDate = currentPositionDates - heightDate;
+                    if (currentPositionIssues <= -(heightIssue * howManyIssues - (heightIssue))) {
+                        $(settings.issuesDiv).stop();
+                        $(settings.datesDiv + ' li:last-child a').click();
+                    } else {
+                        if (!$(settings.issuesDiv).is(':animated')) {
+                            // bugixed from 0.9.54: now the dates gets centered when there's too much dates.
+                            $(settings.datesDiv + ' li').eq(currentIndex + 1).find('a').trigger('click');
+                        }
+                    }
+                }
+                // prev/next buttons now disappears on first/last issue | bugfix from 0.9.51: lower than 1 issue hide the arrows
+                if (howManyDates == 1) {
+                    $(settings.prevButton + ',' + settings.nextButton).fadeOut('fast');
+                } else if (howManyDates == 2) {
+                    if ($(settings.issuesDiv + ' li:first-child').hasClass(settings.issuesSelectedClass)) {
+                        $(settings.prevButton).fadeOut('fast');
+                        $(settings.nextButton).fadeIn('fast');
+                    } else if ($(settings.issuesDiv + ' li:last-child').hasClass(settings.issuesSelectedClass)) {
+                        $(settings.nextButton).fadeOut('fast');
+                        $(settings.prevButton).fadeIn('fast');
+                    }
+                } else {
+                    if ($(settings.issuesDiv + ' li:first-child').hasClass(settings.issuesSelectedClass)) {
+                        $(settings.prevButton).fadeOut('fast');
+                    } else if ($(settings.issuesDiv + ' li:last-child').hasClass(settings.issuesSelectedClass)) {
+                        $(settings.nextButton).fadeOut('fast');
+                    } else {
+                        $(settings.nextButton + ',' + settings.prevButton).fadeIn('slow');
+                    }
+                }
+            });
+
+            $(settings.prevButton).click(function(event) {
+                event.preventDefault();
+                // bugixed from 0.9.54: now the dates gets centered when there's too much dates.
+                var currentIndex = $(settings.issuesDiv).find('li.' + settings.issuesSelectedClass).index();
+                if (settings.orientation == 'horizontal') {
+                    var currentPositionIssues = parseInt($(settings.issuesDiv).css('marginLeft').substring(0, $(settings.issuesDiv).css('marginLeft').indexOf('px')));
+                    var currentIssueIndex = currentPositionIssues / widthIssue;
+                    var currentPositionDates = parseInt($(settings.datesDiv).css('marginLeft').substring(0, $(settings.datesDiv).css('marginLeft').indexOf('px')));
+                    var currentIssueDate = currentPositionDates + widthDate;
+                    if (currentPositionIssues >= 0) {
+                        $(settings.issuesDiv).stop();
+                        $(settings.datesDiv + ' li:first-child a').click();
+                    } else {
+                        if (!$(settings.issuesDiv).is(':animated')) {
+                            // bugixed from 0.9.54: now the dates gets centered when there's too much dates.
+                            $(settings.datesDiv + ' li').eq(currentIndex - 1).find('a').trigger('click');
+                        }
+                    }
+                } else if (settings.orientation == 'vertical') {
+                    var currentPositionIssues = parseInt($(settings.issuesDiv).css('marginTop').substring(0, $(settings.issuesDiv).css('marginTop').indexOf('px')));
+                    var currentIssueIndex = currentPositionIssues / heightIssue;
+                    var currentPositionDates = parseInt($(settings.datesDiv).css('marginTop').substring(0, $(settings.datesDiv).css('marginTop').indexOf('px')));
+                    var currentIssueDate = currentPositionDates + heightDate;
+                    if (currentPositionIssues >= 0) {
+                        $(settings.issuesDiv).stop();
+                        $(settings.datesDiv + ' li:first-child a').click();
+                    } else {
+                        if (!$(settings.issuesDiv).is(':animated')) {
+                            // bugixed from 0.9.54: now the dates gets centered when there's too much dates.
+                            $(settings.datesDiv + ' li').eq(currentIndex - 1).find('a').trigger('click');
+                        }
+                    }
+                }
+                // prev/next buttons now disappears on first/last issue | bugfix from 0.9.51: lower than 1 issue hide the arrows
+                if (howManyDates == 1) {
+                    $(settings.prevButton + ',' + settings.nextButton).fadeOut('fast');
+                } else if (howManyDates == 2) {
+                    if ($(settings.issuesDiv + ' li:first-child').hasClass(settings.issuesSelectedClass)) {
+                        $(settings.prevButton).fadeOut('fast');
+                        $(settings.nextButton).fadeIn('fast');
+                    } else if ($(settings.issuesDiv + ' li:last-child').hasClass(settings.issuesSelectedClass)) {
+                        $(settings.nextButton).fadeOut('fast');
+                        $(settings.prevButton).fadeIn('fast');
+                    }
+                } else {
+                    if ($(settings.issuesDiv + ' li:first-child').hasClass(settings.issuesSelectedClass)) {
+                        $(settings.prevButton).fadeOut('fast');
+                    } else if ($(settings.issuesDiv + ' li:last-child').hasClass(settings.issuesSelectedClass)) {
+                        $(settings.nextButton).fadeOut('fast');
+                    } else {
+                        $(settings.nextButton + ',' + settings.prevButton).fadeIn('slow');
+                    }
+                }
+            });
+            // keyboard navigation, added since 0.9.1
+            if (settings.arrowKeys == 'true') {
+                if (settings.orientation == 'horizontal') {
+                    $(document).keydown(function(event) {
+                        if (event.keyCode == 39) {
+                            $(settings.nextButton).click();
+                        }
+                        if (event.keyCode == 37) {
+                            $(settings.prevButton).click();
+                        }
+                    });
+                } else if (settings.orientation == 'vertical') {
+                    $(document).keydown(function(event) {
+                        if (event.keyCode == 40) {
+                            $(settings.nextButton).click();
+                        }
+                        if (event.keyCode == 38) {
+                            $(settings.prevButton).click();
+                        }
+                    });
+                }
+            }
+            // default position startAt, added since 0.9.3
+            $(settings.datesDiv + ' li').eq(settings.startAt - 1).find('a').trigger('click');
+            // autoPlay, added since 0.9.4
+            if (settings.autoPlay == 'true') {
+                setInterval("autoPlay()", settings.autoPlayPause);
+            }
+        });
+    };
+
+    // autoPlay, added since 0.9.4
+    function autoPlay() {
+        var currentDate = $(settings.datesDiv).find('a.' + settings.datesSelectedClass);
+        if (settings.autoPlayDirection == 'forward') {
+            if (currentDate.parent().is('li:last-child')) {
+                $(settings.datesDiv + ' li:first-child').find('a').trigger('click');
+            } else {
+                currentDate.parent().next().find('a').trigger('click');
+            }
+        } else if (settings.autoPlayDirection == 'backward') {
+            if (currentDate.parent().is('li:first-child')) {
+                $(settings.datesDiv + ' li:last-child').find('a').trigger('click');
+            } else {
+                currentDate.parent().prev().find('a').trigger('click');
+            }
+        }
+    }
+</script>
+@endpush

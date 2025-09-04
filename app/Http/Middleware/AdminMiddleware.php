@@ -16,7 +16,7 @@ class AdminMiddleware
             return redirect('/admin/login');
         }
 
-        // ✅ Check if user role matches any of the allowed roles
+        // Check if user role matches any of the allowed roles
         if (in_array(Auth::user()->role, $roles)) {
             return $next($request);
         }

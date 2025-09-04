@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- Slick CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <style>
+        /* === your CSS from before goes here === */
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            height: 100%;
+            background-color: #003471;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .title {
+            font-size: 38px;
+            color: #fff;
+            font-weight: 300;
+        }
+
+        .timeline {
+            width: 100%;
+            position: relative;
+            margin-top: 100px;
+        }
+
+        .timeline-nav__item {
+            text-align: center;
+            opacity: 0.5;
+            color: #afc9f6;
+            margin: 15px 25px !important;
+            position: relative;
+            font-size: 14px;
+            line-height: 28px;
+            cursor: pointer;
+        }
+
+        .timeline-nav__item::before {
+            content: "";
+            position: absolute;
+            top: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 10px;
+            height: 10px;
+            border-radius: 100%;
+            background-color: #afc9f6;
+            transition: .2s;
+        }
+
+        .timeline-nav__item.slick-current {
+            color: #ff9900;
+            opacity: 1;
+        }
+
+        .timeline-nav__item.slick-current::before {
+            background-color: #ff9900;
+        }
+
+        .timeline-wrapper {
+            width: 100%;
+            height: 580px;
+            margin: 60px auto;
+        }
+
+        @media (max-width: 500px) {
+            .timeline-wrapper {
+                height: 1000px;
+                max-height: 900px;
+            }
+        }
+
+        /* .timeline-slide {
+      position: relative; overflow: hidden;
+      background-repeat: no-repeat; background-size: auto 400px, cover;
+      background-position: top; margin: 0 24px; width: 80%; z-index: 1;
+    } */
+        .timeline-slide {
+            position: relative;
+            overflow: hidden;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            margin: 0 24px;
+            width: 80%;
+            z-index: 0;
+            /* new */
+        }
+
+        .timeline-slide__content,
+        .timeline-year {
+            position: relative;
+            z-index: 5;
+            /* new: forces text above overlay */
+        }
+
+        .timeline-slide:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 52, 113, 0.8);
+            z-index: 2;
+        }
+
+        .timeline-slide__content {
+            z-index: 5;
+            position: absolute;
+            top: 220px;
+            background: #fff;
+            width: 80%;
+            left: 50%;
+            transform: translate(-50%, 0px);
+            padding: 40px;
+            opacity: 0;
+            transition: opacity 1s;
+        }
+
+        @media (max-width: 500px) {
+            .timeline-slide__content {
+                width: 100%;
+            }
+        }
+
+        .timeline-year {
+            z-index: 5;
+            font-size: 35px;
+            color: #fff;
+            background: #ff9900;
+            padding: 15px 26px;
+            position: absolute;
+            right: 0;
+            opacity: 0;
+        }
+
+        .timeline-title {
+            color: #ff9900;
+            font-size: 26px;
+        }
+
+        .timeline-text {
+            font-size: 18px;
+            line-height: 28px;
+            color: #666;
+        }
+
+        .timeline-slide.slick-current:after {
+            background-color: rgba(0, 52, 113, 0);
+        }
+
+        .timeline-slide.slick-current .timeline-year {
+            opacity: 1;
+        }
+
+        .timeline-slide.slick-current .timeline-slide__content {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Our Milestones</h1>
+
+        <div class="timeline">
+            <div class="timeline-nav">
+                <div class="timeline-nav__item">1985</div>
+                <div class="timeline-nav__item">1988</div>
+                <div class="timeline-nav__item">1998</div>
+                <div class="timeline-nav__item">2006</div>
+                <div class="timeline-nav__item">2008</div>
+                <div class="timeline-nav__item">2010</div>
+                <div class="timeline-nav__item">2012</div>
+                <div class="timeline-nav__item">2013</div>
+                <div class="timeline-nav__item">2015</div>
+                <div class="timeline-nav__item">2016</div>
+            </div>
+
+            <div class="timeline-wrapper">
+                <div class="timeline-slider">
+                    <!-- === slides (your existing ones) === -->
+                    <div class="timeline-slide"
+                        style="background-image:url(https://www.sociomark.in/public/frontend-assets/img/team/home.jpg)">
+                        <span class="timeline-year">1985</span>
+                        <div class="timeline-slide__content">
+                            <h4 class="timeline-title">Our first project</h4>
+                            <p class="timeline-text">First project for the leading film actress Jamuna Barua, wife of
+                                Pramathesh Barua.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-slide"
+                        style="background-image:url(https://unsplash.com/photos/apple-macbook-beside-computer-mouse-on-table-9l_326FISzk)">
+                        <span class="timeline-year">1988</span>
+                        <div class="timeline-slide__content">
+                            <h4 class="timeline-title">Our first project</h4>
+                            <p class="timeline-text">First project for the leading film actress Jamuna Barua, wife of
+                                Pramathesh Barua.</p>
+                        </div>
+                    </div>
+                    <!-- ... other slides ... -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery + Slick JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        $(function () {
+            $('.timeline-nav').slick({
+                slidesToShow: 6,
+                slidesToScroll: 1,
+                asNavFor: '.timeline-slider',
+                focusOnSelect: true,
+                arrows: false,
+                infinite: false,
+                responsive: [
+                    { breakpoint: 1024, settings: { slidesToShow: 4 } },
+                    { breakpoint: 768, settings: { slidesToShow: 3 } },
+                    { breakpoint: 480, settings: { slidesToShow: 2 } }
+                ]
+            });
+
+            $('.timeline-slider').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                asNavFor: '.timeline-nav',
+                arrows: false,
+                centerMode: true,
+                speed: 500,
+                adaptiveHeight: true
+            });
+        });
+    </script>
+</body>
+
+</html>
