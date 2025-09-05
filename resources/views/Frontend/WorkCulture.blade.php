@@ -1341,24 +1341,20 @@
         float: left;
     }
 
-    #issues li.selected img {
+    /* #issues li.selected img {
         -webkit-transform: scale(1.1, 1.1);
         -moz-transform: scale(1.1, 1.1);
         -o-transform: scale(1.1, 1.1);
         -ms-transform: scale(1.1, 1.1);
         transform: scale(1.1, 1.1);
-    }
+    } */
 
-    #issues li img {
+    /* #issues li img {
         float: left;
-        /* margin: 10px 30px 10px 50px; */
+        margin: 10px 30px 10px 50px;
         background: transparent;
         -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)";
-        /* IE 8 */
-
         filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF);
-        /* IE 6 & 7 */
-
         zoom: 1;
         -webkit-transition: all 2s ease-in-out;
         -moz-transition: all 2s ease-in-out;
@@ -1370,20 +1366,20 @@
         -o-transform: scale(0.7, 0.7);
         -ms-transform: scale(0.7, 0.7);
         transform: scale(0.7, 0.7);
-    }
+    } */
 
     .sec-sub-title {
         color: #ff900b;
         margin: 20px 0;
         text-shadow: #000 1px 1px 2px;
         text-align: left;
-        padding-left: 70px;
+        padding-left: 50px;
     }
 
     #issues li p {
 
-        margin-right: 70px;
-        margin-left: 70px;
+        margin-right: 50px;
+        margin-left: 50px;
 
     }
 
