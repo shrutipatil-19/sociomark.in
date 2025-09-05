@@ -917,245 +917,172 @@
 
             <div id="timeline">
                 <ul id="dates">
-                    <li><a href="#1984">1984</a></li>
-                    <li><a href="#1987">1987</a></li>
-                    <li><a href="#1991">1991</a></li>
-                    <li><a href="#1992">1992</a></li>
-                    <li><a href="#1993">1993</a></li>
-                    <li><a href="#1995">1995</a></li>
-                    <li><a href="#1996">1996</a></li>
-                    <li><a href="#1997">1997</a></li>
-                    <li><a href="#1998">1998</a></li>
-                    <li><a href="#1999">1999</a></li>
-                    <li><a href="#2000">2000</a></li>
-                    <li><a href="#2001">2001</a></li>
-                    <li><a href="#2002">2002</a></li>
-                    <li><a href="#2004">2004</a></li>
-                    <li><a href="#2006">2006</a></li>
-                    <li><a href="#2007">2007</a></li>
-                    <li><a href="#2009">2009</a></li>
-                    <li><a href="#2014">2014</a></li>
-                    <li><a href="#2015">2015</a></li>
-                    <li><a href="#2016">2016</a></li>
- 
+                    <li><a href="#2017">2017</a></li>
+                    <li><a href="#2018">2018</a></li>
+                    <li><a href="#2019">2019</a></li>
+                    <li><a href="#2020">2020</a></li>
+                    <li><a href="#2021">2021</a></li>
+                    <li><a href="#2022">2022</a></li>
+                    <li><a href="#2023">2023</a></li>
+                    <li><a href="#2024">2024</a></li>
+                    <li><a href="#2025">2025</a></li>
+
                 </ul>
                 <ul id="issues">
-                    <li id="1984" class="d-flex">
-                        <div class="img col-6">
+                    <li id="2017" class="d-flex">
+                        <div class="img col-6">  
                             <img src="https://www.sociomark.in/public/frontend-assets/img/gallery/workplace/2020 (16).jpg" alt="">
                         </div>
                         <div class="info col-6">
-                            <h2 class="sec-sub-title ">1984</h2>
-                            <p class="sec-para">DKN Hotels founded with the acquisition of the Surf Motel Carlsbad, CA</p>
-                            <br>
-                            <p class="sec-para">Acquisition of the Marco Polo Inn Anaheim, CA (repositioned as: Days Inn)</p>
+                            <h2 class="sec-sub-title ">2017</h2>
+                            <p class="sec-para">Along with 2 employees, started in a co-working space</p>
+
+                            <p class="sec-para">Shifted to a mezzanine floor office in the same year</p>
                         </div>
 
                     </li>
 
-                    <li id="1987" class="d-flex">
+                    <li id="2018" class="d-flex">
                         <div class="img col-7">
                             <img src="https://www.sociomark.in/public/frontend-assets/img/gallery/workplace/2020 (16).jpg" alt="">
                         </div>
                         <div class="info col-5">
-                            <h2 class="sec-sub-title ">1987</h2>
-                            <p class="sec-para">DKN Hotels founded with the acquisition of the Surf Motel Carlsbad, CA</p>
-                            <br>
-                            <p class="sec-para">Acquisition of the Marco Polo Inn Anaheim, CA (repositioned as: Days Inn)</p>
+                            <h2 class="sec-sub-title ">2018</h2>
+                            <p class="sec-para">Moved into our new office with 8 employees</p>
+
+
                         </div>
 
                     </li>
-                    <li id="1991" class="d-flex">
+                    <li id="2019" class="d-flex">
                         <div class="img col-7">
                             <img src="https://www.sociomark.in/public/frontend-assets/img/gallery/workplace/2020 (16).jpg" alt="">
                         </div>
                         <div class="info col-5">
-                            <h2 class="sec-sub-title ">1991</h2>
-                            <p class="sec-para">DKN Hotels founded with the acquisition of the Surf Motel Carlsbad, CA</p>
-                            <br>
-                            <p class="sec-para">Acquisition of the Marco Polo Inn Anaheim, CA (repositioned as: Days Inn)</p>
+                            <h2 class="sec-sub-title ">2019</h2>
+
+                            <p class="sec-para">Diageo Road to Safety</p>
+
+                            <p class="sec-para">TAVF Awards 2019</p>
+                            <p class="sec-para">Best Digital Marketing Campaign</p>
+                            <p class="sec-para">Best Use of Social Network</p>
+                            <p class="sec-para">Button Dabao Desh Banao</p>
+                            <p class="sec-para">DigiPub Awards 2019</p>
+                            <p class="sec-para">Best Use of Social Media</p>
+                            <p class="sec-para">Social Samosa shoutout for our <a href="">Diageo X
+                                    Network18</a> campaign <a href="">Road to
+                                    Safety</a></p>
                         </div>
 
                     </li>
-                    <li id="1992" class="d-flex">
+                    <li id="2020" class="d-flex">
                         <div class="img col-7">
                             <img src="https://www.sociomark.in/public/frontend-assets/img/gallery/workplace/2020 (16).jpg" alt="">
                         </div>
                         <div class="info col-5">
-                            <h2 class="sec-sub-title ">1992</h2>
-                            <p class="sec-para">DKN Hotels founded with the acquisition of the Surf Motel Carlsbad, CA</p>
-                            <br>
-                            <p class="sec-para">Acquisition of the Marco Polo Inn Anaheim, CA (repositioned as: Days Inn)</p>
+                            <h2 class="sec-sub-title ">2020</h2>
+
+                            <p class="sec-para">Maintained social distancing through WFH in the COVID period</p>
+
+                            <p class="sec-para">Social Samosa shoutout for our <a href="">NODWIN
+                                    Gaming X
+                                    Cosplaygenie</a>'s
+                                Halloween Campaign</p>
                         </div>
 
                     </li>
-                    <li id="1993" class="d-flex">
+                    <li id="2021" class="d-flex">
                         <div class="img col-7">
                             <img src="https://www.sociomark.in/public/frontend-assets/img/gallery/workplace/2020 (16).jpg" alt="">
                         </div>
                         <div class="info col-5">
-                            <h2 class="sec-sub-title ">1993</h2>
-                            <p class="sec-para">DKN Hotels founded with the acquisition of the Surf Motel Carlsbad, CA</p>
-                            <br>
-                            <p class="sec-para">Acquisition of the Marco Polo Inn Anaheim, CA (repositioned as: Days Inn)</p>
+                            <h2 class="sec-sub-title ">2021</h2>
+                            <p class="sec-para">Shifted to a 2000 sq. ft. area office, overseeing Navi
+                                Mumbai's
+                                beautiful Palm Beach</p>
+
+
                         </div>
 
                     </li>
-                    <li id="1995" class="d-flex">
+                    <li id="2022" class="d-flex">
                         <div class="img col-7">
                             <img src="https://www.sociomark.in/public/frontend-assets/img/gallery/workplace/2020 (16).jpg" alt="">
                         </div>
                         <div class="info col-5">
-                            <h2 class="sec-sub-title ">1995</h2>
-                            <p class="sec-para">DKN Hotels founded with the acquisition of the Surf Motel Carlsbad, CA</p>
-                            <br>
-                            <p class="sec-para">Acquisition of the Marco Polo Inn Anaheim, CA (repositioned as: Days Inn)</p>
+                            <h2 class="sec-sub-title ">2022</h2>
+                            <p class="sec-para">Our reMARKable pool grew to 30+ employees</p>
+
+                            <p class="sec-para">Our illustrations for <a href="">NODWIN Gaming</a>'s
+                                BGMS were collaborated
+                                with
+                                Star Sports India</p>
+
+
                         </div>
 
                     </li>
-                    <li id="1996" class="d-flex">
+                    <li id="2023" class="d-flex">
                         <div class="img col-7">
                             <img src="https://www.sociomark.in/public/frontend-assets/img/gallery/workplace/2020 (16).jpg" alt="">
                         </div>
                         <div class="info col-5">
-                            <h2 class="sec-sub-title ">1996</h2>
-                            <p class="sec-para">DKN Hotels founded with the acquisition of the Surf Motel Carlsbad, CA</p>
-                            <br>
-                            <p class="sec-para">Acquisition of the Marco Polo Inn Anaheim, CA (repositioned as: Days Inn)</p>
+                            <h2 class="sec-sub-title ">2023</h2>
+                            <p class="sec-para">Heta Baandal, our founder, was named one of the 21 Rising
+                                Business
+                                Leaders of India 2023 by Startup Reporter</p>
+
+                            <p class="sec-para">Multiple PR features on platforms like AdGully, Afaqs &
+                                Brand
+                                Equity</p>
+                            <p class="sec-para">Our illustrations for <a href="">NODWIN Gaming</a>'s
+                                VCSA were collaborated
+                                with
+                                Hyundai India</p>
+                            <p class="sec-para">
+                                Started our own in-house photography & videography section
+                            </p>
+
                         </div>
 
                     </li>
-                    <li id="1997" class="d-flex">
+                    <li id="2024" class="d-flex">
                         <div class="img col-7">
                             <img src="https://www.sociomark.in/public/frontend-assets/img/gallery/workplace/2020 (16).jpg" alt="">
                         </div>
                         <div class="info col-5">
-                            <h2 class="sec-sub-title ">1997</h2>
-                            <p class="sec-para">DKN Hotels founded with the acquisition of the Surf Motel Carlsbad, CA</p>
-                            <br>
-                            <p class="sec-para">Acquisition of the Marco Polo Inn Anaheim, CA (repositioned as: Days Inn)</p>
+                            <h2 class="sec-sub-title ">2024</h2>
+                            <p class="sec-para">Bagged our 1st international client</p>
+
+                            <p class="sec-para">Agency Head of the Year - Women Disruptors 2024</p>
+                            <p class="sec-para">Our Boss Lady Heta Baandal was recognized by AdGully</p>
+                            <p class="sec-para">Our first Infinity Canvas video for Navi Mumbai Municipal
+                                Corporation
+                                was played in a Swachh Survekshan LIVE event</p>
+
                         </div>
 
                     </li>
-                    <li id="1998" class="d-flex">
+                    <li id="2025" class="d-flex">
                         <div class="img col-7">
                             <img src="https://www.sociomark.in/public/frontend-assets/img/gallery/workplace/2020 (16).jpg" alt="">
                         </div>
                         <div class="info col-5">
-                            <h2 class="sec-sub-title ">1998</h2>
-                            <p class="sec-para">DKN Hotels founded with the acquisition of the Surf Motel Carlsbad, CA</p>
-                            <br>
-                            <p class="sec-para">Acquisition of the Marco Polo Inn Anaheim, CA (repositioned as: Days Inn)</p>
+                            <h2 class="sec-sub-title ">2025</h2>
+                            <p class="sec-para">We are now a team of 50+ Employees</p>
+
+                            <p class="sec-para">Multiple Social Media Dissect features for our clients -
+                                <a href="">Markets4you</a> & <a
+                                    href="">CyberPowerPC</a>
+                            </p>
+                            <p class="sec-para">International Expansion</p>
+                            <p class="sec-para">Opened an office in Dubai</p>
+
                         </div>
 
                     </li>
-                    <li id="1999" class="d-flex">
-                        <div class="img col-7">
-                            <img src="https://www.sociomark.in/public/frontend-assets/img/gallery/workplace/2020 (16).jpg" alt="">
-                        </div>
-                        <div class="info col-5">
-                            <h2 class="sec-sub-title ">1999</h2>
-                            <p class="sec-para">DKN Hotels founded with the acquisition of the Surf Motel Carlsbad, CA</p>
-                            <br>
-                            <p class="sec-para">Acquisition of the Marco Polo Inn Anaheim, CA (repositioned as: Days Inn)</p>
-                        </div>
 
-                    </li>
-                    <li id="2000" class="d-flex">
-                        <div class="img col-7">
-                            <img src="https://www.sociomark.in/public/frontend-assets/img/gallery/workplace/2020 (16).jpg" alt="">
-                        </div>
-                        <div class="info col-5">
-                            <h2 class="sec-sub-title ">2000</h2>
-                            <p class="sec-para">DKN Hotels founded with the acquisition of the Surf Motel Carlsbad, CA</p>
-                            <br>
-                            <p class="sec-para">Acquisition of the Marco Polo Inn Anaheim, CA (repositioned as: Days Inn)</p>
-                        </div>
 
-                    </li>
-                    <li id="2001" class="d-flex">
-                        <div class="img col-7">
-                            <img src="https://www.sociomark.in/public/frontend-assets/img/gallery/workplace/2020 (16).jpg" alt="">
-                        </div>
-                        <div class="info col-5">
-                            <h2 class="sec-sub-title ">2001</h2>
-                            <p class="sec-para">DKN Hotels founded with the acquisition of the Surf Motel Carlsbad, CA</p>
-                            <br>
-                            <p class="sec-para">Acquisition of the Marco Polo Inn Anaheim, CA (repositioned as: Days Inn)</p>
-                        </div>
-
-                    </li>
-                    <li id="2002" class="d-flex">
-                        <div class="img col-7">
-                            <img src="https://www.sociomark.in/public/frontend-assets/img/gallery/workplace/2020 (16).jpg" alt="">
-                        </div>
-                        <div class="info col-5">
-                            <h2 class="sec-sub-title ">2002</h2>
-                            <p class="sec-para">DKN Hotels founded with the acquisition of the Surf Motel Carlsbad, CA</p>
-                            <br>
-                            <p class="sec-para">Acquisition of the Marco Polo Inn Anaheim, CA (repositioned as: Days Inn)</p>
-                        </div>
-
-                    </li>
-                    <li id="2004">
-
-                        <h2 class="sec-sub-title ">2004</h2>
-                        <p class="sec-para">Acquisition of the Fairfield Inn in Buena Park, CA </p>
-                        <br>
-                        <p class="sec-para">Acquisition of the Heritage Hotel in Sacramento, CA (repositioned as Courtyard Inn and Fairfield
-                            Inn)
-                        </p>
-                        <br>
-                        <p class="sec-para">Construction of the New Town Place in Sacramento, CA</p>
-                        <br>
-                        <p class="sec-para">Acquisition of the Fairfield Inn in Placentia, CA (repositioned as: Quality Inn)</p>
-                    </li>
-                    <li id="2006">
-
-                        <h2 class="sec-sub-title ">2006</h2>
-                        <p class="sec-para">Acquisition of the Amerisuites Hotel in Ontario, CA (repositioned as: Hyatt Place)</p>
-                    </li>
-
-                    <li id="2007">
-
-                        <h2 class="sec-sub-title ">2007</h2>
-                        <p class="sec-para">Acquisitioon of the Country Plaza Inn in San Clemente, CA (repositioned as: Holiday Inn Express)
-                        </p>
-                    </li>
-
-                    <li id="2009">
-
-                        <h2 class="sec-sub-title ">2009</h2>
-                        <p class="sec-para">Construction of the Hilton Garden Inn in San Bernardino, CA</p>
-                    </li>
-
-                    <li id="2014">
-
-                        <h2 class="sec-sub-title ">2014</h2>
-                        <p class="sec-para">Construction of the SpringHill Suites Anaheim Maingate in Anaheim, CA</p>
-                        <br>
-                        <p class="sec-para">Acquisition of the Cardiff-by-the-Sea Lodge in Cardiff-by-the-Sea, CA</p>
-                        <br>
-                        <p class="sec-para">Acquisition of the Hilton Hotel in San Bernardino, CA (repositioned as: DoubleTree)</p>
-                    </li>
-
-                    <li id="2015">
-
-                        <h2 class="sec-sub-title ">2015</h2>
-                        <p class="sec-para">Acquisition of the Wyndham Garden Ventura Pierpont Inn in Ventura, CA</p>
-                        <br>
-                        <p class="sec-para">Construction of the Residence Inn in Rancho Cucamonga, CA</p>
-                        <br>
-                        <p class="sec-para">Construction of the Hampton Inn & Suites in Murrietta, CA</p>
-                        <br>
-                        <p class="sec-para">Construction of the Homewood Suites in Irvine, CA</p>
-                    </li>
-
-                    <li id="2016">
-
-                        <h2 class="sec-sub-title ">2016</h2>
-                        <p class="sec-para">Construction of the SpringHill Suites in Carlsbad, CA</p>
-                    </li>
                 </ul>
                 <!-- <div id="grad_left"></div>
                 <div id="grad_right"></div> -->
@@ -1424,7 +1351,7 @@
 
     #issues li img {
         float: left;
-        margin: 10px 30px 10px 50px;
+        /* margin: 10px 30px 10px 50px; */
         background: transparent;
         -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)";
         /* IE 8 */
