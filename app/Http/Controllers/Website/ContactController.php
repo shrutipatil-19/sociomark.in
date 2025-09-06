@@ -62,7 +62,7 @@ class ContactController extends Controller
 
         $lead = Contact::create($data);
 
-        // Mail::to('shruti.sociomark@gmail.com')->send(new NewLeadNotification($lead));
+        Mail::to('shruti.sociomark@gmail.com')->send(new NewLeadNotification($lead));
         $recipients = [
             'shruti.sociomark@gmail.com',
             'brandsolution@sociomark.in',
