@@ -62,7 +62,7 @@
 <link rel="stylesheet" href="{{ asset('frontend-assets/css/custom.css') }}">
 
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-34R794310E"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B43193FNQX"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -71,7 +71,7 @@
     }
     gtag('js', new Date());
 
-    gtag('config', 'G-34R794310E');
+    gtag('config', 'G-B43193FNQX');
 </script>
 
 
