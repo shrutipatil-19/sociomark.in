@@ -125,7 +125,7 @@ class BlogController extends Controller
     }
 
 
-public function update(Request $request, $id)
+    public function update(Request $request, $id)
     {
         $blog = Posts::findOrFail($id);
 
@@ -184,7 +184,7 @@ public function update(Request $request, $id)
         $blog->update($data);
 
         return redirect()->route('blogs.index')->with('success', 'Blog updated successfully.');
-    }    
+    }
 
 
 
