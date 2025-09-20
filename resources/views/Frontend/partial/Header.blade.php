@@ -86,27 +86,39 @@ Header Area
                         @php
                         use Carbon\Carbon;
 
-                        $expiryDate = Carbon::create(2025, 8, 29);
+                        $today = Carbon::today()->toDateString();
+                        $expiryDate = Carbon::create(2025, 9, 22);
                         @endphp
 
-                        @if(Carbon::now()->lte($expiryDate))
+                        @if(Carbon::now()->gte($expiryDate))
                         <div class="confetti-wrapper d-none d-lg-inline-block">
+                            <div class="confetti"></div>
+                            <div class="confetti"></div>
+                            <div class="confetti"></div>
+                            <div class="confetti"></div>
+                            <div class="confetti"></div>
+                            <div class="confetti"></div>
 
-                            <div class="confetti"></div>
-                            <div class="confetti"></div>
-                            <div class="confetti"></div>
-                            <div class="confetti"></div>
-                            <div class="confetti"></div>
-                            <div class="confetti"></div>
-                            <img src="{{ asset('frontend-assets/img/nav-element/gnpti-bappa1.png') }}" alt="ladu plate" height="50" style="width: 100px; height: 100px;" class="bappa-animate d-none d-lg-inline-block">
+                            @if($today === '2025-09-22')
+                            <img src="{{ asset('frontend-assets/img/nav-element/shelputri.png') }}"
+                                alt="shelputri"
+                                style="width: 100px; height: 100px;"
+                                class="bappa-animate d-none d-lg-inline-block">
+                            @elseif($today === '2025-09-23')
+                            <img src="{{ asset('frontend-assets/img/nav-element/brahmacharini.png') }}"
+                                alt="maa durga"
+                                style="width: 100px; height: 100px;"
+                                class="bappa-animate d-none d-lg-inline-block">
+                            @elseif($today === '2025-09-24')
+                            <img src="{{ asset('frontend-assets/img/nav-element/chandraghanta.png') }}"
+                                alt="maa kalika"
+                                style="width: 100px; height: 100px;"
+                                class="bappa-animate d-none d-lg-inline-block">
+                            @endif
 
                         </div>
-                        <style>
-                            .breadcumb-wrapper {
-                                margin-top: 105px !important;
-                            }
-                        </style>
                         @endif
+
                         <div class="d-flex flex-column align-items-start">
 
                             @if(Carbon::now()->lte($expiryDate))
@@ -119,7 +131,15 @@ Header Area
                                     <div class="confetti"></div>
                                     <div class="confetti"></div>
                                     <div class="confetti"></div>
-                                    <img src="{{ asset('frontend-assets/img/nav-element/gnpti-bappa2.png') }}" alt="ladu plate" height="50" style="width: 60px; height: 60px;" class="d-inline-block d-lg-none">
+                                    @if($today === '2025-09-22')
+                                    <img src="{{ asset('frontend-assets/img/nav-element/shelputri.png') }}" alt="ladu plate" height="50" style="width: 60px; height: 60px;" class="d-inline-block d-lg-none">
+                                    @elseif($today === '2025-09-23')
+
+                                    <img src="{{ asset('frontend-assets/img/nav-element/brahmacharini.png') }}" alt="ladu plate" height="50" style="width: 60px; height: 60px;" class="d-inline-block d-lg-none">
+                                    @elseif($today === '2025-09-24')
+                                    <img src="{{ asset('frontend-assets/img/nav-element/chandraghanta.png') }}" alt="ladu plate" height="50" style="width: 60px; height: 60px;" class="d-inline-block d-lg-none">
+
+                                    @endif
                                 </div>
                                 <img src="{{ asset('frontend-assets/img/nav-element/modak2.png') }}" alt="ladu plate" class="modak d-none">
                             </div>
@@ -128,7 +148,6 @@ Header Area
                             <div class="header-logo ">
                                 <a href="{{ route('home') }}">
                                     <picture>
-
                                         <source media="(min-width: 1024px)"
                                             srcset="{{ asset('frontend-assets/img/logo/sc-colored-horizontal.png') }}">
                                         <img src="{{ asset('frontend-assets/img/logo/sc-colored-horizontal.png') }}"
