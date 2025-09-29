@@ -11,6 +11,6 @@ class admincareerController extends Controller
     public function jobLeads()
     {
         $jobLeads = JobApplication::get();
-        return view('admin.pages.job.joblist', compact('jobLeads'));
+        return view('admin.Pages.job.joblist', compact('jobLeads'));
     }
 }
