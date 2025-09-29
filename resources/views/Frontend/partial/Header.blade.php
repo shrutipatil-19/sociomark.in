@@ -90,7 +90,7 @@ Header Area
                         $expiryDate = Carbon::create(2025, 9, 22);
                         @endphp
 
-                        @if(Carbon::now()->gte($expiryDate))
+                        @if(Carbon::now()->lte($expiryDate))
                         <div class="confetti-wrapper d-none d-lg-inline-block">
                             <div class="confetti"></div>
                             <div class="confetti"></div>
